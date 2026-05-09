@@ -21,10 +21,12 @@
 
 ## 📚 الـ 7 Stages
 
-!!! tip "كيف تستخدم الـ Tabs"
-    اضغط على Stage اللي تحتاجه. داخل كل Stage هتلاقي tab WhatsApp + tab Call.
+!!! tip "كيف تستخدم الصفحة"
+    اضغط على Stage اللي تحتاجه عشان يفتح. باقي الـ Stages بتفضل مقفولة عشان شاشتك ما تتزحمش.
 
-=== "Stage 1: تم التحويل ✅💰 (🔥 Hot)"
+    داخل كل Stage هتلاقي tab WhatsApp + tab Call.
+
+??? danger "Stage 1: تم التحويل ✅💰 (🔥 Hot)"
 
     ### 📱 WhatsApp
     ```
@@ -42,7 +44,7 @@
     أهلاً بيك! 🌟
     ```
 
-=== "Stage 2: تم الحجز ✅ (🔥 Hot)"
+??? danger "Stage 2: تم الحجز ✅ (🔥 Hot)"
 
     ### 📱 WhatsApp
     ```
@@ -54,7 +56,7 @@
     أنهي يناسبك؟
     ```
 
-=== "Stage 3: جاهز للتحويل 💳 (🔥 Hot)"
+??? danger "Stage 3: جاهز للتحويل 💳 (🔥 Hot)"
 
     ### 📱 WhatsApp
     ```
@@ -66,7 +68,7 @@
     أنهي يناسبك؟
     ```
 
-=== "Stage 4: مهتم - لم يتقدم (🟡 Warm)"
+??? warning "Stage 4: مهتم - لم يتقدم (🟡 Warm)"
 
     === "📱 WhatsApp"
 
@@ -123,7 +125,7 @@
 
         [Branch]"
         ```
-=== "Stage 5: شاف السعر ولم يحجز (🟡 Warm)"
+??? warning "Stage 5: شاف السعر ولم يحجز (🟡 Warm)"
 
     === "📱 WhatsApp"
 
@@ -152,7 +154,7 @@
         [لو 'نعم':] 'يبقى الـ objection logistics فقط — نحلهم.'
         [لو 'مش متأكد':] 'تمام. خليني أوصلك بمتدرب قديم بقى tax specialist.'"
         ```
-=== "Stage 6: مرحلة الاستكشاف (🔵 Cold)"
+??? info "Stage 6: مرحلة الاستكشاف (🔵 Cold)"
 
     === "📱 WhatsApp"
 
@@ -181,7 +183,7 @@
 
         [Pitch focused on specialization angle]"
         ```
-=== "Stage 7: رفض (🔵 Cold)"
+??? info "Stage 7: رفض (🔵 Cold)"
 
     === "📱 WhatsApp"
 

@@ -21,10 +21,12 @@
 
 ## 📚 الـ 7 Stages
 
-!!! tip "كيف تستخدم الـ Tabs"
-    اضغط على Stage اللي تحتاجه. داخل كل Stage هتلاقي tab WhatsApp + tab Call.
+!!! tip "كيف تستخدم الصفحة"
+    اضغط على Stage اللي تحتاجه عشان يفتح. باقي الـ Stages بتفضل مقفولة عشان شاشتك ما تتزحمش.
 
-=== "Stage 1: تم التحويل ✅💰 (🔥 Hot)"
+    داخل كل Stage هتلاقي tab WhatsApp + tab Call.
+
+??? danger "Stage 1: تم التحويل ✅💰 (🔥 Hot)"
 
     === "📱 WhatsApp"
 
@@ -55,7 +57,7 @@
 
         [تأكيد التفاصيل + سلام]"
         ```
-=== "Stage 2: تم الحجز ✅ (🔥 Hot)"
+??? danger "Stage 2: تم الحجز ✅ (🔥 Hot)"
 
     ### 📱 WhatsApp
     ```
@@ -73,7 +75,7 @@
     أنهي طريقة دفع تناسبك؟ ومتى تتوقع تحوّل؟
     ```
 
-=== "Stage 3: جاهز للتحويل 💳 (🔥 Hot)"
+??? danger "Stage 3: جاهز للتحويل 💳 (🔥 Hot)"
 
     ### 📱 WhatsApp
     ```
@@ -88,7 +90,7 @@
     أنهي يناسبك؟
     ```
 
-=== "Stage 4: مهتم - لم يتقدم (🟡 Warm)"
+??? warning "Stage 4: مهتم - لم يتقدم (🟡 Warm)"
 
     === "📱 WhatsApp"
 
@@ -156,7 +158,7 @@
 
         [Branch حسب الإجابة]"
         ```
-=== "Stage 5: شاف السعر ولم يحجز (🟡 Warm)"
+??? warning "Stage 5: شاف السعر ولم يحجز (🟡 Warm)"
 
     === "📱 WhatsApp"
 
@@ -196,7 +198,7 @@
         [لو 'نعم':] 'يبقى الـ objection logistics، نحلهم.'
         [لو 'لأ':] 'فيه قلق أعمق. خليني أفهم...'"
         ```
-=== "Stage 6: مرحلة الاستكشاف (🔵 Cold)"
+??? info "Stage 6: مرحلة الاستكشاف (🔵 Cold)"
 
     === "📱 WhatsApp"
 
@@ -236,7 +238,7 @@
 
         [Trial close + closing]"
         ```
-=== "Stage 7: رفض (🔵 Cold)"
+??? info "Stage 7: رفض (🔵 Cold)"
 
     === "📱 WhatsApp"
 
