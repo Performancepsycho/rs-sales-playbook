@@ -1,4 +1,4 @@
-/* RS Sales Playbook — Custom Styles */
+/* RS Sales Scripts — Custom Styles */
 
 :root {
   --md-text-font: "Cairo", "Tajawal", sans-serif;
@@ -9,69 +9,45 @@
   line-height: 1.7;
 }
 
-.md-typeset table:not([class]) {
-  font-size: 0.85rem;
-}
-
 .md-typeset h1, .md-typeset h2, .md-typeset h3 {
   font-weight: 700;
 }
 
+/* Code blocks for scripts */
 .md-typeset pre code {
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.8rem;
-  line-height: 1.6;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
 }
 
-.md-typeset .admonition,
-.md-typeset details {
-  font-size: 0.8rem;
-}
-
-.md-typeset h1[id^="stage-1"],
-.md-typeset h1[id^="stage-2"],
-.md-typeset h1[id^="stage-3"] {
-  border-bottom: 3px solid #ff5252;
-  padding-bottom: 0.5rem;
-}
-
-.md-typeset h1[id^="stage-4"],
-.md-typeset h1[id^="stage-5"] {
-  border-bottom: 3px solid #ffc107;
-  padding-bottom: 0.5rem;
-}
-
-.md-typeset h1[id^="stage-6"],
-.md-typeset h1[id^="stage-7"] {
-  border-bottom: 3px solid #2196f3;
-  padding-bottom: 0.5rem;
-}
-
-/* Workshop card grid on home page */
+/* Workshop card grid */
 .workshop-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
   margin: 2rem 0;
 }
 
 .workshop-card {
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 8px;
+  border: 2px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
   padding: 1.5rem;
   text-align: center;
   transition: all 0.2s ease;
+  background: var(--md-default-bg-color);
 }
 
 .workshop-card:hover {
   border-color: var(--md-accent-fg-color);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
 
 .workshop-card a {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
 .workshop-emoji {
@@ -80,7 +56,122 @@
   margin-bottom: 0.5rem;
 }
 
+.workshop-card h3 {
+  margin: 0.5rem 0;
+}
+
+.workshop-meta {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.5rem;
+}
+
+.price-strike {
+  text-decoration: line-through;
+  opacity: 0.6;
+  font-size: 0.85em;
+  margin-left: 0.3rem;
+}
+
+.price-now {
+  color: #d32f2f;
+  font-weight: 700;
+}
+
+/* Stage badges */
+.stage-hot { color: #d32f2f; font-weight: 700; }
+.stage-warm { color: #f57c00; font-weight: 700; }
+.stage-cold { color: #1976d2; font-weight: 700; }
+
+/* Tabs styling */
+.md-typeset .tabbed-set {
+  border-radius: 8px;
+}
+
+.md-typeset .tabbed-labels > label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Pricing matrix table */
+.pricing-table {
+  font-size: 0.85rem;
+}
+
+.pricing-table th {
+  background: var(--md-primary-fg-color);
+  color: white;
+  font-weight: 700;
+}
+
+.pricing-table .price-old {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.pricing-table .price-new {
+  color: #d32f2f;
+  font-weight: 700;
+}
+
+.pricing-table .price-multi {
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+/* Quick Reference Card */
+.qrc-box {
+  background: linear-gradient(135deg, #5e35b1 0%, #3949ab 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+}
+
+.qrc-box h3, .qrc-box h4 {
+  color: white;
+  margin-top: 0;
+}
+
+.qrc-box code {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+/* Stage status colors in headers */
+.md-typeset h2[id^="stage-1"],
+.md-typeset h2[id^="stage-2"],
+.md-typeset h2[id^="stage-3"] {
+  border-right: 4px solid #d32f2f;
+  padding-right: 0.8rem;
+}
+
+.md-typeset h2[id^="stage-4"],
+.md-typeset h2[id^="stage-5"] {
+  border-right: 4px solid #f57c00;
+  padding-right: 0.8rem;
+}
+
+.md-typeset h2[id^="stage-6"],
+.md-typeset h2[id^="stage-7"] {
+  border-right: 4px solid #1976d2;
+  padding-right: 0.8rem;
+}
+
+/* Better admonition for callouts */
+.md-typeset .admonition {
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+/* Coming soon indicator */
 .coming-soon {
-  opacity: 0.5;
-  cursor: not-allowed;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.coming-soon::after {
+  content: " (قريباً)";
+  color: #f57c00;
+  font-size: 0.85em;
 }
