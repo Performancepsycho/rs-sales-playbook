@@ -179,7 +179,7 @@
    ============================================ */
 
 /* Reset Material's default admonition styling for our stages */
-.md-typeset details.admonition {
+.md-typeset details {
   border: none !important;
   border-radius: 14px !important;
   margin: 1rem 0 !important;
@@ -189,17 +189,17 @@
   background: var(--md-default-bg-color) !important;
 }
 
-.md-typeset details.admonition:hover {
+.md-typeset details:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
   transform: translateY(-2px);
 }
 
-.md-typeset details.admonition[open] {
+.md-typeset details[open] {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15) !important;
 }
 
 /* Summary (the clickable header) */
-.md-typeset details.admonition > summary {
+.md-typeset details > summary {
   padding: 1.1rem 1.5rem !important;
   font-size: 1.05rem !important;
   font-weight: 700 !important;
@@ -214,11 +214,11 @@
   transition: all 0.2s ease;
 }
 
-.md-typeset details.admonition > summary::before {
+.md-typeset details > summary::before {
   display: none !important;
 }
 
-.md-typeset details.admonition > summary::after {
+.md-typeset details > summary::after {
   content: "▼";
   position: absolute;
   inset-inline-start: 1.5rem;
@@ -228,80 +228,80 @@
   opacity: 0.85;
 }
 
-.md-typeset details.admonition[open] > summary::after {
+.md-typeset details[open] > summary::after {
   transform: rotate(180deg);
 }
 
 /* Hot stages — Red gradient */
-.md-typeset details.admonition.danger > summary {
+.md-typeset details.danger > summary {
   background: var(--rs-hot-gradient) !important;
   color: white !important;
   border-bottom: 0 !important;
 }
 
-.md-typeset details.admonition.danger[open] > summary {
+.md-typeset details.danger[open] > summary {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
 }
 
 /* Warm stages — Orange gradient */
-.md-typeset details.admonition.warning > summary {
+.md-typeset details.warning > summary {
   background: var(--rs-warm-gradient) !important;
   color: white !important;
   border-bottom: 0 !important;
 }
 
-.md-typeset details.admonition.warning[open] > summary {
+.md-typeset details.warning[open] > summary {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
 }
 
 /* Cold stages — Blue gradient */
-.md-typeset details.admonition.info > summary {
+.md-typeset details.info > summary {
   background: var(--rs-cold-gradient) !important;
   color: white !important;
   border-bottom: 0 !important;
 }
 
-.md-typeset details.admonition.info[open] > summary {
+.md-typeset details.info[open] > summary {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
 }
 
 /* Body of accordion */
-.md-typeset details.admonition > *:not(summary) {
+.md-typeset details > *:not(summary) {
   padding: 0 1.5rem !important;
   background: var(--md-default-bg-color) !important;
 }
 
-.md-typeset details.admonition > *:not(summary):first-of-type {
+.md-typeset details > *:not(summary):first-of-type {
   padding-top: 1.25rem !important;
 }
 
-.md-typeset details.admonition > *:not(summary):last-child {
+.md-typeset details > *:not(summary):last-child {
   padding-bottom: 1.25rem !important;
 }
 
 /* Tabbed sets inside accordions */
-.md-typeset details.admonition .tabbed-set {
+.md-typeset details .tabbed-set {
   margin: 1rem 0 !important;
 }
 
-.md-typeset details.admonition .tabbed-labels > label {
+.md-typeset details .tabbed-labels > label {
   font-weight: 700 !important;
   font-size: 0.95rem !important;
 }
 
 /* Better spacing for headings inside accordions */
-.md-typeset details.admonition h2,
-.md-typeset details.admonition h3,
-.md-typeset details.admonition h4 {
+.md-typeset details h2,
+.md-typeset details h3,
+.md-typeset details h4 {
   margin-top: 1.25rem !important;
   margin-bottom: 0.5rem !important;
   font-size: 1rem !important;
 }
 
-.md-typeset details.admonition h2 {
+.md-typeset details h2 {
   font-size: 1.05rem !important;
   color: var(--md-primary-fg-color);
   border-bottom: 2px solid var(--md-default-fg-color--lightest);
