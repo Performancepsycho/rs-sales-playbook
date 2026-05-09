@@ -3,63 +3,14 @@
 اختار الورشة اللي بتشتغل عليها:
 
 <div class="workshop-grid">
-
-<a class="workshop-card" href="financial-accountant/">
-  <div class="workshop-emoji">📘</div>
-  <div class="workshop-title">المحاسب المالي</div>
-  <div class="workshop-meta">أ/ محمد علاء · 8 محاضرات</div>
-  <div class="workshop-price"><span class="price-strike">4600ج</span> <span class="price-now">3250ج</span></div>
-</a>
-
-<a class="workshop-card" href="financial-statements/">
-  <div class="workshop-emoji">📊</div>
-  <div class="workshop-title">إعداد القوائم المالية</div>
-  <div class="workshop-meta">أ/ محمد علاء · 5 محاضرات</div>
-  <div class="workshop-price"><span class="price-strike">4000ج</span> <span class="price-now">2500ج</span></div>
-</a>
-
-<a class="workshop-card" href="comprehensive-accountant/">
-  <div class="workshop-emoji">📗</div>
-  <div class="workshop-title">المحاسب الشامل</div>
-  <div class="workshop-meta">أ/ محمد ريان · 8 محاضرات</div>
-  <div class="workshop-price"><span class="price-strike">7500ج</span> <span class="price-now">5800ج</span></div>
-</a>
-
-<a class="workshop-card" href="tax-expert/">
-  <div class="workshop-emoji">📕</div>
-  <div class="workshop-title">خبير الضرائب</div>
-  <div class="workshop-meta">أ/ أحمد علي · 12 محاضرة</div>
-  <div class="workshop-price"><span class="price-strike">7500ج</span> <span class="price-now">5250ج</span></div>
-</a>
-
-<a class="workshop-card" href="odoo/">
-  <div class="workshop-emoji">📙</div>
-  <div class="workshop-title">Odoo Accounting</div>
-  <div class="workshop-meta">أ/ إسلام سعيد · 8 محاضرات</div>
-  <div class="workshop-price"><span class="price-strike">6000ج</span> <span class="price-now">3000ج</span></div>
-</a>
-
-<a class="workshop-card" href="cost-engineering/">
-  <div class="workshop-emoji">📓</div>
-  <div class="workshop-title">هندسة التكاليف</div>
-  <div class="workshop-meta">أ/ أحمد عاشور · 5-8 محاضرات</div>
-  <div class="workshop-price"><span class="price-strike">6000ج</span> <span class="price-now">3500ج</span></div>
-</a>
-
-<a class="workshop-card" href="financial-analysis/">
-  <div class="workshop-emoji">📔</div>
-  <div class="workshop-title">التحليل المالي</div>
-  <div class="workshop-meta">أ/ أحمد عاشور · 7 محاضرات</div>
-  <div class="workshop-price"><span class="price-strike">6500ج</span> <span class="price-now">5000ج</span></div>
-</a>
-
-<a class="workshop-card" href="cfo/">
-  <div class="workshop-emoji">📒</div>
-  <div class="workshop-title">المدير المالي CFO</div>
-  <div class="workshop-meta">أ/ أحمد عاشور · 10 محاضرات</div>
-  <div class="workshop-price"><span class="price-strike">12000ج</span> <span class="price-now">6000ج</span></div>
-</a>
-
+<a class="workshop-card" href="financial-accountant/"><span class="workshop-emoji">📘</span><span class="workshop-title">المحاسب المالي</span><span class="workshop-meta">أ/ محمد علاء · 8 محاضرات</span><span class="workshop-price"><span class="price-strike">4600ج</span> <span class="price-now">3250ج</span></span></a>
+<a class="workshop-card" href="financial-statements/"><span class="workshop-emoji">📊</span><span class="workshop-title">إعداد القوائم المالية</span><span class="workshop-meta">أ/ محمد علاء · 5 محاضرات</span><span class="workshop-price"><span class="price-strike">4000ج</span> <span class="price-now">2500ج</span></span></a>
+<a class="workshop-card" href="comprehensive-accountant/"><span class="workshop-emoji">📗</span><span class="workshop-title">المحاسب الشامل</span><span class="workshop-meta">أ/ محمد ريان · 8 محاضرات</span><span class="workshop-price"><span class="price-strike">7500ج</span> <span class="price-now">5800ج</span></span></a>
+<a class="workshop-card" href="tax-expert/"><span class="workshop-emoji">📕</span><span class="workshop-title">خبير الضرائب</span><span class="workshop-meta">أ/ أحمد علي · 12 محاضرة</span><span class="workshop-price"><span class="price-strike">7500ج</span> <span class="price-now">5250ج</span></span></a>
+<a class="workshop-card" href="odoo/"><span class="workshop-emoji">📙</span><span class="workshop-title">Odoo Accounting</span><span class="workshop-meta">أ/ إسلام سعيد · 8 محاضرات</span><span class="workshop-price"><span class="price-strike">6000ج</span> <span class="price-now">3000ج</span></span></a>
+<a class="workshop-card" href="cost-engineering/"><span class="workshop-emoji">📓</span><span class="workshop-title">هندسة التكاليف</span><span class="workshop-meta">أ/ أحمد عاشور · 5-8 محاضرات</span><span class="workshop-price"><span class="price-strike">6000ج</span> <span class="price-now">3500ج</span></span></a>
+<a class="workshop-card" href="financial-analysis/"><span class="workshop-emoji">📔</span><span class="workshop-title">التحليل المالي</span><span class="workshop-meta">أ/ أحمد عاشور · 7 محاضرات</span><span class="workshop-price"><span class="price-strike">6500ج</span> <span class="price-now">5000ج</span></span></a>
+<a class="workshop-card" href="cfo/"><span class="workshop-emoji">📒</span><span class="workshop-title">المدير المالي CFO</span><span class="workshop-meta">أ/ أحمد عاشور · 10 محاضرات</span><span class="workshop-price"><span class="price-strike">12000ج</span> <span class="price-now">6000ج</span></span></a>
 </div>
 
 ---
