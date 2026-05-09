@@ -6,77 +6,68 @@ hide:
 
 # 🎯 RS Sales Scripts
 
-> **الـ Playbook الكامل لفريق سيلز RS Financial Services**
-> سكريبت لكل عميل، لكل قناة، لكل حالة.
+> **الـ Playbook الكامل لفريق سيلز RS Financial Services** — سكريبت لكل عميل، لكل قناة، لكل حالة.
 
 ---
 
 ## 📚 اختار الورشة
 
-<div class="workshop-grid" markdown>
+<div class="workshop-grid">
 
-<a class="workshop-card" href="scripts/financial-accountant/" markdown>
-<span class="workshop-emoji">📘</span>
-### المحاسب المالي
-**أ/ محمد علاء** · 8 محاضرات
-
-<span class="price-strike">4600ج</span> <span class="price-now">3250ج</span>
+<a class="workshop-card" href="scripts/financial-accountant/">
+  <div class="workshop-emoji">📘</div>
+  <div class="workshop-title">المحاسب المالي</div>
+  <div class="workshop-meta">أ/ محمد علاء · 8 محاضرات</div>
+  <div class="workshop-price"><span class="price-strike">4600ج</span> <span class="price-now">3250ج</span></div>
 </a>
 
-<a class="workshop-card" href="scripts/financial-statements/" markdown>
-<span class="workshop-emoji">📊</span>
-### إعداد القوائم المالية
-**أ/ محمد علاء** · 5 محاضرات
-
-<span class="price-strike">4000ج</span> <span class="price-now">2500ج</span>
+<a class="workshop-card" href="scripts/financial-statements/">
+  <div class="workshop-emoji">📊</div>
+  <div class="workshop-title">إعداد القوائم المالية</div>
+  <div class="workshop-meta">أ/ محمد علاء · 5 محاضرات</div>
+  <div class="workshop-price"><span class="price-strike">4000ج</span> <span class="price-now">2500ج</span></div>
 </a>
 
-<a class="workshop-card" href="scripts/comprehensive-accountant/" markdown>
-<span class="workshop-emoji">📗</span>
-### المحاسب الشامل
-**أ/ محمد ريان** · 8 محاضرات
-
-<span class="price-strike">7500ج</span> <span class="price-now">5800ج</span>
+<a class="workshop-card" href="scripts/comprehensive-accountant/">
+  <div class="workshop-emoji">📗</div>
+  <div class="workshop-title">المحاسب الشامل</div>
+  <div class="workshop-meta">أ/ محمد ريان · 8 محاضرات</div>
+  <div class="workshop-price"><span class="price-strike">7500ج</span> <span class="price-now">5800ج</span></div>
 </a>
 
-<a class="workshop-card" href="scripts/tax-expert/" markdown>
-<span class="workshop-emoji">📕</span>
-### خبير الضرائب
-**أ/ أحمد علي** · 12 محاضرة
-
-<span class="price-strike">7500ج</span> <span class="price-now">5250ج</span>
+<a class="workshop-card" href="scripts/tax-expert/">
+  <div class="workshop-emoji">📕</div>
+  <div class="workshop-title">خبير الضرائب</div>
+  <div class="workshop-meta">أ/ أحمد علي · 12 محاضرة</div>
+  <div class="workshop-price"><span class="price-strike">7500ج</span> <span class="price-now">5250ج</span></div>
 </a>
 
-<a class="workshop-card" href="scripts/odoo/" markdown>
-<span class="workshop-emoji">📙</span>
-### Odoo Accounting
-**أ/ إسلام سعيد** · 8 محاضرات
-
-<span class="price-strike">6000ج</span> <span class="price-now">3000ج</span>
+<a class="workshop-card" href="scripts/odoo/">
+  <div class="workshop-emoji">📙</div>
+  <div class="workshop-title">Odoo Accounting</div>
+  <div class="workshop-meta">أ/ إسلام سعيد · 8 محاضرات</div>
+  <div class="workshop-price"><span class="price-strike">6000ج</span> <span class="price-now">3000ج</span></div>
 </a>
 
-<a class="workshop-card" href="scripts/cost-engineering/" markdown>
-<span class="workshop-emoji">📓</span>
-### هندسة التكاليف
-**أ/ أحمد عاشور** · 5-8 محاضرات
-
-<span class="price-strike">6000ج</span> <span class="price-now">3500ج</span>
+<a class="workshop-card" href="scripts/cost-engineering/">
+  <div class="workshop-emoji">📓</div>
+  <div class="workshop-title">هندسة التكاليف</div>
+  <div class="workshop-meta">أ/ أحمد عاشور · 5-8 محاضرات</div>
+  <div class="workshop-price"><span class="price-strike">6000ج</span> <span class="price-now">3500ج</span></div>
 </a>
 
-<a class="workshop-card" href="scripts/financial-analysis/" markdown>
-<span class="workshop-emoji">📔</span>
-### التحليل المالي
-**أ/ أحمد عاشور** · 7 محاضرات
-
-<span class="price-strike">6500ج</span> <span class="price-now">5000ج</span>
+<a class="workshop-card" href="scripts/financial-analysis/">
+  <div class="workshop-emoji">📔</div>
+  <div class="workshop-title">التحليل المالي</div>
+  <div class="workshop-meta">أ/ أحمد عاشور · 7 محاضرات</div>
+  <div class="workshop-price"><span class="price-strike">6500ج</span> <span class="price-now">5000ج</span></div>
 </a>
 
-<a class="workshop-card" href="scripts/cfo/" markdown>
-<span class="workshop-emoji">📒</span>
-### المدير المالي CFO
-**أ/ أحمد عاشور** · 10 محاضرات
-
-<span class="price-strike">12000ج</span> <span class="price-now">6000ج</span>
+<a class="workshop-card" href="scripts/cfo/">
+  <div class="workshop-emoji">📒</div>
+  <div class="workshop-title">المدير المالي CFO</div>
+  <div class="workshop-meta">أ/ أحمد عاشور · 10 محاضرات</div>
+  <div class="workshop-price"><span class="price-strike">12000ج</span> <span class="price-now">6000ج</span></div>
 </a>
 
 </div>
@@ -89,23 +80,18 @@ hide:
 
 ---
 
-## 🚦 إزاي تستخدم الـ Playbook ده
+## 🚦 إزاي تستخدم الـ Playbook
 
-```mermaid
-flowchart TD
-    A[العميل وصلني من AI Agent] --> B[اقرأ الـ Brief في Odoo]
-    B --> C{ايه الورشة؟}
-    C --> D[افتح صفحة الورشة]
-    D --> E{ايه الـ Angle؟}
-    E --> F[اختار Angle 1 / 2 / 3]
-    F --> G{ايه الـ Stage؟}
-    G --> H[افتح Stage 1-7]
-    H --> I{القناة؟}
-    I --> J[Tab WhatsApp / Tab Call]
-    J --> K[خد السكريبت + خصصه]
-```
+1. **اقرأ الـ Brief من الـ AI Agent في Odoo** ← دايماً قبل أي رسالة
+2. **حدد الورشة** → افتح صفحتها
+3. **حدد الـ Angle المناسب** للعميل (3 angles لكل ورشة)
+4. **حدد الـ Stage** (1-7) من الـ Brief
+5. **اختار الـ Channel** (📱 WhatsApp / 📞 Call) من الـ tabs
+6. **خد الـ template** + خصصه باسم العميل وتفاصيله
 
-### الـ 7 Stages في الـ Brief
+---
+
+## 📋 الـ 7 Stages في الـ Brief
 
 | Stage | الحالة | الحرارة | يعني إيه |
 |-------|--------|----------|----------|
@@ -119,7 +105,7 @@ flowchart TD
 
 ---
 
-## ⚠️ القواعد المقدسة (لا تنساها)
+## ⚠️ القواعد المقدسة
 
 !!! danger "المصطلحات"
     **ورشة** ✅ مش "كورس" — **متدرب** ✅ مش "طالب" — **محاضر** ✅ مش "دكتور" — **تطبيق عملي على ملفات شركات حقيقية** ✅ مش "تمارين"
@@ -130,7 +116,6 @@ flowchart TD
 !!! warning "السعر"
     - **مفيش خصومات عشوائية** — أي خصم لازم يكون مرتبط بسبب
     - **سياسة جدية الحجز:** 50% عند الحجز + 50% أول محاضرة (بدون فوايد)
-    - الأسعار اللي على الموقع = السعر بعد الخصم. مفيش خصم إضافي بدون شرط
 
 ---
 
@@ -140,7 +125,6 @@ flowchart TD
 - **مواعيد العمل:** يومياً 10ص – 6م
 - **الواتساب:** [+201024523258](https://wa.me/201024523258)
 - **الموقع:** rspaac.com
-- **الـ Stripe Link:** https://buy.stripe.com/00geWvdkedzn09O3ce
 
 ---
 

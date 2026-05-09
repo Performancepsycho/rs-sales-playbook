@@ -13,7 +13,7 @@
   font-weight: 700;
 }
 
-/* Code blocks for scripts */
+/* Code blocks */
 .md-typeset pre code {
   font-family: "JetBrains Mono", monospace;
   font-size: 0.82rem;
@@ -21,56 +21,71 @@
   white-space: pre-wrap;
 }
 
-/* Workshop card grid */
+/* ============================================
+   Workshop Grid (Home Page)
+   ============================================ */
 .workshop-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
   margin: 2rem 0;
 }
 
 .workshop-card {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   border: 2px solid var(--md-default-fg-color--lightest);
   border-radius: 12px;
-  padding: 1.5rem;
-  text-align: center;
-  transition: all 0.2s ease;
+  padding: 1.5rem 1rem;
   background: var(--md-default-bg-color);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: all 0.2s ease;
+  min-height: 200px;
 }
 
 .workshop-card:hover {
   border-color: var(--md-accent-fg-color);
   transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
-
-.workshop-card a {
-  text-decoration: none;
-  color: inherit;
-  display: block;
+  text-decoration: none !important;
 }
 
 .workshop-emoji {
   font-size: 3rem;
-  display: block;
-  margin-bottom: 0.5rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
 }
 
-.workshop-card h3 {
-  margin: 0.5rem 0;
+.workshop-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
 }
 
 .workshop-meta {
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   color: var(--md-default-fg-color--light);
-  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.workshop-price {
+  font-size: 0.95rem;
+  margin-top: auto;
 }
 
 .price-strike {
   text-decoration: line-through;
-  opacity: 0.6;
-  font-size: 0.85em;
-  margin-left: 0.3rem;
+  opacity: 0.55;
+  font-size: 0.82em;
+  margin-inline-end: 0.4rem;
+  color: var(--md-default-fg-color--light);
 }
 
 .price-now {
@@ -78,67 +93,54 @@
   font-weight: 700;
 }
 
-/* Stage badges */
-.stage-hot { color: #d32f2f; font-weight: 700; }
-.stage-warm { color: #f57c00; font-weight: 700; }
-.stage-cold { color: #1976d2; font-weight: 700; }
-
-/* Tabs styling */
-.md-typeset .tabbed-set {
-  border-radius: 8px;
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .workshop-card {
+  border-color: rgba(255,255,255,0.12);
 }
 
-.md-typeset .tabbed-labels > label {
-  font-weight: 600;
-  font-size: 0.95rem;
+[data-md-color-scheme="slate"] .workshop-card:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 }
 
-/* Pricing matrix table */
-.pricing-table {
-  font-size: 0.85rem;
+[data-md-color-scheme="slate"] .price-now {
+  color: #ff5252;
 }
 
-.pricing-table th {
-  background: var(--md-primary-fg-color);
-  color: white;
+/* ============================================
+   Pricing table styling
+   ============================================ */
+.md-typeset table:not([class]) th {
   font-weight: 700;
 }
 
-.pricing-table .price-old {
+.price-old {
   text-decoration: line-through;
   color: #888;
+  font-size: 0.9em;
 }
 
-.pricing-table .price-new {
+.price-new {
   color: #d32f2f;
   font-weight: 700;
 }
 
-.pricing-table .price-multi {
+.price-multi {
   color: #2e7d32;
   font-weight: 700;
 }
 
-/* Quick Reference Card */
-.qrc-box {
-  background: linear-gradient(135deg, #5e35b1 0%, #3949ab 100%);
-  color: white;
-  padding: 1.5rem;
-  border-radius: 12px;
-  margin: 1.5rem 0;
+[data-md-color-scheme="slate"] .price-new {
+  color: #ff5252;
 }
 
-.qrc-box h3, .qrc-box h4 {
-  color: white;
-  margin-top: 0;
+[data-md-color-scheme="slate"] .price-multi {
+  color: #66bb6a;
 }
 
-.qrc-box code {
-  background: rgba(255,255,255,0.2);
-  color: white;
-}
-
-/* Stage status colors in headers */
+/* ============================================
+   Stage colors in headers
+   ============================================ */
 .md-typeset h2[id^="stage-1"],
 .md-typeset h2[id^="stage-2"],
 .md-typeset h2[id^="stage-3"] {
@@ -158,13 +160,35 @@
   padding-right: 0.8rem;
 }
 
-/* Better admonition for callouts */
-.md-typeset .admonition {
+/* ============================================
+   Tabs styling
+   ============================================ */
+.md-typeset .tabbed-set {
+  border-radius: 8px;
+}
+
+.md-typeset .tabbed-labels > label {
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+/* RTL fixes for tabs */
+[dir="rtl"] .md-typeset .tabbed-labels {
+  flex-direction: row-reverse;
+}
+
+/* ============================================
+   Admonitions
+   ============================================ */
+.md-typeset .admonition,
+.md-typeset details {
   font-size: 0.85rem;
   border-radius: 8px;
 }
 
-/* Coming soon indicator */
+/* ============================================
+   Coming soon
+   ============================================ */
 .coming-soon {
   opacity: 0.55;
   pointer-events: none;
