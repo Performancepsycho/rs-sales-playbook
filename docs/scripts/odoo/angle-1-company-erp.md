@@ -129,7 +129,7 @@ hide:
 
         سؤال صريح: ضغط الـ implementation عندكم متى؟ ده هيحدد إذا كان الـ timing مهم.
 
-        [Branch]"
+        [فرع المحادثة حسب رد العميل]"
         ```
 ??? warning "Stage 5: شاف السعر ولم يحجز (🟡 Warm)"
 
@@ -186,7 +186,7 @@ hide:
         3. ايه أكبر سؤال عندك في Odoo دلوقتي؟
         4. لو ما تعلمتش Odoo، إيه الـ scenario في الـ 6 شهور الجاية؟
 
-        [Pitch focused on company-ERP angle]"
+        [عرض مركز على ERP الشركة]"
         ```
 ??? info "Stage 7: رفض (🔵 Cold)"
 
@@ -214,7 +214,7 @@ hide:
 
         ايه السبب الحقيقي؟
 
-        [Goodwill close]"
+        [إنهاء محترم]"
         ```
 ---
 
@@ -229,7 +229,7 @@ hide:
 
 ---
 
-## 🚦 Quick Decision Tree
+## 🚦 Quick شجرة القرار
 
 ```
 محاسب شركته بتنقل لـ ERP يجي من AI Agent
@@ -238,5 +238,5 @@ Stage 1-3 → Closing سريع + laptop reminder
 Stage 4 → Top objection: "هل ينفع أتعلم في الشغل؟"
 Stage 5 → urgency play بـ implementation timeline
 Stage 6 → Discovery يركز على company status + timeline
-Stage 7 → reactivation أو suggest workshop آخر
+Stage 7 → إعادة تواصل أو suggest workshop آخر
 ```

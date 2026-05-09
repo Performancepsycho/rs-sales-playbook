@@ -128,7 +128,7 @@ hide:
 
         سؤال صريح: السوق؟ السعر؟ التوقيت؟ ولا الـ commitment؟
 
-        [Branch]"
+        [فرع المحادثة حسب رد العميل]"
         ```
 ??? warning "Stage 5: شاف السعر ولم يحجز (🟡 Warm)"
 
@@ -226,7 +226,7 @@ hide:
 
         ايه السبب الحقيقي؟
 
-        [Goodwill close]"
+        [إنهاء محترم]"
         ```
 ---
 
@@ -241,7 +241,7 @@ hide:
 
 ---
 
-## 🚦 Quick Decision Tree
+## 🚦 Quick شجرة القرار
 
 ```
 محاسب يبغى تخصص يجي من AI Agent
@@ -250,5 +250,5 @@ Stage 1-3 → Closing سريع
 Stage 4 → Top objection: "هل السوق محتاج فعلاً؟"
 Stage 5 → بيقارن بـ بدائل — قدم الـ depth + الـ ROI
 Stage 6 → Discovery يركز على الطموح + الـ market positioning
-Stage 7 → reactivation أو suggest workshop آخر مناسب
+Stage 7 → إعادة تواصل أو suggest workshop آخر مناسب
 ```

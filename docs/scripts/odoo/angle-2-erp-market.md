@@ -125,7 +125,7 @@ hide:
 
         سؤال صريح: Odoo vs بدائل؟ الـ ROI؟ ولا self-study؟
 
-        [Branch]"
+        [فرع المحادثة حسب رد العميل]"
         ```
 ??? warning "Stage 5: شاف السعر ولم يحجز (🟡 Warm)"
 
@@ -182,7 +182,7 @@ hide:
         3. ايه طموحك في الـ 1-2 سنة الجاية؟
         4. شفت إعلانات وظائف بتطلب Odoo؟ كانت ممنوعة منك ليه؟
 
-        [Pitch focused on market angle]"
+        [عرض مركز على فرصة السوق]"
         ```
 ??? info "Stage 7: رفض (🔵 Cold)"
 
@@ -210,7 +210,7 @@ hide:
 
         ايه السبب الحقيقي؟
 
-        [Goodwill close]"
+        [إنهاء محترم]"
         ```
 ---
 
@@ -225,7 +225,7 @@ hide:
 
 ---
 
-## 🚦 Quick Decision Tree
+## 🚦 Quick شجرة القرار
 
 ```
 محاسب يبغى يدخل سوق ERP يجي من AI Agent
@@ -234,5 +234,5 @@ Stage 1-3 → Closing سريع
 Stage 4 → Top objection: "Odoo vs بدائل" أو "YouTube"
 Stage 5 → بيقارن — قدم market data
 Stage 6 → Discovery يركز على طموح + market awareness
-Stage 7 → reactivation محترم
+Stage 7 → إعادة تواصل محترم
 ```

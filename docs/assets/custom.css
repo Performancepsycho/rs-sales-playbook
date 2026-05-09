@@ -410,6 +410,160 @@
 }
 
 /* ============================================
+   Stage Number Badge (inside summary)
+   ============================================ */
+.stage-num-badge {
+  background: rgba(255, 255, 255, 0.25);
+  color: white !important;
+  padding: 0.3rem 0.7rem;
+  border-radius: 99px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  margin-inline-end: 0.85rem;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(4px);
+  display: inline-block;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* ============================================
+   Floating Stage Navigator
+   ============================================ */
+.stage-nav {
+  position: sticky;
+  top: 70px;
+  z-index: 50;
+  background: var(--md-default-bg-color);
+  padding: 0.85rem 1rem;
+  border-radius: 14px;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.stage-nav-label {
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
+
+.stage-nav-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.stage-nav-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1rem;
+  border: none;
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cairo", sans-serif;
+}
+
+.stage-nav-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.stage-nav-btn[data-heat="hot"] {
+  background: var(--rs-hot-gradient);
+  color: white;
+}
+
+.stage-nav-btn[data-heat="warm"] {
+  background: var(--rs-warm-gradient);
+  color: white;
+}
+
+.stage-nav-btn[data-heat="cold"] {
+  background: var(--rs-cold-gradient);
+  color: white;
+}
+
+.stage-nav-btn.active {
+  transform: scale(1.15);
+  box-shadow: 0 0 0 4px var(--md-accent-fg-color);
+  z-index: 1;
+}
+
+[data-md-color-scheme="slate"] .stage-nav {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   Print-friendly view
+   ============================================ */
+@media print {
+  /* Hide nav, header, sidebar — show content only */
+  .md-header,
+  .md-sidebar,
+  .md-footer,
+  .stage-nav,
+  .md-nav,
+  .md-tabs {
+    display: none !important;
+  }
+
+  .md-content {
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  /* Open all accordions when printing */
+  .md-typeset details {
+    page-break-inside: avoid;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+
+  .md-typeset details > summary {
+    background: #f0f0f0 !important;
+    color: black !important;
+  }
+
+  /* Hide both tabs but show their content */
+  .md-typeset .tabbed-content {
+    display: block !important;
+  }
+
+  .md-typeset .tabbed-set > input + label {
+    display: none !important;
+  }
+
+  .md-typeset .tabbed-content > .tabbed-block {
+    display: block !important;
+    border: 1px solid #ddd;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 6px;
+  }
+
+  .md-typeset code,
+  .md-typeset pre {
+    background: #f8f8f8 !important;
+    border: 1px solid #ddd !important;
+  }
+}
+
+/* ============================================
    Smooth scrollbar (subtle)
    ============================================ */
 ::-webkit-scrollbar {

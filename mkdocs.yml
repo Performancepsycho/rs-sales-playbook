@@ -126,3 +126,4 @@ extra_css:
 
 extra_javascript:
   - assets/noindex.js
+  - assets/stage-nav.js

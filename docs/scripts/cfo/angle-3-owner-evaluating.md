@@ -77,7 +77,7 @@ hide:
         عندك دقيقتين؟"
         ```
 
-        #### Confirmation Talking Points (دقيقة 1-3)
+        #### نقاط تأكيد للمكالمة (دقيقة 1-3)
         1. "أكد التاريخ والوقت — [التفاصيل] — مظبوط معاك؟"
         2. "تعرف العنوان؟ Online (Zoom — تفاعلي) — أبعتلك location على الواتساب لو مش متأكد"
         3. "هتلاقي أ/ أحمد عاشور في انتظارك — تقدر تسأل أي حاجة"
@@ -145,7 +145,7 @@ hide:
 
         سؤال صريح كصاحب شركة: 'مش محاسب'؟ 'أوظف بدلاً'؟ الوقت؟
 
-        [Branch]"
+        [فرع المحادثة حسب رد العميل]"
         ```
 ??? warning "Stage 5: شاف السعر ولم يحجز (🟡 Warm)"
 
@@ -171,7 +171,7 @@ hide:
 
         سؤال: لو CFO شركتك سرقك أو خانك في decision، هتعرف؟ ولا هتكتشف بعد سنوات؟
 
-        [Branch]"
+        [فرع المحادثة حسب رد العميل]"
         ```
 ??? info "Stage 6: مرحلة الاستكشاف (🔵 Cold)"
 
@@ -200,7 +200,7 @@ hide:
         3. ايه آخر decision مالية كبيرة قدمها لك؟
         4. حاسس بثقة كاملة في شغله؟
 
-        [Pitch focused on owner verification angle]"
+        [Pitch focused on owner تحقق angle]"
         ```
 ??? info "Stage 7: رفض (🔵 Cold)"
 
@@ -226,7 +226,7 @@ hide:
 
         ايه السبب الحقيقي؟
 
-        [Goodwill close]"
+        [إنهاء محترم]"
         ```
 ---
 
@@ -236,12 +236,12 @@ hide:
 |-------------|---------|
 | تكلمه كأنه محاسب | كلمه كصاحب أعمال — لغة decisions + ROI |
 | pitch "هتشتغل CFO" — هو ميشتغلش | "هتقيّم وتتحقق" |
-| تقلل من CFO الحالي | اعترف + اشرح verification value |
+| تقلل من CFO الحالي | اعترف + اشرح تحقق value |
 | تستخدم مصطلحات تقنية | اشرح بـ business outcomes |
 
 ---
 
-## 🚦 Quick Decision Tree
+## 🚦 Quick شجرة القرار
 
 ```
 صاحب شركة يبغى يقيّم CFO يجي من AI Agent
@@ -250,5 +250,5 @@ Stage 1-3 → Closing سريع + tax-deductible reminder
 Stage 4 → Top objection: "أنا مش محاسب" أو "أوظف بدلاً"
 Stage 5 → غالباً يستثمر في موظف بدلاً منه — اشرح dual investment
 Stage 6 → Discovery يركز على CFO الحالي + decisions
-Stage 7 → reactivation بـ "verification insurance"
+Stage 7 → إعادة تواصل بـ "تحقق insurance"
 ```

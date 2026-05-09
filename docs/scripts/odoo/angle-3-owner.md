@@ -1,4 +1,4 @@
----
+﻿---
 hide:
   - toc
 ---
@@ -40,7 +40,7 @@ hide:
 
     🎉 مبروك! حجزك في ورشة Odoo مع أ/ إسلام سعيد مؤكد.
 
-    ده decision هيوفرلك آلاف الجنيهات في الـ implementation. لما تخلص الورشة هتكون قادر تـ verify العروض اللي بتيجيلك من شركات الـ implementation وتعرف لو فعلاً مظبوطة.
+    ده decision هيوفرلك آلاف الجنيهات في الـ implementation. لما تخلص الورشة هتكون قادر تتحقق من العروض اللي بتيجيلك من شركات الـ implementation وتعرف لو فعلاً مظبوطة.
 
     📋 التفاصيل:
     [نفس template]
@@ -111,7 +111,7 @@ hide:
         كم العرض من شركة الـ implementation؟ ولو هما يعملوا الشغل خطأ، انت هتعرف؟
 
         الورشة بتديك:
-        ✅ القدرة تـ verify الـ scope والتسعير
+        ✅ القدرة تتحقق من الـ scope والتسعير
         ✅ تعرف الـ best practices (هتمنع mistakes كبيرة)
         ✅ تتفاوض من موقع قوة (هيوفرلك 20-50% من تكلفة الـ implementation)
 
@@ -125,7 +125,7 @@ hide:
 
         سؤال صريح كصاحب شركة: 'مش محاسب'؟ 'وقت'؟ 'موظفي يحضر'؟
 
-        [Branch]"
+        [فرع المحادثة حسب رد العميل]"
         ```
 ??? warning "Stage 5: شاف السعر ولم يحجز (🟡 Warm)"
 
@@ -153,7 +153,7 @@ hide:
 
         سؤال: في عرض implementation معك حالياً؟ ولا في خطة تطبيق Odoo قريب؟
 
-        [Branch — لو في pain حقيقي، اربط بقيمة الورشة]"
+        [فرع المحادثة — لو في pain حقيقي، اربط بقيمة الورشة]"
         ```
 ??? info "Stage 6: مرحلة الاستكشاف (🔵 Cold)"
 
@@ -182,7 +182,7 @@ hide:
         3. عندك خطة لتطبيق Odoo؟
         4. ايه أكبر سؤال محاسبي/operational ما حدش جاوبه ليك؟
 
-        [Pitch focused on owner verification angle]"
+        [Pitch focused on owner تحقق angle]"
         ```
 ??? info "Stage 7: رفض (🔵 Cold)"
 
@@ -210,7 +210,7 @@ hide:
 
         ايه السبب الحقيقي؟
 
-        [Goodwill close]"
+        [إنهاء محترم]"
         ```
 ---
 
@@ -225,14 +225,14 @@ hide:
 
 ---
 
-## 🚦 Quick Decision Tree
+## 🚦 Quick شجرة القرار
 
 ```
 صاحب شركة يبغى يفهم Odoo يجي من AI Agent
     ↓
 Stage 1-3 → Closing سريع + tax-deductible reminder
 Stage 4 → Top objection: "أنا مش محاسب" أو "موظفي يحضر"
-Stage 5 → غالباً قلق من الـ commitment — اشرح verification value
+Stage 5 → غالباً قلق من الـ commitment — اشرح تحقق value
 Stage 6 → Discovery يركز على implementation status
-Stage 7 → reactivation بـ "verification insurance" framing
+Stage 7 → إعادة تواصل بـ "تحقق insurance" تأطير
 ```
