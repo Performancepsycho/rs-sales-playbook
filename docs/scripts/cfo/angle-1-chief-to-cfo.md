@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 ﻿# 🎯 Angle 1: رئيس حسابات طموح للـ CFO
 
 > **الجمهور:** رئيس حسابات شغّال 7+ سنين. شاطر في الـ accounting + reporting. عاوز ينقل لـ CFO أو financial director.

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 ﻿# 🎯 Angle 2: محلل junior عاوز يطلع senior
 
 > **الجمهور:** محلل مالي junior (1-3 سنين). شغّال في تحليل بس على مستوى أساسي. عاوز يطلع senior analyst أو financial planner.

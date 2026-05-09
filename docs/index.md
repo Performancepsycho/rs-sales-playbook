@@ -8,6 +8,13 @@ hide:
 
 > **الـ Playbook الكامل لفريق سيلز RS Financial Services** — سكريبت لكل عميل، لكل قناة، لكل حالة.
 
+<div class="hero-banner">
+<div class="hero-stat"><div class="hero-stat-num">8</div><div class="hero-stat-label">ورش</div></div>
+<div class="hero-stat"><div class="hero-stat-num">24</div><div class="hero-stat-label">Angles</div></div>
+<div class="hero-stat"><div class="hero-stat-num">7</div><div class="hero-stat-label">Stages</div></div>
+<div class="hero-stat"><div class="hero-stat-num">336</div><div class="hero-stat-label">سكريبت</div></div>
+</div>
+
 ---
 
 ## 📚 اختار الورشة
