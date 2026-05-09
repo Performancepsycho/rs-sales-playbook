@@ -1,5 +1,5 @@
 site_name: RS Sales Scripts
-site_description: السكريبتات الكاملة لفريق سيلز RS Financial Services — 7 ورش × 3 angles × 7 stages
+site_description: السكريبتات الكاملة لفريق سيلز RS Financial Services — 8 ورش × 3 angles × 7 stages × 2 channels
 site_author: Said Tantawy — Sales Director
 copyright: "© RS Financial Services — Internal Use Only"
 
@@ -9,16 +9,19 @@ theme:
   direction: rtl
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
-    - navigation.top
     - navigation.indexes
+    - navigation.top
     - navigation.footer
+    - navigation.tracking
     - search.suggest
     - search.highlight
     - search.share
     - content.code.copy
+    - content.tabs.link
     - toc.follow
+    - toc.integrate
   palette:
     - scheme: default
       primary: indigo
@@ -37,42 +40,46 @@ theme:
     code: JetBrains Mono
 
 nav:
-  - الرئيسية: index.md
+  - 🏠 الرئيسية: index.md
+  - 💰 الأسعار + الباقات:
+      - pricing/index.md
   - 📘 المحاسب المالي:
       - scripts/financial-accountant/index.md
-      - "Angle 1 — Fresh بيدوّر شغل": scripts/financial-accountant/angle-1-fresh-job-hunter.md
-      - "Angle 2 — فريش لسه في الكلية": scripts/financial-accountant/angle-2-fresh-pre-job.md
-      - "Angle 3 — موظف جديد ضايع": scripts/financial-accountant/angle-3-new-employee.md
+      - "🎯 Angle 1 — Fresh بيدوّر شغل": scripts/financial-accountant/angle-1-fresh-job-hunter.md
+      - "🎯 Angle 2 — فريش لسه في الكلية": scripts/financial-accountant/angle-2-fresh-pre-job.md
+      - "🎯 Angle 3 — موظف جديد ضايع": scripts/financial-accountant/angle-3-new-employee.md
+  - 📊 إعداد القوائم المالية:
+      - scripts/financial-statements/index.md
   - 📗 المحاسب الشامل:
       - scripts/comprehensive-accountant/index.md
-      - "Angle 1 — Junior ثابت في مكانه": scripts/comprehensive-accountant/angle-1-stuck-junior.md
-      - "Angle 2 — طموح رئيس حسابات": scripts/comprehensive-accountant/angle-2-aspiring-chief.md
-      - "Angle 3 — صاحب شركة": scripts/comprehensive-accountant/angle-3-business-owner.md
+      - "🎯 Angle 1 — Junior ثابت": scripts/comprehensive-accountant/angle-1-stuck-junior.md
+      - "🎯 Angle 2 — طموح رئيس حسابات": scripts/comprehensive-accountant/angle-2-aspiring-chief.md
+      - "🎯 Angle 3 — صاحب شركة": scripts/comprehensive-accountant/angle-3-business-owner.md
   - 📕 خبير الضرائب:
       - scripts/tax-expert/index.md
-      - "Angle 1 — خايف من الفحص": scripts/tax-expert/angle-1-fearing-audit.md
-      - "Angle 2 — يبغى تخصص مطلوب": scripts/tax-expert/angle-2-specialization.md
-      - "Angle 3 — صاحب شركة بيدفع غرامات": scripts/tax-expert/angle-3-owner-fines.md
+      - "🎯 Angle 1 — خايف من الفحص": scripts/tax-expert/angle-1-fearing-audit.md
+      - "🎯 Angle 2 — يبغى تخصص": scripts/tax-expert/angle-2-specialization.md
+      - "🎯 Angle 3 — صاحب شركة": scripts/tax-expert/angle-3-owner-fines.md
   - 📙 Odoo Accounting:
       - scripts/odoo/index.md
-      - "Angle 1 — شركته بتنقل لـ ERP": scripts/odoo/angle-1-company-erp.md
-      - "Angle 2 — يبغى يدخل سوق ERP": scripts/odoo/angle-2-erp-market.md
-      - "Angle 3 — صاحب شركة": scripts/odoo/angle-3-owner.md
+      - "🎯 Angle 1 — شركته بتنقل ERP": scripts/odoo/angle-1-company-erp.md
+      - "🎯 Angle 2 — يبغى يدخل سوق ERP": scripts/odoo/angle-2-erp-market.md
+      - "🎯 Angle 3 — صاحب شركة": scripts/odoo/angle-3-owner.md
   - 📓 هندسة التكاليف:
       - scripts/cost-engineering/index.md
-      - "Angle 1 — محاسب في مصنع": scripts/cost-engineering/angle-1-factory-accountant.md
-      - "Angle 2 — يبغى تخصص": scripts/cost-engineering/angle-2-specialization.md
-      - "Angle 3 — صاحب نشاط إنتاجي": scripts/cost-engineering/angle-3-business-owner.md
+      - "🎯 Angle 1 — محاسب في مصنع": scripts/cost-engineering/angle-1-factory-accountant.md
+      - "🎯 Angle 2 — يبغى تخصص": scripts/cost-engineering/angle-2-specialization.md
+      - "🎯 Angle 3 — صاحب نشاط إنتاجي": scripts/cost-engineering/angle-3-business-owner.md
   - 📔 التحليل المالي:
       - scripts/financial-analysis/index.md
-      - "Angle 1 — Senior يطلب منه تحليل": scripts/financial-analysis/angle-1-senior-pressured.md
-      - "Angle 2 — محلل يبغى تطوير": scripts/financial-analysis/angle-2-analyst-growing.md
-      - "Angle 3 — مستثمر/صاحب": scripts/financial-analysis/angle-3-investor-owner.md
+      - "🎯 Angle 1 — Senior مضغوط": scripts/financial-analysis/angle-1-senior-pressured.md
+      - "🎯 Angle 2 — محلل junior": scripts/financial-analysis/angle-2-analyst-growing.md
+      - "🎯 Angle 3 — مستثمر/صاحب": scripts/financial-analysis/angle-3-investor-owner.md
   - 📒 المدير المالي CFO:
       - scripts/cfo/index.md
-      - "Angle 1 — رئيس حسابات → CFO": scripts/cfo/angle-1-chief-to-cfo.md
-      - "Angle 2 — CFO جديد محتاج تأهيل": scripts/cfo/angle-2-new-cfo.md
-      - "Angle 3 — صاحب شركة عاوز يقيّم CFO": scripts/cfo/angle-3-owner-evaluating.md
+      - "🎯 Angle 1 — رئيس حسابات → CFO": scripts/cfo/angle-1-chief-to-cfo.md
+      - "🎯 Angle 2 — CFO جديد": scripts/cfo/angle-2-new-cfo.md
+      - "🎯 Angle 3 — صاحب شركة": scripts/cfo/angle-3-owner-evaluating.md
 
 markdown_extensions:
   - admonition
@@ -82,12 +89,16 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: true
+      toc_depth: 3
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
@@ -96,6 +107,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.caret
   - pymdownx.tilde
+  - pymdownx.snippets
 
 plugins:
   - search:
