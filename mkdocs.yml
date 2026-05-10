@@ -87,6 +87,10 @@ nav:
       - "🎯 Angle 3 — صاحب شركة": scripts/excel/angle-3-business-owner.md
   - 🤝 Multi-booking + Bundles:
       - multi-booking/index.md
+  - 🧭 Decision Helper:
+      - helper/index.md
+  - 🖨️ Cheatsheet (للطباعة):
+      - cheatsheet/index.md
 
 markdown_extensions:
   - admonition

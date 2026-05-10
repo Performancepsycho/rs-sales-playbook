@@ -33,9 +33,14 @@ hide:
 
 ---
 
-## 💰 الأسعار + الباقات
+## 🛠️ أدوات السيلز السريعة
 
-[📋 **افتح الـ Pricing Matrix الكامل**](pricing/) — كل الأسعار + المواعيد + خصومات الـ multi-booking + الـ Bundles
+| الأداة | للاستخدام |
+|--------|-----------|
+| 💰 [الـ Pricing Matrix](pricing/) | كل الأسعار + المواعيد + خصومات multi-booking |
+| 🤝 [Multi-booking + Bundles](multi-booking/) | متى وكيف تعرض package pricing |
+| 🧭 [Decision Helper](helper/) | اعرف الورشة + الـ Stage في 5 ثواني |
+| 🖨️ [Cheatsheet (للطباعة)](cheatsheet/) | صفحة واحدة على المكتب — Ctrl+P
 
 ---
 
