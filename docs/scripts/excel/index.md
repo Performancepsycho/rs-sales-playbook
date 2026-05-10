@@ -24,15 +24,58 @@
     4. ✅ **Data Validation + Forms** — إنشاء Excel "applications" داخلية
     5. ✅ **Power Query basics** — استيراد + تنظيف بيانات من مصادر متعددة
 
-=== "📚 المحاور"
+=== "📚 المحاور التفصيلية (من الـ flyer)"
 
-    **المحاضرة 1:** Functions الأساسية + الـ ranges + named ranges + إدارة الـ workbooks
+    **مقدمة Excel + الأساسيات** — interface, ranges, named ranges, workbooks management
 
-    **المحاضرة 2:** Lookup functions (VLOOKUP, INDEX/MATCH, XLOOKUP) + IFs المتقدمة + التعامل مع الأخطاء
+    **🧮 الدوال الحسابية (Arithmetic)**
+    - SUBTRACT (الطرح بالإشارة السالبة)
+    - INT (تحويل الرقم لعدد صحيح)
+    - DIVIDE (القسمة)
+    - تقريب الأرقام (ROUND, ROUNDUP, ROUNDDOWN)
 
-    **المحاضرة 3:** Pivot Tables + Slicers + Pivot Charts + Dashboards
+    **📊 الدوال الإحصائية (Statistical)**
+    - AVERAGE / AVERAGE IF / AVERAGE IFS
+    - COUNT IF / COUNTIFS
+    - SUM / SUMIF / SUMIFS
 
-    **المحاضرة 4:** Power Query basics + Conditional Formatting + Data Validation + الـ Macros (intro)
+    **🔍 دوال البحث والاسترجاع (Lookup)**
+    - VLOOKUP / HLOOKUP
+    - INDEX + MATCH (لـ flexible lookups)
+    - XLOOKUP (الجديدة في Excel 365)
+    - الـ approximate vs exact match
+
+    **📝 دوال النصوص (Text)**
+    - PROPER, UPPER, LOWER
+    - LEFT, RIGHT, MID
+    - CONCATENATE / TEXTJOIN
+    - SUBSTITUTE, REPLACE
+
+    **📅 دوال الوقت والتاريخ (Date and Time)**
+    - TODAY, NOW
+    - TIME, DATE
+    - MONTH, YEAR, DAY
+    - **NETWORKDAYS** (لحساب أيام العمل بدون weekends)
+
+    **🔢 دوال الصفيف (Array Functions — Excel 365)**
+    - **UNIQUE** — استخراج القيم الفريدة من نطاق
+    - **FILTER** — تصفية البيانات بناءً على شرط
+    - **SEQUENCE** — إنشاء تسلسل من الأرقام
+    - **TRANSPOSE** — تحويل الصفوف لأعمدة
+
+    **📈 الرسوم البيانية + لوحات التحكم (Dashboards)**
+    - الرسوم البيانية الأساسية والمتقدمة
+    - **PIVOT CHART** — مع Pivot Table
+    - **DASHBOARD & VISUALIZATION** — تصميم لوحات تفاعلية
+    - **DATA VALIDATION** — لـ Forms/Inputs
+    - **PIVOT TABLE** + Slicers + Conditional Formatting
+
+    **🛠️ الأدوات المتقدمة والخدع البرمجية**
+    - **Goal Seek + Solver** — للـ optimization
+    - دوال الصفيف المتقدمة (TRANSPOSE, SEQUENCE, RANDARRAY)
+    - الـ tips والـ tricks للـ productivity
+    - **حماية وتأمين الملفات**
+    - **🤖 AI في Excel** — كيفية إضافة الذكاء الاصطناعي + طرق استخدامه (الجديد!)
 
 ---
 
