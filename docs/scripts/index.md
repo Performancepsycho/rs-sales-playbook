@@ -11,6 +11,7 @@
 <a class="workshop-card" href="cost-engineering/"><span class="workshop-emoji">📓</span><span class="workshop-title">هندسة التكاليف</span><span class="workshop-meta">أ/ أحمد عاشور · 5-8 محاضرات</span><span class="workshop-price"><span class="price-strike">6000ج</span> <span class="price-now">3500ج</span></span></a>
 <a class="workshop-card" href="financial-analysis/"><span class="workshop-emoji">📔</span><span class="workshop-title">التحليل المالي</span><span class="workshop-meta">أ/ أحمد عاشور · 7 محاضرات</span><span class="workshop-price"><span class="price-strike">6500ج</span> <span class="price-now">5000ج</span></span></a>
 <a class="workshop-card" href="cfo/"><span class="workshop-emoji">📒</span><span class="workshop-title">المدير المالي CFO</span><span class="workshop-meta">أ/ أحمد عاشور · 10 محاضرات</span><span class="workshop-price"><span class="price-strike">12000ج</span> <span class="price-now">6000ج</span></span></a>
+<a class="workshop-card" href="excel/"><span class="workshop-emoji">🟢</span><span class="workshop-title">ورشة الإكسيل</span><span class="workshop-meta">أ/ مصطفى القصاص · 4 محاضرات</span><span class="workshop-price"><span class="price-strike">4000ج</span> <span class="price-now">2000ج</span></span></a>
 </div>
 
 ---

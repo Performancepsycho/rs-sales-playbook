@@ -80,6 +80,13 @@ nav:
       - "🎯 Angle 1 — رئيس حسابات → CFO": scripts/cfo/angle-1-chief-to-cfo.md
       - "🎯 Angle 2 — CFO جديد": scripts/cfo/angle-2-new-cfo.md
       - "🎯 Angle 3 — صاحب شركة": scripts/cfo/angle-3-owner-evaluating.md
+  - 🟢 ورشة الإكسيل:
+      - scripts/excel/index.md
+      - "🎯 Angle 1 — فريش بيتعلم Excel": scripts/excel/angle-1-junior-learning.md
+      - "🎯 Angle 2 — محاسب شغّال بيعمل تقارير": scripts/excel/angle-2-working-accountant.md
+      - "🎯 Angle 3 — صاحب شركة": scripts/excel/angle-3-business-owner.md
+  - 🤝 Multi-booking + Bundles:
+      - multi-booking/index.md
 
 markdown_extensions:
   - admonition
