@@ -1,76 +1,324 @@
-/* ============================================
-   RS Sales Scripts — Custom Styles
-   ============================================ */
+/* ============================================================
+   RS Sales Scripts — Custom Styles v3 (Eye-Comfort Redesign)
+   ============================================================
+   Design Principles:
+   1. Calm palette — desaturated, muted colors
+   2. Generous whitespace — breathing room everywhere
+   3. Soft contrast — easy on the eyes for long reading
+   4. Subtle interactions — no aggressive shadows or gradients
+   5. RTL-first — Arabic comes first, English flows naturally
+   ============================================================ */
+
+html { scroll-behavior: smooth; }
 
 :root {
-  --md-text-font: "Cairo", "Tajawal", sans-serif;
-  --rs-hot-gradient: linear-gradient(135deg, #ff5252 0%, #c62828 100%);
-  --rs-warm-gradient: linear-gradient(135deg, #ffa726 0%, #e65100 100%);
-  --rs-cold-gradient: linear-gradient(135deg, #42a5f5 0%, #1565c0 100%);
-  --rs-purple-gradient: linear-gradient(135deg, #5e35b1 0%, #3949ab 100%);
+  /* Fonts */
+  --md-text-font: "Cairo", "Tajawal", "Noto Naskh Arabic", sans-serif;
+
+  /* Calm Brand Palette */
+  --rs-primary: #5c6bc0;          /* Soft indigo — main brand */
+  --rs-primary-soft: #7986cb;
+  --rs-primary-deep: #3f51b5;
+
+  /* Heat colors — calmer, less aggressive */
+  --rs-hot: #ef5350;              /* Soft red */
+  --rs-hot-soft: #ffebee;
+  --rs-warm: #ff9800;             /* Soft amber */
+  --rs-warm-soft: #fff3e0;
+  --rs-cold: #42a5f5;             /* Soft blue */
+  --rs-cold-soft: #e3f2fd;
+  --rs-success: #66bb6a;
+  --rs-success-soft: #e8f5e9;
+
+  /* Surface colors — off-white, easy on eyes */
+  --rs-bg: #fafafa;
+  --rs-surface: #ffffff;
+  --rs-surface-soft: #f5f5f7;
+  --rs-border: #e8e8ee;
+  --rs-text: #2c2c2e;
+  --rs-text-soft: #6a6a72;
+
+  /* Subtle gradients (used sparingly) */
+  --rs-gradient-primary: linear-gradient(135deg, #5c6bc0 0%, #7986cb 100%);
+  --rs-gradient-hot: linear-gradient(135deg, #ef5350 0%, #e57373 100%);
+  --rs-gradient-warm: linear-gradient(135deg, #ff9800 0%, #ffa726 100%);
+  --rs-gradient-cold: linear-gradient(135deg, #42a5f5 0%, #64b5f6 100%);
+
+  /* Soft shadows */
+  --rs-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --rs-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --rs-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  /* Spacing rhythm */
+  --rs-space-xs: 0.4rem;
+  --rs-space-sm: 0.75rem;
+  --rs-space-md: 1.25rem;
+  --rs-space-lg: 2rem;
+  --rs-space-xl: 3rem;
+
+  /* Border radius */
+  --rs-radius-sm: 8px;
+  --rs-radius-md: 12px;
+  --rs-radius-lg: 16px;
 }
 
+/* ============================================================
+   Dark Mode — warmer, less harsh
+   ============================================================ */
+[data-md-color-scheme="slate"] {
+  --rs-bg: #181a1f;
+  --rs-surface: #22252c;
+  --rs-surface-soft: #2a2d35;
+  --rs-border: rgba(255, 255, 255, 0.08);
+  --rs-text: #e4e4e7;
+  --rs-text-soft: #a1a1aa;
+
+  --md-default-bg-color: var(--rs-bg);
+  --md-default-fg-color: var(--rs-text);
+  --md-default-fg-color--light: var(--rs-text-soft);
+  --md-default-fg-color--lightest: var(--rs-border);
+}
+
+/* ============================================================
+   Typography Foundation — comfortable reading
+   ============================================================ */
 .md-typeset {
-  font-size: 0.85rem;
-  line-height: 1.7;
+  font-size: 0.95rem;
+  line-height: 1.85;
+  color: var(--rs-text);
+  letter-spacing: 0;
 }
 
-.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: var(--rs-bg);
+}
+
+.md-main__inner {
+  padding-top: var(--rs-space-lg);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
   font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
 }
 
-/* Code blocks */
+.md-typeset h1 {
+  font-size: 1.85rem !important;
+  margin-bottom: 1rem !important;
+  font-weight: 800 !important;
+}
+
+.md-typeset h1::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: var(--rs-primary);
+  border-radius: 3px;
+  margin-top: 0.75rem;
+  opacity: 0.7;
+}
+
+.md-typeset h2 {
+  font-size: 1.35rem !important;
+  margin-top: 2.25rem !important;
+  margin-bottom: 0.75rem !important;
+  color: var(--rs-text);
+}
+
+.md-typeset h3 {
+  font-size: 1.1rem !important;
+  margin-top: 1.5rem !important;
+}
+
+.md-typeset p,
+.md-typeset li {
+  line-height: 1.85;
+}
+
+.md-typeset strong {
+  font-weight: 700;
+  color: var(--rs-text);
+}
+
+.md-typeset blockquote {
+  border-inline-start: 3px solid var(--rs-primary);
+  background: var(--rs-surface-soft);
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  color: var(--rs-text);
+  border-radius: 0 var(--rs-radius-sm) var(--rs-radius-sm) 0;
+}
+
+/* Code: monospace, soft background, no harsh borders */
+.md-typeset pre,
+.md-typeset code {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  font-size: 0.86rem;
+  line-height: 1.85;
+}
+
+.md-typeset pre {
+  background: var(--rs-surface-soft) !important;
+  border: 1px solid var(--rs-border);
+  border-radius: var(--rs-radius-md);
+  padding: 1rem 1.1rem;
+}
+
 .md-typeset pre code {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.82rem;
-  line-height: 1.7;
+  background: transparent !important;
   white-space: pre-wrap;
+  direction: rtl;
+  text-align: start;
+  unicode-bidi: plaintext;
 }
 
-/* ============================================
-   HERO BANNER (Home Page)
-   ============================================ */
+.md-typeset :not(pre) > code {
+  background: var(--rs-surface-soft);
+  border: 1px solid var(--rs-border);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+/* ============================================================
+   Header / Sidebar — calmer
+   ============================================================ */
+.md-header {
+  background: var(--rs-surface) !important;
+  color: var(--rs-text) !important;
+  box-shadow: var(--rs-shadow-sm) !important;
+  border-bottom: 1px solid var(--rs-border);
+}
+
+.md-tabs {
+  background: var(--rs-surface) !important;
+  color: var(--rs-text) !important;
+  border-bottom: 1px solid var(--rs-border);
+}
+
+.md-tabs__link {
+  color: var(--rs-text) !important;
+  opacity: 0.7;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
+  color: var(--rs-primary) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background: var(--rs-surface) !important;
+  color: var(--rs-text) !important;
+}
+
+/* ============================================================
+   Hero Banner — soft, not aggressive
+   ============================================================ */
 .hero-banner {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
-  background: var(--rs-purple-gradient);
-  padding: 2.5rem 1.5rem;
-  border-radius: 20px;
-  margin: 2rem 0;
+  background: var(--rs-gradient-primary);
+  padding: 2rem 1.5rem;
+  border-radius: var(--rs-radius-lg);
+  margin: 1.5rem 0 2rem 0;
   color: white;
-  box-shadow: 0 10px 40px rgba(94, 53, 177, 0.3);
+  box-shadow: var(--rs-shadow-md);
 }
 
 .hero-stat {
   text-align: center;
+  padding: 0.5rem 0;
 }
 
 .hero-stat-num {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 1;
-  background: linear-gradient(180deg, #fff 0%, #ffd54f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #fff;
 }
 
 .hero-stat-label {
-  font-size: 0.95rem;
-  opacity: 0.95;
-  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
   font-weight: 500;
+  opacity: 0.95;
 }
 
-/* ============================================
-   WORKSHOP CARDS (Home + Scripts page)
-   ============================================ */
+/* ============================================================
+   Smart Entry Buttons
+   ============================================================ */
+.smart-entry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.smart-entry-btn {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.25rem 1.3rem;
+  border-radius: var(--rs-radius-md);
+  text-decoration: none !important;
+  color: white !important;
+  font-family: var(--md-text-font);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: var(--rs-shadow-sm);
+  min-height: 100px;
+}
+
+.smart-entry-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--rs-shadow-md);
+}
+
+.smart-entry-btn.entry-lead {
+  background: var(--rs-gradient-hot);
+}
+
+.smart-entry-btn.entry-objection {
+  background: var(--rs-gradient-warm);
+}
+
+.smart-entry-btn.entry-workshop {
+  background: var(--rs-gradient-cold);
+}
+
+.smart-entry-icon {
+  font-size: 1.7rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.smart-entry-title {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
+
+.smart-entry-sub {
+  font-size: 0.8rem;
+  opacity: 0.92;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   Workshop Cards — clean, breathing
+   ============================================================ */
 .workshop-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.25rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0 2.5rem 0;
 }
 
 .workshop-card {
@@ -79,39 +327,22 @@
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  border: 2px solid var(--md-default-fg-color--lightest);
-  border-radius: 16px;
-  padding: 1.75rem 1rem;
-  background: var(--md-default-bg-color);
+  border: 1px solid var(--rs-border);
+  border-radius: var(--rs-radius-lg);
+  padding: 1.75rem 1.1rem 1.5rem 1.1rem;
+  background: var(--rs-surface);
   text-decoration: none !important;
   color: inherit !important;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  min-height: 220px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  min-height: 240px;
   position: relative;
-  overflow: hidden;
-}
-
-.workshop-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  inset-inline-start: 0;
-  width: 100%;
-  height: 4px;
-  background: var(--rs-purple-gradient);
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .workshop-card:hover {
-  border-color: var(--md-accent-fg-color);
-  transform: translateY(-6px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  border-color: var(--rs-primary-soft);
+  transform: translateY(-4px);
+  box-shadow: var(--rs-shadow-md);
   text-decoration: none !important;
-}
-
-.workshop-card:hover::before {
-  opacity: 1;
 }
 
 .workshop-card > span {
@@ -120,98 +351,116 @@
 }
 
 .workshop-emoji {
-  font-size: 3.2rem !important;
+  font-size: 2.6rem !important;
   line-height: 1 !important;
   margin-bottom: 0.85rem !important;
 }
 
 .workshop-title {
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
   font-weight: 700 !important;
-  color: var(--md-primary-fg-color) !important;
-  margin-bottom: 0.5rem !important;
-  line-height: 1.3 !important;
+  color: var(--rs-text) !important;
+  margin-bottom: 0.4rem !important;
+  line-height: 1.35 !important;
 }
 
 .workshop-meta {
   font-size: 0.78rem !important;
-  color: var(--md-default-fg-color--light) !important;
-  margin-bottom: 0.75rem !important;
-  line-height: 1.4 !important;
+  color: var(--rs-text-soft) !important;
+  margin-bottom: 0.65rem !important;
+  line-height: 1.45 !important;
 }
 
 .workshop-price {
-  font-size: 1rem !important;
+  font-size: 0.95rem !important;
   margin-top: auto !important;
   padding-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.workshop-next-group {
+  font-size: 0.75rem !important;
+  color: var(--rs-success) !important;
+  font-weight: 700 !important;
+  margin-top: 0.4rem !important;
+  padding: 0.2rem 0.5rem;
+  background: var(--rs-success-soft);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.workshop-hook {
+  font-size: 0.78rem !important;
+  color: var(--rs-text-soft) !important;
+  font-style: italic;
+  margin-top: 0.5rem !important;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--rs-border);
+  line-height: 1.5;
 }
 
 .price-strike {
   text-decoration: line-through;
   opacity: 0.5;
-  font-size: 0.8em;
-  margin-inline-end: 0.5rem;
-  color: var(--md-default-fg-color--light);
+  font-size: 0.78em;
+  margin-inline-end: 0.4rem;
+  color: var(--rs-text-soft);
 }
 
 .price-now {
-  color: #d32f2f;
+  color: var(--rs-hot);
   font-weight: 800;
-  font-size: 1.15em;
+  font-size: 1.05em;
 }
 
 [data-md-color-scheme="slate"] .workshop-card {
-  border-color: rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--rs-surface);
+  border-color: var(--rs-border);
 }
 
-[data-md-color-scheme="slate"] .workshop-card:hover {
-  border-color: var(--md-accent-fg-color);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+[data-md-color-scheme="slate"] .workshop-next-group {
+  background: rgba(102, 187, 106, 0.15);
 }
 
 [data-md-color-scheme="slate"] .price-now {
-  color: #ff5252;
+  color: #ff7a73;
 }
 
-/* ============================================
-   STAGE ACCORDIONS — Trading Card Style
-   ============================================ */
-
-/* Reset Material's default admonition styling for our stages */
+/* ============================================================
+   Stage Accordions — softer, more readable
+   ============================================================ */
 .md-typeset details {
-  border: none !important;
-  border-radius: 14px !important;
+  border: 1px solid var(--rs-border) !important;
+  border-radius: var(--rs-radius-md) !important;
   margin: 1rem 0 !important;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
+  box-shadow: none !important;
   overflow: hidden !important;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
-  background: var(--md-default-bg-color) !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+  background: var(--rs-surface) !important;
 }
 
 .md-typeset details:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
-  transform: translateY(-2px);
+  border-color: var(--rs-primary-soft) !important;
 }
 
 .md-typeset details[open] {
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: var(--rs-shadow-sm) !important;
 }
 
-/* Summary (the clickable header) */
 .md-typeset details > summary {
-  padding: 1.1rem 1.5rem !important;
-  font-size: 1.05rem !important;
+  padding: 1rem 1.5rem !important;
+  font-size: 1rem !important;
   font-weight: 700 !important;
   cursor: pointer !important;
-  border-radius: 14px !important;
   list-style: none !important;
   position: relative !important;
   display: flex !important;
   align-items: center !important;
   border: none !important;
   margin: 0 !important;
-  transition: all 0.2s ease;
+  background: var(--rs-surface) !important;
+  color: var(--rs-text) !important;
+  transition: background 0.15s ease;
 }
 
 .md-typeset details > summary::before {
@@ -219,59 +468,66 @@
 }
 
 .md-typeset details > summary::after {
-  content: "▼";
+  content: "▾";
   position: absolute;
   inset-inline-start: 1.5rem;
   inset-inline-end: auto;
-  transition: transform 0.3s ease;
-  font-size: 0.8rem;
-  opacity: 0.85;
+  transition: transform 0.25s ease;
+  font-size: 1rem;
+  opacity: 0.6;
 }
 
 .md-typeset details[open] > summary::after {
   transform: rotate(180deg);
 }
 
-/* Hot stages — Red gradient */
+/* Heat indicator — thin left border, not full background */
+.md-typeset details.danger {
+  border-inline-start: 4px solid var(--rs-hot) !important;
+}
+
 .md-typeset details.danger > summary {
-  background: var(--rs-hot-gradient) !important;
-  color: white !important;
-  border-bottom: 0 !important;
+  background: var(--rs-hot-soft) !important;
+  color: #b71c1c !important;
 }
 
-.md-typeset details.danger[open] > summary {
-  border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+.md-typeset details.warning {
+  border-inline-start: 4px solid var(--rs-warm) !important;
 }
 
-/* Warm stages — Orange gradient */
 .md-typeset details.warning > summary {
-  background: var(--rs-warm-gradient) !important;
-  color: white !important;
-  border-bottom: 0 !important;
+  background: var(--rs-warm-soft) !important;
+  color: #e65100 !important;
 }
 
-.md-typeset details.warning[open] > summary {
-  border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+.md-typeset details.info {
+  border-inline-start: 4px solid var(--rs-cold) !important;
 }
 
-/* Cold stages — Blue gradient */
 .md-typeset details.info > summary {
-  background: var(--rs-cold-gradient) !important;
-  color: white !important;
-  border-bottom: 0 !important;
+  background: var(--rs-cold-soft) !important;
+  color: #0d47a1 !important;
 }
 
-.md-typeset details.info[open] > summary {
-  border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+[data-md-color-scheme="slate"] .md-typeset details.danger > summary {
+  background: rgba(239, 83, 80, 0.15) !important;
+  color: #ffab91 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset details.warning > summary {
+  background: rgba(255, 152, 0, 0.15) !important;
+  color: #ffcc80 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset details.info > summary {
+  background: rgba(66, 165, 245, 0.15) !important;
+  color: #90caf9 !important;
 }
 
 /* Body of accordion */
 .md-typeset details > *:not(summary) {
   padding: 0 1.5rem !important;
-  background: var(--md-default-bg-color) !important;
+  background: var(--rs-surface) !important;
 }
 
 .md-typeset details > *:not(summary):first-of-type {
@@ -279,167 +535,720 @@
 }
 
 .md-typeset details > *:not(summary):last-child {
-  padding-bottom: 1.25rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
-/* Tabbed sets inside accordions */
-.md-typeset details .tabbed-set {
-  margin: 1rem 0 !important;
-}
-
-.md-typeset details .tabbed-labels > label {
-  font-weight: 700 !important;
-  font-size: 0.95rem !important;
-}
-
-/* Better spacing for headings inside accordions */
-.md-typeset details h2,
-.md-typeset details h3,
-.md-typeset details h4 {
-  margin-top: 1.25rem !important;
-  margin-bottom: 0.5rem !important;
-  font-size: 1rem !important;
-}
-
+/* Sections inside accordion */
 .md-typeset details h2 {
   font-size: 1.05rem !important;
-  color: var(--md-primary-fg-color);
-  border-bottom: 2px solid var(--md-default-fg-color--lightest);
-  padding-bottom: 0.4rem;
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+  color: var(--rs-primary-deep);
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rs-border);
 }
 
-/* ============================================
-   PRICING TABLE
-   ============================================ */
-.md-typeset table:not([class]) {
-  font-size: 0.85rem;
-  border-radius: 12px;
+[data-md-color-scheme="slate"] .md-typeset details h2 {
+  color: var(--rs-primary-soft);
+}
+
+.md-typeset details h3,
+.md-typeset details h4 {
+  font-size: 0.98rem !important;
+  margin-top: 1.25rem !important;
+  margin-bottom: 0.45rem !important;
+  color: var(--rs-text);
+}
+
+/* ============================================================
+   Tabs (WhatsApp / Call) — cleaner
+   ============================================================ */
+.md-typeset .tabbed-set {
+  margin: 1.25rem 0 !important;
+  border-radius: var(--rs-radius-md);
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid var(--rs-border);
+}
+
+.md-typeset .tabbed-labels {
+  background: var(--rs-surface-soft);
+  border-bottom: 1px solid var(--rs-border);
+}
+
+.md-typeset .tabbed-labels > label {
+  font-weight: 700 !important;
+  font-size: 0.92rem !important;
+  padding: 0.7rem 1.1rem !important;
+  color: var(--rs-text-soft) !important;
+}
+
+.md-typeset .tabbed-set > input:checked + label {
+  color: var(--rs-primary) !important;
+  border-color: var(--rs-primary) !important;
+}
+
+.md-typeset .tabbed-content {
+  padding: 1.25rem !important;
+  background: var(--rs-surface) !important;
+}
+
+/* ============================================================
+   Quick Brief Card (top of Angle files)
+   ============================================================ */
+.brief-card {
+  background: var(--rs-surface);
+  border: 1px solid var(--rs-border);
+  border-radius: var(--rs-radius-lg);
+  padding: 1.5rem 1.75rem;
+  margin: 1.5rem 0 2rem 0;
+  box-shadow: var(--rs-shadow-sm);
+}
+
+.brief-card-title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--rs-primary);
+  letter-spacing: 1.2px;
+  margin-bottom: 1.1rem;
+  text-transform: uppercase;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rs-border);
+}
+
+.brief-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.brief-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.brief-item-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--rs-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 0.85;
+}
+
+.brief-item-value {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  font-weight: 500;
+  color: var(--rs-text);
+}
+
+.brief-pain {
+  grid-column: 1 / -1;
+  background: var(--rs-warm-soft);
+  border-inline-start: 3px solid var(--rs-warm);
+  padding: 0.85rem 1.1rem;
+  border-radius: var(--rs-radius-sm);
+  margin-top: 0.5rem;
+}
+
+.brief-pain .brief-item-label { color: #bf360c; }
+
+.brief-pain .brief-item-value {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.brief-hook {
+  grid-column: 1 / -1;
+  background: var(--rs-success-soft);
+  border-inline-start: 3px solid var(--rs-success);
+  padding: 0.85rem 1.1rem;
+  border-radius: var(--rs-radius-sm);
+}
+
+.brief-hook .brief-item-label { color: #1b5e20; }
+
+.brief-hook .brief-item-value { font-weight: 700; }
+
+[data-md-color-scheme="slate"] .brief-card {
+  background: var(--rs-surface);
+  border-color: var(--rs-border);
+}
+
+[data-md-color-scheme="slate"] .brief-pain {
+  background: rgba(255, 152, 0, 0.1);
+}
+
+[data-md-color-scheme="slate"] .brief-pain .brief-item-label {
+  color: #ffb74d;
+}
+
+[data-md-color-scheme="slate"] .brief-hook {
+  background: rgba(102, 187, 106, 0.1);
+}
+
+[data-md-color-scheme="slate"] .brief-hook .brief-item-label {
+  color: #a5d6a7;
+}
+
+/* ============================================================
+   Inline Objection Quick References
+   ============================================================ */
+.obj-quick-ref {
+  background: var(--rs-warm-soft);
+  border-radius: var(--rs-radius-md);
+  padding: 0.85rem 1.1rem;
+  margin: 1.25rem 0;
+  border-inline-start: 3px solid var(--rs-warm);
+  font-size: 0.85rem;
+  line-height: 1.85;
+}
+
+.obj-quick-ref::before {
+  content: "🛡️ اعتراضات شائعة:";
+  display: block;
+  font-weight: 800;
+  color: #bf360c;
+  margin-bottom: 0.5rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.3px;
+}
+
+.obj-quick-ref a {
+  display: inline-block;
+  margin: 0.2rem 0.4rem 0.2rem 0;
+  padding: 0.25rem 0.6rem;
+  background: rgba(255, 152, 0, 0.18);
+  border-radius: 5px;
+  color: #b71c1c !important;
+  font-weight: 700;
+  text-decoration: none !important;
+  font-size: 0.82rem;
+  transition: background 0.15s ease;
+}
+
+.obj-quick-ref a:hover {
+  background: rgba(255, 152, 0, 0.32);
+}
+
+[data-md-color-scheme="slate"] .obj-quick-ref {
+  background: rgba(255, 152, 0, 0.08);
+}
+
+[data-md-color-scheme="slate"] .obj-quick-ref::before {
+  color: #ffb74d;
+}
+
+[data-md-color-scheme="slate"] .obj-quick-ref a {
+  background: rgba(255, 152, 0, 0.18);
+  color: #ffcc80 !important;
+}
+
+/* ============================================================
+   Schedule Table — clean rows
+   ============================================================ */
+.schedule-table {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.95rem 1.15rem;
+  border-radius: var(--rs-radius-md);
+  background: var(--rs-surface);
+  border: 1px solid var(--rs-border);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.schedule-row:hover {
+  border-color: var(--rs-primary-soft);
+  transform: translateX(-2px);
+}
+
+.schedule-date {
+  background: var(--rs-gradient-primary);
+  color: white;
+  padding: 0.4rem 0.85rem;
+  border-radius: var(--rs-radius-sm);
+  font-weight: 800;
+  font-size: 0.88rem;
+  text-align: center;
+  min-width: 100px;
+  white-space: nowrap;
+}
+
+.schedule-info-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+  color: var(--rs-text);
+}
+
+.schedule-info-meta {
+  font-size: 0.8rem;
+  color: var(--rs-text-soft);
+  line-height: 1.5;
+}
+
+.schedule-badge {
+  padding: 0.3rem 0.7rem;
+  border-radius: 99px;
+  font-weight: 700;
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+.schedule-badge.offline {
+  background: var(--rs-success-soft);
+  color: #1b5e20;
+}
+
+.schedule-badge.online {
+  background: var(--rs-cold-soft);
+  color: #0d47a1;
+}
+
+[data-md-color-scheme="slate"] .schedule-row {
+  background: var(--rs-surface);
+  border-color: var(--rs-border);
+}
+
+[data-md-color-scheme="slate"] .schedule-badge.offline {
+  background: rgba(102, 187, 106, 0.15);
+  color: #a5d6a7;
+}
+
+[data-md-color-scheme="slate"] .schedule-badge.online {
+  background: rgba(66, 165, 245, 0.15);
+  color: #90caf9;
+}
+
+/* ============================================================
+   Angle Cards — clickable, clean
+   ============================================================ */
+.angle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.angle-card {
+  display: block !important;
+  padding: 1.4rem 1.4rem 1.5rem 1.4rem;
+  border-radius: var(--rs-radius-md);
+  background: var(--rs-surface);
+  border: 1px solid var(--rs-border);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  position: relative;
+}
+
+.angle-card:hover {
+  border-color: var(--rs-primary-soft);
+  transform: translateY(-3px);
+  box-shadow: var(--rs-shadow-md);
+}
+
+.angle-card-num {
+  display: inline-block;
+  background: var(--rs-gradient-primary);
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--rs-radius-sm);
+  text-align: center;
+  line-height: 32px;
+  font-weight: 800;
+  font-size: 0.95rem;
+  margin-bottom: 0.65rem;
+}
+
+.angle-card-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--rs-text);
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.angle-card-meta {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--rs-text-soft);
+  margin-bottom: 0.55rem;
+  line-height: 1.55;
+}
+
+.angle-card-pain {
+  display: block;
+  font-size: 0.82rem;
+  font-style: italic;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--rs-border);
+  color: var(--rs-text);
+  line-height: 1.65;
+}
+
+[data-md-color-scheme="slate"] .angle-card {
+  background: var(--rs-surface);
+}
+
+/* ============================================================
+   Workshop Navigation Cards (4 big clickable cards on workshop page)
+   ============================================================ */
+.ws-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.75rem 0 2.5rem 0;
+}
+
+.ws-nav-card {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.75rem 1.25rem;
+  border-radius: var(--rs-radius-lg);
+  background: var(--rs-surface);
+  border: 1px solid var(--rs-border);
+  text-decoration: none !important;
+  color: var(--rs-text) !important;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  cursor: pointer;
+  min-height: 140px;
+  position: relative;
+}
+
+.ws-nav-card::after {
+  content: "↓";
+  position: absolute;
+  bottom: 0.75rem;
+  inset-inline-end: 1rem;
+  font-size: 1.1rem;
+  opacity: 0.35;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.ws-nav-card:hover {
+  border-color: var(--rs-primary);
+  transform: translateY(-3px);
+  box-shadow: var(--rs-shadow-md);
+  background: var(--rs-surface-soft);
+}
+
+.ws-nav-card:hover::after {
+  opacity: 0.7;
+  transform: translateY(3px);
+}
+
+.ws-nav-card-icon {
+  font-size: 2.4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.ws-nav-card-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--rs-primary);
+  margin-bottom: 0.35rem;
+}
+
+.ws-nav-card-sub {
+  font-size: 0.78rem;
+  color: var(--rs-text-soft);
+  line-height: 1.5;
+}
+
+[data-md-color-scheme="slate"] .ws-nav-card {
+  background: var(--rs-surface);
+}
+
+[data-md-color-scheme="slate"] .ws-nav-card-title {
+  color: var(--rs-primary-soft);
+}
+
+/* ============================================================
+   Workshop Sections (the 4 anchored sections below nav cards)
+   ============================================================ */
+.ws-section {
+  margin: 2.5rem 0;
+  scroll-margin-top: 5rem;
+}
+
+.ws-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding: 0.85rem 1.15rem;
+  background: var(--rs-gradient-primary);
+  color: white;
+  border-radius: var(--rs-radius-md);
+  font-weight: 800;
+  font-size: 1.1rem;
+  box-shadow: var(--rs-shadow-sm);
+}
+
+.ws-section-header-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* Make schedule rows clickable when wrapped in <a> */
+a.schedule-row {
+  text-decoration: none !important;
+  color: inherit !important;
+  cursor: pointer;
+}
+
+a.schedule-row:hover {
+  border-color: var(--rs-primary) !important;
+  text-decoration: none !important;
+}
+
+/* Pricing comparison grid — Online/Offline/Multi/Recorded */
+.price-compare-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.price-compare-card {
+  background: var(--rs-surface);
+  border: 1px solid var(--rs-border);
+  border-radius: var(--rs-radius-md);
+  padding: 1.1rem 1.15rem;
+  text-align: center;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.price-compare-card:hover {
+  border-color: var(--rs-primary-soft);
+  transform: translateY(-2px);
+}
+
+.price-compare-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--rs-text-soft);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.price-compare-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--rs-hot);
+  line-height: 1.1;
+  margin-bottom: 0.3rem;
+}
+
+.price-compare-old {
+  font-size: 0.8rem;
+  color: var(--rs-text-soft);
+  text-decoration: line-through;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.price-compare-note {
+  font-size: 0.74rem;
+  color: var(--rs-text-soft);
+  margin-top: 0.4rem;
+  line-height: 1.5;
+}
+
+.price-compare-card.featured {
+  background: var(--rs-success-soft);
+  border-color: var(--rs-success);
+}
+
+.price-compare-card.featured .price-compare-value {
+  color: var(--rs-success);
+}
+
+.price-compare-card.unavailable {
+  opacity: 0.55;
+}
+
+.price-compare-card.unavailable .price-compare-value {
+  color: var(--rs-text-soft);
+  font-size: 1.05rem;
+}
+
+[data-md-color-scheme="slate"] .price-compare-card {
+  background: var(--rs-surface);
+}
+
+[data-md-color-scheme="slate"] .price-compare-card.featured {
+  background: rgba(102, 187, 106, 0.12);
+}
+
+[data-md-color-scheme="slate"] .price-compare-value { color: #ff8a80; }
+[data-md-color-scheme="slate"] .price-compare-card.featured .price-compare-value { color: #a5d6a7; }
+
+/* ============================================================
+   Info Card (workshop sections)
+   ============================================================ */
+.info-card {
+  border-radius: var(--rs-radius-md);
+  padding: 1.25rem 1.4rem;
+  margin: 1.1rem 0;
+  background: var(--rs-surface);
+  border: 1px solid var(--rs-border);
+  box-shadow: var(--rs-shadow-sm);
+}
+
+.info-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.85rem;
+  font-weight: 800;
+  font-size: 0.98rem;
+  color: var(--rs-primary);
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rs-border);
+}
+
+.info-card-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+/* ============================================================
+   Tables — soft, scannable
+   ============================================================ */
+.md-typeset table:not([class]) {
+  font-size: 0.88rem;
+  border-radius: var(--rs-radius-md);
+  overflow: hidden;
+  box-shadow: var(--rs-shadow-sm);
+  border: 1px solid var(--rs-border);
 }
 
 .md-typeset table:not([class]) th {
   font-weight: 700;
-  background: var(--rs-purple-gradient);
+  background: var(--rs-primary);
   color: white;
+  padding: 0.7rem 1rem;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.7rem 1rem;
+  border-color: var(--rs-border);
+  line-height: 1.65;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) td {
+  background: var(--rs-surface-soft);
 }
 
 .price-old {
   text-decoration: line-through;
-  color: #888;
-  font-size: 0.9em;
+  color: var(--rs-text-soft);
+  font-size: 0.88em;
 }
 
 .price-new {
-  color: #d32f2f;
+  color: var(--rs-hot);
   font-weight: 700;
 }
 
 .price-multi {
-  color: #2e7d32;
+  color: var(--rs-success);
   font-weight: 700;
 }
 
-[data-md-color-scheme="slate"] .price-new {
-  color: #ff5252;
+[data-md-color-scheme="slate"] .price-new { color: #ff8a80; }
+[data-md-color-scheme="slate"] .price-multi { color: #a5d6a7; }
+
+/* ============================================================
+   Admonitions (info / tip / warning / danger)
+   ============================================================ */
+.md-typeset .admonition,
+.md-typeset details:not([class*="danger"]):not([class*="warning"]):not([class*="info"]) {
+  font-size: 0.9rem !important;
+  border-radius: var(--rs-radius-md) !important;
+  border-width: 0 !important;
+  border-inline-start: 3px solid !important;
+  background: var(--rs-surface) !important;
+  box-shadow: var(--rs-shadow-sm) !important;
+  padding: 0.75rem 1rem !important;
 }
 
-[data-md-color-scheme="slate"] .price-multi {
-  color: #66bb6a;
+.md-typeset .admonition.tip,
+.md-typeset .admonition.success {
+  border-inline-start-color: var(--rs-success) !important;
+  background: var(--rs-success-soft) !important;
 }
 
-/* ============================================
-   ADMONITIONS (regular ones outside accordions)
-   ============================================ */
-.md-typeset .admonition:not(details),
-.md-typeset details:not([class*="admonition"]) {
-  font-size: 0.85rem;
-  border-radius: 12px;
+.md-typeset .admonition.info,
+.md-typeset .admonition.note {
+  border-inline-start-color: var(--rs-cold) !important;
+  background: var(--rs-cold-soft) !important;
 }
 
-/* Tip admonition — for help/usage */
-.md-typeset .admonition.tip:not(details) {
-  border-radius: 12px;
+.md-typeset .admonition.warning {
+  border-inline-start-color: var(--rs-warm) !important;
+  background: var(--rs-warm-soft) !important;
 }
 
-/* ============================================
-   RTL fixes
-   ============================================ */
-[dir="rtl"] .md-typeset .tabbed-labels {
-  flex-direction: row-reverse;
+.md-typeset .admonition.danger {
+  border-inline-start-color: var(--rs-hot) !important;
+  background: var(--rs-hot-soft) !important;
 }
 
-/* Better page header */
-.md-typeset h1 {
-  font-size: 1.8rem !important;
+.md-typeset .admonition-title {
+  font-size: 0.95rem !important;
   font-weight: 800 !important;
 }
 
-.md-typeset h1::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 4px;
-  background: var(--rs-purple-gradient);
-  border-radius: 2px;
-  margin-top: 0.75rem;
+[data-md-color-scheme="slate"] .md-typeset .admonition.tip,
+[data-md-color-scheme="slate"] .md-typeset .admonition.success {
+  background: rgba(102, 187, 106, 0.1) !important;
 }
 
-/* ============================================
-   Quick Reference Card style
-   ============================================ */
-.qrc-card {
-  background: var(--rs-purple-gradient);
-  color: white;
-  padding: 1.5rem;
-  border-radius: 16px;
-  margin: 1.5rem 0;
-  box-shadow: 0 8px 24px rgba(94, 53, 177, 0.25);
+[data-md-color-scheme="slate"] .md-typeset .admonition.info,
+[data-md-color-scheme="slate"] .md-typeset .admonition.note {
+  background: rgba(66, 165, 245, 0.1) !important;
 }
 
-/* Coming soon */
-.coming-soon {
-  opacity: 0.55;
-  pointer-events: none;
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning {
+  background: rgba(255, 152, 0, 0.1) !important;
 }
 
-.coming-soon::after {
-  content: " (قريباً)";
-  color: #f57c00;
-  font-size: 0.85em;
+[data-md-color-scheme="slate"] .md-typeset .admonition.danger {
+  background: rgba(239, 83, 80, 0.1) !important;
 }
 
-/* ============================================
-   Stage Number Badge (inside summary)
-   ============================================ */
-.stage-num-badge {
-  background: rgba(255, 255, 255, 0.25);
-  color: white !important;
-  padding: 0.3rem 0.7rem;
-  border-radius: 99px;
-  font-size: 0.78rem;
-  font-weight: 800;
-  margin-inline-end: 0.85rem;
-  letter-spacing: 0.5px;
-  backdrop-filter: blur(4px);
-  display: inline-block;
-  min-width: 50px;
-  text-align: center;
-}
-
-/* ============================================
-   Floating Stage Navigator
-   ============================================ */
+/* ============================================================
+   Floating Stage Navigator (sticky, polished)
+   ============================================================ */
 .stage-nav {
   position: sticky;
-  top: 70px;
-  z-index: 50;
-  background: var(--md-default-bg-color);
-  padding: 0.85rem 1rem;
-  border-radius: 14px;
+  top: 4rem;
+  z-index: 10;
+  background: var(--rs-surface);
+  padding: 0.8rem 1rem;
+  border-radius: var(--rs-radius-md);
   margin: 1.5rem 0;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: var(--rs-shadow-md);
+  border: 1px solid var(--rs-border);
   display: flex;
   align-items: center;
   gap: 0.85rem;
@@ -448,77 +1257,198 @@
 
 .stage-nav-label {
   font-weight: 700;
-  font-size: 0.88rem;
-  color: var(--md-default-fg-color--light);
+  font-size: 0.85rem;
+  color: var(--rs-text-soft);
   white-space: nowrap;
 }
 
 .stage-nav-buttons {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.45rem;
   flex-wrap: wrap;
   flex: 1;
 }
 
 .stage-nav-btn {
-  width: 42px;
-  height: 42px;
-  border-radius: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--rs-radius-sm);
   cursor: pointer;
   font-weight: 800;
-  font-size: 1rem;
-  border: none;
-  background: var(--md-default-fg-color--lightest);
-  color: var(--md-default-fg-color);
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 0.92rem;
+  border: 1px solid var(--rs-border);
+  background: var(--rs-surface-soft);
+  color: var(--rs-text);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-family: "Cairo", sans-serif;
+  font-family: var(--md-text-font);
 }
 
 .stage-nav-btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  box-shadow: var(--rs-shadow-sm);
 }
 
 .stage-nav-btn[data-heat="hot"] {
-  background: var(--rs-hot-gradient);
-  color: white;
+  background: var(--rs-hot-soft);
+  border-color: var(--rs-hot);
+  color: #b71c1c;
 }
 
 .stage-nav-btn[data-heat="warm"] {
-  background: var(--rs-warm-gradient);
-  color: white;
+  background: var(--rs-warm-soft);
+  border-color: var(--rs-warm);
+  color: #e65100;
 }
 
 .stage-nav-btn[data-heat="cold"] {
-  background: var(--rs-cold-gradient);
-  color: white;
+  background: var(--rs-cold-soft);
+  border-color: var(--rs-cold);
+  color: #0d47a1;
 }
 
 .stage-nav-btn.active {
-  transform: scale(1.15);
-  box-shadow: 0 0 0 4px var(--md-accent-fg-color);
-  z-index: 1;
+  transform: scale(1.1);
+  box-shadow: 0 0 0 3px rgba(92, 107, 192, 0.3);
+}
+
+.stage-num-badge {
+  background: rgba(255, 255, 255, 0.7);
+  color: inherit !important;
+  padding: 0.25rem 0.55rem;
+  border-radius: 99px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  margin-inline-end: 0.85rem;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  min-width: 46px;
+  text-align: center;
+  direction: ltr;
 }
 
 [data-md-color-scheme="slate"] .stage-nav {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.1);
+  background: var(--rs-surface);
 }
 
-/* ============================================
+[data-md-color-scheme="slate"] .stage-nav-btn {
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--rs-text);
+}
+
+[data-md-color-scheme="slate"] .stage-nav-btn[data-heat="hot"] {
+  background: rgba(239, 83, 80, 0.15);
+  color: #ffab91;
+}
+
+[data-md-color-scheme="slate"] .stage-nav-btn[data-heat="warm"] {
+  background: rgba(255, 152, 0, 0.15);
+  color: #ffcc80;
+}
+
+[data-md-color-scheme="slate"] .stage-nav-btn[data-heat="cold"] {
+  background: rgba(66, 165, 245, 0.15);
+  color: #90caf9;
+}
+
+[data-md-color-scheme="slate"] .stage-num-badge {
+  background: rgba(0, 0, 0, 0.4);
+  color: white !important;
+}
+
+/* ============================================================
+   Copy Button on Code Blocks
+   ============================================================ */
+.rs-code-wrapper {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.rs-copy-btn {
+  position: absolute;
+  top: 0.6rem;
+  inset-inline-start: 0.6rem;
+  background: var(--rs-primary);
+  color: white;
+  border: none;
+  padding: 0.4rem 0.85rem;
+  border-radius: var(--rs-radius-sm);
+  font-family: var(--md-text-font);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+  z-index: 5;
+  box-shadow: var(--rs-shadow-sm);
+}
+
+.rs-copy-btn:hover {
+  background: var(--rs-primary-deep);
+  transform: translateY(-1px);
+}
+
+.rs-copy-btn.copied {
+  background: var(--rs-success);
+}
+
+.rs-code-wrapper pre {
+  margin: 0 !important;
+  padding-top: 2.75rem !important;
+}
+
+/* ============================================================
+   RTL polish — Arabic flow + numbers stay LTR
+   ============================================================ */
+[dir="rtl"] .md-typeset .tabbed-set .tabbed-labels {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+[dir="rtl"] .md-typeset ul,
+[dir="rtl"] .md-typeset ol {
+  padding-inline-start: 1.5rem;
+}
+
+[dir="rtl"] .md-typeset details > summary {
+  padding-inline-end: 1.5rem;
+  padding-inline-start: 3rem;
+  text-align: right;
+}
+
+.stage-num-badge,
+.stage-nav-btn,
+.angle-card-num {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+/* Code blocks: preserve script formatting */
+.md-typeset pre code {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  text-align: start;
+}
+
+/* Numbers inside Arabic text stay LTR locally */
+.num-ltr {
+  direction: ltr;
+  unicode-bidi: embed;
+  display: inline-block;
+}
+
+/* ============================================================
    Print-friendly view
-   ============================================ */
+   ============================================================ */
 @media print {
-  /* Hide nav, header, sidebar — show content only */
   .md-header,
   .md-sidebar,
   .md-footer,
   .stage-nav,
   .md-nav,
-  .md-tabs {
+  .md-tabs,
+  .rs-copy-btn {
     display: none !important;
   }
 
@@ -527,7 +1457,6 @@
     max-width: 100% !important;
   }
 
-  /* Open all accordions when printing */
   .md-typeset details {
     page-break-inside: avoid;
     box-shadow: none !important;
@@ -535,11 +1464,10 @@
   }
 
   .md-typeset details > summary {
-    background: #f0f0f0 !important;
+    background: #f3f3f5 !important;
     color: black !important;
   }
 
-  /* Hide both tabs but show their content */
   .md-typeset .tabbed-content {
     display: block !important;
   }
@@ -555,32 +1483,82 @@
     padding: 0.75rem;
     border-radius: 6px;
   }
-
-  .md-typeset code,
-  .md-typeset pre {
-    background: #f8f8f8 !important;
-    border: 1px solid #ddd !important;
-  }
 }
 
-/* ============================================
-   Smooth scrollbar (subtle)
-   ============================================ */
+/* ============================================================
+   Scrollbar — subtle
+   ============================================================ */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--md-default-fg-color--lightest);
+  background: var(--rs-surface-soft);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--md-primary-fg-color);
+  background: rgba(92, 107, 192, 0.35);
   border-radius: 5px;
-  opacity: 0.5;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--md-accent-fg-color);
+  background: rgba(92, 107, 192, 0.55);
+}
+
+/* ============================================================
+   Mobile — responsive at 768px and 420px
+   ============================================================ */
+@media (max-width: 768px) {
+  .md-typeset { font-size: 0.92rem; line-height: 1.85; }
+  .md-typeset h1 { font-size: 1.5rem !important; }
+  .md-typeset h2 { font-size: 1.15rem !important; }
+
+  .hero-banner { padding: 1.5rem 1rem; gap: 0.75rem; }
+  .hero-stat-num { font-size: 2rem; }
+  .hero-stat-label { font-size: 0.8rem; }
+
+  .workshop-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.85rem;
+  }
+  .workshop-card { min-height: 200px; padding: 1.25rem 0.75rem; }
+  .workshop-emoji { font-size: 2.2rem !important; margin-bottom: 0.55rem !important; }
+  .workshop-title { font-size: 0.92rem !important; }
+  .workshop-meta { font-size: 0.7rem !important; }
+  .workshop-price { font-size: 0.85rem !important; }
+  .workshop-hook { font-size: 0.72rem !important; }
+  .workshop-next-group { font-size: 0.68rem !important; }
+
+  .stage-nav {
+    top: 3.5rem;
+    padding: 0.65rem 0.85rem;
+    gap: 0.5rem;
+  }
+  .stage-nav-label { font-size: 0.78rem; flex-basis: 100%; margin-bottom: 0.25rem; }
+  .stage-nav-btn { width: 34px; height: 34px; font-size: 0.85rem; }
+
+  .md-typeset details > summary { font-size: 0.92rem !important; padding: 0.85rem 1rem !important; }
+  .stage-num-badge { font-size: 0.65rem; padding: 0.18rem 0.45rem; min-width: 40px; }
+
+  .angle-grid { grid-template-columns: 1fr; }
+  .smart-entry-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+  .smart-entry-btn { min-height: 85px; padding: 1rem; }
+
+  .schedule-row {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.55rem 0.85rem;
+  }
+  .schedule-badge { grid-column: 2; justify-self: start; }
+
+  .rs-copy-btn { font-size: 0.7rem; padding: 0.32rem 0.6rem; }
+
+  .brief-card { padding: 1.15rem 1.2rem; }
+  .brief-card-grid { gap: 0.75rem; }
+}
+
+@media (max-width: 420px) {
+  .workshop-grid { grid-template-columns: 1fr; }
+  .hero-banner { grid-template-columns: repeat(2, 1fr); padding: 1.1rem 0.85rem; }
 }
