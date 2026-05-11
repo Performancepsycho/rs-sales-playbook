@@ -1,154 +1,295 @@
-# 📊 ورشة الإكسيل
+---
+hide:
+  - toc
+---
 
-> **الإكسيل = اللغة اليومية لأي محاسب. ورشة سريعة (4 محاضرات بس) تحوّلك من user عادي لـ pro user.**
+# 🟢 ورشة الإكسيل
+
+> **"Excel = اللغة اليومية للمحاسب. ورشة سريعة (4 محاضرات) تـ حوّلك من user عادي → pro user."**
+
+<div class="ws-nav-grid">
+
+<a class="ws-nav-card" href="#details">
+  <div class="ws-nav-card-icon">📋</div>
+  <div class="ws-nav-card-title">تفاصيل الورشة</div>
+  <div class="ws-nav-card-sub">4 محاضرات · أ/ مصطفى القصاص</div>
+</a>
+
+<a class="ws-nav-card" href="#schedules">
+  <div class="ws-nav-card-icon">📅</div>
+  <div class="ws-nav-card-title">المواعيد المتاحة</div>
+  <div class="ws-nav-card-sub">11 مايو · لاب توب لازم</div>
+</a>
+
+<a class="ws-nav-card" href="#pricing">
+  <div class="ws-nav-card-icon">💰</div>
+  <div class="ws-nav-card-title">الأسعار + التقسيط</div>
+  <div class="ws-nav-card-sub">2000ج · خصم 50%</div>
+</a>
+
+<a class="ws-nav-card" href="#angles">
+  <div class="ws-nav-card-icon">🎯</div>
+  <div class="ws-nav-card-title">اختار الـ Angle</div>
+  <div class="ws-nav-card-sub">3 angles · Junior / Senior / Owner</div>
+</a>
+
+</div>
 
 ---
 
-## 🎯 الـ Hook الرسمي
+<a id="details"></a>
 
-> **"4 محاضرات × 3 ساعات = إتقان الإكسيل اللي السوق المصري بيطلبه. كل دالة + Pivot + VLOOKUP + Power Query — تطبيق على ملفات شركات حقيقية."**
+<div class="ws-section-header"><span class="ws-section-header-icon">📋</span> تفاصيل الورشة</div>
 
-ورشة الإكسيل **مش ورشة محاسبة** — هي ورشة الـ tool اللي كل محاسب بيستخدمه يومياً. 80% من السيلز اللي بنشوفهم في الإنترفيوهات بيترفضوا عشان مش متقنين الإكسيل.
-
-⚠️ **متطلب:** اللابتوب الشخصي — هتشتغل live على الإكسيل في كل محاضرة.
-
----
-
-## ✅ اللي هتطلع منها قادر تعمله
-
-=== "🎯 الـ Outcomes الـ 5"
-
-    1. ✅ **إتقان الـ Functions الأساسية والمتقدمة** — VLOOKUP, INDEX/MATCH, SUMIFS, COUNTIFS, IF nested
-    2. ✅ **Pivot Tables + Pivot Charts** — تحليل أي bunch of data في ثواني
-    3. ✅ **Conditional Formatting** — Visualization لتقاريرك
-    4. ✅ **Data Validation + Forms** — إنشاء Excel "applications" داخلية
-    5. ✅ **Power Query basics** — استيراد + تنظيف بيانات من مصادر متعددة
-
-=== "📚 المحاور التفصيلية (من الـ flyer)"
-
-    **مقدمة Excel + الأساسيات** — interface, ranges, named ranges, workbooks management
-
-    **🧮 الدوال الحسابية (Arithmetic)**
-    - SUBTRACT (الطرح بالإشارة السالبة)
-    - INT (تحويل الرقم لعدد صحيح)
-    - DIVIDE (القسمة)
-    - تقريب الأرقام (ROUND, ROUNDUP, ROUNDDOWN)
-
-    **📊 الدوال الإحصائية (Statistical)**
-    - AVERAGE / AVERAGE IF / AVERAGE IFS
-    - COUNT IF / COUNTIFS
-    - SUM / SUMIF / SUMIFS
-
-    **🔍 دوال البحث والاسترجاع (Lookup)**
-    - VLOOKUP / HLOOKUP
-    - INDEX + MATCH (لـ flexible lookups)
-    - XLOOKUP (الجديدة في Excel 365)
-    - الـ approximate vs exact match
-
-    **📝 دوال النصوص (Text)**
-    - PROPER, UPPER, LOWER
-    - LEFT, RIGHT, MID
-    - CONCATENATE / TEXTJOIN
-    - SUBSTITUTE, REPLACE
-
-    **📅 دوال الوقت والتاريخ (Date and Time)**
-    - TODAY, NOW
-    - TIME, DATE
-    - MONTH, YEAR, DAY
-    - **NETWORKDAYS** (لحساب أيام العمل بدون weekends)
-
-    **🔢 دوال الصفيف (Array Functions — Excel 365)**
-    - **UNIQUE** — استخراج القيم الفريدة من نطاق
-    - **FILTER** — تصفية البيانات بناءً على شرط
-    - **SEQUENCE** — إنشاء تسلسل من الأرقام
-    - **TRANSPOSE** — تحويل الصفوف لأعمدة
-
-    **📈 الرسوم البيانية + لوحات التحكم (Dashboards)**
-    - الرسوم البيانية الأساسية والمتقدمة
-    - **PIVOT CHART** — مع Pivot Table
-    - **DASHBOARD & VISUALIZATION** — تصميم لوحات تفاعلية
-    - **DATA VALIDATION** — لـ Forms/Inputs
-    - **PIVOT TABLE** + Slicers + Conditional Formatting
-
-    **🛠️ الأدوات المتقدمة والخدع البرمجية**
-    - **Goal Seek + Solver** — للـ optimization
-    - دوال الصفيف المتقدمة (TRANSPOSE, SEQUENCE, RANDARRAY)
-    - الـ tips والـ tricks للـ productivity
-    - **حماية وتأمين الملفات**
-    - **🤖 AI في Excel** — كيفية إضافة الذكاء الاصطناعي + طرق استخدامه (الجديد!)
-
----
-
-## 📊 معلومات الورشة
+<div class="info-card">
 
 | البند | التفاصيل |
 |-------|----------|
-| **المحاضر** | أ/ مصطفى القصاص (متخصص في Excel + Data Analysis) |
+| **المحاضر** | أ/ مصطفى القصاص (Excel specialist) |
 | **عدد المحاضرات** | 4 محاضرات |
 | **مدة المحاضرة** | 3 ساعات |
 | **إجمالي الساعات** | 12 ساعة تدريبية |
-| **النوع** | Offline (في المقر — يشترط لابتوب) |
-| **السعر العادي** | <span class="price-old">4000ج</span> |
-| **السعر بعد الخصم** | <span class="price-new">2000ج</span> (-50%) |
-| **شامل** | الشهادة + الماتريال |
+| **الجمهور** | كل المحاسبين · الأهم للـ Fresh + Junior |
+| **النوع** | Offline |
 
-### المجموعة النشطة:
-- **11 مايو 2026** — الاثنين + الخميس، 6م-9م — Offline في القاهرة (نقابة التجاريين)
+</div>
 
----
+!!! danger "⚠️ شرط أساسي"
+    **يشترط تواجد اللاب الخاص بالمتدرب** — الورشة 90% hands-on.
 
-## 👨‍🏫 عن المحاضر — أ/ مصطفى القصاص
+??? success "✅ الـ Outcomes الأساسية"
 
-> **متخصص في Excel + Data Analysis** — بيدرّب محاسبين، محللين، ومديرين على الـ tool الأساسي ده من سنين.
+    🔹 ✅ **Functions:** VLOOKUP, INDEX-MATCH, IF, SUMIF, COUNTIF
+    🔹 ✅ **Data Manipulation:** Tables, Sorting, Filtering, Conditional Formatting
+    🔹 ✅ **Pivot Tables** — تحليل بيانات بـ ثواني
+    🔹 ✅ **Charts + Dashboards** — تـ قارير professional
+    🔹 ✅ **Financial Functions:** NPV, IRR, PMT, FV, PV
+    🔹 ✅ **Automation:** Macros أساسية + Data Validation
+    🔹 ✅ **Shortcut keys** — توفّر 30% من وقتك
 
-**استخدامها في العرض:**
-- "أ/ مصطفى بيدرّس الإكسيل بمنهج عملي — كل function بتاخدها هتطبقها على ملف شغل حقيقي"
-- "ورشة قصيرة (4 محاضرات بس) لكنها مكثفة — هتطلع منها fluent في الـ tool"
+??? info "📚 المحاور"
 
----
+    🔹 **محاضرة 1:** Interface + Tables + Basic functions
+    🔹 **محاضرة 2:** VLOOKUP, INDEX-MATCH, Lookup functions
+    🔹 **محاضرة 3:** Pivot Tables + Charts + Dashboards
+    🔹 **محاضرة 4:** Financial functions + Macros + Final project
 
-## 🎯 الـ 3 Angles
+??? note "👨‍🏫 المحاضر — أ/ مصطفى القصاص"
 
-| # | الـ Angle | الجمهور |
-|---|----------|---------|
-| **1** | فريش/جونيور بيتعلم Excel | خرّج لسه أو شغّال junior — Excel skills ضعيفة |
-| **2** | محاسب شغّال بيعمل تقارير | Excel-dependent بس الفعل بطيء/manual |
-| **3** | صاحب شركة عاوز يفهم تقاريره | بيستلم Excel reports من محاسبه ومش فاهم |
+    **Excel specialist** — بـ يـ ديك الـ Excel الـ محاسب محتاجه فعلياً.
 
----
-
-## 🛡️ أكتر اعتراضات بتطلع
-
-??? question "أنا عارف Excel — مش محتاج ورشة"
-    "سؤال أمين: تعرف XLOOKUP؟ Power Query؟ Conditional Formatting بـ formulas؟ Pivot من 3 sources؟ لو الإجابة 'لا'، انت في 30% من الـ skills فقط. الورشة بتكمل الـ 70% الباقية."
-
-??? question "الـ 4 محاضرات قليلة"
-    "12 ساعة عملية تطبيق على ملفات حقيقية. أكتر من اللي حضرت Excel في الكلية أو يوتيوب. الفرق: هنا فيه feedback مباشر من المحاضر."
-
-??? question "أنا بستخدم Google Sheets مش Excel"
-    "90% من الـ functions نفسها. الورشة هتفيدك في الاتنين. كمان: الشركات الكبيرة في مصر بتشتغل Excel — لازم تعرفه."
-
-??? question "السعر 2000ج"
-    "ده الأرخص في الأكاديمية + أعلى ROI. كل وظيفة محاسبية بتطلب Excel. هتسترد التكلفة في أول علاوة بسبب skill إكسيل."
+    🔹 "كل function بـ يـ شرحها مع مثال محاسبي"
+    🔹 "الـ shortcuts اللي بـ تـ وفّر 30% من وقتك يومياً"
 
 ---
 
-## 📝 ملاحظات للسيلز
+<a id="schedules"></a>
 
-### الـ Hook الـ 3
-1. **"اللغة اليومية للمحاسب"** — Excel essential, not optional
-2. **"4 محاضرات بس + سعر 2000ج"** — Lowest barrier to entry
-3. **"تطبيق على ملفات حقيقية"** — Not theory
+<div class="ws-section-header"><span class="ws-section-header-icon">📅</span> المواعيد المتاحة</div>
 
-### ❌ ممنوع
-- ❌ تنسى الـ laptop requirement — السيلز يذكره صراحة
-- ❌ pitch generic — اربط بـ specific functions (VLOOKUP, Pivot)
-- ❌ تستخف بمستوى العميل — اسأل أولاً قبل ما تقترح
+<div class="schedule-table">
 
-### 🔗 Cross-sell الذكي
-ورشة الإكسيل **مكمّلة** لأي ورشة تانية:
-- **+ المحاسب المالي:** المحاسبة + Excel = جاهز للسوق
-- **+ التحليل المالي:** التحليل + Excel = analyst محترف (lazm Excel للـ models)
-- **+ CFO:** Excel أساس قبل Power BI — لو Excel ضعيف، CFO هيكون صعب
+<div class="schedule-row">
+  <div class="schedule-date">11 مايو</div>
+  <div>
+    <div class="schedule-info-title">المجموعة الأقرب — Offline</div>
+    <div class="schedule-info-meta">الاثنين + الخميس · 6م-9م · نقابة التجاريين · لاب توب لازم · 4 × 3س</div>
+  </div>
+  <span class="schedule-badge offline">Offline · القاهرة</span>
+</div>
 
-السيلز يقدر يقترح الإكسيل كـ **bundle** مع أي ورشة (خصم Multi-booking).
+</div>
+
+!!! tip "تـ كتيك للسيلز"
+    🔹 الورشة **4 محاضرات بس** = **أسبوعين**
+    🔹 **الأقصر بين ورشنا** — مناسبة كـ **add-on**
+    🔹 لو فاتت، اعرض **bundle** مع ورشة تانية
+
+---
+
+<a id="pricing"></a>
+
+<div class="ws-section-header"><span class="ws-section-header-icon">💰</span> الأسعار + التقسيط</div>
+
+<div class="price-compare-grid">
+
+<div class="price-compare-card">
+  <div class="price-compare-label">السعر العادي</div>
+  <div class="price-compare-value">4000ج</div>
+  <div class="price-compare-note">مرجع فقط</div>
+</div>
+
+<div class="price-compare-card featured">
+  <div class="price-compare-label">بعد الخصم</div>
+  <div class="price-compare-value">2000ج</div>
+  <div class="price-compare-note">توفير 2000ج · -50%</div>
+</div>
+
+<div class="price-compare-card">
+  <div class="price-compare-label">في الـ Bundle</div>
+  <div class="price-compare-value">حسب</div>
+  <div class="price-compare-note">يـ تـ ضم لـ ورشة أخرى</div>
+</div>
+
+<div class="price-compare-card unavailable">
+  <div class="price-compare-label">المسجل</div>
+  <div class="price-compare-value">غير متاح</div>
+  <div class="price-compare-note">Live فقط</div>
+</div>
+
+</div>
+
+!!! tip "Excel = الـ Add-on المثالي"
+    **2000ج بـ يـ خليها easy-sell كـ "ضيفها لـ ورشتك الأساسية"**.
+
+**جدية الحجز:** 1000ج (50%) + الباقي 1000ج في أول محاضرة بدون فوايد.
+
+??? tip "🎁 Bundles مقترحة (Excel = add-on)"
+
+    🔹 **Fresh Job-Hunter:** المالي + Excel = **5000ج** (توفير 850ج)
+    🔹 **Tax Specialist:** الضرايب + Excel = **7000ج**
+    🔹 **Tech Accountant:** Odoo + Excel = **5000ج**
+    🔹 **Factory Pack:** التكاليف + Excel = **5200ج**
+    🔹 **CFO Ready:** CFO + التحليل + Excel = **12000ج**
+
+??? info "💳 طرق الدفع"
+
+    ```
+    🟢 انستا باي: 100057017249 (CIB)
+    🟢 فودافون كاش: 01002180432
+    🟢 تحويل بنكي: CIB - حساب 100057017249
+    🟢 رابط Stripe: https://buy.stripe.com/00geWvdkedzn09O3ce
+    🟢 في المقر: 29أ امتداد رمسيس، نقابة التجاريين، الدور 8
+    🟢 فيزا تقسيط: كل البنوك المصرية
+    ```
+
+---
+
+<a id="angles"></a>
+
+<div class="ws-section-header"><span class="ws-section-header-icon">🎯</span> اختار الـ Angle المناسب</div>
+
+<div class="angle-grid">
+
+<a class="angle-card" href="angle-1-junior-learning/">
+  <span class="angle-card-num">1</span>
+  <span class="angle-card-title">فريش بـ يـ تعلم Excel</span>
+  <span class="angle-card-meta">Fresh / Junior · Excel أساسي</span>
+  <span class="angle-card-pain">"بـ كتب البيانات يدوياً، بـ يـ خد ساعات. زمايلي بـ يـ خلصوا أسرع."</span>
+</a>
+
+<a class="angle-card" href="angle-2-working-accountant/">
+  <span class="angle-card-num">2</span>
+  <span class="angle-card-title">محاسب شغّال بـ يـ عمل تقارير</span>
+  <span class="angle-card-meta">شغّال 2-5 سنين · تـ قارير شهرية معقدة</span>
+  <span class="angle-card-pain">"يومين لـ تـ قرير الإدارة الشهري. عاوز ساعتين."</span>
+</a>
+
+<a class="angle-card" href="angle-3-business-owner/">
+  <span class="angle-card-num">3</span>
+  <span class="angle-card-title">صاحب شركة</span>
+  <span class="angle-card-meta">صاحب شركة · يـ بغى يـ قرأ تـ قارير محاسبه</span>
+  <span class="angle-card-pain">"محاسبي بـ يـ بعتلي Excel sheets معقدة، مش فاهمها."</span>
+</a>
+
+</div>
+
+---
+
+## 🛡️ اعتراضات خاصة بورشة Excel
+
+??? warning "\"بـ ستخدم Excel من سنين — مش محتاج\""
+
+    **R:**
+    > **سؤال صريح:** هل بـ تـ ستخدم دلوقتي:
+    >
+    > 1. INDEX-MATCH بدل VLOOKUP؟
+    > 2. Pivot Tables بـ slicers + multiple levels؟
+    > 3. SUMIFS بـ multiple criteria؟
+    > 4. Power Query للـ data cleaning؟
+    > 5. Macros للمهام المتكررة؟
+    > 6. Shortcut keys (Ctrl+Shift+L, Alt+H+O+I)؟
+    >
+    > لو "نعم" على 5+، مش محتاج. لو "لأ" على 3+، الورشة بـ تـ ضيف **30% time saving**.
+
+??? warning "\"السعر 2000ج رخيص — في catch؟\""
+
+    **R:**
+    > 🔹 **الورشة قصيرة (12 ساعة)** — كلفة أقل
+    > 🔹 **add-on لـ ورش أخرى** — RS بـ تـ كسب من الـ bundle
+    > 🔹 **انتشار Excel knowledge = good for everyone**
+    >
+    > **الجودة نفس باقي الورش.** 7-day money-back.
+
+??? warning "\"محتاج Power BI/Tableau، مش Excel\""
+
+    **R:**
+    > 🔹 **Excel = foundation لـ Power BI**
+    > 🔹 **Power BI لـ dashboards، مش للحسابات اليومية**
+    > 🔹 **80% من المحاسبين في مصر بـ يـ ستخدموا Excel يومياً**
+    >
+    > لو 90% Excel → ورشة Excel. لو BI dashboards → Excel أولاً + Power BI من شركة متخصصة.
+
+??? warning "\"Excel 365 ولا قديم؟\""
+
+    **R:**
+    > **Excel 365 / 2021**. بس 90% من الـ functions متاحة في 2016+.
+    >
+    > الـ functions الجديدة (XLOOKUP, FILTER, SORT) بـ تـ تـ علم لو الـ version بـ يـ دعمها. لو قديم، البديل INDEX-MATCH + Filtering.
+
+??? warning "\"المحاضر بـ يـ علم VBA programming؟\""
+
+    **R:**
+    > 🔹 **Macros الأساسية: نعم** (Record + Edit + Run)
+    > 🔹 **VBA programming كامل: لأ** (يـ تطلب ورشة منفصلة 60+ ساعة)
+    >
+    > لـ 95% من المحاسبين، Macros الأساسية كافية.
+
+??? warning "\"12 ساعة بس — مش هـ تـ ديني كفاية\""
+
+    **R:**
+    > 🔹 **Excel أداة، مش subject** — مش زي المحاسبة
+    > 🔹 **80% practice** على ملفات حقيقية
+    > 🔹 **قوالب Excel جاهزة** — تـ ستخدمها فوراً
+    > 🔹 **WhatsApp group** لـ 3 شهور
+    >
+    > الهدف: **70-80% أفضل من قبل**. الباقي بـ practice في شغلك.
+
+??? warning "\"ما عنديش لاب توب\""
+
+    **R:** **لأ، الورشة hands-on لازم لاب توب.**
+
+    **حلول:** استعارة · مكتبة عامة · شراء used (4000-6000ج Core i3 4GB RAM).
+
+---
+
+## 📝 ملاحظات سريعة للسيلز
+
+??? note "🎯 الـ Hooks الـ 3 الأقوى"
+
+    1. **"VLOOKUP يـ توفّر 5 ساعات/أسبوع. Pivot Tables يـ توفّر 10."** — Concrete ROI
+    2. **"Add-on perfect لـ أي ورشة"** — Bundle pitch
+    3. **"4 محاضرات بس — أسبوعين، 2000ج، +30% productivity"** — Easy commitment
+
+??? danger "❌ ممنوع نهائياً"
+
+    🔹 ❌ تـ سجيل بدون لاب توب
+    🔹 ❌ "هـ تـ بقى Excel certified"
+    🔹 ❌ "نـ علمك VBA programming"
+    🔹 ❌ "كورس"
+
+??? success "✅ المسموح"
+
+    🔹 ✅ **Bundle pitch دايماً** — Excel = ideal add-on
+    🔹 ✅ التركيز على **time saving** بـ أرقام
+    🔹 ✅ Add-on لـ المالي، الضرايب، Odoo، التكاليف، CFO
+    🔹 ✅ خطة 50/50
+
+---
+
+## 🔗 روابط سريعة
+
+- [🧭 Decision Helper](../../helper/)
+- [🛡️ Objections Library](../../objections/)
+- [💰 Pricing Matrix](../../pricing/)
+- [🤝 Multi-booking + Bundles](../../multi-booking/)

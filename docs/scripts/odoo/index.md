@@ -1,126 +1,300 @@
+---
+hide:
+  - toc
+---
+
 # 📙 ورشة Odoo Accounting
 
-> **السوق المصري بيطلب Odoo دلوقتي — تخصّص فيه = تطلع الشركات الكبيرة + مرتب أعلى.**
+> **"السوق المصري بـ يطلب Odoo — تخصّص فيه = شركات كبيرة + مرتب أعلى."**
+
+<div class="ws-nav-grid">
+
+<a class="ws-nav-card" href="#details">
+  <div class="ws-nav-card-icon">📋</div>
+  <div class="ws-nav-card-title">تفاصيل الورشة</div>
+  <div class="ws-nav-card-sub">8 محاضرات · أ/ إسلام سعيد</div>
+</a>
+
+<a class="ws-nav-card" href="#schedules">
+  <div class="ws-nav-card-icon">📅</div>
+  <div class="ws-nav-card-title">المواعيد المتاحة</div>
+  <div class="ws-nav-card-sub">Offline + Online · لاب توب لازم</div>
+</a>
+
+<a class="ws-nav-card" href="#pricing">
+  <div class="ws-nav-card-icon">💰</div>
+  <div class="ws-nav-card-title">الأسعار + التقسيط</div>
+  <div class="ws-nav-card-sub">3000ج · خصم 50%</div>
+</a>
+
+<a class="ws-nav-card" href="#angles">
+  <div class="ws-nav-card-icon">🎯</div>
+  <div class="ws-nav-card-title">اختار الـ Angle</div>
+  <div class="ws-nav-card-sub">3 angles · Junior / Senior / Owner</div>
+</a>
+
+</div>
 
 ---
 
-## 🎯 الـ Hook الرسمي
+<a id="details"></a>
 
-> **"مش بس بنشرحلك Odoo — بنخليك تشتغل عليه live في كل محاضرة."**
+<div class="ws-section-header"><span class="ws-section-header-icon">📋</span> تفاصيل الورشة</div>
 
-ورشة عملية لتشغيل المحاسبة على نظام Odoo. هتفهم أساسيات المحاسبة وربطها بالشغل الفعلي جوه الشركات (مبيعات، مشتريات، مخازن، حسابات عامة وتقارير).
-
-⚠️ **متطلب أساسي:** اللابتوب الشخصي للمتدرب (في الـ Offline).
-
----
-
-## ✅ اللي هتطلع منها قادر تعمله
-
-=== "🎯 الأهداف الـ 4"
-
-    1. ✅ تأهيل المتدرب لاستخدام Odoo داخل الشركات
-    2. ✅ فهم أساسيات المحاسبة بشكل تطبيقي
-    3. ✅ ربط المفاهيم المحاسبية بدورة العمل الفعلية
-    4. ✅ التعامل مع العمليات اليومية بكفاءة
-
-=== "📚 المحاور التفصيلية (من الـ flyer)"
-
-    > **هتفهم البيزنس + دورة العمل في الشركات** + كيفية استخدام Odoo بفاعلية لتحسين إدارة الأمور المالية داخل الشركات.
-
-    **🛒 دورة المشتريات**
-    - إنشاء أوامر الشراء
-    - تسجيل فواتير الموردين
-    - متابعة حالة الطلبات + التحقق من توريد المواد
-    - **التأكد من تطابق الفواتير والشحنات** (3-way matching)
-
-    **💰 دورة المبيعات**
-    - إنشاء عروض الأسعار + الفواتير
-    - تتبع طلبات العملاء
-    - إنشاء الفواتير + إرسالها للعملاء
-    - تسجيل تحصيلات العملاء + تسوية الحسابات
-
-    **📦 إدارة المخازن**
-    - تسجيل المنتجات + تحديد الأسعار
-    - مراقبة وتحديث مستويات المخزون
-    - إدارة عمليات الأوامر + التعديل + التطوير
-    - إجراء فحص المخزون + التحديثات الضرورية
-
-    **📊 الحسابات العامة**
-    - تسجيل المعاملات المالية العامة (الإيرادات والمصروفات)
-    - **إنشاء التقارير المالية** (ميزان المراجعة + الحسابات)
-    - مراقبة حسابات العملاء والموردين + إدارة التسويات الضرورية
-
-    !!! tip "ميزة عملية"
-        كل ما تتعلمه على Odoo بتقدر تطبقه فوراً في شغلك — Odoo بقى الـ ERP الأكثر استخداماً في SMEs المصرية.
-
----
-
-## 📊 معلومات الورشة
+<div class="info-card">
 
 | البند | التفاصيل |
 |-------|----------|
-| **المحاضر** | أ/ إسلام سعيد |
+| **المحاضر** | أ/ إسلام سعيد (Odoo specialist + ERP consultant) |
 | **عدد المحاضرات** | 8 محاضرات |
 | **مدة المحاضرة** | 3 ساعات |
 | **إجمالي الساعات** | 24 ساعة تدريبية |
-| **السعر العادي** | <span class="price-old">6000ج</span> |
-| **السعر بعد الخصم** | <span class="price-new">3000ج</span> (-50%) |
-| **Multi-booking** | <span class="price-multi">3000ج</span> (= السعر العادي) |
-| **شامل** | الشهادة + الماتريال |
+| **الجمهور** | محاسبين · أصحاب شركات · IT/tech-savvy |
+| **النوع** | Offline + Online (Zoom تفاعلي) |
 
-### المجموعات النشطة:
+</div>
 
-| المجموعة | التاريخ | المواعيد | النوع | متطلب |
-|----------|---------|----------|-------|--------|
-| 1 | **12 مايو 2026** | السبت + الثلاثاء، 6م-9م | Offline | **لازم لابتوب** ⚠️ |
-| 2 | **8 يونيو 2026** | الاثنين + الخميس، 6م-9م | Online (Zoom) | تفاعلي |
+!!! danger "⚠️ شرط أساسي"
+    **يشترط تواجد اللاب الخاص بالمتدرب** — مفيش طريقة تـ تعلم Odoo بدون شغل عملي عليه.
 
----
+??? success "✅ الـ Outcomes الأساسية"
 
-## 👨‍🏫 عن المحاضر — أ/ إسلام سعيد
+    🔹 ✅ **تـ سطّب وتـ هيّأ Odoo** لـ أي شركة من الصفر
+    🔹 ✅ **شجرة الحسابات** على Odoo + ضبط الفترات المالية
+    🔹 ✅ **العمليات اليومية** (مبيعات + مشتريات + مدفوعات + قبضات)
+    🔹 ✅ **التقارير المالية** من Odoo (قوائم + تحليلات + dashboards)
+    🔹 ✅ **الفاتورة الإلكترونية** integrated مع Odoo
+    🔹 ✅ **المخزون + الأصول الثابتة** على النظام
 
-> **متخصص في Odoo + خبير في الـ ERP implementation للشركات المصرية.**
+??? info "📚 المحاور"
 
-**استخدامها في العرض:**
-- "هيوريك Odoo زي ما الشركات بتستخدمه فعلياً، مش زي ما documentation بتقول"
-- "بيدرّبك على الـ pitfalls الشائعة + كيف تتعامل معاها"
+    🔹 تنصيب Odoo Community + الـ modules المهمة
+    🔹 ضبط الـ Localization المصري (EGY)
+    🔹 إنشاء الشركة + شجرة الحسابات
+    🔹 دورة المبيعات (Sales Order → Invoice → Payment)
+    🔹 دورة المشتريات (PO → Bill → Payment)
+    🔹 دورة المخزون + الجرد
+    🔹 الأصول الثابتة + الإهلاك
+    🔹 التقارير المالية + التحليلية
+    🔹 التكامل مع الفاتورة الإلكترونية
 
----
+??? note "👨‍🏫 المحاضر — أ/ إسلام سعيد"
 
-## 🎯 الـ 3 Angles
+    **Odoo specialist + ERP consultant** — بـ يـ نفّذ implementations فعلية لشركات.
 
-| # | الـ Angle | الجمهور |
-|---|----------|---------|
-| **1** | [🎯 شركته بتنقل لـ ERP](angle-1-company-erp.md) | شغّال + الشركة قررت تطبق Odoo |
-| **2** | [🎯 يبغى يدخل سوق ERP](angle-2-erp-market.md) | شغّال + عاوز skill مطلوب |
-| **3** | [🎯 صاحب شركة](angle-3-owner.md) | عاوز يفهم + يطبّق ERP |
-
----
-
-## 🛡️ أكتر اعتراضات بتطلع
-
-??? question "هل ينفع أتعلم من YouTube بدلاً منها؟"
-    "YouTube بيشرحلك 'إيه Odoo'. الورشة بتديك 'إزاي تشتغل Odoo' — مع feedback مباشر + تطبيق على cases حقيقية + المحاضر يجاوب أسئلتك الشخصية."
-
-??? question "هل Odoo أحسن من SAP/Oracle؟"
-    "في السوق المصري: Odoo = الأكتر طلباً للـ SMEs. SAP للشركات الضخمة. Oracle للبنوك. Odoo = أوسع market."
-
-??? question "السعر 3000ج"
-    "3000ج لـ 24 ساعة = 125ج للساعة. خصم 50%! ولو حد بيشتغل ERP في السوق، مرتبه 12-25K. الـ ROI واضح."
-
-??? question "الـ implementation عندنا قريب — مش هلحق"
-    "في 8 محاضرات (شهر) — بنخلصها قبل أي implementation timeline معقول. كمان عندنا Online flexible."
+    🔹 "بـ يـ سطّب Odoo لـ شركات حقيقية — مش بـ يـ شرح من book"
+    🔹 "بـ يدّيك الـ common mistakes اللي بـ يـ شوفها في implementations فعلية"
 
 ---
 
-## 📝 ملاحظات للسيلز
+<a id="schedules"></a>
 
-### الـ Hook الـ 3
-1. **"السوق بيطلب Odoo — تخصّص = ترقية"** — زاوية السوق
-2. **"بنشتغل على Odoo فعلياً"** — ميزة تميّزها vs YouTube
-3. **"المحاضر متخصص في Odoo implementation"** — ثقة
+<div class="ws-section-header"><span class="ws-section-header-icon">📅</span> المواعيد المتاحة</div>
 
-### ❌ ممنوع
-- ❌ تنسى الـ laptop requirement (للـ Offline) — ذكّر صراحة
-- ❌ تستخف بـ YouTube — اعترف + اشرح الـ depth differential
-- ❌ تستخف بـ SAP/Oracle — اعترف بمكانتهم + اشرح الـ market fit
+<div class="schedule-table">
+
+<div class="schedule-row">
+  <div class="schedule-date">12 مايو</div>
+  <div>
+    <div class="schedule-info-title">المجموعة الأقرب — Offline</div>
+    <div class="schedule-info-meta">السبت + الثلاثاء · 6م-9م · نقابة التجاريين · لاب توب لازم</div>
+  </div>
+  <span class="schedule-badge offline">Offline · القاهرة</span>
+</div>
+
+<div class="schedule-row">
+  <div class="schedule-date">8 يونيو</div>
+  <div>
+    <div class="schedule-info-title">المجموعة Online — Zoom تفاعلي</div>
+    <div class="schedule-info-meta">الاثنين + الخميس · 6م-9م · screen-share + hands-on</div>
+  </div>
+  <span class="schedule-badge online">Online · Zoom</span>
+</div>
+
+</div>
+
+---
+
+<a id="pricing"></a>
+
+<div class="ws-section-header"><span class="ws-section-header-icon">💰</span> الأسعار + التقسيط</div>
+
+<div class="price-compare-grid">
+
+<div class="price-compare-card">
+  <div class="price-compare-label">السعر العادي</div>
+  <div class="price-compare-value">6000ج</div>
+  <div class="price-compare-note">مرجع فقط</div>
+</div>
+
+<div class="price-compare-card featured">
+  <div class="price-compare-label">بعد الخصم</div>
+  <div class="price-compare-value">3000ج</div>
+  <div class="price-compare-note">توفير 3000ج · -50%</div>
+</div>
+
+<div class="price-compare-card">
+  <div class="price-compare-label">Multi-booking</div>
+  <div class="price-compare-value">3000ج</div>
+  <div class="price-compare-note">نفس السعر — مفيش discount إضافي</div>
+</div>
+
+<div class="price-compare-card unavailable">
+  <div class="price-compare-label">المسجل</div>
+  <div class="price-compare-value">غير متاح</div>
+  <div class="price-compare-note">Live فقط</div>
+</div>
+
+</div>
+
+!!! tip "السعر شديد المنافسة"
+    خصم 50% بالفعل من السعر الأصلي — لو العميل قال "غالي"، **اعرف ده النصف من سعرها الحقيقي**.
+
+**جدية الحجز:** 1500ج (50%) + الباقي 1500ج في أول محاضرة بدون فوايد.
+
+??? tip "🎁 Bundles مقترحة"
+
+    🔹 **Tech Accountant:** Odoo + Excel = **5000ج** (Multi)
+    🔹 **Owner's ERP Stack:** Odoo + إعداد القوائم = **5000ج**
+    🔹 **Career Pivot:** Odoo + التحليل = **7000ج**
+
+??? info "💳 طرق الدفع"
+
+    ```
+    🟢 انستا باي: 100057017249 (CIB)
+    🟢 فودافون كاش: 01002180432
+    🟢 تحويل بنكي: CIB - حساب 100057017249
+    🟢 رابط Stripe: https://buy.stripe.com/00geWvdkedzn09O3ce
+    🟢 في المقر: 29أ امتداد رمسيس، نقابة التجاريين، الدور 8
+    🟢 فيزا تقسيط: كل البنوك المصرية
+    ```
+
+---
+
+<a id="angles"></a>
+
+<div class="ws-section-header"><span class="ws-section-header-icon">🎯</span> اختار الـ Angle المناسب</div>
+
+<div class="angle-grid">
+
+<a class="angle-card" href="angle-1-company-erp/">
+  <span class="angle-card-num">1</span>
+  <span class="angle-card-title">شركته بـ تنقل لـ ERP</span>
+  <span class="angle-card-meta">محاسب شغّال · الشركة قررت Odoo</span>
+  <span class="angle-card-pain">"الإدارة قررت ننقل لـ Odoo، أنا مش فاهمه — خايف على شغلي"</span>
+</a>
+
+<a class="angle-card" href="angle-2-erp-market/">
+  <span class="angle-card-num">2</span>
+  <span class="angle-card-title">يـ بغى يدخل سوق ERP</span>
+  <span class="angle-card-meta">محاسب 2+ سنين · شاف فرص أكتر في الـ ERP</span>
+  <span class="angle-card-pain">"سوق ERP بـ يدفع أكتر — عاوز skill يـ ميزني"</span>
+</a>
+
+<a class="angle-card" href="angle-3-owner/">
+  <span class="angle-card-num">3</span>
+  <span class="angle-card-title">صاحب شركة</span>
+  <span class="angle-card-meta">عاوز يـ نقل شركته لـ Odoo</span>
+  <span class="angle-card-pain">"دفعت 100K لـ مستشار، النتيجة فوضى. عاوز أفهم بنفسي."</span>
+</a>
+
+</div>
+
+---
+
+## 🛡️ اعتراضات خاصة بورشة Odoo
+
+??? warning "\"أنا مش tech-savvy — هـ أقدر؟\""
+
+    **R:**
+    > 🔹 **اللي بـ تـ علمه = workflows محاسبية مش programming**
+    > 🔹 **Odoo بـ يـ شبه Excel + Quickbooks** — لو عملت محاسبة على Excel، تـ قدر
+    > 🔹 **80% hands-on** — كل خطوة بـ تـ شتغل عليها على لاب توبك
+    >
+    > حالات سابقة: محاسبين فوق 45 سنة اخدوا الورشة + نجحوا.
+
+??? warning "\"الشركة بـ تـ ستخدم SAP / Oracle — Odoo مش هـ ينفع\""
+
+    **R:**
+    > 🔹 **SAP/Oracle:** شركات كبيرة جداً (multinationals) — عددها محدود
+    > 🔹 **Odoo:** الـ SMEs المصرية — **90% من السوق**
+    >
+    > لو شغلك SAP، Odoo مش الأولوية. لو السوق المصري، Odoo بـ يـ فتح أبواب.
+
+??? warning "\"Community ولا Enterprise؟\""
+
+    **R:**
+    > **Community** — الـ free + الـ foundation. لو فهمتها، الـ Enterprise extension طبيعي.
+    >
+    > 🔹 Community: الأساسيات مجاناً
+    > 🔹 Enterprise: features أعلى (HR متقدم، Manufacturing، Studio)
+    >
+    > **90% من الـ accounting في Community.**
+
+??? warning "\"3000ج رخيص جداً — في catch؟\""
+
+    **R:**
+    > **مفيش catch.**
+    >
+    > 🔹 **Odoo سوق جديد في مصر** — بـ نـ بنى الـ awareness
+    > 🔹 **المحاضر بـ يـ ساهم في الـ ecosystem**
+    > 🔹 **السعر strategic** — عاوزين 100+ محاسب فاهم Odoo
+    >
+    > **الجودة نفس باقي الورش.** لو حسيت أقل، 7-day money-back.
+
+??? warning "\"Online بـ ينفع لـ Odoo؟\""
+
+    **R:**
+    > نعم، **بـ شكل ممتاز**:
+    >
+    > 🔹 Screen-share مباشر — المحاضر بـ يـ شتغل على Odoo
+    > 🔹 انت في نفس الوقت بـ تـ شتغل على لاب توبك
+    > 🔹 Breakout rooms للـ practice مع زمايل
+    > 🔹 Q&A فوري
+
+??? warning "\"ما عنديش لاب توب — أحضر بـ موبايل؟\""
+
+    **R:** **لأ.** Odoo software ثقيل — PC/Laptop فقط.
+
+    **حلول:** استعارة من زميل · مكتبة عامة · شراء used (Core i3 4GB RAM، 4000-6000ج).
+
+??? warning "\"بعد الورشة، هـ أقدر أعمل implementation لـ شركتي؟\""
+
+    **R:**
+    > 🔹 **Setup أساسي = نعم.** Community + workflows basic لـ شركة صغيرة
+    > 🔹 **Customization متقدم = لأ.** هـ تحتاج consultant فني
+    >
+    > بس بـ تـ خليك **client ذكي** للـ consultant — تعرف تـ سأل صح + الـ scope الواقعي.
+
+---
+
+## 📝 ملاحظات سريعة للسيلز
+
+??? note "🎯 الـ Hooks الـ 3 الأقوى"
+
+    1. **"السوق بـ يطلب Odoo + المحاسبين الفاهمين قليلين"** — Demand framing
+    2. **"50% خصم — السعر الأقل بين ورشنا"** — Price advantage
+    3. **"hands-on على شركة فعلية في 24 ساعة"** — Practice signal
+
+??? danger "❌ ممنوع نهائياً"
+
+    🔹 ❌ "هـ تـ بقى Odoo developer" — ده programming
+    🔹 ❌ "Odoo بـ يـ غني عن المحاسب" — كذب
+    🔹 ❌ تـ سجيل بدون لاب توب — Refund certain
+    🔹 ❌ "كورس"
+
+??? success "✅ المسموح"
+
+    🔹 ✅ Bundle Odoo + Excel — **Tech Accountant**
+    🔹 ✅ Bundle Odoo + إعداد القوائم — **Owner's ERP**
+    🔹 ✅ التركيز على **demand/supply** في السوق المصري
+    🔹 ✅ الـ Online كـ option أساسي
+
+---
+
+## 🔗 روابط سريعة
+
+- [🧭 Decision Helper](../../helper/)
+- [🛡️ Objections Library](../../objections/)
+- [💰 Pricing Matrix](../../pricing/)
+- [🤝 Multi-booking + Bundles](../../multi-booking/)

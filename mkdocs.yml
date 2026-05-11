@@ -41,6 +41,8 @@ theme:
 
 nav:
   - 🏠 الرئيسية: index.md
+  - 🚀 ابدأ من هنا (للسيلز الجديد):
+      - start/index.md
   - 💰 الأسعار + الباقات:
       - pricing/index.md
   - 📘 المحاسب المالي:
@@ -87,6 +89,15 @@ nav:
       - "🎯 Angle 3 — صاحب شركة": scripts/excel/angle-3-business-owner.md
   - 🤝 Multi-booking + Bundles:
       - multi-booking/index.md
+  - 🛡️ معالجة الاعتراضات:
+      - objections/index.md
+      - 💰 السعر + الخصم: objections/price.md
+      - 🚧 Stalling — هفكر / هكلم زوجتي: objections/stalling.md
+      - 🤔 الثقة + الضمان: objections/trust.md
+      - ⏰ الوقت + المواعيد: objections/time.md
+      - 📍 Logistics — مكان/Online/لاب توب: objections/logistics.md
+      - 🥊 Competition — منافسين/يوتيوب: objections/competition.md
+      - ❓ Doubt — شك في القيمة: objections/doubt.md
   - 🧭 Decision Helper:
       - helper/index.md
   - 🖨️ Cheatsheet (للطباعة):
