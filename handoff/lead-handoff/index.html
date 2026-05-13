@@ -51,6 +51,8 @@
     
       <link rel="stylesheet" href="../../assets/custom.css">
     
+      <link rel="stylesheet" href="../../assets/brief-triage.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -2656,23 +2658,79 @@
 </blockquote>
 <hr />
 <h2 id="stages-handoff">الـ Stages الكاملة للـ Handoff<a class="headerlink" href="#stages-handoff" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>[Stage 1] Lead Generated
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    ↓ (Marketing/Organic)
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>[Stage 2] AI Agent Engagement
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    ↓ (3-30 minutes — instant)
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>[Stage 3] Brief Generated
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    ↓ (every 15 minutes — Brief Agent)
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>[Stage 4] Routing Decision
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    ↓ (every 15 minutes — DT Unified)
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    ├── routing = bookings → Bookings Team (Instant)
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    ├── routing = sales → Sales Team (After 2h delay)
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    └── routing = transfers → Done
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>[Stage 5] Sales Rep Assigned (Odoo)
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    ↓
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>[Stage 6] First Contact (within 30 min of receipt)
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    ↓
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>[Stage 7] Discovery → Pitch → Close OR Lost
-</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Stage</th>
+<th>المصدر / الـ Timing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Lead Generated</strong></td>
+<td>Marketing أو Organic</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>AI Agent Engagement</strong></td>
+<td>بعد 3-30 دقيقة من Stage 1 (instant)</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Brief Generated</strong></td>
+<td>كل 15 دقيقة عن طريق Brief Agent</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Routing Decision</strong></td>
+<td>كل 15 دقيقة عن طريق DT Unified (انظر الجدول التحت)</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Sales Rep Assigned (Odoo)</strong></td>
+<td>فوراً بعد Routing</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>First Contact</strong></td>
+<td>خلال 30 دقيقة من استلام الـ lead</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Discovery → Pitch → Close OR Lost</strong></td>
+<td>الـ outcome النهائي</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Stage 4 — Routing Decision (3 مسارات):</strong></p>
+<table>
+<thead>
+<tr>
+<th>قيمة الـ routing</th>
+<th>الوجهة</th>
+<th>الـ Timing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>bookings</code></td>
+<td>Bookings Team</td>
+<td>فوري (Instant)</td>
+</tr>
+<tr>
+<td><code>sales</code></td>
+<td>Sales Team</td>
+<td>بعد 2 ساعة delay</td>
+</tr>
+<tr>
+<td><code>transfers</code></td>
+<td>تم التحويل بالفعل</td>
+<td>خلصت — مش شغلنا</td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h2 id="sla-sales-team-service-level-agreement">SLA الـ Sales Team (Service Level Agreement)<a class="headerlink" href="#sla-sales-team-service-level-agreement" title="Permanent link">&para;</a></h2>
 <table>
@@ -2718,30 +2776,30 @@
 <hr />
 <h2 id="brief-ai-agent">ما يجب أن يحتويه الـ Brief (من AI Agent)<a class="headerlink" href="#brief-ai-agent" title="Permanent link">&para;</a></h2>
 <p>كل brief بيوصل للسيلز لازم فيه:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="gu">## Customer Profile</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">-</span><span class="w"> </span>Name: [الاسم]
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="k">-</span><span class="w"> </span>Phone: [الرقم]
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="k">-</span><span class="w"> </span>Job Title: [Job title لو معروف]
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="k">-</span><span class="w"> </span>Workshop Interest: [اسم الورشة]
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="gu">## Conversation Summary</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>[3-5 جمل عن الـ conversation كاملة]
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="gu">## Key Signals</span>
-<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="k">-</span><span class="w"> </span>Intent Level: [hot / warm / cool]
-<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="k">-</span><span class="w"> </span>Price Sensitivity: [high / medium / low]
-<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="k">-</span><span class="w"> </span>Urgency: [immediate / within month / exploring]
-<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>
-<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="gu">## Specific Questions Asked</span>
-<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="k">1.</span> [سؤال 1]
-<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="k">2.</span> [سؤال 2]
-<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>
-<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="gu">## Concerns/Objections Raised</span>
-<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="k">-</span><span class="w"> </span>[objection 1]
-<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="k">-</span><span class="w"> </span>[objection 2]
-<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>
-<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="gu">## Recommended Approach</span>
-<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a>[suggestion من الـ Brief Agent]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="gu">## Customer Profile</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">-</span><span class="w"> </span>Name: [الاسم]
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">-</span><span class="w"> </span>Phone: [الرقم]
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="k">-</span><span class="w"> </span>Job Title: [Job title لو معروف]
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="k">-</span><span class="w"> </span>Workshop Interest: [اسم الورشة]
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="gu">## Conversation Summary</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>[3-5 جمل عن الـ conversation كاملة]
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="gu">## Key Signals</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="k">-</span><span class="w"> </span>Intent Level: [hot / warm / cool]
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="k">-</span><span class="w"> </span>Price Sensitivity: [high / medium / low]
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">-</span><span class="w"> </span>Urgency: [immediate / within month / exploring]
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="gu">## Specific Questions Asked</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="k">1.</span> [سؤال 1]
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="k">2.</span> [سؤال 2]
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="gu">## Concerns/Objections Raised</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="k">-</span><span class="w"> </span>[objection 1]
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="k">-</span><span class="w"> </span>[objection 2]
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="gu">## Recommended Approach</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>[suggestion من الـ Brief Agent]
 </code></pre></div>
 <p><strong>لو الـ brief مفقود حاجة من دول → escalate للـ Director.</strong></p>
 <hr />
@@ -2752,20 +2810,20 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> فحص chat history (لو السيلز محتاج context إضافي)</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> البحث عن العميل في Odoo (لو هو old customer / repeat lead)</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> تحديد أنهي workshop tier هو (Fresh / Junior / Senior / Manager)</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> اختيار الـ script المناسب من <code>../01_SCRIPTS/</code></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> اختيار الـ script المناسب من <a href="../scripts/">scripts/</a></li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> تحضير 2-3 discovery questions محددة لحالته</li>
 </ul>
 <hr />
 <h2 id="format-standard">Format الرسالة الأولى (Standard)<a class="headerlink" href="#format-standard" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>[الاسم] أهلاً 👋
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>[اسم السيلز] من فريق RS Financial Services.
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>شفت إنك بتسأل عن [الورشة] وبتحاول تفهم [موضوع محدد من الـ brief].
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>[سؤال discovery واحد محدد بناءً على الـ brief]
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>عشان أبعتلك التفاصيل اللي تنفعك تحديداً.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>[الاسم] أهلاً 👋
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>[اسم السيلز] من فريق RS Financial Services.
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>شفت إنك بتسأل عن [الورشة] وبتحاول تفهم [موضوع محدد من الـ brief].
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>[سؤال discovery واحد محدد بناءً على الـ brief]
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>عشان أبعتلك التفاصيل اللي تنفعك تحديداً.
 </code></pre></div>
 <p><strong>ليه ينفع:</strong>
 - اسم العميل
@@ -2816,16 +2874,16 @@
 <hr />
 <h2 id="re-engagement-protocol-leads-ai-agent">Re-engagement Protocol (للـ leads اللي رجعت من السيلز للـ AI Agent)<a class="headerlink" href="#re-engagement-protocol-leads-ai-agent" title="Permanent link">&para;</a></h2>
 <p>أحياناً السيلز بيقرر إن الـ lead مش جاهز دلوقتي ويرجع للـ AI Agent. قبل ما يرجعه:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="gu">## Reason for Returning Lead</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="k">- [ ]</span> Cold (مش جاهز دلوقتي)
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">- [ ]</span> Wrong Workshop Fit
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="k">- [ ]</span> Budget Issue (بس مهتم لاحقاً)
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="k">- [ ]</span> Timing Issue (موعد مش مناسب)
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="gu">## Notes for AI Agent</span>
-<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="k">-</span><span class="w"> </span>العميل اهتم بـ [...]
-<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="k">-</span><span class="w"> </span>المرة الجاية يكون أحسن نقدمله [...]
-<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="k">-</span><span class="w"> </span>Recontact in [X weeks/months]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="gu">## Reason for Returning Lead</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">- [ ]</span> Cold (مش جاهز دلوقتي)
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">- [ ]</span> Wrong Workshop Fit
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="k">- [ ]</span> Budget Issue (بس مهتم لاحقاً)
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="k">- [ ]</span> Timing Issue (موعد مش مناسب)
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="gu">## Notes for AI Agent</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="k">-</span><span class="w"> </span>العميل اهتم بـ [...]
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="k">-</span><span class="w"> </span>المرة الجاية يكون أحسن نقدمله [...]
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="k">-</span><span class="w"> </span>Recontact in [X weeks/months]
 </code></pre></div>
 <hr />
 <h2 id="bookings-team-separate-protocol">الـ Bookings Team (Separate Protocol)<a class="headerlink" href="#bookings-team-separate-protocol" title="Permanent link">&para;</a></h2>
@@ -3011,6 +3069,8 @@
         <script src="../../assets/noindex.js"></script>
       
         <script src="../../assets/stage-nav.js"></script>
+      
+        <script src="../../assets/brief-triage.js"></script>
       
     
   </body>

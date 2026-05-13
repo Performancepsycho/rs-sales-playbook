@@ -55,6 +55,8 @@
     
       <link rel="stylesheet" href="../assets/custom.css">
     
+      <link rel="stylesheet" href="../assets/brief-triage.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -2782,40 +2784,33 @@
 <p><strong>خطوتك:</strong> إعادة تواصل محترمة (مش إقفال)</p>
 </details>
 <hr />
-<h2 id="3-decision-tree">🎯 الجزء 3: Decision Tree موحّد<a class="headerlink" href="#3-decision-tree" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>العميل وصلني من AI Agent
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    ↓
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>1. ايه الورشة؟ ← من الـ brief
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    ↓
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>2. ايه الـ Stage؟ ← من الـ brief + علامات الجزء 2 فوق
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    ↓
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>3. ايه الـ Angle المناسب؟ ← من profile العميل (الجزء 1 فوق)
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    ↓
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>4. افتح الصفحة:
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    docs.../[الورشة]/[angle]/
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    ↓
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>5. اضغط Stage [1-7] في الـ accordion
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    ↓
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>6. اختار Tab (📱 WhatsApp / 📞 Call)
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    ↓
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>7. خد الـ template + خصصه
-</code></pre></div>
+<h2 id="3">🎯 الجزء 3: شجرة القرار السريع<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p><strong>العميل وصلني من الـ AI Agent — أمشي بالخطوات دي:</strong></p>
+<ol>
+<li><strong>حدّد الورشة</strong> — من الـ brief (workshop field).</li>
+<li><strong>حدّد الـ Stage (1-7)</strong> — من حالة الـ brief + علامات الجزء 2 فوق.</li>
+<li><strong>حدّد الـ Angle</strong> — من profile العميل (الجزء 1 فوق).</li>
+<li><strong>افتح صفحة الورشة</strong> — <code>docs/scripts/&lt;اسم الورشة&gt;/&lt;angle&gt;/</code>.</li>
+<li><strong>افتح الـ Stage المطلوب</strong> — من الـ accordion (1 لحد 7).</li>
+<li><strong>اختار القناة</strong> — WhatsApp أو Call.</li>
+<li><strong>خد الـ template + خصصه</strong> — اسم العميل، السياق من الـ brief، الورشة.</li>
+</ol>
 <hr />
 <h2 id="hot-patterns-5">⚡ الـ Hot Patterns (في 5 ثواني)<a class="headerlink" href="#hot-patterns-5" title="Permanent link">&para;</a></h2>
 <details class="tip">
 <summary>العميل قال 'غالي'</summary>
 <ol>
-<li><strong>متلطمش بحجة "السعر فعلاً مش غالي"</strong></li>
+<li><strong>ما تدافعش عن السعر</strong> — مش وقت الجدال</li>
 <li>اسأل: <strong>"هو السعر نفسه عالي ولا مش حاسس بالقيمة؟"</strong></li>
-<li>حسب الإجابة → روح لـ pricing-objections.md</li>
+<li>حسب الإجابة → روح لـ <a href="../objections/price/">objections/price.md</a></li>
 </ol>
 </details>
 <details class="tip">
 <summary>العميل قال 'هفكر'</summary>
 <ol>
-<li><strong>متستسلمش — هفكر = stalling</strong></li>
+<li><strong>ما تستسلمش — "هفكر" = stalling مش رفض</strong></li>
 <li>اسأل: <strong>"هتفكر في إيه تحديداً؟ السعر؟ التوقيت؟ ولا حاجة تانية؟"</strong></li>
-<li>حسب الإجابة → معالجة الـ real objection</li>
+<li>حسب الإجابة → معالجة الـ objection الحقيقي</li>
 </ol>
 </details>
 <details class="tip">
@@ -2975,6 +2970,8 @@
         <script src="../assets/noindex.js"></script>
       
         <script src="../assets/stage-nav.js"></script>
+      
+        <script src="../assets/brief-triage.js"></script>
       
     
   </body>

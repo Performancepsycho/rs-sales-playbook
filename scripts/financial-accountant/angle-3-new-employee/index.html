@@ -55,6 +55,8 @@
     
       <link rel="stylesheet" href="../../../assets/custom.css">
     
+      <link rel="stylesheet" href="../../../assets/brief-triage.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1204,7 +1206,7 @@
   <a href="#anti-patterns-stage-7" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ❌ Anti-patterns Stage 7
+        ❌ Anti-patterns Stage 7 (الأهم — مش بنرفض الرفض)
       
     </span>
   </a>
@@ -3103,7 +3105,11 @@
 </div>
 <h3 id="anti-patterns-stage-1">❌ Anti-patterns Stage 1<a class="headerlink" href="#anti-patterns-stage-1" title="Permanent link">&para;</a></h3>
 <ul>
-<li>نفس angle-1 Stage 1 + ما تستهترش بـ "الموظف الجديد" — هو أكثر نضجاً من الفريش</li>
+<li>ما تستهترش بـ "الموظف الجديد" — هو أكثر نضجاً من الفريش</li>
+<li>تعمل pitch للورشة تاني (العميل دفع، خلاص)</li>
+<li>تسأل "ليه اخترتنا؟" — مش وقت الـ feedback دلوقتي</li>
+<li>تأخر في إرسال التأكيد &gt; 30 دقيقة من التحويل</li>
+<li>تنسى تذكر العنوان والوقت بالظبط</li>
 </ul>
 </details>
 <details class="danger">
@@ -3218,8 +3224,11 @@
 </div>
 <h3 id="anti-patterns-stage-3">❌ Anti-patterns Stage 3<a class="headerlink" href="#anti-patterns-stage-3" title="Permanent link">&para;</a></h3>
 <ul>
-<li>نفس angle-1 Stage 3</li>
-<li>إضافي: ما تتجاهلش ضغط الشغل — العميل في وضع طارئ مهني</li>
+<li>ما تتجاهلش ضغط الشغل — العميل في وضع طارئ مهني</li>
+<li>"ليه ما حوّلتش؟" (accusatory tone)</li>
+<li>بعت البيانات بدون متابعة</li>
+<li>تضغط في يوم واحد بأكتر من رسالة</li>
+<li>تفترض إن العميل غيّر رأيه (خلي العميل هو اللي يقول)</li>
 </ul>
 </details>
 <details class="warning">
@@ -3569,15 +3578,74 @@
 </div>
 </div>
 </div>
-<h3 id="anti-patterns-stage-7">❌ Anti-patterns Stage 7<a class="headerlink" href="#anti-patterns-stage-7" title="Permanent link">&para;</a></h3>
+<h3 id="anti-patterns-stage-7">❌ Anti-patterns Stage 7 (الأهم — مش بنرفض الرفض)<a class="headerlink" href="#anti-patterns-stage-7" title="Permanent link">&para;</a></h3>
 <ul>
-<li>نفس angle-1 Stage 7</li>
-<li>إضافي: ما تستهترش بـ "هاتعلم لوحدي" — هي وجهة نظر مشروعة، طلّع الـ trade-off</li>
+<li>ما تستهترش بـ "هاتعلم لوحدي" — هي وجهة نظر مشروعة، طلّع الـ trade-off</li>
+<li>جدال ("بس الورشة فعلاً مهمة")</li>
+<li>خصم desperate ("هاخدلك خصم 30%") — يكسر السعر للجميع</li>
+<li>guilt-tripping ("هتندم")</li>
+<li>"آخر فرصة" ضغط وهمي</li>
+<li>إنكار شعور العميل ("لأ، السعر مش غالي فعلاً")</li>
+<li>متابعة بعد ما العميل قال "مش مهتم نهائياً" — ده harassment</li>
 </ul>
 <hr />
 </details>
 <h2 id="_11">🚦 شجرة القرار السريعة<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
-<p>نفس الـ tree في angle-1 — راجع <a href="../angle-1-fresh-job-hunter/#-quick-decision-tree-للسيلز">angle-1-fresh-job-hunter.md</a>.</p>
+<p><strong>عميل وصلني من الـ AI Agent — اقرأ الـ brief وحدّد الـ Stage:</strong></p>
+<table>
+<thead>
+<tr>
+<th>حالة الـ brief</th>
+<th>الحرارة</th>
+<th>الـ Stage</th>
+<th>خطوتك</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"تم التحويل ✅💰"</td>
+<td>🔥</td>
+<td>Stage 1</td>
+<td>تأكيد + ترحيب احترافي</td>
+</tr>
+<tr>
+<td>"تم الحجز ✅"</td>
+<td>🔥</td>
+<td>Stage 2</td>
+<td>timeline للتحويل + سهّل الدفع (راعي الـ paycheck)</td>
+</tr>
+<tr>
+<td>"جاهز للتحويل 💳"</td>
+<td>🔥</td>
+<td>Stage 3</td>
+<td>إعادة فتح + سهّل التحويل</td>
+</tr>
+<tr>
+<td>"مهتم لم يتقدم"</td>
+<td>🟡</td>
+<td>Stage 4</td>
+<td>كشف الـ objection الحقيقي (الشغل ضاغط/الوقت/الـ HR)</td>
+</tr>
+<tr>
+<td>"شاف السعر ولم يحجز"</td>
+<td>🟡</td>
+<td>Stage 5</td>
+<td>كسر التسويف — جرب unlock من خلال الشركة/HR</td>
+</tr>
+<tr>
+<td>"مرحلة الاستكشاف"</td>
+<td>🔵</td>
+<td>Stage 6</td>
+<td>discovery كامل (شغله الحالي + pain يومي) + pitch</td>
+</tr>
+<tr>
+<td>"رفض"</td>
+<td>🔵</td>
+<td>Stage 7</td>
+<td>إعادة تواصل محترم + اقترح alternative scheduling</td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h2 id="conversion-expectations-angle-3">📊 Conversion Expectations لـ Angle 3<a class="headerlink" href="#conversion-expectations-angle-3" title="Permanent link">&para;</a></h2>
 <table>
@@ -3592,37 +3660,37 @@
 <tr>
 <td>1</td>
 <td>100%</td>
-<td>—</td>
+<td>مأكد — تأكيد + ترحيب فقط</td>
 </tr>
 <tr>
 <td>2</td>
 <td>75%</td>
-<td>الـ paycheck timing عامل</td>
+<td>الـ paycheck timing عامل — راعي تاريخ المرتب</td>
 </tr>
 <tr>
 <td>3</td>
 <td>45-65%</td>
-<td>شغل ضاغط بيأثر</td>
+<td>شغل ضاغط بيأثر — سهّل خطوة التحويل</td>
 </tr>
 <tr>
 <td>4</td>
-<td>30-40% (vs 25-40% angle-1)</td>
-<td>عميل عنده pain حقيقي + دخل ثابت</td>
+<td>30-40%</td>
+<td>عميل عنده pain حقيقي + دخل ثابت — discovery يفتح القفل</td>
 </tr>
 <tr>
 <td>5</td>
 <td>18-25%</td>
-<td>الـ HR/المدير ممكن يكون unlock</td>
+<td>الـ HR/المدير ممكن يكون unlock — اقترح خطاب للشركة</td>
 </tr>
 <tr>
 <td>6</td>
-<td>35-45% (الأعلى من الـ 3 angles)</td>
-<td>عميل في pain فعلي + يقدر مالياً</td>
+<td>35-45%</td>
+<td>عميل في pain فعلي + يقدر مالياً — أعلى فرصة في كل المراحل</td>
 </tr>
 <tr>
 <td>7</td>
 <td>8-12%</td>
-<td>برضو محتمل لو قدمنا alternative scheduling</td>
+<td>إعادة تواصل — جرب alternative scheduling بعد فترة</td>
 </tr>
 </tbody>
 </table>
@@ -3764,6 +3832,8 @@
         <script src="../../../assets/noindex.js"></script>
       
         <script src="../../../assets/stage-nav.js"></script>
+      
+        <script src="../../../assets/brief-triage.js"></script>
       
     
   </body>

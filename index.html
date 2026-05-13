@@ -53,6 +53,8 @@
     
       <link rel="stylesheet" href="assets/custom.css">
     
+      <link rel="stylesheet" href="assets/brief-triage.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -667,6 +669,17 @@
       جدول المحتويات
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#brief-triage-brief" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 Brief Triage — لزّق الـ Brief واعرف خطوتك
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
@@ -2801,7 +2814,32 @@
 <div class="hero-stat"><div class="hero-stat-num">9</div><div class="hero-stat-label">ورش</div></div>
 <div class="hero-stat"><div class="hero-stat-num">27</div><div class="hero-stat-label">Angles</div></div>
 <div class="hero-stat"><div class="hero-stat-num">7</div><div class="hero-stat-label">Stages</div></div>
-<div class="hero-stat"><div class="hero-stat-num">16</div><div class="hero-stat-label">مجموعة نشطة</div></div>
+<div class="hero-stat"><div class="hero-stat-num">17</div><div class="hero-stat-label">مجموعة نشطة</div></div>
+</div>
+
+<hr />
+<h2 id="brief-triage-brief">🧭 Brief Triage — لزّق الـ Brief واعرف خطوتك<a class="headerlink" href="#brief-triage-brief" title="Permanent link">&para;</a></h2>
+<div id="brief-triage" markdown="0">
+  <div class="bt-header">
+    <h2>🧭 الـ Brief Triage</h2>
+    <p>لزّق الـ Brief من الـ AI Agent، واعرف فوراً: هل ده شغلك، أنهي Stage، الـ template اللي تبعته، والـ links اللي تحتاجها. <strong>كل حاجة بـتحصل في browser-ك — مفيش data بـ تتبعت لأي server.</strong></p>
+  </div>
+
+  <div class="bt-input">
+    <textarea id="bt-input" placeholder="الصق الـ brief كامل هنا (الورشة، المرحلة، الحالة، التوجيه، ملخص المحادثة، إلخ)…&#10;&#10;Tip: Ctrl/Cmd + Enter للتحليل السريع"></textarea>
+    <div class="bt-buttons">
+      <button id="bt-analyze" type="button">🔍 حلّل وقولي اعمل إيه</button>
+      <button id="bt-clear" type="button">مسح</button>
+    </div>
+  </div>
+
+  <div id="bt-result"></div>
+
+  <details id="bt-history">
+    <summary>📜 آخر 5 briefs (History)</summary>
+    <div id="bt-history-list"></div>
+    <button id="bt-clear-history" type="button">🗑️ مسح الـ History</button>
+  </details>
 </div>
 
 <hr />
@@ -2919,7 +2957,7 @@
 <hr />
 <h2 id="_2">📅 كل المواعيد المتاحة — اضغط للذهاب لصفحة الورشة<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <blockquote>
-<p><strong>16 مجموعة نشطة</strong> — مرتبة من الأقرب. آخر تحديث: 2026-05-09.</p>
+<p><strong>17 مجموعة نشطة</strong> — مرتبة من الأقرب. آخر تحديث: 2026-05-12.</p>
 </blockquote>
 <div class="schedule-table">
 
@@ -3281,7 +3319,7 @@
 <hr />
 <div class="admonition info">
 <p class="admonition-title">Internal Use Only — RS Sales Team</p>
-<p>آخر تحديث: 2026-05-11 — Said Tantawy (Sales Director)</p>
+<p>آخر تحديث: 2026-05-12 — Said Tantawy (Sales Director)</p>
 </div>
 
 
@@ -3396,6 +3434,8 @@
         <script src="assets/noindex.js"></script>
       
         <script src="assets/stage-nav.js"></script>
+      
+        <script src="assets/brief-triage.js"></script>
       
     
   </body>
