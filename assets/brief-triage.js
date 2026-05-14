@@ -10,15 +10,15 @@
 
   // ============ Workshop Mapping ============
   const WORKSHOPS = [
-    { keys: ['المحاسب المالي'], slug: 'financial-accountant', emoji: '📘', instructor: 'محمد علاء', priceNew: '3250ج', priceOld: '4600ج', multi: '3000ج' },
-    { keys: ['إعداد القوائم المالية', 'إعداد القوائم', 'القوائم المالية'], slug: 'financial-statements', emoji: '📊', instructor: 'محمد علاء', priceNew: '2500ج', priceOld: '4000ج', multi: '2000ج' },
-    { keys: ['المحاسب الشامل'], slug: 'comprehensive-accountant', emoji: '📗', instructor: 'محمد ريان', priceNew: '5800ج', priceOld: '7500ج', multi: '—' },
-    { keys: ['خبير الضرائب', 'الضرائب', 'الضرايب'], slug: 'tax-expert', emoji: '📕', instructor: 'أحمد علي', priceNew: '5250ج', priceOld: '7500ج', multi: '5000ج' },
-    { keys: ['Odoo Accounting', 'Odoo', 'أودو', 'اودو', 'أوديو'], slug: 'odoo', emoji: '📙', instructor: 'إسلام سعيد', priceNew: '3000ج', priceOld: '6000ج', multi: '3000ج' },
-    { keys: ['هندسة التكاليف', 'التكاليف'], slug: 'cost-engineering', emoji: '📓', instructor: 'أحمد عاشور', priceNew: '3500ج', priceOld: '6000ج', multi: '3200ج' },
-    { keys: ['التحليل المالي'], slug: 'financial-analysis', emoji: '📔', instructor: 'أحمد عاشور', priceNew: '5000ج', priceOld: '6500ج', multi: '4000ج' },
-    { keys: ['المدير المالي CFO', 'المدير المالي', 'CFO'], slug: 'cfo', emoji: '📒', instructor: 'أحمد عاشور', priceNew: '6000ج', priceOld: '12000ج', multi: '6000ج' },
-    { keys: ['ورشة الإكسيل', 'الإكسيل', 'Excel', 'إكسيل', 'الاكسيل'], slug: 'excel', emoji: '🟢', instructor: 'مصطفى القصاص', priceNew: '2000ج', priceOld: '4000ج', multi: 'في الـ bundle' }
+    { keys: ['المحاسب المالي'], slug: 'financial-accountant', emoji: '📘', instructor: 'محمد علاء', priceNew: '3250ج', priceOld: '4600ج', multi: '3000ج', pdf: 'assets/pdfs/financial-accountant.pdf' },
+    { keys: ['إعداد القوائم المالية', 'إعداد القوائم', 'القوائم المالية'], slug: 'financial-statements', emoji: '📊', instructor: 'محمد علاء', priceNew: '2500ج', priceOld: '4000ج', multi: '2000ج', pdf: 'assets/pdfs/financial-statements.pdf' },
+    { keys: ['المحاسب الشامل'], slug: 'comprehensive-accountant', emoji: '📗', instructor: 'محمد ريان', priceNew: '5800ج', priceOld: '7500ج', multi: '—', pdf: 'assets/pdfs/comprehensive-accountant.pdf' },
+    { keys: ['خبير الضرائب', 'الضرائب', 'الضرايب'], slug: 'tax-expert', emoji: '📕', instructor: 'أحمد علي', priceNew: '5250ج', priceOld: '7500ج', multi: '5000ج', pdf: 'assets/pdfs/tax-expert.pdf' },
+    { keys: ['Odoo Accounting', 'Odoo', 'أودو', 'اودو', 'أوديو'], slug: 'odoo', emoji: '📙', instructor: 'إسلام سعيد', priceNew: '3000ج', priceOld: '6000ج', multi: '3000ج', pdf: 'assets/pdfs/odoo.pdf' },
+    { keys: ['هندسة التكاليف', 'التكاليف'], slug: 'cost-engineering', emoji: '📓', instructor: 'أحمد عاشور', priceNew: '3500ج', priceOld: '6000ج', multi: '3200ج', pdf: 'assets/pdfs/cost-engineering.pdf' },
+    { keys: ['التحليل المالي'], slug: 'financial-analysis', emoji: '📔', instructor: 'أحمد عاشور', priceNew: '5000ج', priceOld: '6500ج', multi: '4000ج', pdf: 'assets/pdfs/financial-analysis.pdf' },
+    { keys: ['المدير المالي CFO', 'المدير المالي', 'CFO'], slug: 'cfo', emoji: '📒', instructor: 'أحمد عاشور', priceNew: '6000ج', priceOld: '12000ج', multi: '6000ج', pdf: 'assets/pdfs/cfo.pdf' },
+    { keys: ['ورشة الإكسيل', 'الإكسيل', 'Excel', 'إكسيل', 'الاكسيل'], slug: 'excel', emoji: '🟢', instructor: 'مصطفى القصاص', priceNew: '2000ج', priceOld: '4000ج', multi: 'في الـ bundle', pdf: null }
   ];
 
   // ============ Stage Mapping ============
@@ -155,42 +155,33 @@
       return;
     }
 
-    // Routing = bookings → not your job
-    if (parsed.routing && parsed.routing.type === 'bookings') {
-      resultEl.innerHTML = `
-        <div class="bt-card bt-bookings">
-          <div class="bt-card-title">📋 ده مش شغلك — Routing = تيم الحجوزات</div>
-          <div class="bt-action"><strong>اعمل إيه:</strong><p>العميل قال "هحجز" + ادي معلومات. تيم الحجوزات هياخده مباشرة. <strong>متكلموش</strong> — هتعمل duplication.</p></div>
-          ${parsed.workshop ? `<div class="bt-workshop"><strong>الورشة:</strong> ${parsed.workshop.emoji} ${escapeHtml(parsed.workshopName)} · ${parsed.workshop.instructor}${parsed.date ? ` · 📅 ${escapeHtml(parsed.date)}` : ''}${parsed.location ? ` · 📍 ${escapeHtml(parsed.location)}` : ''}</div>` : ''}
-          ${parsed.summary ? `<details class="bt-summary"><summary>📝 ملخص المحادثة</summary><p>${escapeHtml(parsed.summary)}</p></details>` : ''}
-        </div>`;
-      saveHistory(parsed);
-      return;
-    }
-
     // Routing = transfers → already done
     if (parsed.routing && parsed.routing.type === 'transfers') {
       resultEl.innerHTML = `
         <div class="bt-card bt-transfers">
           <div class="bt-card-title">🔄 تم التحويل بالفعل</div>
-          <div class="bt-action"><p>العميل اتحوّل خلاص. مفيش action مطلوب. لو ده ظهر في pipeline-ك، علّمه closed/won.</p></div>
+          <div class="bt-action"><p>العميل اتحوّل خلاص. مفيش action مطلوب. علّمه <strong>closed/won</strong> في Odoo + سلّم للـ bookings logistics (جروب، تذكير، إلخ).</p></div>
           ${parsed.workshop ? `<div class="bt-workshop">${parsed.workshop.emoji} ${escapeHtml(parsed.workshopName)}</div>` : ''}
         </div>`;
       saveHistory(parsed);
       return;
     }
 
-    // Routing = sales → full action card
+    // Routing = bookings OR sales → full action card (same team handles both)
     const heat = parsed.heat || 'cold';
     const stage = parsed.stage;
     const sData = parsed.stageData;
     const w = parsed.workshop;
     const workshopUrl = w ? `scripts/${w.slug}/` : 'scripts/';
     const heatLabel = heat === 'hot' ? '🔥 Hot' : heat === 'warm' ? '🟡 Warm' : '🔵 Cold';
+    const isBookings = parsed.routing && parsed.routing.type === 'bookings';
 
     let warningBanner = '';
+    if (isBookings) {
+      warningBanner = `<div class="bt-priority-banner">🔥 <strong>Ready to Book — أولوية قصوى.</strong> العميل جاهز للتحويل. سهّل الدفع فوراً + كلمه في خلال 15 دقيقة.</div>`;
+    }
     if (missing.length === 1) {
-      warningBanner = `<div class="bt-warning-banner">⚠️ ناقص: <strong>${escapeHtml(missing[0])}</strong> — حلّلت اللي قدرت عليه، تأكد يدوياً من الـ brief.</div>`;
+      warningBanner += `<div class="bt-warning-banner">⚠️ ناقص: <strong>${escapeHtml(missing[0])}</strong> — حلّلت اللي قدرت عليه، تأكد يدوياً من الـ brief.</div>`;
     }
     if (!w && parsed.workshopName) {
       warningBanner += `<div class="bt-warning-banner">⚠️ ورشة "${escapeHtml(parsed.workshopName)}" مش في الـ list. تأكد من الاسم في الـ brief.</div>`;
@@ -226,6 +217,7 @@
 
           <div class="bt-quick-links">
             ${w ? `<a class="bt-link" href="${workshopUrl}">${w.emoji} صفحة الورشة</a>` : ''}
+            ${w && w.pdf ? `<a class="bt-link bt-link-pdf" href="${w.pdf}" download>📥 نزّل PDF الورشة</a>` : ''}
             <a class="bt-link" href="objections/">🛡️ Objections</a>
             <a class="bt-link" href="pricing/">💰 Pricing</a>
             <a class="bt-link" href="cheatsheet/">🖨️ Cheatsheet</a>
