@@ -6,24 +6,25 @@
 
 ## الـ Stages الكاملة للـ Handoff
 
-```
-[Stage 1] Lead Generated
-    ↓ (Marketing/Organic)
-[Stage 2] AI Agent Engagement
-    ↓ (3-30 minutes — instant)
-[Stage 3] Brief Generated
-    ↓ (every 15 minutes — Brief Agent)
-[Stage 4] Routing Decision
-    ↓ (every 15 minutes — DT Unified)
-    ├── routing = bookings → Bookings Team (Instant)
-    ├── routing = sales → Sales Team (After 2h delay)
-    └── routing = transfers → Done
-[Stage 5] Sales Rep Assigned (Odoo)
-    ↓
-[Stage 6] First Contact (within 30 min of receipt)
-    ↓
-[Stage 7] Discovery → Pitch → Close OR Lost
-```
+| # | Stage | المصدر / الـ Timing |
+|---|---|---|
+| 1 | **Lead Generated** | Marketing أو Organic |
+| 2 | **AI Agent Engagement** | بعد 3-30 دقيقة من Stage 1 (instant) |
+| 3 | **Brief Generated** | كل 15 دقيقة عن طريق Brief Agent |
+| 4 | **Routing Decision** | كل 15 دقيقة عن طريق DT Unified (انظر الجدول التحت) |
+| 5 | **Sales Rep Assigned (Odoo)** | فوراً بعد Routing |
+| 6 | **First Contact** | خلال 30 دقيقة من استلام الـ lead |
+| 7 | **Discovery → Pitch → Close OR Lost** | الـ outcome النهائي |
+
+**Stage 4 — Routing Decision (3 مسارات):**
+
+| قيمة الـ routing | الوجهة | الـ Timing |
+|---|---|---|
+| `bookings` | السيلز (Priority عالي) | فوري — كلمه في 15 دقيقة |
+| `sales` | السيلز (Priority متوسط) | بعد 2 ساعة delay |
+| `transfers` | السيلز (تأكيد + logistics) | حسب الحاجة |
+
+> **🔑 ملاحظة:** فريق السيلز هو نفسه فريق الحجوزات — كل الـ routings بياخدها نفس الـ 20 سيلز. الفرق هو **الـ priority + الـ approach**.
 
 ---
 
@@ -87,7 +88,7 @@
 - [ ] فحص chat history (لو السيلز محتاج context إضافي)
 - [ ] البحث عن العميل في Odoo (لو هو old customer / repeat lead)
 - [ ] تحديد أنهي workshop tier هو (Fresh / Junior / Senior / Manager)
-- [ ] اختيار الـ script المناسب من `../01_SCRIPTS/`
+- [ ] اختيار الـ script المناسب من [scripts/](../scripts/)
 - [ ] تحضير 2-3 discovery questions محددة لحالته
 
 ---
@@ -188,15 +189,15 @@
 
 ---
 
-## الـ Bookings Team (Separate Protocol)
+## الـ Bookings vs Sales Routing (Same Team, Different Priority)
 
-> ملاحظة: تيم الحجوزات منفصل عن تيم السيلز. الـ leads بـ routing = bookings تروحلهم مباشرة (مش لتيم السيلز الـ 20).
+> **مهم:** السيلز = الحجوزات (نفس الـ 20 سيلز). الـ routing بـ يحدد الـ priority + الـ approach فقط.
 
-**الفرق:**
-- **Bookings:** العميل قال "هحجز" + ادي رقم/معلومات. التيم بيكمل الحجز فقط.
+**الفرق في الـ approach:**
+- **Bookings priority:** العميل قال "هحجز" + ادي رقم/معلومات. السيلز يكمل الحجز مباشرة (سهّل التحويل، بدون pitch جديد).
 - **Sales:** العميل مهتم بس ما قالش "هحجز" بعد. السيلز محتاج يقفل.
 
-لو السيلز شاف lead في الـ pipeline بتاعه فعلاً جاهز (قال "هحجز")، يحوله لتيم الحجوزات بدلاً من معالجته بنفسه.
+لو السيلز شاف lead في الـ pipeline بتاعه فعلاً جاهز (قال "هحجز")، يـ upgrade-ه لـ "bookings priority" في Odoo + يكمّل الحجز مباشرة بدون pitch إضافي.
 
 ---
 
@@ -211,7 +212,7 @@
 | % leads with brief read before contact | 100% | Sales |
 | Lead-to-first-response time (median) | < 20 min | Sales |
 | % leads correctly routed | 95%+ | Tech (DT Unified) |
-| Bookings team SLA on routed leads | < 1h | Bookings Team |
+| SLA على bookings-priority leads | < 15 min | السيلز |
 
 ---
 

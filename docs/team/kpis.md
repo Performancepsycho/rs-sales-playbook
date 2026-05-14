@@ -180,4 +180,4 @@ Sales Rep Comp Structure:
 | **Monthly Review** | full scorecard + trends | الفريق + Director | شهري |
 | **Quarterly Strategy** | revenue trends + segment analysis | Leadership فقط | كل 3 شهور |
 
-تفاصيل التقارير في `../04_REPORTS/`.
+تفاصيل التقارير في [reports/](../reports/).

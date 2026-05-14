@@ -56,11 +56,11 @@ hide:
 
 ??? success "✅ الـ Outcomes الأساسية"
 
-    🔹 ✅ **تـ قرأ القوائم المالية** بـ عمق
+    🔹 ✅ **تقرأ القوائم المالية** بـ عمق
     🔹 ✅ **النسب المالية** (40+ ratio) — Liquidity + Profitability + Solvency + Activity
     🔹 ✅ **Trend Analysis** — مقارنة عبر السنوات
-    🔹 ✅ **DuPont Analysis** — تـ فكيك الـ ROE
-    🔹 ✅ **Cash Flow Analysis** — هل بـ تـ كسب فلوس فعلياً؟
+    🔹 ✅ **DuPont Analysis** — تفكيك الـ ROE
+    🔹 ✅ **Cash Flow Analysis** — هل بتكسب فلوس فعلياً؟
     🔹 ✅ **التقارير الإدارية** — Executive Summary بـ insights
     🔹 ✅ **اتخاذ القرارات:** Buy/Sell/Hold · Approve/Reject · Invest/Divest
 
@@ -76,10 +76,10 @@ hide:
 
 ??? note "👨‍🏫 المحاضر — أ/ أحمد عاشور"
 
-    **CFO consultant** — بـ يـ راجع تقارير لـ investors و banks فعلياً.
+    **CFO consultant** — بيراجع تقارير لـ investors و banks فعلياً.
 
-    🔹 "بـ يـ تحلّل شركات لـ investors فعلياً"
-    🔹 "بـ يدّيك الـ frameworks اللي بـ يـ ستخدمها مع الـ CFO clients"
+    🔹 "بيتحلّل شركات لـ investors فعلياً"
+    🔹 "بيدّيك الـ frameworks اللي بيستخدمها مع الـ CFO clients"
 
 ---
 
@@ -101,7 +101,7 @@ hide:
 </div>
 
 !!! info "ملاحظة"
-    مجموعة واحدة بس متاحة دلوقتي. لو الـ Senior سأل عن Online، أكد إن group online هـ يـ تـ فتح قريباً.
+    مجموعة واحدة بس متاحة دلوقتي. لو الـ Senior سأل عن Online، أكد إن group online هيتفتح قريباً.
 
 ---
 
@@ -138,7 +138,7 @@ hide:
 </div>
 
 !!! tip "Multi-booking discount استثنائي"
-    التحليل بـ تـ نزل من **5000 → 4000ج** في الـ multi-booking. **1000ج توفير في ورشة واحدة** — أكبر فرق في الـ playbook!
+    التحليل بتنزل من **5000 → 4000ج** في الـ multi-booking. **1000ج توفير في ورشة واحدة** — أكبر فرق في الـ playbook!
 
 **جدية الحجز:** 2500ج (50%) + الباقي 2500ج في أول محاضرة بدون فوايد.
 
@@ -170,22 +170,22 @@ hide:
 <a class="angle-card" href="angle-1-senior-pressured/">
   <span class="angle-card-num">1</span>
   <span class="angle-card-title">Senior مضغوط بـ تقارير</span>
-  <span class="angle-card-meta">محاسب 3-7 سنين · المدير بـ يـ طلب analysis</span>
-  <span class="angle-card-pain">"مديري بـ يقولي 'ايه السبب وراء الأرقام؟' وأنا بـ هز كتافي."</span>
+  <span class="angle-card-meta">محاسب 3-7 سنين · المدير بيطلب analysis</span>
+  <span class="angle-card-pain">"مديري بيقولي 'ايه السبب وراء الأرقام؟' وأنا بهز كتافي."</span>
 </a>
 
 <a class="angle-card" href="angle-2-analyst-growing/">
   <span class="angle-card-num">2</span>
-  <span class="angle-card-title">محلل junior بـ ينمو</span>
-  <span class="angle-card-meta">محلل في شركة استثمار/بنك · يـ بغى ترقية</span>
-  <span class="angle-card-pain">"بـ عمل reports بـ Excel templates، مش فاهم اللي ورا الأرقام."</span>
+  <span class="angle-card-title">محلل junior بينمو</span>
+  <span class="angle-card-meta">محلل في شركة استثمار/بنك · يبغى ترقية</span>
+  <span class="angle-card-pain">"بعمل reports بـ Excel templates، مش فاهم اللي ورا الأرقام."</span>
 </a>
 
 <a class="angle-card" href="angle-3-investor-owner/">
   <span class="angle-card-num">3</span>
   <span class="angle-card-title">مستثمر / صاحب شركة</span>
-  <span class="angle-card-meta">بـ يـ ستثمر في شركات / بـ يـ راقب شركته</span>
-  <span class="angle-card-pain">"بـ بـ خد قرارات استثمار بـ الـ gut feeling. عاوز framework."</span>
+  <span class="angle-card-meta">بيستثمر في شركات / بيراقب شركته</span>
+  <span class="angle-card-pain">"باخد قرارات استثمار بـ الـ gut feeling. عاوز framework."</span>
 </a>
 
 </div>
@@ -194,39 +194,39 @@ hide:
 
 ## 🛡️ اعتراضات خاصة بورشة التحليل المالي
 
-??? warning "\"أنا محاسب — مش محلل. ليه أتـ علم تحليل؟\""
+??? warning "\"أنا محاسب — مش محلل. ليه أتعلم تحليل؟\""
 
     **R:**
-    > **الفرق بين محاسب يـ تـ رقّى ومحاسب يـ ضل في مكانه:**
+    > **الفرق بين محاسب يترقّى ومحاسب يضل في مكانه:**
     >
-    > 🔹 **بدون تحليل:** بـ يـ كتب القوائم · "ايه السبب؟" → بـ يـ هز كتافه · مرتب 7-10K
-    > 🔹 **بـ تحليل:** بـ يـ كتب القوائم + executive summary · "ايه السبب؟" → بـ يـ شرح بـ data · مرتب 15-25K
+    > 🔹 **بدون تحليل:** بيكتب القوائم · "ايه السبب؟" → بيهز كتافه · مرتب 7-10K
+    > 🔹 **بـ تحليل:** بيكتب القوائم + executive summary · "ايه السبب؟" → بيشرح بـ data · مرتب 15-25K
     >
-    > الفرق = **سؤال واحد بـ تـ قدر تجاوب عليه**.
+    > الفرق = **سؤال واحد بتقدر تجاوب عليه**.
 
 ??? warning "\"أنا فريش — الورشة بدري عليّ؟\""
 
     **R:** **بـ صراحة، نعم.** التحليل محتاج foundation (فهم القوائم + شغل بـ خبرة).
 
-    **توصية:** ابدأ بـ **المالي (3250ج)** أو **إعداد القوائم (2500ج)**. لما تـ شتغل سنة-سنتين، ارجع للتحليل.
+    **توصية:** ابدأ بـ **المالي (3250ج)** أو **إعداد القوائم (2500ج)**. لما تشتغل سنة-سنتين، ارجع للتحليل.
 
-??? warning "\"بـ ستخدم Power BI / Tableau — مش محتاج تحليل يدوي\""
+??? warning "\"بستخدم Power BI / Tableau — مش محتاج تحليل يدوي\""
 
     **R:**
     > Power BI/Tableau **أدوات** — مش بدائل عن understanding.
     >
-    > 🔹 Power BI بـ يـ ظهر Current Ratio = 2.5. **هل ده كويس؟** يـ توقف على الـ industry
-    > 🔹 Tableau بـ يـ ظهر Net Profit Margin هبط 5%. **السبب؟** يـ توقف على breakdown
+    > 🔹 Power BI بيظهر Current Ratio = 2.5. **هل ده كويس؟** يتوقف على الـ industry
+    > 🔹 Tableau بيظهر Net Profit Margin هبط 5%. **السبب؟** يتوقف على breakdown
     >
-    > الورشة بـ تـ ديك الـ **logic ورا الـ tools**.
+    > الورشة بتديك الـ **logic ورا الـ tools**.
 
 ??? warning "\"5000 single · 4000 Multi — Pricing مش consistent\""
 
     **R:**
     > **الـ logic:**
     >
-    > 🔹 **5000 single** للعميل اللي بـ يـ خد ورشة واحدة فقط
-    > 🔹 **4000 Multi** لـ اللي بـ يـ خد 2+ — RS بـ تـ كسب long-term
+    > 🔹 **5000 single** للعميل اللي بياخد ورشة واحدة فقط
+    > 🔹 **4000 Multi** لـ اللي بياخد 2+ — RS بتكسب long-term
     >
     > **توفير 1000ج لكل ورشة:**
     >
@@ -234,13 +234,13 @@ hide:
     > 🔹 التحليل + CFO = **10000ج** (وفرت 1000)
     > 🔹 التحليل + التكاليف = **7200ج** (وفرت 1300)
 
-??? warning "\"المحاضر بـ يـ علم بـ شركات أمريكية ولا مصرية؟\""
+??? warning "\"المحاضر بيعلم بـ شركات أمريكية ولا مصرية؟\""
 
     **R:** **شركات مصرية حقيقية فقط.**
 
     🔹 شركات مدرجة في بورصة مصر (تقارير سنوية حقيقية)
     🔹 شركات SME مصرية (مع تعديل الأسماء)
-    🔹 حالات أ/ أحمد بـ يـ راجعها مع investors فعلياً
+    🔹 حالات أ/ أحمد بيراجعها مع investors فعلياً
 
 ??? warning "\"بعد الورشة، أقدر أعمل CFA؟\""
 
@@ -258,15 +258,15 @@ hide:
 
 ??? note "🎯 الـ Hooks الـ 3 الأقوى"
 
-    1. **"من محاسب → لـ محلل بـ يـ قدّم قرارات"** — Career framing
+    1. **"من محاسب → لـ محلل بيقدّم قرارات"** — Career framing
     2. **"شركات مصرية حقيقية، مش examples أمريكية"** — Local
     3. **"Multi-booking = 1000ج توفير"** — Pricing pitch قوي
 
 ??? danger "❌ ممنوع نهائياً"
 
-    🔹 ❌ تـ بيع لـ fresh — الورشة محتاجة foundation
-    🔹 ❌ "هـ تـ بقى CFA-certified" — مش صح
-    🔹 ❌ "Power BI بدلاً من Excel manual" — الـ 2 تـ كاملوا
+    🔹 ❌ تبيع لـ fresh — الورشة محتاجة foundation
+    🔹 ❌ "هتبقى CFA-certified" — مش صح
+    🔹 ❌ "Power BI بدلاً من Excel manual" — الـ 2 تكاملوا
     🔹 ❌ "كورس"
 
 ??? success "✅ المسموح"

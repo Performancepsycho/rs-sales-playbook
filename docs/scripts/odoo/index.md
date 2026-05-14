@@ -5,7 +5,7 @@ hide:
 
 # 📙 ورشة Odoo Accounting
 
-> **"السوق المصري بـ يطلب Odoo — تخصّص فيه = شركات كبيرة + مرتب أعلى."**
+> **"السوق المصري بيطلب Odoo — تخصّص فيه = شركات كبيرة + مرتب أعلى."**
 
 <div class="ws-nav-grid">
 
@@ -55,11 +55,11 @@ hide:
 </div>
 
 !!! danger "⚠️ شرط أساسي"
-    **يشترط تواجد اللاب الخاص بالمتدرب** — مفيش طريقة تـ تعلم Odoo بدون شغل عملي عليه.
+    **يشترط تواجد اللاب الخاص بالمتدرب** — مفيش طريقة تتعلم Odoo بدون شغل عملي عليه.
 
 ??? success "✅ الـ Outcomes الأساسية"
 
-    🔹 ✅ **تـ سطّب وتـ هيّأ Odoo** لـ أي شركة من الصفر
+    🔹 ✅ **تسطّب وتهيّأ Odoo** لـ أي شركة من الصفر
     🔹 ✅ **شجرة الحسابات** على Odoo + ضبط الفترات المالية
     🔹 ✅ **العمليات اليومية** (مبيعات + مشتريات + مدفوعات + قبضات)
     🔹 ✅ **التقارير المالية** من Odoo (قوائم + تحليلات + dashboards)
@@ -80,10 +80,10 @@ hide:
 
 ??? note "👨‍🏫 المحاضر — أ/ إسلام سعيد"
 
-    **Odoo specialist + ERP consultant** — بـ يـ نفّذ implementations فعلية لشركات.
+    **Odoo specialist + ERP consultant** — بينفّذ implementations فعلية لشركات.
 
-    🔹 "بـ يـ سطّب Odoo لـ شركات حقيقية — مش بـ يـ شرح من book"
-    🔹 "بـ يدّيك الـ common mistakes اللي بـ يـ شوفها في implementations فعلية"
+    🔹 "بيسطّب Odoo لـ شركات حقيقية — مش بيشرح من book"
+    🔹 "بيدّيك الـ common mistakes اللي بيشوفها في implementations فعلية"
 
 ---
 
@@ -179,22 +179,22 @@ hide:
 
 <a class="angle-card" href="angle-1-company-erp/">
   <span class="angle-card-num">1</span>
-  <span class="angle-card-title">شركته بـ تنقل لـ ERP</span>
+  <span class="angle-card-title">شركته بتنقل لـ ERP</span>
   <span class="angle-card-meta">محاسب شغّال · الشركة قررت Odoo</span>
   <span class="angle-card-pain">"الإدارة قررت ننقل لـ Odoo، أنا مش فاهمه — خايف على شغلي"</span>
 </a>
 
 <a class="angle-card" href="angle-2-erp-market/">
   <span class="angle-card-num">2</span>
-  <span class="angle-card-title">يـ بغى يدخل سوق ERP</span>
+  <span class="angle-card-title">يبغى يدخل سوق ERP</span>
   <span class="angle-card-meta">محاسب 2+ سنين · شاف فرص أكتر في الـ ERP</span>
-  <span class="angle-card-pain">"سوق ERP بـ يدفع أكتر — عاوز skill يـ ميزني"</span>
+  <span class="angle-card-pain">"سوق ERP بيدفع أكتر — عاوز skill يميزني"</span>
 </a>
 
 <a class="angle-card" href="angle-3-owner/">
   <span class="angle-card-num">3</span>
   <span class="angle-card-title">صاحب شركة</span>
-  <span class="angle-card-meta">عاوز يـ نقل شركته لـ Odoo</span>
+  <span class="angle-card-meta">عاوز ينقل شركته لـ Odoo</span>
   <span class="angle-card-pain">"دفعت 100K لـ مستشار، النتيجة فوضى. عاوز أفهم بنفسي."</span>
 </a>
 
@@ -204,22 +204,22 @@ hide:
 
 ## 🛡️ اعتراضات خاصة بورشة Odoo
 
-??? warning "\"أنا مش tech-savvy — هـ أقدر؟\""
+??? warning "\"أنا مش tech-savvy — هأقدر؟\""
 
     **R:**
-    > 🔹 **اللي بـ تـ علمه = workflows محاسبية مش programming**
-    > 🔹 **Odoo بـ يـ شبه Excel + Quickbooks** — لو عملت محاسبة على Excel، تـ قدر
-    > 🔹 **80% hands-on** — كل خطوة بـ تـ شتغل عليها على لاب توبك
+    > 🔹 **اللي بتتعلمه = workflows محاسبية مش programming**
+    > 🔹 **Odoo بيشبه Excel + Quickbooks** — لو عملت محاسبة على Excel، تقدر
+    > 🔹 **80% hands-on** — كل خطوة بتشتغل عليها على لاب توبك
     >
     > حالات سابقة: محاسبين فوق 45 سنة اخدوا الورشة + نجحوا.
 
-??? warning "\"الشركة بـ تـ ستخدم SAP / Oracle — Odoo مش هـ ينفع\""
+??? warning "\"الشركة بتستخدم SAP / Oracle — Odoo مش هينفع\""
 
     **R:**
     > 🔹 **SAP/Oracle:** شركات كبيرة جداً (multinationals) — عددها محدود
     > 🔹 **Odoo:** الـ SMEs المصرية — **90% من السوق**
     >
-    > لو شغلك SAP، Odoo مش الأولوية. لو السوق المصري، Odoo بـ يـ فتح أبواب.
+    > لو شغلك SAP، Odoo مش الأولوية. لو السوق المصري، Odoo بيفتح أبواب.
 
 ??? warning "\"Community ولا Enterprise؟\""
 
@@ -236,19 +236,19 @@ hide:
     **R:**
     > **مفيش catch.**
     >
-    > 🔹 **Odoo سوق جديد في مصر** — بـ نـ بنى الـ awareness
-    > 🔹 **المحاضر بـ يـ ساهم في الـ ecosystem**
+    > 🔹 **Odoo سوق جديد في مصر** — بنبني الـ awareness
+    > 🔹 **المحاضر بيساهم في الـ ecosystem**
     > 🔹 **السعر strategic** — عاوزين 100+ محاسب فاهم Odoo
     >
     > **الجودة نفس باقي الورش.** لو حسيت أقل، 7-day money-back.
 
-??? warning "\"Online بـ ينفع لـ Odoo؟\""
+??? warning "\"Online بينفع لـ Odoo؟\""
 
     **R:**
     > نعم، **بـ شكل ممتاز**:
     >
-    > 🔹 Screen-share مباشر — المحاضر بـ يـ شتغل على Odoo
-    > 🔹 انت في نفس الوقت بـ تـ شتغل على لاب توبك
+    > 🔹 Screen-share مباشر — المحاضر بيشتغل على Odoo
+    > 🔹 انت في نفس الوقت بتشتغل على لاب توبك
     > 🔹 Breakout rooms للـ practice مع زمايل
     > 🔹 Q&A فوري
 
@@ -258,13 +258,13 @@ hide:
 
     **حلول:** استعارة من زميل · مكتبة عامة · شراء used (Core i3 4GB RAM، 4000-6000ج).
 
-??? warning "\"بعد الورشة، هـ أقدر أعمل implementation لـ شركتي؟\""
+??? warning "\"بعد الورشة، هأقدر أعمل implementation لـ شركتي؟\""
 
     **R:**
     > 🔹 **Setup أساسي = نعم.** Community + workflows basic لـ شركة صغيرة
-    > 🔹 **Customization متقدم = لأ.** هـ تحتاج consultant فني
+    > 🔹 **Customization متقدم = لأ.** هتحتاج consultant فني
     >
-    > بس بـ تـ خليك **client ذكي** للـ consultant — تعرف تـ سأل صح + الـ scope الواقعي.
+    > بس بتخليك **client ذكي** للـ consultant — تعرف تسأل صح + الـ scope الواقعي.
 
 ---
 
@@ -272,15 +272,15 @@ hide:
 
 ??? note "🎯 الـ Hooks الـ 3 الأقوى"
 
-    1. **"السوق بـ يطلب Odoo + المحاسبين الفاهمين قليلين"** — Demand framing
+    1. **"السوق بيطلب Odoo + المحاسبين الفاهمين قليلين"** — Demand framing
     2. **"50% خصم — السعر الأقل بين ورشنا"** — Price advantage
     3. **"hands-on على شركة فعلية في 24 ساعة"** — Practice signal
 
 ??? danger "❌ ممنوع نهائياً"
 
-    🔹 ❌ "هـ تـ بقى Odoo developer" — ده programming
-    🔹 ❌ "Odoo بـ يـ غني عن المحاسب" — كذب
-    🔹 ❌ تـ سجيل بدون لاب توب — Refund certain
+    🔹 ❌ "هتبقى Odoo developer" — ده programming
+    🔹 ❌ "Odoo بيغني عن المحاسب" — كذب
+    🔹 ❌ تسجيل بدون لاب توب — Refund certain
     🔹 ❌ "كورس"
 
 ??? success "✅ المسموح"

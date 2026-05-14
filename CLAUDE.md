@@ -46,15 +46,20 @@ team_size: 20 sales reps
 
 ## توجيه الطلبات
 
-| الطلب | الفولدر | أمثلة |
-|-------|---------|-------|
-| **سكريبت / pitch / طريقة كلام** | `01_SCRIPTS/` | "اكتبلي سكريبت لورشة الضرائب على واتساب" |
-| **اعتراض / objection** | `02_OBJECTIONS/` | "العميل قال غالي، اعمل ايه؟" |
-| **فريق / KPIs / 1-on-1 / target** | `03_TEAM/` | "اعمل KPIs للفريق"، "تيمبليت 1-on-1" |
-| **تقرير / dashboard / مراجعة أداء** | `04_REPORTS/` | "تقرير أسبوعي للفريق"، "scorecard فردي" |
-| **تدريب / role-play / certification** | `05_TRAINING/` | "خليني أعمل role-play لسيلز جديد" |
-| **lead quality / handoff / ماركتينج** | `06_MARKETING_HANDOFF/` | "feedback للماركتينج عن جودة الليدز" |
-| **سكيل عام (محترف)** | `skills/` | "استخدم سكيل sales-enablement" |
+| الطلب | المسار | أمثلة |
+|-------|--------|-------|
+| **سكريبت / pitch / طريقة كلام** | `docs/scripts/[ورشة]/` | "اكتبلي سكريبت لورشة الضرائب على واتساب" |
+| **اعتراض / objection** | `docs/objections/` | "العميل قال غالي، اعمل ايه؟" |
+| **فريق / KPIs / 1-on-1 / target** | `docs/team/` | "اعمل KPIs للفريق"، "تيمبليت 1-on-1" |
+| **تقرير / dashboard / مراجعة أداء** | `docs/reports/` | "تقرير أسبوعي للفريق"، "scorecard فردي" |
+| **تدريب / role-play / certification** | `docs/training/` | "خليني أعمل role-play لسيلز جديد" |
+| **handoff / lead quality / ماركتينج** | `docs/handoff/` | "بروتوكول الـ handoff بين الماركتينج والسيلز" |
+| **سيلز جديد (Onboarding)** | `docs/start/` | "30-day plan لسيلز جديد" |
+| **Decision helper (الورشة + الـ Stage)** | `docs/helper/` | "العميل ده انهي ورشة وانهي angle؟" |
+| **Cheatsheet (للطباعة)** | `docs/cheatsheet/` | "أحطها على المكتب — Top 10 objections" |
+| **Pricing matrix** | `docs/pricing/` | "كل الأسعار + الخصومات" |
+| **Multi-booking / Bundles** | `docs/multi-booking/` | "متى أعرض bundle vs ورشة فردية" |
+| **سكيل عام (custom)** | `skills/custom/` | "استخدم سكيل rs-whatsapp-sales" |
 
 ---
 
@@ -101,15 +106,17 @@ team_size: 20 sales reps
 customer_id | name | phone | workshop | job_title | brief | platform | routing
 ```
 
-- **routing = sales** → الـ lead جاهز لتيم السيلز
-- **routing = bookings** → الـ lead جاهز للحجز فوراً (مش شغلنا، شغل تيم الحجوزات)
-- **routing = transfers** → اتحوّل بالفعل (مش شغلنا)
+- **routing = bookings** → السيلز (priority عالي — العميل جاهز للحجز، سهّل التحويل فوراً)
+- **routing = sales** → السيلز (priority متوسط — يحتاج discovery أو objection handling)
+- **routing = transfers** → اتحوّل بالفعل (قفّل + سلّم للـ bookings logistics)
+
+**🔑 فريق السيلز = فريق الحجوزات** (نفس الـ 20 سيلز). الفرق بين الـ routings هو الـ **priority + approach**، مش الـ ownership.
 
 **Sales delay:** 2 ساعة بعد آخر رسالة من العميل قبل ما يوصلك الـ lead. ده عشان ندي الـ AI Agent فرصة يجمع معلومات أكتر.
 
 ---
 
-## 🎯 Current State (آخر تحديث: 2026-05-07)
+## 🎯 Current State (آخر تحديث: 2026-05-12)
 
 - **حجم الفريق:** 20 سيلز
 - **CRM:** Odoo Community (Enterprise قريباً)
@@ -145,7 +152,6 @@ customer_id | name | phone | workshop | job_title | brief | platform | routing
 
 1. اقرأ `_RS_SALES_CONTEXT.md` (داخل الفولدر ده) — معلومات السيلز
 2. اقرأ `../rs-hero/_RS_CONTEXT.md` — هوية RS
-3. حدد الـ subfolder المناسب (01_SCRIPTS, 02_OBJECTIONS, ...)
-4. اقرأ الـ CLAUDE.md الخاص بالـ subfolder
-5. لو محتاج معلومات عن ورشة محددة → `../rs-hero/06_KNOWLEDGE/RS_Knowledge_Base.md`
-6. لو الطلب فيه element من سكيل عام (sales-enablement, etc.) → `skills/`
+3. حدد الـ subfolder المناسب في `docs/` (scripts, objections, team, ...)
+4. لو محتاج معلومات عن ورشة محددة → `../rs-hero/06_KNOWLEDGE/RS_Knowledge_Base.md`
+5. لو الطلب فيه element من سكيل عام (custom RS skills) → `skills/custom/`

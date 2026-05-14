@@ -24,16 +24,16 @@
 - **7 Stages** — حسب اللي عمله الـ AI Agent مع العميل قبل ما يوصل لك
 - **2 Channels** — 📱 WhatsApp و 📞 Call (داخل كل stage tab)
 
-```
-الورشة
-  ├── Angle 1
-  │   ├── Stage 1: تم التحويل  →  📱 WhatsApp / 📞 Call
-  │   ├── Stage 2: تم الحجز    →  📱 WhatsApp / 📞 Call
-  │   ├── Stage 3: جاهز للتحويل →  📱 WhatsApp / 📞 Call
-  │   ├── Stage 4: مهتم لم يتقدم →  📱 WhatsApp / 📞 Call
-  │   ├── Stage 5: شاف السعر   →  📱 WhatsApp / 📞 Call
-  │   ├── Stage 6: الاستكشاف   →  📱 WhatsApp / 📞 Call
-  │   └── Stage 7: رفض         →  📱 WhatsApp / 📞 Call
-  ├── Angle 2 (نفس الـ structure)
-  └── Angle 3 (نفس الـ structure)
-```
+### الـ Hierarchy
+
+- 📚 **الورشة**
+    - 🎯 **Angle 1** (نوع العميل الأول)
+        - Stage 1: تم التحويل → 📱 WhatsApp · 📞 Call
+        - Stage 2: تم الحجز → 📱 WhatsApp · 📞 Call
+        - Stage 3: جاهز للتحويل → 📱 WhatsApp · 📞 Call
+        - Stage 4: مهتم لم يتقدم → 📱 WhatsApp · 📞 Call
+        - Stage 5: شاف السعر → 📱 WhatsApp · 📞 Call
+        - Stage 6: مرحلة الاستكشاف → 📱 WhatsApp · 📞 Call
+        - Stage 7: رفض → 📱 WhatsApp · 📞 Call
+    - 🎯 **Angle 2** (نفس الـ 7 stages × 2 channels)
+    - 🎯 **Angle 3** (نفس الـ 7 stages × 2 channels)

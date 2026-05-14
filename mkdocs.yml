@@ -40,55 +40,25 @@ theme:
     code: JetBrains Mono
 
 nav:
+  # ───── 1. Daily Workflow ─────
   - 🏠 الرئيسية: index.md
-  - 🚀 ابدأ من هنا (للسيلز الجديد):
-      - start/index.md
-  - 💰 الأسعار + الباقات:
-      - pricing/index.md
-  - 📘 المحاسب المالي:
-      - scripts/financial-accountant/index.md
-      - "🎯 Angle 1 — Fresh بيدوّر شغل": scripts/financial-accountant/angle-1-fresh-job-hunter.md
-      - "🎯 Angle 2 — فريش لسه في الكلية": scripts/financial-accountant/angle-2-fresh-pre-job.md
-      - "🎯 Angle 3 — موظف جديد ضايع": scripts/financial-accountant/angle-3-new-employee.md
-  - 📊 إعداد القوائم المالية:
-      - scripts/financial-statements/index.md
-  - 📗 المحاسب الشامل:
-      - scripts/comprehensive-accountant/index.md
-      - "🎯 Angle 1 — Junior ثابت": scripts/comprehensive-accountant/angle-1-stuck-junior.md
-      - "🎯 Angle 2 — طموح رئيس حسابات": scripts/comprehensive-accountant/angle-2-aspiring-chief.md
-      - "🎯 Angle 3 — صاحب شركة": scripts/comprehensive-accountant/angle-3-business-owner.md
-  - 📕 خبير الضرائب:
-      - scripts/tax-expert/index.md
-      - "🎯 Angle 1 — خايف من الفحص": scripts/tax-expert/angle-1-fearing-audit.md
-      - "🎯 Angle 2 — يبغى تخصص": scripts/tax-expert/angle-2-specialization.md
-      - "🎯 Angle 3 — صاحب شركة": scripts/tax-expert/angle-3-owner-fines.md
-  - 📙 Odoo Accounting:
-      - scripts/odoo/index.md
-      - "🎯 Angle 1 — شركته بتنقل ERP": scripts/odoo/angle-1-company-erp.md
-      - "🎯 Angle 2 — يبغى يدخل سوق ERP": scripts/odoo/angle-2-erp-market.md
-      - "🎯 Angle 3 — صاحب شركة": scripts/odoo/angle-3-owner.md
-  - 📓 هندسة التكاليف:
-      - scripts/cost-engineering/index.md
-      - "🎯 Angle 1 — محاسب في مصنع": scripts/cost-engineering/angle-1-factory-accountant.md
-      - "🎯 Angle 2 — يبغى تخصص": scripts/cost-engineering/angle-2-specialization.md
-      - "🎯 Angle 3 — صاحب نشاط إنتاجي": scripts/cost-engineering/angle-3-business-owner.md
-  - 📔 التحليل المالي:
-      - scripts/financial-analysis/index.md
-      - "🎯 Angle 1 — Senior مضغوط": scripts/financial-analysis/angle-1-senior-pressured.md
-      - "🎯 Angle 2 — محلل junior": scripts/financial-analysis/angle-2-analyst-growing.md
-      - "🎯 Angle 3 — مستثمر/صاحب": scripts/financial-analysis/angle-3-investor-owner.md
-  - 📒 المدير المالي CFO:
-      - scripts/cfo/index.md
-      - "🎯 Angle 1 — رئيس حسابات → CFO": scripts/cfo/angle-1-chief-to-cfo.md
-      - "🎯 Angle 2 — CFO جديد": scripts/cfo/angle-2-new-cfo.md
-      - "🎯 Angle 3 — صاحب شركة": scripts/cfo/angle-3-owner-evaluating.md
-  - 🟢 ورشة الإكسيل:
-      - scripts/excel/index.md
-      - "🎯 Angle 1 — فريش بيتعلم Excel": scripts/excel/angle-1-junior-learning.md
-      - "🎯 Angle 2 — محاسب شغّال بيعمل تقارير": scripts/excel/angle-2-working-accountant.md
-      - "🎯 Angle 3 — صاحب شركة": scripts/excel/angle-3-business-owner.md
-  - 🤝 Multi-booking + Bundles:
-      - multi-booking/index.md
+  - 🧭 Decision Helper: helper/index.md
+  - 🖨️ Cheatsheet (للطباعة): cheatsheet/index.md
+
+  # ───── 2. Scripts (per workshop) ─────
+  - 📚 سكريبتات الورش:
+      - scripts/index.md
+      - 📘 المحاسب المالي: scripts/financial-accountant/index.md
+      - 📊 إعداد القوائم المالية: scripts/financial-statements/index.md
+      - 📗 المحاسب الشامل: scripts/comprehensive-accountant/index.md
+      - 📕 خبير الضرائب: scripts/tax-expert/index.md
+      - 📙 Odoo Accounting: scripts/odoo/index.md
+      - 📓 هندسة التكاليف: scripts/cost-engineering/index.md
+      - 📔 التحليل المالي: scripts/financial-analysis/index.md
+      - 📒 المدير المالي CFO: scripts/cfo/index.md
+      - 🟢 ورشة الإكسيل: scripts/excel/index.md
+
+  # ───── 3. Objections ─────
   - 🛡️ معالجة الاعتراضات:
       - objections/index.md
       - 💰 السعر + الخصم: objections/price.md
@@ -98,10 +68,24 @@ nav:
       - 📍 Logistics — مكان/Online/لاب توب: objections/logistics.md
       - 🥊 Competition — منافسين/يوتيوب: objections/competition.md
       - ❓ Doubt — شك في القيمة: objections/doubt.md
-  - 🧭 Decision Helper:
-      - helper/index.md
-  - 🖨️ Cheatsheet (للطباعة):
-      - cheatsheet/index.md
+
+  # ───── 4. Pricing & Assets ─────
+  - 💰 الأسعار + الباقات: pricing/index.md
+  - 🤝 Multi-booking + Bundles: multi-booking/index.md
+  - 📥 PDFs الورش: pdfs/index.md
+
+  # ───── 5. Onboarding ─────
+  - 🚀 ابدأ من هنا (للسيلز الجديد): start/index.md
+
+  # ───── 6. Team & Operations (للـ Director + Team Leads) ─────
+  - 👥 إدارة الفريق:
+      - team/index.md
+      - 📊 KPIs: team/kpis.md
+      - 🤝 1-on-1 Template: team/1on1.md
+      - 🎙️ صوت السيلز (Voice Guide): team/voice-guide.md
+  - 📊 التقارير: reports/index.md
+  - 🎓 التدريب + Role-Play: training/role-play.md
+  - 🤝 Marketing Handoff: handoff/index.md
 
 markdown_extensions:
   - admonition
@@ -145,7 +129,9 @@ extra:
 
 extra_css:
   - assets/custom.css
+  - assets/brief-triage.css
 
 extra_javascript:
   - assets/noindex.js
   - assets/stage-nav.js
+  - assets/brief-triage.js

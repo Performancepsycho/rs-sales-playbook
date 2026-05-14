@@ -1,6 +1,6 @@
 ---
 name: rs-discovery-call
-description: "استخدمها لتجهيز/إجراء مكالمة discovery لعميل RS Financial Services. مفصلة على الورش السبعة. توفر هيكل أسئلة مدروس + فلسفة sale-by-question مش sale-by-pitch."
+description: "استخدمها لتجهيز/إجراء مكالمة discovery لعميل RS Financial Services. مفصلة على الورش التسعة. توفر هيكل أسئلة مدروس + فلسفة sale-by-question مش sale-by-pitch."
 metadata:
   version: 1.0.0
   domain: RS Financial Services Sales
@@ -308,7 +308,7 @@ Layer 3: Vision (الهدف — إيجابي)
 "[الاسم] — اللي بتقوله مهم، وعاوز أتأكد إني فاهم. ممكن نوقف ثانية؟ ايه أهم نقطة من اللي قلتهولي؟"
 ```
 
-**ليه ينفع:** بـ نوجّه المحادثة بدون مقاطعة فجة.
+**ليه ينفع:** بنوجّه المحادثة بدون مقاطعة فجة.
 
 ---
 

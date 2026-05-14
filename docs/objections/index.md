@@ -26,7 +26,7 @@ R — Respond (رد بـ datapoint أو حل، مش جدال)
 | 🤔 **الثقة** | [trust.md](trust.md) | "هل ضامن شغل؟" / "المحاضر يعرف؟" / "اتشحبطت قبل" / "Refund؟" |
 | ⏰ **الوقت** | [time.md](time.md) | "مش هلحق" / "ضغط شغل" / "الورشة طويلة" / "بعد رمضان" |
 | 📍 **Logistics (مكان/online)** | [logistics.md](logistics.md) | "في محافظة" / "ما عنديش لاب توب" / "Online مش هينفع" |
-| 🥊 **Competition** | [competition.md](competition.md) | "[منافس] أرخص" / "يوتيوب مجاني" / "بـ يـ ضمنوا شغل" |
+| 🥊 **Competition** | [competition.md](competition.md) | "[منافس] أرخص" / "يوتيوب مجاني" / "بيضمنوا شغل" |
 | ❓ **Doubt (شك في القيمة)** | [doubt.md](doubt.md) | "مش متأكد هتفرق معايا" / "حد حضر وما اتفرّق" / "بـ خاف أتيه" |
 
 ---
@@ -50,7 +50,7 @@ R — Respond (رد بـ datapoint أو حل، مش جدال)
 
 ## Quick Reference Cheat Sheet (للموبايل أثناء المكالمة)
 
-> 30 رد سريع للـ objections الأكتر شيوعاً. كل category له تفاصيل أعمق في الـ section بـ تـ اعه.
+> 30 رد سريع للـ objections الأكتر شيوعاً. كل category له تفاصيل أعمق في الـ section بتاعه.
 
 ### 💰 السعر
 ```
@@ -120,7 +120,7 @@ R — Respond (رد بـ datapoint أو حل، مش جدال)
 "ما عنديش لاب توب"
 → مكتبة / استعارة / شراء used
 
-"Online مش هيـ نفع"
+"Online مش هينفع"
 → Free demo session
 
 "في فرع في [محافظة]؟"
@@ -130,12 +130,12 @@ R — Respond (رد بـ datapoint أو حل، مش جدال)
 ### 🥊 Competition
 ```
 "بفكر في [منافس]"
-→ "ايه الـ specific اللي يـ جذبك؟" → جاوب بـ specifics
+→ "ايه الـ specific اللي يجذبك؟" → جاوب بـ specifics
 
 "[منافس] أرخص"
 → Price-per-hour comparison + courtesy
 
-"[منافس] بـ يـ ضمن شغل"
+"[منافس] بيضمن شغل"
 → "اطلب عقد مكتوب بـ refund clause" + RS data
 
 "إعلانات [منافس] أحسن"
@@ -145,7 +145,7 @@ R — Respond (رد بـ datapoint أو حل، مش جدال)
 ### ❓ Doubt
 ```
 "مش هتفرق معايا"
-→ "ليه بـ تـ شك؟ Past pain / self-doubt / mismatch fear؟"
+→ "ليه بتشك؟ Past pain / self-doubt / mismatch fear؟"
 
 "حد حضر وما اتفرّق"
 → 3 أسئلة عن الـ شخص ده (حضور / assignments / تطبيق)
@@ -153,7 +153,7 @@ R — Respond (رد بـ datapoint أو حل، مش جدال)
 "مش هلتزم"
 → Diagnostic: accountability / value / effort / life crisis
 
-"بـ عرف الـ content"
+"بعرف الـ content"
 → Quick 5-question test → honest recommendation
 ```
 
@@ -179,11 +179,11 @@ R — Respond (رد بـ datapoint أو حل، مش جدال)
 
 1. **الجدال:** "لأ، مش غالية" — العميل بيتعصب ويغلق
 2. **التقليل من الاعتراض:** "ده موضوع بسيط" — احترام الـ concern مهم
-3. **مقارنة سيئة بمنافسين** بالاسم — غير مهني + يـ خسرك ثقة
+3. **مقارنة سيئة بمنافسين** بالاسم — غير مهني + يخسرك ثقة
 4. **خصم لأي حد طلب** — يكسر السعر للجميع
 5. **توعيد بحاجة الورشة مش بتعملها** — refunds + سمعة سيئة
 6. **استخدام scarcity كاذب** — "آخر مقعدين" لو مش حقيقي
-7. **تجاهل الـ past pain** — العميل يحس إنك مش بـ تـ سمع
+7. **تجاهل الـ past pain** — العميل يحس إنك مش بتسمع
 8. **Generic responses** — كل اعتراض محتاج personalization
 
 ---
@@ -202,8 +202,8 @@ Notes: [مثلاً "العميل قال 'هكلم زوجتي' — اتضح إن 
 
 **Insight أسبوعي للـ Director:**
 - أكتر objection type بيخسر فيه الفريق؟ → coaching gap
-- أكتر objection بـ يحدث في أنهي ورشة؟ → marketing positioning gap
-- أي سيلز بـ يـ تعامل مع objection محدد أحسن من غيره؟ → ده الـ peer trainer
+- أكتر objection بيحدث في أنهي ورشة؟ → marketing positioning gap
+- أي سيلز بيتعامل مع objection محدد أحسن من غيره؟ → ده الـ peer trainer
 
 ---
 
@@ -213,4 +213,4 @@ Notes: [مثلاً "العميل قال 'هكلم زوجتي' — اتضح إن 
 1. **يقرأ كل الـ 7 sections** في أول أسبوع.
 2. **يعمل role-play لـ كل category** (راجع [training/role-play.md](../training/role-play.md))
 3. **يحفظ الـ Quick Reference Cheat Sheet** — يقدر يجاوب بدون ما يفتح موبايله.
-4. **يـ تابع 5 مكالمات مع سيلز خبير** قبل ما يبدأ بنفسه.
+4. **يتابع 5 مكالمات مع سيلز خبير** قبل ما يبدأ بنفسه.

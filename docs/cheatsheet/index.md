@@ -119,11 +119,11 @@ hide:
 - **Director:** Said Tantawy
 - **CRM:** Odoo
 - **AI Agent issue:** Tech team
-- **Payment issue:** فريق الحجوزات
+- **Payment issue:** Sales Director (سعيد)
 
 ---
 
-!!! info "آخر تحديث: 2026-05-09"
+!!! info "آخر تحديث: 2026-05-12"
     قبل ما تعتمد على رقم، تأكد منه في Odoo (الأسعار + المواعيد بتتغير).
 
 <style>

@@ -1,6 +1,6 @@
 ---
 name: rs-whatsapp-sales
-description: "استخدمها لكتابة رسائل واتساب احترافية لفريق سيلز RS Financial Services. مفصلة على الورش السبعة وجمهور RS. تطبق فلسفة الـ Brief-Driven communication مع الـ Brand Voice."
+description: "استخدمها لكتابة رسائل واتساب احترافية لفريق سيلز RS Financial Services. مفصلة على الورش التسعة وجمهور RS. تطبق فلسفة الـ Brief-Driven communication مع الـ Brand Voice."
 metadata:
   version: 1.0.0
   domain: RS Financial Services Sales

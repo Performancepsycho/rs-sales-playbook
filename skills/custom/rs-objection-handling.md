@@ -1,6 +1,6 @@
 ---
 name: rs-objection-handling
-description: "استخدمها لمعالجة اعتراضات العملاء في سياق RS Financial Services. مفصلة على الـ 7 ورش وعلى objections الجمهور المصري. تطبق إطار A.C.R مع أمثلة واقعية."
+description: "استخدمها لمعالجة اعتراضات العملاء في سياق RS Financial Services. مفصلة على الـ 9 ورش وعلى objections الجمهور المصري. تطبق إطار A.C.R مع أمثلة واقعية."
 metadata:
   version: 1.0.0
   domain: RS Financial Services Sales

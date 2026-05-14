@@ -55,10 +55,10 @@ hide:
 </div>
 
 !!! info "ليه Online فقط؟"
-    الـ CFOs والـ Senior Managers جدولهم مشغول. Online بـ يـ سمح بـ:
+    الـ CFOs والـ Senior Managers جدولهم مشغول. Online بيسمح بـ:
 
     🔹 الحضور من أي مكان (سفر، عمل)
-    🔹 Recording لـ المحاضرات اللي بـ يـ فوتها
+    🔹 Recording لـ المحاضرات اللي بيفوتها
 
 ??? success "✅ الـ Outcomes الأساسية"
 
@@ -67,7 +67,7 @@ hide:
     🔹 ✅ **Working Capital Management** — Cash conversion cycle
     🔹 ✅ **Treasury & Cash Management** — Liquidity + risk
     🔹 ✅ **M&A Analysis** — Valuation + due diligence
-    🔹 ✅ **Investor Relations** — كيف تـ تـ كلم مع المستثمرين والبنوك
+    🔹 ✅ **Investor Relations** — كيف تتكلم مع المستثمرين والبنوك
     🔹 ✅ **Strategic Financial Planning** — 3-5 year strategy
     🔹 ✅ **Board Reporting** — Executive presentations
 
@@ -86,9 +86,9 @@ hide:
 
 ??? note "👨‍🏫 المحاضر — أ/ أحمد عاشور"
 
-    **CFO consultant + Strategy advisor** — بـ يـ ستشار رؤساء حسابات + CFOs فعلياً.
+    **CFO consultant + Strategy advisor** — بيستشار رؤساء حسابات + CFOs فعلياً.
 
-    🔹 "بـ يدّيك الـ frameworks اللي بـ يـ ستخدمها مع clients بـ مرتبات 50K+"
+    🔹 "بيدّيك الـ frameworks اللي بيستخدمها مع clients بـ مرتبات 50K+"
 
 ---
 
@@ -111,7 +111,7 @@ hide:
 
 !!! warning "ملاحظة مهمة"
     🔹 الـ CFO **Online-only** — لو العميل سأل عن Offline، **لأ مش متاح**
-    🔹 السبب: الـ Senior management جدوله مش بـ يـ سمح بـ Offline
+    🔹 السبب: الـ Senior management جدوله مش بيسمح بـ Offline
     🔹 لو لازم Offline، اقترح **التحليل المالي** كـ alternative (~40% من محتوى CFO)
 
 ---
@@ -149,7 +149,7 @@ hide:
 </div>
 
 !!! tip "السعر شديد المنافسة"
-    خصم 50% — **investment، مش مصروف**. لو CFO/رئيس حسابات بـ مرتب 25K+، بـ ترجع تكلفتها في **زيادة مرتب واحدة**.
+    خصم 50% — **investment، مش مصروف**. لو CFO/رئيس حسابات بـ مرتب 25K+، بترجع تكلفتها في **زيادة مرتب واحدة**.
 
 **جدية الحجز:** 3000ج (50%) + الباقي 3000ج في أول محاضرة بدون فوايد.
 
@@ -181,22 +181,22 @@ hide:
 <a class="angle-card" href="angle-1-chief-to-cfo/">
   <span class="angle-card-num">1</span>
   <span class="angle-card-title">رئيس حسابات → CFO</span>
-  <span class="angle-card-meta">رئيس حسابات 5-10 سنين · يـ بغى الـ promotion</span>
-  <span class="angle-card-pain">"بقالي 5 سنين رئيس حسابات. عاوز أكون CFO، بس الإدارة بـ تـ شوفني 'محاسب' بس."</span>
+  <span class="angle-card-meta">رئيس حسابات 5-10 سنين · يبغى الـ promotion</span>
+  <span class="angle-card-pain">"بقالي 5 سنين رئيس حسابات. عاوز أكون CFO، بس الإدارة بتشوفني 'محاسب' بس."</span>
 </a>
 
 <a class="angle-card" href="angle-2-new-cfo/">
   <span class="angle-card-num">2</span>
   <span class="angle-card-title">CFO جديد محتاج تأهيل</span>
-  <span class="angle-card-meta">اتـ رقّى مؤخراً · حاسس بـ knowledge gaps</span>
-  <span class="angle-card-pain">"اتـ رقّيت CFO من شهرين، مش متأكد من Capital Budgeting و M&A."</span>
+  <span class="angle-card-meta">اترقّى مؤخراً · حاسس بـ knowledge gaps</span>
+  <span class="angle-card-pain">"اترقّيت CFO من شهرين، مش متأكد من Capital Budgeting و M&A."</span>
 </a>
 
 <a class="angle-card" href="angle-3-owner-evaluating/">
   <span class="angle-card-num">3</span>
-  <span class="angle-card-title">صاحب شركة بـ يـ قيّم CFO</span>
-  <span class="angle-card-meta">صاحب شركة · عنده CFO · يـ بغى يـ قيّمه</span>
-  <span class="angle-card-pain">"محاسبي بـ يديني تـ قارير، مش متأكد لو CFO حقيقي."</span>
+  <span class="angle-card-title">صاحب شركة بيقيّم CFO</span>
+  <span class="angle-card-meta">صاحب شركة · عنده CFO · يبغى يقيّمه</span>
+  <span class="angle-card-pain">"محاسبي بيديني تقارير، مش متأكد لو CFO حقيقي."</span>
 </a>
 
 </div>
@@ -210,22 +210,22 @@ hide:
     **R:**
     > **الـ math الواقعي:**
     >
-    > 🔹 **رئيس حسابات → CFO:** الفرق 20-45K زيادة شهرياً · بـ ترجع في **أسبوع واحد** بعد الـ promotion
+    > 🔹 **رئيس حسابات → CFO:** الفرق 20-45K زيادة شهرياً · بترجع في **أسبوع واحد** بعد الـ promotion
     > 🔹 **CFO جديد:** الـ confidence + tools = أمان وظيفي
-    > 🔹 **صاحب شركة:** تـ قيّم CFO صح = تـ وفّر 500K-2M من قرارات غلط
+    > 🔹 **صاحب شركة:** تقيّم CFO صح = توفّر 500K-2M من قرارات غلط
     >
     > خطة 50/50 + تقسيط بنكي.
 
 ??? warning "\"أنا رئيس حسابات بـ 7 سنين — مش محتاج\""
 
     **R:**
-    > **سؤال صريح:** هل بـ تـ قدر دلوقتي تـ عمل:
+    > **سؤال صريح:** هل بتقدر دلوقتي تعمل:
     >
     > 1. Financial Model 5 سنين بـ scenarios متعددة؟
     > 2. NPV/IRR لـ قرار استثمار 10M+؟
     > 3. Valuation لـ شركة للـ acquisition؟
     > 4. Board presentation بـ executive summary بدون tables؟
-    > 5. FX hedging لو الشركة بـ تـ ستورد؟
+    > 5. FX hedging لو الشركة بتستورد؟
     >
     > لو "نعم" على كل الـ 5، مش محتاج. لو "مش متأكد" على 2+، الـ gap بين رئيس حسابات و CFO.
 
@@ -239,34 +239,34 @@ hide:
     >
     > Investment worth الـ outcome — CFO position = 500K+ سنوياً.
 
-??? warning "\"المحاضر بـ يـ علم CFO theory ولا الـ practical؟\""
+??? warning "\"المحاضر بيعلم CFO theory ولا الـ practical؟\""
 
     **R:**
     > **95% practical، 5% theory.**
     >
     > 🔹 **Real models** من شركات حقيقية
     > 🔹 **War stories** — قرارات صح وغلط شاف بنفسه
-    > 🔹 **Frameworks بـ يـ ستخدمها يومياً** — مش academic
+    > 🔹 **Frameworks بيستخدمها يومياً** — مش academic
     > 🔹 **Board minutes templates** فعلية
 
-??? warning "\"Excel basic — مش هـ أقدر على الـ modeling\""
+??? warning "\"Excel basic — مش هأقدر على الـ modeling\""
 
     **R:**
-    > 🔹 **الورشة بـ تـ غطي الـ modeling step-by-step** — مش بـ تـ فترض Excel expert
-    > 🔹 **VLOOKUP, INDEX-MATCH, NPV, IRR** كلها بـ نـ شرحها
+    > 🔹 **الورشة بتغطي الـ modeling step-by-step** — مش بتفترض Excel expert
+    > 🔹 **VLOOKUP, INDEX-MATCH, NPV, IRR** كلها بنشرحها
     >
-    > **توصية:** Bundle **CFO + Excel = 8000ج (Multi)**. تـ خد Excel أولاً (4 محاضرات)، تـ كمل CFO.
+    > **توصية:** Bundle **CFO + Excel = 8000ج (Multi)**. تخد Excel أولاً (4 محاضرات)، تكمل CFO.
 
 ??? warning "\"بعد الورشة، الـ promotion مضمون؟\""
 
     **R:**
-    > **الـ skills مضمونة. الـ promotion يـ توقف على:**
+    > **الـ skills مضمونة. الـ promotion يتوقف على:**
     >
     > 🔹 شركتك (هل عندها CFO position فاضي)
-    > 🔹 انت (هل بـ تـ ستخدم الـ skills في شغلك)
-    > 🔹 علاقاتك (هل الـ CEO بـ يـ شوفك CFO material)
+    > 🔹 انت (هل بتستخدم الـ skills في شغلك)
+    > 🔹 علاقاتك (هل الـ CEO بيشوفك CFO material)
     >
-    > **حالات 2024:** 3 رؤساء حسابات اتـ رقّوا في 6-12 شهر. اللي ما اتـ رقّاش، استخدم الـ knowledge لـ negotiate زيادة 5000-15000ج.
+    > **حالات 2024:** 3 رؤساء حسابات اترقّوا في 6-12 شهر. اللي ما اترقّاش، استخدم الـ knowledge لـ negotiate زيادة 5000-15000ج.
 
 ---
 
@@ -280,10 +280,10 @@ hide:
 
 ??? danger "❌ ممنوع نهائياً"
 
-    🔹 ❌ تـ بيع لـ junior — Foundation محتاج قوي
-    🔹 ❌ "هـ تـ بقى CFO certified" — مش certification
+    🔹 ❌ تبيع لـ junior — Foundation محتاج قوي
+    🔹 ❌ "هتبقى CFO certified" — مش certification
     🔹 ❌ Offline option — مش متاح
-    🔹 ❌ تـ خفي الـ commitment (30 ساعة على 5 أسابيع)
+    🔹 ❌ تخفي الـ commitment (30 ساعة على 5 أسابيع)
     🔹 ❌ "كورس"
 
 ??? success "✅ المسموح"

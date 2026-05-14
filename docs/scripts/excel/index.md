@@ -5,7 +5,7 @@ hide:
 
 # 🟢 ورشة الإكسيل
 
-> **"Excel = اللغة اليومية للمحاسب. ورشة سريعة (4 محاضرات) تـ حوّلك من user عادي → pro user."**
+> **"Excel = اللغة اليومية للمحاسب. ورشة سريعة (4 محاضرات) تحوّلك من user عادي → pro user."**
 
 <div class="ws-nav-grid">
 
@@ -62,7 +62,7 @@ hide:
     🔹 ✅ **Functions:** VLOOKUP, INDEX-MATCH, IF, SUMIF, COUNTIF
     🔹 ✅ **Data Manipulation:** Tables, Sorting, Filtering, Conditional Formatting
     🔹 ✅ **Pivot Tables** — تحليل بيانات بـ ثواني
-    🔹 ✅ **Charts + Dashboards** — تـ قارير professional
+    🔹 ✅ **Charts + Dashboards** — تقارير professional
     🔹 ✅ **Financial Functions:** NPV, IRR, PMT, FV, PV
     🔹 ✅ **Automation:** Macros أساسية + Data Validation
     🔹 ✅ **Shortcut keys** — توفّر 30% من وقتك
@@ -76,10 +76,10 @@ hide:
 
 ??? note "👨‍🏫 المحاضر — أ/ مصطفى القصاص"
 
-    **Excel specialist** — بـ يـ ديك الـ Excel الـ محاسب محتاجه فعلياً.
+    **Excel specialist** — بيديك الـ Excel الـ محاسب محتاجه فعلياً.
 
-    🔹 "كل function بـ يـ شرحها مع مثال محاسبي"
-    🔹 "الـ shortcuts اللي بـ تـ وفّر 30% من وقتك يومياً"
+    🔹 "كل function بيشرحها مع مثال محاسبي"
+    🔹 "الـ shortcuts اللي بتوفّر 30% من وقتك يومياً"
 
 ---
 
@@ -100,7 +100,7 @@ hide:
 
 </div>
 
-!!! tip "تـ كتيك للسيلز"
+!!! tip "تكتيك للسيلز"
     🔹 الورشة **4 محاضرات بس** = **أسبوعين**
     🔹 **الأقصر بين ورشنا** — مناسبة كـ **add-on**
     🔹 لو فاتت، اعرض **bundle** مع ورشة تانية
@@ -128,7 +128,7 @@ hide:
 <div class="price-compare-card">
   <div class="price-compare-label">في الـ Bundle</div>
   <div class="price-compare-value">حسب</div>
-  <div class="price-compare-note">يـ تـ ضم لـ ورشة أخرى</div>
+  <div class="price-compare-note">يتضم لـ ورشة أخرى</div>
 </div>
 
 <div class="price-compare-card unavailable">
@@ -140,7 +140,7 @@ hide:
 </div>
 
 !!! tip "Excel = الـ Add-on المثالي"
-    **2000ج بـ يـ خليها easy-sell كـ "ضيفها لـ ورشتك الأساسية"**.
+    **2000ج بيخليها easy-sell كـ "ضيفها لـ ورشتك الأساسية"**.
 
 **جدية الحجز:** 1000ج (50%) + الباقي 1000ج في أول محاضرة بدون فوايد.
 
@@ -173,23 +173,23 @@ hide:
 
 <a class="angle-card" href="angle-1-junior-learning/">
   <span class="angle-card-num">1</span>
-  <span class="angle-card-title">فريش بـ يـ تعلم Excel</span>
+  <span class="angle-card-title">فريش بيتعلم Excel</span>
   <span class="angle-card-meta">Fresh / Junior · Excel أساسي</span>
-  <span class="angle-card-pain">"بـ كتب البيانات يدوياً، بـ يـ خد ساعات. زمايلي بـ يـ خلصوا أسرع."</span>
+  <span class="angle-card-pain">"بكتب البيانات يدوياً، بياخد ساعات. زمايلي بيخلصوا أسرع."</span>
 </a>
 
 <a class="angle-card" href="angle-2-working-accountant/">
   <span class="angle-card-num">2</span>
-  <span class="angle-card-title">محاسب شغّال بـ يـ عمل تقارير</span>
-  <span class="angle-card-meta">شغّال 2-5 سنين · تـ قارير شهرية معقدة</span>
-  <span class="angle-card-pain">"يومين لـ تـ قرير الإدارة الشهري. عاوز ساعتين."</span>
+  <span class="angle-card-title">محاسب شغّال بيعمل تقارير</span>
+  <span class="angle-card-meta">شغّال 2-5 سنين · تقارير شهرية معقدة</span>
+  <span class="angle-card-pain">"يومين لـ تقرير الإدارة الشهري. عاوز ساعتين."</span>
 </a>
 
 <a class="angle-card" href="angle-3-business-owner/">
   <span class="angle-card-num">3</span>
   <span class="angle-card-title">صاحب شركة</span>
-  <span class="angle-card-meta">صاحب شركة · يـ بغى يـ قرأ تـ قارير محاسبه</span>
-  <span class="angle-card-pain">"محاسبي بـ يـ بعتلي Excel sheets معقدة، مش فاهمها."</span>
+  <span class="angle-card-meta">صاحب شركة · يبغى يقرأ تقارير محاسبه</span>
+  <span class="angle-card-pain">"محاسبي بيبعتلي Excel sheets معقدة، مش فاهمها."</span>
 </a>
 
 </div>
@@ -198,10 +198,10 @@ hide:
 
 ## 🛡️ اعتراضات خاصة بورشة Excel
 
-??? warning "\"بـ ستخدم Excel من سنين — مش محتاج\""
+??? warning "\"بستخدم Excel من سنين — مش محتاج\""
 
     **R:**
-    > **سؤال صريح:** هل بـ تـ ستخدم دلوقتي:
+    > **سؤال صريح:** هل بتستخدم دلوقتي:
     >
     > 1. INDEX-MATCH بدل VLOOKUP؟
     > 2. Pivot Tables بـ slicers + multiple levels؟
@@ -210,13 +210,13 @@ hide:
     > 5. Macros للمهام المتكررة؟
     > 6. Shortcut keys (Ctrl+Shift+L, Alt+H+O+I)؟
     >
-    > لو "نعم" على 5+، مش محتاج. لو "لأ" على 3+، الورشة بـ تـ ضيف **30% time saving**.
+    > لو "نعم" على 5+، مش محتاج. لو "لأ" على 3+، الورشة بتضيف **30% time saving**.
 
 ??? warning "\"السعر 2000ج رخيص — في catch؟\""
 
     **R:**
     > 🔹 **الورشة قصيرة (12 ساعة)** — كلفة أقل
-    > 🔹 **add-on لـ ورش أخرى** — RS بـ تـ كسب من الـ bundle
+    > 🔹 **add-on لـ ورش أخرى** — RS بتكسب من الـ bundle
     > 🔹 **انتشار Excel knowledge = good for everyone**
     >
     > **الجودة نفس باقي الورش.** 7-day money-back.
@@ -226,7 +226,7 @@ hide:
     **R:**
     > 🔹 **Excel = foundation لـ Power BI**
     > 🔹 **Power BI لـ dashboards، مش للحسابات اليومية**
-    > 🔹 **80% من المحاسبين في مصر بـ يـ ستخدموا Excel يومياً**
+    > 🔹 **80% من المحاسبين في مصر بيستخدموا Excel يومياً**
     >
     > لو 90% Excel → ورشة Excel. لو BI dashboards → Excel أولاً + Power BI من شركة متخصصة.
 
@@ -235,22 +235,22 @@ hide:
     **R:**
     > **Excel 365 / 2021**. بس 90% من الـ functions متاحة في 2016+.
     >
-    > الـ functions الجديدة (XLOOKUP, FILTER, SORT) بـ تـ تـ علم لو الـ version بـ يـ دعمها. لو قديم، البديل INDEX-MATCH + Filtering.
+    > الـ functions الجديدة (XLOOKUP, FILTER, SORT) بتتعلم لو الـ version بيدعمها. لو قديم، البديل INDEX-MATCH + Filtering.
 
-??? warning "\"المحاضر بـ يـ علم VBA programming؟\""
+??? warning "\"المحاضر بيعلم VBA programming؟\""
 
     **R:**
     > 🔹 **Macros الأساسية: نعم** (Record + Edit + Run)
-    > 🔹 **VBA programming كامل: لأ** (يـ تطلب ورشة منفصلة 60+ ساعة)
+    > 🔹 **VBA programming كامل: لأ** (يتطلب ورشة منفصلة 60+ ساعة)
     >
     > لـ 95% من المحاسبين، Macros الأساسية كافية.
 
-??? warning "\"12 ساعة بس — مش هـ تـ ديني كفاية\""
+??? warning "\"12 ساعة بس — مش هتديني كفاية\""
 
     **R:**
     > 🔹 **Excel أداة، مش subject** — مش زي المحاسبة
     > 🔹 **80% practice** على ملفات حقيقية
-    > 🔹 **قوالب Excel جاهزة** — تـ ستخدمها فوراً
+    > 🔹 **قوالب Excel جاهزة** — تستخدمها فوراً
     > 🔹 **WhatsApp group** لـ 3 شهور
     >
     > الهدف: **70-80% أفضل من قبل**. الباقي بـ practice في شغلك.
@@ -267,15 +267,15 @@ hide:
 
 ??? note "🎯 الـ Hooks الـ 3 الأقوى"
 
-    1. **"VLOOKUP يـ توفّر 5 ساعات/أسبوع. Pivot Tables يـ توفّر 10."** — Concrete ROI
+    1. **"VLOOKUP يوفّر 5 ساعات/أسبوع. Pivot Tables يوفّر 10."** — Concrete ROI
     2. **"Add-on perfect لـ أي ورشة"** — Bundle pitch
     3. **"4 محاضرات بس — أسبوعين، 2000ج، +30% productivity"** — Easy commitment
 
 ??? danger "❌ ممنوع نهائياً"
 
-    🔹 ❌ تـ سجيل بدون لاب توب
-    🔹 ❌ "هـ تـ بقى Excel certified"
-    🔹 ❌ "نـ علمك VBA programming"
+    🔹 ❌ تسجيل بدون لاب توب
+    🔹 ❌ "هتبقى Excel certified"
+    🔹 ❌ "نعلمك VBA programming"
     🔹 ❌ "كورس"
 
 ??? success "✅ المسموح"

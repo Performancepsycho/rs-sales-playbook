@@ -55,11 +55,11 @@ hide:
 
 ??? success "✅ الـ Outcomes الأساسية"
 
-    🔹 ✅ **تـ حسب تكلفة المنتج الحقيقية** — Direct + Indirect + Allocation
+    🔹 ✅ **تحسب تكلفة المنتج الحقيقية** — Direct + Indirect + Allocation
     🔹 ✅ **Standard Costing** + تحليل الانحرافات
     🔹 ✅ **Activity-Based Costing (ABC)** — للشركات المعقدة
-    🔹 ✅ **تـ سعير المنتجات** بـ معايير علمية
-    🔹 ✅ **رقابة التكاليف** — تـ كتشف الـ leakages
+    🔹 ✅ **تسعير المنتجات** بـ معايير علمية
+    🔹 ✅ **رقابة التكاليف** — تكتشف الـ leakages
     🔹 ✅ **تخطيط الموازنات** + التنبؤ بـ التكاليف
 
 ??? info "📚 المحاور"
@@ -73,9 +73,9 @@ hide:
 
 ??? note "👨‍🏫 المحاضر — أ/ أحمد عاشور"
 
-    **Cost Engineer + CFO consultant** — بـ يـ ستشار مصانع في تـ سعير المنتجات يومياً.
+    **Cost Engineer + CFO consultant** — بيستشار مصانع في تسعير المنتجات يومياً.
 
-    🔹 "بـ يدّيك الـ frameworks اللي بـ يـ ستخدمها مع الـ CFO clients"
+    🔹 "بيدّيك الـ frameworks اللي بيستخدمها مع الـ CFO clients"
 
 ---
 
@@ -105,7 +105,7 @@ hide:
 
 </div>
 
-!!! tip "تـ كتيك للسيلز"
+!!! tip "تكتيك للسيلز"
     🔹 **5 Online** = focused، لـ overview سريع · للـ owners
     🔹 **8 Offline** = شاملة، لـ محاسب مصنع جاد · للـ specialists
 
@@ -173,22 +173,22 @@ hide:
 <a class="angle-card" href="angle-1-factory-accountant/">
   <span class="angle-card-num">1</span>
   <span class="angle-card-title">محاسب في مصنع</span>
-  <span class="angle-card-meta">شغّال في مصنع · بـ يـ عمل قيود مش تكاليف</span>
-  <span class="angle-card-pain">"بـ سجل العمليات بس ما بـ فهمش ليه المنتج بـ يكلف كذا."</span>
+  <span class="angle-card-meta">شغّال في مصنع · بيعمل قيود مش تكاليف</span>
+  <span class="angle-card-pain">"بسجل العمليات بس ما بفهمش ليه المنتج بيكلف كذا."</span>
 </a>
 
 <a class="angle-card" href="angle-2-specialization/">
   <span class="angle-card-num">2</span>
-  <span class="angle-card-title">يـ بغى تخصص تكاليف</span>
+  <span class="angle-card-title">يبغى تخصص تكاليف</span>
   <span class="angle-card-meta">محاسب 2-5 سنين · شاف الـ scope في الـ niche</span>
-  <span class="angle-card-pain">"التكاليف tier أعلى — قليلين اللي بـ يعرفوها."</span>
+  <span class="angle-card-pain">"التكاليف tier أعلى — قليلين اللي بيعرفوها."</span>
 </a>
 
 <a class="angle-card" href="angle-3-business-owner/">
   <span class="angle-card-num">3</span>
   <span class="angle-card-title">صاحب نشاط إنتاجي</span>
-  <span class="angle-card-meta">صاحب مصنع/ورشة · مش متأكد من تـ سعير</span>
-  <span class="angle-card-pain">"بـ بيع المنتج بـ X، بس مش متأكد لو بـ ربح ولا بـ خسر."</span>
+  <span class="angle-card-meta">صاحب مصنع/ورشة · مش متأكد من تسعير</span>
+  <span class="angle-card-pain">"ببيع المنتج بـ X، بس مش متأكد لو بربح ولا بخسر."</span>
 </a>
 
 </div>
@@ -211,7 +211,7 @@ hide:
 
     **R:**
     > 🔹 **80% logic، 20% math** (إعدادي بس)
-    > 🔹 **Excel بـ يـ عمل الـ calculations** — انت بـ تـ فهم الـ logic
+    > 🔹 **Excel بيعمل الـ calculations** — انت بتفهم الـ logic
     > 🔹 **case studies حقيقية** — مش معادلات نظرية
 
 ??? warning "\"5 Online ولا 8 Offline؟\""
@@ -225,9 +225,9 @@ hide:
 ??? warning "\"المصنع عند consultant — ليه أتعلمها؟\""
 
     **R:**
-    > 🔹 **الـ consultant بـ يـ كلف 5000-20000ج/شهر** — لو فهمت، الشركة بـ تـ وفر
-    > 🔹 **انت في الشركة طول الوقت** — بـ تـ كتشف الـ issues قبل
-    > 🔹 **الـ consultant بـ يدّيك الأرقام، انت بـ تـ ستخدمها** — لازم تفهمها
+    > 🔹 **الـ consultant بيكلف 5000-20000ج/شهر** — لو فهمت، الشركة بتوفر
+    > 🔹 **انت في الشركة طول الوقت** — بتكتشف الـ issues قبل
+    > 🔹 **الـ consultant بيدّيك الأرقام، انت بتستخدمها** — لازم تفهمها
     >
     > حالات شائعة: محاسب بـ knowledge تكاليف → cost controller (زيادة 30-50%).
 
@@ -236,13 +236,13 @@ hide:
     **R:**
     > **الـ ROI الواقعي:**
     >
-    > 🔹 **صاحب نشاط:** تـ كتشف منتج بـ خسارة → تـ عدّل التسعير → 2500-5000ج/شهر زيادة
+    > 🔹 **صاحب نشاط:** تكتشف منتج بـ خسارة → تعدّل التسعير → 2500-5000ج/شهر زيادة
     > 🔹 **محاسب:** الوحيد في الشركة بـ cost analysis → رفع 2000-4000ج
     > 🔹 **Freelance:** استشارة واحدة = 3000-10000ج
     >
-    > بـ ترجع تكلفتها في **شهر واحد** أو **استشارة واحدة**.
+    > بترجع تكلفتها في **شهر واحد** أو **استشارة واحدة**.
 
-??? warning "\"بـ تـ علم Activity-Based Costing (ABC)؟\""
+??? warning "\"بتتعلم Activity-Based Costing (ABC)؟\""
 
     **R:**
     > نعم، **ABC جزء أساسي**. المنهج:
@@ -260,13 +260,13 @@ hide:
 
     1. **"التكاليف = أداة قرار، مش قيود"** — Reframe
     2. **"محاسب مصنع بـ تكاليف = cost controller"** — Career signal
-    3. **"شركة مش عارفة تكلفتها = بـ تـ بيع بـ خسارة"** — Owner pain
+    3. **"شركة مش عارفة تكلفتها = بتبيع بـ خسارة"** — Owner pain
 
 ??? danger "❌ ممنوع نهائياً"
 
-    🔹 ❌ "هـ تـ بقى Cost Engineer معتمد دولياً" — مش certification
-    🔹 ❌ تـ بيع لـ fresh — التكاليف skill متقدم
-    🔹 ❌ "كل المصانع بـ يـ ستخدموا ABC" — مش صح
+    🔹 ❌ "هتبقى Cost Engineer معتمد دولياً" — مش certification
+    🔹 ❌ تبيع لـ fresh — التكاليف skill متقدم
+    🔹 ❌ "كل المصانع بيستخدموا ABC" — مش صح
     🔹 ❌ "كورس"
 
 ??? success "✅ المسموح"

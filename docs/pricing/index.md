@@ -1,25 +1,27 @@
 # 💰 الأسعار + الباقات الكاملة
 
 > **مرجع السيلز للأسعار والمواعيد.** كل الورش، كل المجموعات، كل العروض.
-> آخر تحديث: 2026-05-09 — مأخوذ من `pricing_rows.json`
+> آخر تحديث: 2026-05-12 — مأخوذ من `pricing_rows.json`
 
 ---
 
 ## 📊 الأسعار الكاملة
 
-| الورشة | المحاضر | محاضرات | السعر قبل | السعر بعد | الخصم | Multi-booking |
-|--------|---------|----------|-----------|-----------|--------|---------------|
-| 📘 **المحاسب المالي** | محمد علاء | 8 × 3س | <span class="price-old">4600ج</span> | <span class="price-new">3250ج</span> | -29% | <span class="price-multi">3000ج</span> |
-| 📊 **إعداد القوائم المالية** | محمد علاء | 5 × 3س | <span class="price-old">4000ج</span> | <span class="price-new">2500ج</span> | -38% | <span class="price-multi">2000ج</span> |
-| 📗 **المحاسب الشامل** | محمد ريان | 8 × 4س | <span class="price-old">7500ج</span> | <span class="price-new">5800ج</span> | -23% | — |
-| 📗 **المحاسب الشامل (Udemy)** | محمد ريان | 5 × 1.3س | <span class="price-old">3100ج</span> | <span class="price-new">2500ج</span> | -19% | — |
-| 📕 **خبير الضرائب** | أحمد علي | 12 × 3س | <span class="price-old">7500ج</span> | <span class="price-new">5250ج</span> | -30% | <span class="price-multi">5000ج</span> |
-| 📙 **Odoo Accounting** | إسلام سعيد | 8 × 3س | <span class="price-old">6000ج</span> | <span class="price-new">3000ج</span> | -50% | <span class="price-multi">3000ج</span> |
-| 📓 **هندسة التكاليف** | أحمد عاشور | 5-8 × 3س | <span class="price-old">6000ج</span> | <span class="price-new">3500ج</span> | -42% | <span class="price-multi">3200ج</span> |
-| 📔 **التحليل المالي** | أحمد عاشور | 7 × 3س | <span class="price-old">6500ج</span> | <span class="price-new">5000ج</span> | -23% | <span class="price-multi">4000ج</span> |
-| 📒 **المدير المالي CFO** | أحمد عاشور | 10 × 3س | <span class="price-old">12000ج</span> | <span class="price-new">6000ج</span> | -50% | <span class="price-multi">6000ج</span> |
+| الورشة | المحاضر | محاضرات | السعر قبل | السعر بعد | Multi | PDF |
+|--------|---------|----------|-----------|-----------|--------|-----|
+| 📘 **المحاسب المالي** | محمد علاء | 8 × 3س | <span class="price-old">4600ج</span> | <span class="price-new">3250ج</span> | <span class="price-multi">3000ج</span> | [📥](../assets/pdfs/financial-accountant.pdf){download} |
+| 📊 **إعداد القوائم المالية** | محمد علاء | 5 × 3س | <span class="price-old">4000ج</span> | <span class="price-new">2500ج</span> | <span class="price-multi">2000ج</span> | [📥](../assets/pdfs/financial-statements.pdf){download} |
+| 📗 **المحاسب الشامل** | محمد ريان | 8 × 4س | <span class="price-old">7500ج</span> | <span class="price-new">5800ج</span> | — | [📥](../assets/pdfs/comprehensive-accountant.pdf){download} |
+| 📗 **المحاسب الشامل (Udemy)** | محمد ريان | 5 × 1.3س | <span class="price-old">3100ج</span> | <span class="price-new">2500ج</span> | — | [📥](../assets/pdfs/comprehensive-accountant.pdf){download} |
+| 📕 **خبير الضرائب** | أحمد علي | 12 × 3س | <span class="price-old">7500ج</span> | <span class="price-new">5250ج</span> | <span class="price-multi">5000ج</span> | [📥](../assets/pdfs/tax-expert.pdf){download} |
+| 📙 **Odoo Accounting** | إسلام سعيد | 8 × 3س | <span class="price-old">6000ج</span> | <span class="price-new">3000ج</span> | <span class="price-multi">3000ج</span> | [📥](../assets/pdfs/odoo.pdf){download} |
+| 📓 **هندسة التكاليف** | أحمد عاشور | 5-8 × 3س | <span class="price-old">6000ج</span> | <span class="price-new">3500ج</span> | <span class="price-multi">3200ج</span> | [📥](../assets/pdfs/cost-engineering.pdf){download} |
+| 📔 **التحليل المالي** | أحمد عاشور | 7 × 3س | <span class="price-old">6500ج</span> | <span class="price-new">5000ج</span> | <span class="price-multi">4000ج</span> | [📥](../assets/pdfs/financial-analysis.pdf){download} |
+| 📒 **المدير المالي CFO** | أحمد عاشور | 10 × 3س | <span class="price-old">12000ج</span> | <span class="price-new">6000ج</span> | <span class="price-multi">6000ج</span> | [📥](../assets/pdfs/cfo.pdf){download} |
 
 { .pricing-table }
+
+> 💡 **زر 📥** يـ نزّل ملف الـ PDF الرسمي للورشة. ابعت اللينك للعميل لو يبا تفاصيل كاملة قبل القرار.
 
 ---
 

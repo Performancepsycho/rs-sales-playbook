@@ -12,7 +12,34 @@ hide:
 <div class="hero-stat"><div class="hero-stat-num">9</div><div class="hero-stat-label">ورش</div></div>
 <div class="hero-stat"><div class="hero-stat-num">27</div><div class="hero-stat-label">Angles</div></div>
 <div class="hero-stat"><div class="hero-stat-num">7</div><div class="hero-stat-label">Stages</div></div>
-<div class="hero-stat"><div class="hero-stat-num">16</div><div class="hero-stat-label">مجموعة نشطة</div></div>
+<div class="hero-stat"><div class="hero-stat-num">17</div><div class="hero-stat-label">مجموعة نشطة</div></div>
+</div>
+
+---
+
+## 🧭 Brief Triage — لزّق الـ Brief واعرف خطوتك
+
+<div id="brief-triage" markdown="0">
+  <div class="bt-header">
+    <h2>🧭 الـ Brief Triage</h2>
+    <p>لزّق الـ Brief من الـ AI Agent، واعرف فوراً: هل ده شغلك، أنهي Stage، الـ template اللي تبعته، والـ links اللي تحتاجها. <strong>كل حاجة بـتحصل في browser-ك — مفيش data بـ تتبعت لأي server.</strong></p>
+  </div>
+
+  <div class="bt-input">
+    <textarea id="bt-input" placeholder="الصق الـ brief كامل هنا (الورشة، المرحلة، الحالة، التوجيه، ملخص المحادثة، إلخ)…&#10;&#10;Tip: Ctrl/Cmd + Enter للتحليل السريع"></textarea>
+    <div class="bt-buttons">
+      <button id="bt-analyze" type="button">🔍 حلّل وقولي اعمل إيه</button>
+      <button id="bt-clear" type="button">مسح</button>
+    </div>
+  </div>
+
+  <div id="bt-result"></div>
+
+  <details id="bt-history">
+    <summary>📜 آخر 5 briefs (History)</summary>
+    <div id="bt-history-list"></div>
+    <button id="bt-clear-history" type="button">🗑️ مسح الـ History</button>
+  </details>
 </div>
 
 ---
@@ -33,7 +60,7 @@ hide:
 <span class="smart-entry-sub">55+ اعتراض · 7 categories · الرد السريع</span>
 </a>
 
-<a class="smart-entry-btn entry-workshop" href="#workshops">
+<a class="smart-entry-btn entry-workshop" href="scripts/">
 <span class="smart-entry-icon">📚</span>
 <span class="smart-entry-title">عارف الورشة بالفعل</span>
 <span class="smart-entry-sub">روح مباشرة لسكريبتات الورشة + الـ angles</span>
@@ -43,100 +70,53 @@ hide:
 
 ---
 
-<a id="workshops"></a>
+## 📋 الـ 7 Stages في الـ Brief
 
-## 📚 الـ 9 ورش
-
-<div class="workshop-grid">
-
-<a class="workshop-card" href="scripts/financial-accountant/">
-  <span class="workshop-emoji">📘</span>
-  <span class="workshop-title">المحاسب المالي</span>
-  <span class="workshop-meta">أ/ محمد علاء · 8 × 3س</span>
-  <span class="workshop-price"><span class="price-strike">4600ج</span> <span class="price-now">3250ج</span></span>
-  <span class="workshop-next-group">▶ 17 مايو · Offline</span>
-  <span class="workshop-hook">"Portfolio حقيقي للإنترفيوهات"</span>
-</a>
-
-<a class="workshop-card" href="scripts/financial-statements/">
-  <span class="workshop-emoji">📊</span>
-  <span class="workshop-title">إعداد القوائم المالية</span>
-  <span class="workshop-meta">أ/ محمد علاء · 5 × 3س</span>
-  <span class="workshop-price"><span class="price-strike">4000ج</span> <span class="price-now">2500ج</span></span>
-  <span class="workshop-next-group">▶ 11 مايو · Offline</span>
-  <span class="workshop-hook">"قوائم مالية كاملة في 5 محاضرات"</span>
-</a>
-
-<a class="workshop-card" href="scripts/comprehensive-accountant/">
-  <span class="workshop-emoji">📗</span>
-  <span class="workshop-title">المحاسب الشامل</span>
-  <span class="workshop-meta">أ/ محمد ريان · 8 × 4س</span>
-  <span class="workshop-price"><span class="price-strike">7500ج</span> <span class="price-now">5800ج</span></span>
-  <span class="workshop-next-group">▶ 6 يونيو · الإسكندرية</span>
-  <span class="workshop-hook">"محاسب منفذ → محاسب يدير"</span>
-</a>
-
-<a class="workshop-card" href="scripts/tax-expert/">
-  <span class="workshop-emoji">📕</span>
-  <span class="workshop-title">خبير الضرائب</span>
-  <span class="workshop-meta">أ/ أحمد علي · 12 × 3س</span>
-  <span class="workshop-price"><span class="price-strike">7500ج</span> <span class="price-now">5250ج</span></span>
-  <span class="workshop-next-group">▶ 10 مايو · Online</span>
-  <span class="workshop-hook">"من الخوف لـ الثقة في الفحص"</span>
-</a>
-
-<a class="workshop-card" href="scripts/odoo/">
-  <span class="workshop-emoji">📙</span>
-  <span class="workshop-title">Odoo Accounting</span>
-  <span class="workshop-meta">أ/ إسلام سعيد · 8 × 3س</span>
-  <span class="workshop-price"><span class="price-strike">6000ج</span> <span class="price-now">3000ج</span></span>
-  <span class="workshop-next-group">▶ 12 مايو · Offline</span>
-  <span class="workshop-hook">"السوق المصري بـ يطلب Odoo"</span>
-</a>
-
-<a class="workshop-card" href="scripts/cost-engineering/">
-  <span class="workshop-emoji">📓</span>
-  <span class="workshop-title">هندسة التكاليف</span>
-  <span class="workshop-meta">أ/ أحمد عاشور · 5-8 × 3س</span>
-  <span class="workshop-price"><span class="price-strike">6000ج</span> <span class="price-now">3500ج</span></span>
-  <span class="workshop-next-group">▶ 16 مايو · Online</span>
-  <span class="workshop-hook">"تكاليف = أداة قرار، مش قيود"</span>
-</a>
-
-<a class="workshop-card" href="scripts/financial-analysis/">
-  <span class="workshop-emoji">📔</span>
-  <span class="workshop-title">التحليل المالي</span>
-  <span class="workshop-meta">أ/ أحمد عاشور · 7 × 3س</span>
-  <span class="workshop-price"><span class="price-strike">6500ج</span> <span class="price-now">5000ج</span></span>
-  <span class="workshop-next-group">▶ 13 مايو · Offline</span>
-  <span class="workshop-hook">"محاسب → محلل يقدّم قرارات"</span>
-</a>
-
-<a class="workshop-card" href="scripts/cfo/">
-  <span class="workshop-emoji">📒</span>
-  <span class="workshop-title">المدير المالي CFO</span>
-  <span class="workshop-meta">أ/ أحمد عاشور · 10 × 3س</span>
-  <span class="workshop-price"><span class="price-strike">12000ج</span> <span class="price-now">6000ج</span></span>
-  <span class="workshop-next-group">▶ 4 يونيو · Online</span>
-  <span class="workshop-hook">"CFO ready: tools + decisions"</span>
-</a>
-
-<a class="workshop-card" href="scripts/excel/">
-  <span class="workshop-emoji">🟢</span>
-  <span class="workshop-title">ورشة الإكسيل</span>
-  <span class="workshop-meta">أ/ مصطفى القصاص · 4 × 3س</span>
-  <span class="workshop-price"><span class="price-strike">4000ج</span> <span class="price-now">2000ج</span></span>
-  <span class="workshop-next-group">▶ 11 مايو · Offline</span>
-  <span class="workshop-hook">"اللغة اليومية للمحاسب"</span>
-</a>
-
-</div>
+| Stage | الحالة | الحرارة | يعني إيه |
+|-------|--------|----------|----------|
+| **1** | تم التحويل ✅💰 | 🔥 Hot | حوّل فعلاً → تأكيد + ترحيب |
+| **2** | تم الحجز ✅ | 🔥 Hot | اتفق هـ يحجز، لسه ما حوّلش → timeline |
+| **3** | جاهز للتحويل 💳 | 🔥 Hot | شاف السعر وسأل عن الدفع → تسهيل |
+| **4** | مهتم لم يتقدم | 🟡 Warm | شاف السعر، قال "تمام" → كشف objection |
+| **5** | شاف السعر ولم يحجز | 🟡 Warm | "هفكر" أو سكت → كسر stalling |
+| **6** | مرحلة الاستكشاف | 🔵 Cold | لسه بيستكشف → discovery كامل |
+| **7** | رفض | 🔵 Cold | "غالي" / "مش مهتم" → إعادة تواصل محترمة |
 
 ---
 
-## 📅 كل المواعيد المتاحة — اضغط للذهاب لصفحة الورشة
+## 🛠️ أدوات السيلز السريعة
 
-> **16 مجموعة نشطة** — مرتبة من الأقرب. آخر تحديث: 2026-05-09.
+| الأداة | للاستخدام |
+|--------|-----------|
+| 📚 [سكريبتات الورش](scripts/) | 9 ورش · 27 angles · WhatsApp + Call لكل Stage |
+| 🛡️ [Objections Library](objections/) | 55+ اعتراض · 7 categories |
+| 🧭 [Decision Helper](helper/) | حدد الورشة + الـ Stage في 5 ثواني |
+| 🖨️ [Cheatsheet (للطباعة)](cheatsheet/) | صفحة واحدة على المكتب — Ctrl+P |
+| 💰 [Pricing Matrix](pricing/) | كل الأسعار + المجموعات لكل ورشة |
+| 🤝 [Multi-booking + Bundles](multi-booking/) | متى وكيف تعرض package pricing |
+| 📥 [PDFs الورش](pdfs/) | نزّل PDF أي ورشة وابعتها للعميل |
+| 🚀 [ابدأ من هنا](start/) | للسيلز الجديد — 30 day roadmap |
+
+---
+
+## ⚠️ القواعد المقدسة
+
+!!! danger "المصطلحات (مش قابلة للنقاش)"
+    **ورشة** ✅ مش "كورس" — **متدرب** ✅ مش "طالب" — **محاضر** ✅ مش "دكتور" — **تطبيق عملي على ملفات شركات حقيقية** ✅ مش "تمارين" — **جدية الحجز** ✅ مش "عربون"
+
+!!! warning "السعر"
+    - **مفيش خصومات عشوائية** — أي خصم لازم يـ تـ ربط بسبب
+    - **سياسة جدية الحجز:** 50% عند الحجز + 50% أول محاضرة (بدون فوايد)
+
+!!! info "ممنوع وصف الإسكندرية بـ 'فرع'"
+    ورشة المحاسب الشامل في 6 يونيو 2026 لها **مكان حضور استثنائي** في الإسكندرية (نقابة المهندسين، الشاطبي). **ممنوع** كلمة "فرع".
+
+---
+
+## 📅 المواعيد القادمة — الـ 17 مجموعة النشطة
+
+<details class="schedule-details">
+<summary><strong>اضغط لفتح كل المواعيد</strong> · مرتبة من الأقرب · آخر تحديث: 2026-05-12</summary>
 
 <div class="schedule-table">
 
@@ -286,66 +266,9 @@ hide:
 
 </div>
 
----
+</details>
 
-## 💰 الأسعار الكاملة — Online vs Offline vs Multi-booking vs المسجل
-
-> **مفيش خصم individual.** أي خصم لازم يـ تـ ربط بـ Multi-booking أو Fresh Graduate أو Early Bird.
-
-| الورشة | السعر العادي | بعد الخصم | Multi-booking | Online vs Offline | المسجل |
-|--------|---------------|------------|---------------|---------------------|--------|
-| 📘 المحاسب المالي | <span class="price-old">4600ج</span> | <span class="price-new">3250ج</span> | <span class="price-multi">3000ج</span> | نفس السعر | — |
-| 📊 إعداد القوائم | <span class="price-old">4000ج</span> | <span class="price-new">2500ج</span> | <span class="price-multi">2000ج</span> | Offline فقط | — |
-| 📗 المحاسب الشامل | <span class="price-old">7500ج</span> | <span class="price-new">5800ج</span> | — | Offline فقط | <span class="price-new">2500ج</span> Udemy |
-| 📕 خبير الضرائب | <span class="price-old">7500ج</span> | <span class="price-new">5250ج</span> | <span class="price-multi">5000ج</span> | نفس السعر | — |
-| 📙 Odoo Accounting | <span class="price-old">6000ج</span> | <span class="price-new">3000ج</span> | <span class="price-multi">3000ج</span> | نفس السعر | — |
-| 📓 هندسة التكاليف | <span class="price-old">6000ج</span> | <span class="price-new">3500ج</span> | <span class="price-multi">3200ج</span> | Online 5 محاضرات · Offline 8 | — |
-| 📔 التحليل المالي | <span class="price-old">6500ج</span> | <span class="price-new">5000ج</span> | <span class="price-multi">4000ج</span> | Offline فقط | — |
-| 📒 المدير المالي CFO | <span class="price-old">12000ج</span> | <span class="price-new">6000ج</span> | <span class="price-multi">6000ج</span> | **Online فقط** | — |
-| 🟢 ورشة الإكسيل | <span class="price-old">4000ج</span> | <span class="price-new">2000ج</span> | في الـ bundle | Offline فقط | — |
-
-**للتفاصيل:** [💰 Pricing Matrix](pricing/) · [🤝 Multi-booking + Bundles](multi-booking/)
-
----
-
-## 🛠️ أدوات السيلز السريعة
-
-| الأداة | للاستخدام |
-|--------|-----------|
-| 🚀 [ابدأ من هنا](start/) | للسيلز الجديد — 30 day roadmap |
-| 🛡️ [Objections Library](objections/) | 55+ اعتراض · 7 categories |
-| 🧭 [Decision Helper](helper/) | حدد الورشة + الـ Stage في 5 ثواني |
-| 🖨️ [Cheatsheet (للطباعة)](cheatsheet/) | صفحة واحدة على المكتب — Ctrl+P |
-| 💰 [Pricing Matrix](pricing/) | كل الأسعار + المواعيد |
-| 🤝 [Multi-booking + Bundles](multi-booking/) | متى وكيف تعرض package pricing |
-
----
-
-## ⚠️ القواعد المقدسة
-
-!!! danger "المصطلحات (مش قابلة للنقاش)"
-    **ورشة** ✅ مش "كورس" — **متدرب** ✅ مش "طالب" — **محاضر** ✅ مش "دكتور" — **تطبيق عملي على ملفات شركات حقيقية** ✅ مش "تمارين" — **جدية الحجز** ✅ مش "عربون"
-
-!!! warning "السعر"
-    - **مفيش خصومات عشوائية** — أي خصم لازم يـ تـ ربط بسبب
-    - **سياسة جدية الحجز:** 50% عند الحجز + 50% أول محاضرة (بدون فوايد)
-
-!!! info "ممنوع وصف الإسكندرية بـ 'فرع'"
-    ورشة المحاسب الشامل في 6 يونيو 2026 لها **مكان حضور استثنائي** في الإسكندرية (نقابة المهندسين، الشاطبي). **ممنوع** كلمة "فرع".
-
----
-
-## 📋 الـ 7 Stages في الـ Brief
-
-| Stage | الحالة | الحرارة | يعني إيه |
-|-------|--------|----------|----------|
-| **1** | تم التحويل ✅💰 | 🔥 Hot | حوّل فعلاً → تأكيد + ترحيب |
-| **2** | تم الحجز ✅ | 🔥 Hot | اتفق هـ يحجز، لسه ما حوّلش → timeline |
-| **3** | جاهز للتحويل 💳 | 🔥 Hot | شاف السعر وسأل عن الدفع → تسهيل |
-| **4** | مهتم لم يتقدم | 🟡 Warm | شاف السعر، قال "تمام" → كشف objection |
-| **5** | شاف السعر ولم يحجز | 🟡 Warm | "هفكر" أو سكت → كسر stalling |
-| **6** | مرحلة الاستكشاف | 🔵 Cold | لسه بيستكشف → discovery كامل |
-| **7** | رفض | 🔵 Cold | "غالي" / "مش مهتم" → إعادة تواصل محترمة |
+> **محتاج الأسعار الكاملة + الـ Multi-booking + خصومات الـ Fresh Graduate؟** → [💰 صفحة الأسعار](pricing/)
 
 ---
 
@@ -359,4 +282,4 @@ hide:
 ---
 
 !!! info "Internal Use Only — RS Sales Team"
-    آخر تحديث: 2026-05-11 — Said Tantawy (Sales Director)
+    آخر تحديث: 2026-05-12 — Said Tantawy (Sales Director)
