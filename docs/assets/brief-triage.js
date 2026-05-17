@@ -32,6 +32,115 @@
     7: { name: 'رفض', heat: 'cold', icon: '🔵', action: 'إعادة تواصل محترمة (مش إقفال نهائي) — Goodwill close', focus: 'احترم القرار. سجّل في nurture list. متضغطش.' }
   };
 
+  // ============ Angle Detection (per workshop) ============
+  const ANGLES_MAP = {
+    'financial-accountant': [
+      { n: 1, label: 'Fresh بـ يـ دوّر شغل', slug: 'angle-1-fresh-job-hunter', keywords: ['متخرج', 'بدور شغل', 'مترفض', 'إنترفيو', 'مفيش خبرة', 'fresh', 'graduate', 'بقدّم', 'دور وظيفة'] },
+      { n: 2, label: 'فريش لسه في الكلية', slug: 'angle-2-fresh-pre-job', keywords: ['كلية', 'لسه طالب', 'هتخرج', 'سنة 4', 'سنة 3', 'سنة رابعة', 'سنة ثالثة', 'طالب', 'لسه ما تخرجش'] },
+      { n: 3, label: 'موظف جديد ضايع', slug: 'angle-3-new-employee', keywords: ['موظف جديد', 'ضايع', 'بنفذ', 'مش فاهم', 'محاسب جديد', 'لسه دخلت شركة', 'أول شغل'] }
+    ],
+    'comprehensive-accountant': [
+      { n: 1, label: 'Junior ثابت', slug: 'angle-1-stuck-junior', keywords: ['junior', 'سنة', 'سنتين', 'ثابت', 'data entry', 'مدخل بيانات', 'بنفذ', 'مكرر', 'مش بفهم'] },
+      { n: 2, label: 'طموح رئيس حسابات', slug: 'angle-2-aspiring-chief', keywords: ['رئيس حسابات', 'chief', 'يدير', 'فريق', 'أشيل ملف', 'إقفال', 'تسويات', 'طموح', 'منصب'] },
+      { n: 3, label: 'صاحب شركة', slug: 'angle-3-business-owner', keywords: ['صاحب شركة', 'صاحب', 'owner', 'بزنس', 'شركتي', 'محاسبي'] }
+    ],
+    'tax-expert': [
+      { n: 1, label: 'محاسب خايف من الفحص', slug: 'angle-1-fearing-audit', keywords: ['فحص ضريبي', 'فحص', 'خوف', 'خايف', 'مأمور', 'مصلحة', 'غرامات', 'مش جاهز', 'الشركة'] },
+      { n: 2, label: 'يبغى تخصص', slug: 'angle-2-specialization', keywords: ['تخصص', 'specialization', 'يزود قيمتي', 'authority', 'محاسب شغّال', 'متخصص ضرايب'] },
+      { n: 3, label: 'صاحب شركة بـ يدفع غرامات', slug: 'angle-3-owner-fines', keywords: ['غرامات', 'بدفع كل سنة', 'محاسبي مش فاهم', 'صاحب شركة', 'owner', 'بزنس'] }
+    ],
+    'odoo': [
+      { n: 1, label: 'شركته بـ تنقل ERP', slug: 'angle-1-company-erp', keywords: ['شركتي بتنقل', 'odoo', 'erp', 'بيطلب مني', 'مش عارف', 'system', 'نظام جديد'] },
+      { n: 2, label: 'يبغى يدخل سوق ERP', slug: 'angle-2-erp-market', keywords: ['سوق', 'تخصص', 'erp consultant', 'implementation', 'يدخل تخصص', 'odoo specialist'] },
+      { n: 3, label: 'صاحب شركة', slug: 'angle-3-owner', keywords: ['صاحب شركة', 'owner', 'شركتي', 'excel', 'محاسبي', 'نظام'] }
+    ],
+    'cost-engineering': [
+      { n: 1, label: 'محاسب في مصنع', slug: 'angle-1-factory-accountant', keywords: ['مصنع', 'تكاليف', 'محاسب تكاليف', 'إنتاج', 'صناعي', 'بدخل قيود', 'مقاولات'] },
+      { n: 2, label: 'يبغى تخصص', slug: 'angle-2-specialization', keywords: ['تخصص', 'specialization', 'محاسبة عادية', 'يزود قيمتي', 'تكاليف'] },
+      { n: 3, label: 'صاحب نشاط إنتاجي', slug: 'angle-3-business-owner', keywords: ['صاحب', 'owner', 'شركتي', 'نشاط إنتاجي', 'مصنع', 'قرارات'] }
+    ],
+    'financial-analysis': [
+      { n: 1, label: 'Senior مضغوط', slug: 'angle-1-senior-pressured', keywords: ['senior', 'سينيور', 'مضغوط', 'مدير بـ يطلب', 'رؤية', 'تحليل', 'قرارات', '3 سنين', '5 سنين'] },
+      { n: 2, label: 'محلل junior', slug: 'angle-2-analyst-growing', keywords: ['محلل', 'analyst', 'junior', 'بـ شتغل تحليل', 'يحترف', 'depth', 'يطور'] },
+      { n: 3, label: 'مستثمر/صاحب', slug: 'angle-3-investor-owner', keywords: ['مستثمر', 'investor', 'صاحب شركة', 'بـ شوف قوائم', 'يقيّم'] }
+    ],
+    'cfo': [
+      { n: 1, label: 'رئيس حسابات → CFO', slug: 'angle-1-chief-to-cfo', keywords: ['رئيس حسابات', 'chief', 'ثابت', 'أنتقل لـ cfo', 'مفيش حد بـ يعلمني', '7 سنين', '5 سنين'] },
+      { n: 2, label: 'CFO جديد', slug: 'angle-2-new-cfo', keywords: ['cfo جديد', 'new cfo', 'knowledge gap', 'gaps', 'مش متأكد', 'tools', 'thinking'] },
+      { n: 3, label: 'صاحب شركة بـ يقيّم', slug: 'angle-3-owner-evaluating', keywords: ['صاحب شركة', 'owner', 'بـ قيّم', 'محتاج cfo', 'يدور على', 'كفؤ', 'يفهم'] }
+    ],
+    'excel': [
+      { n: 1, label: 'فريش بـ يـ تعلم Excel', slug: 'angle-1-junior-learning', keywords: ['فريش', 'fresh', 'لسه', 'بـ يـ تعلم', 'من أين أبدأ', 'مبتدئ', 'beginner'] },
+      { n: 2, label: 'محاسب شغّال بـ يـ عمل تقارير', slug: 'angle-2-working-accountant', keywords: ['محاسب شغال', 'تقارير', 'بـ شتغل في excel', 'وقت طويل', 'shortcuts', 'functions', 'advanced'] },
+      { n: 3, label: 'صاحب شركة', slug: 'angle-3-business-owner', keywords: ['صاحب شركة', 'owner', 'موظفيني', 'roi', 'وقت موظف'] }
+    ]
+  };
+
+  function detectAngle(text, workshop) {
+    if (!workshop || !ANGLES_MAP[workshop.slug]) return null;
+    const t = (text || '').toLowerCase();
+    const angles = ANGLES_MAP[workshop.slug];
+    let best = null;
+    let bestScore = 0;
+    angles.forEach(a => {
+      let score = 0;
+      a.keywords.forEach(k => {
+        // Count keyword occurrences (Arabic-aware: don't lowercase Arabic)
+        const isArabic = /[؀-ۿ]/.test(k);
+        const needle = isArabic ? k : k.toLowerCase();
+        const haystack = isArabic ? (text || '') : t;
+        if (haystack.includes(needle)) score += 1;
+      });
+      if (score > bestScore) {
+        bestScore = score;
+        best = a;
+      }
+    });
+    if (!best || bestScore === 0) return null;
+    // Confidence: relative to keywords matched
+    const confidence = bestScore >= 3 ? 'high' : bestScore >= 2 ? 'medium' : 'low';
+    return { ...best, score: bestScore, confidence };
+  }
+
+  // ============ Objection Auto-detect ============
+  const OBJECTION_PATTERNS = [
+    { key: 'price', label: 'السعر + الخصم', emoji: '💰', keywords: ['غالي', 'سعر مرتفع', 'مش قادر أدفع', 'متحملش', 'ميزانية', 'تخفيض', 'خصم', 'كتير', 'مرتفع', 'expensive'], url: 'objections/price/' },
+    { key: 'stalling', label: 'Stalling — هفكر / هكلم', emoji: '🚧', keywords: ['هفكر', 'هكلم', 'أهلي', 'زوجتي', 'بعدين', 'هرجعلك', 'مش الوقت', 'هرد عليك', 'هشوف'], url: 'objections/stalling/' },
+    { key: 'trust', label: 'الثقة + الضمان', emoji: '🤔', keywords: ['ضامن', 'ضمان', 'ثقة', 'مين هما', 'إثبات', 'feedback', 'reviews', 'موثوقة', 'حقيقي', 'مضمون'], url: 'objections/trust/' },
+    { key: 'time', label: 'الوقت + المواعيد', emoji: '⏰', keywords: ['مش فاضي', 'مشغول جداً', 'مش متاح', 'مواعيد صعبة', 'مش هـ يـ ناسبني', 'وقت قليل', 'مش لاقي وقت', 'الميعاد صعب'], url: 'objections/time/' },
+    { key: 'logistics', label: 'Logistics — مكان/Online/لاب توب', emoji: '📍', keywords: ['بعيد عن', 'مكان بعيد', 'من محافظة تانية', 'مش هـ سافر', 'مفيش مواصلات', 'مفيش لاب توب', 'مفيش كمبيوتر', 'مش هـ نزل القاهرة'], url: 'objections/logistics/' },
+    { key: 'competition', label: 'Competition — منافسين', emoji: '🥊', keywords: ['يوتيوب', 'مجاني', 'كورس تاني', 'أكاديمية', 'بـ شوف', 'موقع تاني', 'instructor', 'udemy', 'في حد تاني'] , url: 'objections/competition/' },
+    { key: 'doubt', label: 'Doubt — شك في القيمة', emoji: '❓', keywords: ['مش متأكد', 'هل يفرق', 'يساعد فعلاً', 'هضمن', 'هل ينفع', 'مش عارف', 'شك'], url: 'objections/doubt/' }
+  ];
+
+  function detectObjections(text) {
+    if (!text) return [];
+    const matches = [];
+    OBJECTION_PATTERNS.forEach(o => {
+      let score = 0;
+      o.keywords.forEach(k => {
+        if (text.includes(k)) score += 1;
+      });
+      if (score > 0) matches.push({ ...o, score });
+    });
+    return matches.sort((a, b) => b.score - a.score).slice(0, 3);
+  }
+
+  // ============ Stage Conversion Probability ============
+  const PROBABILITY = {
+    1: { percent: '95%+', heat: 'hot', hint: 'حوّل بالفعل — تثبيت + ترحيب' },
+    2: { percent: '80-90%', heat: 'hot', hint: 'اتفق على الحجز — تأكيد ميعاد التحويل' },
+    3: { percent: '60-80%', heat: 'hot', hint: 'قريب من الـ close — كشف العائق + تسهيل' },
+    4: { percent: '30-50%', heat: 'warm', hint: 'في objection مخفي — اكشف السبب الحقيقي' },
+    5: { percent: '20-35%', heat: 'warm', hint: 'stalling — اكسر التسويف + احصل على commitment' },
+    6: { percent: '10-20%', heat: 'cold', hint: 'بدري — discovery كامل + بناء قيمة' },
+    7: { percent: '5-10%', heat: 'cold', hint: 'رفض — nurture longterm، متضغطش' }
+  };
+
+  function getProbability(stage) {
+    return PROBABILITY[stage] || null;
+  }
+
   // ============ Routing Mapping ============
   function detectRouting(text) {
     const t = (text || '').toLowerCase();
@@ -124,6 +233,18 @@
     // Next step (multi-line, often at end)
     out.nextStep = field(text, 'الخطوة الجاية', true);
 
+    // Smart Angle Detection (uses summary + raw text + job_title field)
+    const jobTitle = field(text, 'job_title') || field(text, 'الوظيفة') || '';
+    const detectionPool = [out.summary || '', text, jobTitle].join(' ');
+    out.angle = detectAngle(detectionPool, out.workshop);
+
+    // Objection Auto-detect: scan SUMMARY ONLY (not structural fields like priceInfo/location).
+    // Skip for hot stages where deal is already in motion (1=paid, 2=committed).
+    out.objections = (out.stage && out.stage <= 2) ? [] : detectObjections(out.summary || '');
+
+    // Stage Conversion Probability
+    out.probability = getProbability(out.stage);
+
     return out;
   }
 
@@ -172,9 +293,14 @@
     const stage = parsed.stage;
     const sData = parsed.stageData;
     const w = parsed.workshop;
-    const workshopUrl = w ? `scripts/${w.slug}/` : 'scripts/';
+    const angle = parsed.angle;
+    // Deep-link: if angle detected, link to angle page + stage anchor; else workshop index
+    const workshopUrl = w
+      ? (angle ? `scripts/${w.slug}/${angle.slug}/#stage-${stage}` : `scripts/${w.slug}/`)
+      : 'scripts/';
     const heatLabel = heat === 'hot' ? '🔥 Hot' : heat === 'warm' ? '🟡 Warm' : '🔵 Cold';
     const isBookings = parsed.routing && parsed.routing.type === 'bookings';
+    const prob = parsed.probability;
 
     let warningBanner = '';
     if (isBookings) {
@@ -193,6 +319,7 @@
         <div class="bt-card-header">
           <span class="bt-heat-badge">${heatLabel}</span>
           <span class="bt-stage-badge">Stage ${stage}: ${escapeHtml(sData.name)} ${sData.icon}</span>
+          ${prob ? `<span class="bt-prob-badge" title="${escapeHtml(prob.hint)}">📊 ${prob.percent}</span>` : ''}
         </div>
 
         <div class="bt-card-body">
@@ -203,6 +330,18 @@
             ${parsed.date ? `<br>📅 ${escapeHtml(parsed.date)}` : ''}
           </div>` : ''}
 
+          ${angle ? `<div class="bt-angle-rec bt-conf-${angle.confidence}">
+            <div class="bt-angle-rec-header">
+              <strong>🎯 Angle مقترح (auto-detected):</strong>
+              <span class="bt-angle-conf">ثقة ${angle.confidence === 'high' ? 'عالية' : angle.confidence === 'medium' ? 'متوسطة' : 'منخفضة'} · ${angle.score} keywords matched</span>
+            </div>
+            <a class="bt-angle-link" href="scripts/${w.slug}/${angle.slug}/#stage-${stage}">
+              Angle ${angle.n} — ${escapeHtml(angle.label)} → روح Stage ${stage} مباشرة
+            </a>
+          </div>` : (w ? `<div class="bt-angle-rec bt-conf-none">
+            <strong>🎯 Angle:</strong> ما قدرتش أحدّد angle محدد من الـ brief — <a href="scripts/${w.slug}/">شوف 3 angles الورشة</a> واختار يدوياً.
+          </div>` : '')}
+
           ${parsed.priceInfo ? `<div class="bt-price"><strong>💰 السعر المعروض:</strong><br>${escapeHtml(parsed.priceInfo)}</div>` : ''}
 
           <div class="bt-action">
@@ -211,12 +350,20 @@
             <p style="margin-top:0.3rem;font-size:0.9rem;color:var(--md-default-fg-color--light);">${escapeHtml(sData.focus)}</p>
           </div>
 
+          ${parsed.objections && parsed.objections.length > 0 ? `<div class="bt-objections">
+            <strong>🛡️ Objections متوقعة من الـ summary:</strong>
+            <div class="bt-objection-chips">
+              ${parsed.objections.map(o => `<a class="bt-objection-chip" href="${o.url}" title="${o.score} keyword(s) matched">${o.emoji} ${escapeHtml(o.label)} <span class="bt-obj-score">×${o.score}</span></a>`).join('')}
+            </div>
+            <p class="bt-objection-hint">اقرا الـ category قبل المكالمة — هـ يكون objection موجود.</p>
+          </div>` : ''}
+
           ${parsed.summary ? `<details class="bt-summary" open><summary>📝 ملخص المحادثة (من الـ AI Agent)</summary><p>${escapeHtml(parsed.summary)}</p></details>` : ''}
 
           ${parsed.nextStep ? `<details class="bt-next"><summary>🔮 اقتراح الـ AI للخطوة الجاية</summary><p>${escapeHtml(parsed.nextStep)}</p></details>` : ''}
 
           <div class="bt-quick-links">
-            ${w ? `<a class="bt-link" href="${workshopUrl}">${w.emoji} صفحة الورشة</a>` : ''}
+            ${w ? `<a class="bt-link" href="${workshopUrl}">${w.emoji} ${angle ? `Angle ${angle.n} → Stage ${stage}` : 'صفحة الورشة'}</a>` : ''}
             ${w && w.pdf ? `<a class="bt-link bt-link-pdf" href="${w.pdf}" download>📥 نزّل PDF الورشة</a>` : ''}
             <a class="bt-link" href="objections/">🛡️ Objections</a>
             <a class="bt-link" href="pricing/">💰 Pricing</a>
@@ -230,6 +377,9 @@
           </div>
         </div>
       </div>`;
+
+    // Wire template vars editor (live find/replace)
+    wireTemplateVars(resultEl);
 
     // Wire copy buttons
     resultEl.querySelectorAll('.bt-copy-btn').forEach(btn => {
@@ -270,6 +420,17 @@
   }
 
   // ============ Templates ============
+  const SALES_REP_KEY = 'rs_sales_rep_name';
+  function readSalesRepName() { try { return localStorage.getItem(SALES_REP_KEY) || ''; } catch (e) { return ''; } }
+  function saveSalesRepName(v) { try { localStorage.setItem(SALES_REP_KEY, v || ''); } catch (e) {} }
+
+  function applyTemplateVars(originalText, customerName, salesRepName) {
+    let out = originalText;
+    if (customerName) out = out.replace(/\[الاسم\]/g, customerName);
+    if (salesRepName) out = out.replace(/\[اسم السيلز\]/g, salesRepName);
+    return out;
+  }
+
   function renderTemplates(p) {
     const W = p.workshopName || 'الورشة';
     const D = p.date || '[تاريخ المجموعة]';
@@ -280,13 +441,63 @@
     const items = getTemplatesForStage(p.stage, { W, D, L, M, PR });
     if (!items || items.length === 0) return '<p class="bt-empty">مفيش templates للـ stage ده.</p>';
 
-    return items.map(t => `
-      <div class="bt-template">
-        <div class="bt-template-label">${escapeHtml(t.label)}</div>
-        <pre class="bt-template-text">${escapeHtml(t.text)}</pre>
-        <button class="bt-copy-btn">📋 انسخ الـ template</button>
+    const savedRep = readSalesRepName();
+
+    return `
+      <div class="bt-template-vars">
+        <div class="bt-template-vars-title">✏️ املا الأسماء قبل النسخ:</div>
+        <div class="bt-template-vars-row">
+          <label>
+            <span>اسم العميل:</span>
+            <input type="text" id="bt-var-customer" placeholder="مثلاً: أحمد" />
+          </label>
+          <label>
+            <span>اسم السيلز (محفوظ):</span>
+            <input type="text" id="bt-var-rep" value="${escapeHtml(savedRep)}" placeholder="مثلاً: محمود" />
+          </label>
+        </div>
       </div>
-    `).join('');
+      ${items.map((t, i) => `
+        <div class="bt-template" data-tpl-idx="${i}">
+          <div class="bt-template-label">${escapeHtml(t.label)}</div>
+          <pre class="bt-template-text" data-tpl-original="${escapeAttr(t.text)}">${escapeHtml(t.text)}</pre>
+          <button class="bt-copy-btn">📋 انسخ الـ template</button>
+        </div>
+      `).join('')}
+    `;
+  }
+
+  function wireTemplateVars(rootEl) {
+    if (!rootEl) return;
+    const customerInput = rootEl.querySelector('#bt-var-customer');
+    const repInput = rootEl.querySelector('#bt-var-rep');
+    if (!customerInput && !repInput) return;
+
+    function refresh() {
+      const c = (customerInput && customerInput.value.trim()) || '';
+      const r = (repInput && repInput.value.trim()) || '';
+      rootEl.querySelectorAll('.bt-template-text').forEach(pre => {
+        const original = pre.getAttribute('data-tpl-original') || '';
+        // The data attribute is HTML-escaped; decode by setting via textContent of a temp element
+        const decoded = decodeHtmlEntities(original);
+        pre.textContent = applyTemplateVars(decoded, c, r);
+      });
+    }
+
+    customerInput && customerInput.addEventListener('input', refresh);
+    repInput && repInput.addEventListener('input', () => {
+      saveSalesRepName(repInput.value.trim());
+      refresh();
+    });
+
+    // Initial pass to apply saved rep name (if any) right after render
+    refresh();
+  }
+
+  function decodeHtmlEntities(s) {
+    const ta = document.createElement('textarea');
+    ta.innerHTML = s;
+    return ta.value;
   }
 
   function getTemplatesForStage(stage, x) {
@@ -355,7 +566,7 @@ ${x.M ? `🔹 طريقة الحضور: ${x.M}\n` : ''}
 
 [بعد القبول]
 
-[الاسم] — سؤال صريح: أنت كنت جاهز ساعتها — ايه اللي خلاك تتأخر؟
+[الاسم]، خليني أسألك: أنت كنت جاهز ساعتها، ايه اللي خلاك تتأخر؟
 
 [انتظر — استمع]"`
         }
@@ -363,11 +574,11 @@ ${x.M ? `🔹 طريقة الحضور: ${x.M}\n` : ''}
 
       case 4: return [
         { label: '📱 WhatsApp — كشف الـ Real Objection', text:
-`[الاسم] — سؤال صريح:
+`[الاسم]، في حاجة في بالي.
 
-أنت قلت "تمام" لما عرفت السعر، بس ما حجزتش. عاوز أفهم — ايه اللي عمال يخليك تستنى؟
+أنت قلت "تمام" لما عرفت السعر، بس ما حجزتش. عاوز أفهم: ايه اللي عمال يخليك تستنى؟
 
-مش بضغط — بس عشان أعرف لو في حاجة محتاجة توضيح، أوضحها. ولو ورشة ${x.W} مش الـ fit ليك، اقولك بصراحة.`
+مش بضغط، بس عشان أعرف لو في حاجة محتاجة توضيح، أوضحها. ولو ورشة ${x.W} مش الـ fit ليك، اقولك بصراحة.`
         }
       ];
 
@@ -377,7 +588,7 @@ ${x.M ? `🔹 طريقة الحضور: ${x.M}\n` : ''}
 
 شفت إنك قلت "هفكر" لما عرضنا سعر ورشة ${x.W} (${x.PR}).
 
-سؤال صريح: هتفكر في إيه تحديداً؟
+خليني أسألك: هتفكر في إيه تحديداً؟
 
 💰 السعر؟
 📅 التوقيت؟
@@ -478,6 +689,11 @@ ${x.M ? `🔹 طريقة الحضور: ${x.M}\n` : ''}
     const div = document.createElement('div');
     div.textContent = text == null ? '' : String(text);
     return div.innerHTML;
+  }
+
+  // For HTML attribute values — escapes quotes too (escapeHtml doesn't)
+  function escapeAttr(text) {
+    return escapeHtml(text).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
   // ============ Init ============

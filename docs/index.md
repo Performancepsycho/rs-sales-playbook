@@ -4,9 +4,10 @@ hide:
   - toc
 ---
 
-# 🎯 RS Sales Scripts
+# 🎯 RS Sales Cockpit
 
-> **الـ Playbook الكامل لفريق سيلز RS Financial Services**
+> **لزّق الـ Brief. اعرف خطوتك في 5 ثواني. اقفل.**
+> الـ playbook ده مش بـ يـ شرحلك السيلز — بـ يـ خليك تـ سيب أي lead وأنت عارف بالظبط ايه اللي تـ عمله.
 
 <div class="hero-banner">
 <div class="hero-stat"><div class="hero-stat-num">9</div><div class="hero-stat-label">ورش</div></div>
@@ -17,12 +18,12 @@ hide:
 
 ---
 
-## 🧭 Brief Triage — لزّق الـ Brief واعرف خطوتك
+## 🧭 الأداة الأساسية — لزّق الـ Brief، اعرف خطوتك
 
 <div id="brief-triage" markdown="0">
   <div class="bt-header">
     <h2>🧭 الـ Brief Triage</h2>
-    <p>لزّق الـ Brief من الـ AI Agent، واعرف فوراً: هل ده شغلك، أنهي Stage، الـ template اللي تبعته، والـ links اللي تحتاجها. <strong>كل حاجة بـتحصل في browser-ك — مفيش data بـ تتبعت لأي server.</strong></p>
+    <p>لزّق الـ Brief من الـ AI Agent، واعرف فوراً: <strong>Stage إيه</strong>، <strong>Angle إيه</strong>، <strong>objection متوقع</strong>، والـ <strong>template الجاهز</strong> اللي تـ بعته للعميل. كل حاجة بـ تحصل في browser-ك — صفر data بـ تـ تبعت لـ أي server.</p>
   </div>
 
   <div class="bt-input">
@@ -44,58 +45,59 @@ hide:
 
 ---
 
-## ⚡ ابدأ من هنا
+## ⚡ مش لاقي وقت لـ Triage؟ ابدأ من هنا
 
 <div class="smart-entry-grid">
 
 <a class="smart-entry-btn entry-lead" href="helper/">
 <span class="smart-entry-icon">🆕</span>
-<span class="smart-entry-title">Lead جديد وصلني</span>
-<span class="smart-entry-sub">حدد الورشة + الـ Stage + الـ Angle في 5 ثواني</span>
+<span class="smart-entry-title">Lead جديد، مش عارف من أين أبدأ</span>
+<span class="smart-entry-sub">Decision Helper: ورشة + Stage + Angle في 30 ثانية</span>
 </a>
 
 <a class="smart-entry-btn entry-objection" href="objections/">
 <span class="smart-entry-icon">🛡️</span>
-<span class="smart-entry-title">العميل اعترض</span>
-<span class="smart-entry-sub">55+ اعتراض · 7 categories · الرد السريع</span>
+<span class="smart-entry-title">العميل قال "غالي" / "هـ فكر" / "مش هـ يـ ضمن"</span>
+<span class="smart-entry-sub">55+ اعتراض · 7 categories · الرد بـ ACR في 60 ثانية</span>
 </a>
 
 <a class="smart-entry-btn entry-workshop" href="scripts/">
 <span class="smart-entry-icon">📚</span>
-<span class="smart-entry-title">عارف الورشة بالفعل</span>
-<span class="smart-entry-sub">روح مباشرة لسكريبتات الورشة + الـ angles</span>
+<span class="smart-entry-title">عارف الورشة، عاوز السكريبت</span>
+<span class="smart-entry-sub">9 ورش × 3 angles × 7 stages × WhatsApp + Call</span>
 </a>
 
 </div>
 
 ---
 
-## 📋 الـ 7 Stages في الـ Brief
+## 📋 الـ 7 Stages — قرا الـ Brief، اعرف فين العميل في الـ funnel
 
-| Stage | الحالة | الحرارة | يعني إيه |
-|-------|--------|----------|----------|
-| **1** | تم التحويل ✅💰 | 🔥 Hot | حوّل فعلاً → تأكيد + ترحيب |
-| **2** | تم الحجز ✅ | 🔥 Hot | اتفق هـ يحجز، لسه ما حوّلش → timeline |
-| **3** | جاهز للتحويل 💳 | 🔥 Hot | شاف السعر وسأل عن الدفع → تسهيل |
-| **4** | مهتم لم يتقدم | 🟡 Warm | شاف السعر، قال "تمام" → كشف objection |
-| **5** | شاف السعر ولم يحجز | 🟡 Warm | "هفكر" أو سكت → كسر stalling |
-| **6** | مرحلة الاستكشاف | 🔵 Cold | لسه بيستكشف → discovery كامل |
-| **7** | رفض | 🔵 Cold | "غالي" / "مش مهتم" → إعادة تواصل محترمة |
+| Stage | الحالة | الحرارة | الـ Move الواحد اللي يـ كسب |
+|-------|--------|----------|------------------------------|
+| **1** | تم التحويل ✅💰 | 🔥 Hot | تأكيد + ترحيب + لوجستيات في < 30 دقيقة. ⚠️ مفيش pitch تاني. |
+| **2** | تم الحجز ✅ | 🔥 Hot | حدّد timeline محدد للتحويل (مش "قريب"). سهّل الـ 5 طرق دفع. |
+| **3** | جاهز للتحويل 💳 | 🔥 Hot | افتح بـ "في حاجة عمالة تأخر؟" — كشف العائق + ذلّل الـ payment. |
+| **4** | مهتم لم يتقدم | 🟡 Warm | اسأل سؤال محدد لـ كشف الـ real objection. ⚠️ متـ خمنش السبب. |
+| **5** | شاف السعر ولم يحجز | 🟡 Warm | اكسر "هفكر" بـ "هـ تـ فكر في إيه تحديداً؟" + 4 خيارات. |
+| **6** | مرحلة الاستكشاف | 🔵 Cold | Discovery كامل قبل أي pitch. اسأل أكتر مما تقول. |
+| **7** | رفض | 🔵 Cold | احترم القرار. nurture list. اقفل goodwill — مفتوح للمستقبل. |
 
 ---
 
-## 🛠️ أدوات السيلز السريعة
+## 🛠️ الـ Toolkit الكامل — لمّا تـ حتاج Reference
 
-| الأداة | للاستخدام |
-|--------|-----------|
-| 📚 [سكريبتات الورش](scripts/) | 9 ورش · 27 angles · WhatsApp + Call لكل Stage |
-| 🛡️ [Objections Library](objections/) | 55+ اعتراض · 7 categories |
-| 🧭 [Decision Helper](helper/) | حدد الورشة + الـ Stage في 5 ثواني |
-| 🖨️ [Cheatsheet (للطباعة)](cheatsheet/) | صفحة واحدة على المكتب — Ctrl+P |
-| 💰 [Pricing Matrix](pricing/) | كل الأسعار + المجموعات لكل ورشة |
-| 🤝 [Multi-booking + Bundles](multi-booking/) | متى وكيف تعرض package pricing |
-| 📥 [PDFs الورش](pdfs/) | نزّل PDF أي ورشة وابعتها للعميل |
-| 🚀 [ابدأ من هنا](start/) | للسيلز الجديد — 30 day roadmap |
+| الأداة | امتى تـ ستخدمها |
+|--------|-----------------|
+| 📚 [سكريبتات الورش](scripts/) | عاوز السكريبت الجاهز لـ stage معينة · WhatsApp + Call |
+| 🛡️ [Objections Library](objections/) | العميل قال objection — عاوز الرد بـ ACR في < 60 ثانية |
+| 🧭 [Decision Helper](helper/) | مش عارف انهي ورشة / angle / stage يـ ناسب الـ brief |
+| 🖨️ [Cheatsheet (للطباعة)](cheatsheet/) | Ctrl+P → ورقة واحدة على المكتب لـ المكالمات السريعة |
+| 💰 [Pricing Matrix](pricing/) | العميل سأل عن سعر / تـ قسيط / multi-booking |
+| 🤝 [Multi-booking + Bundles](multi-booking/) | تـ قدر تـ بيع 2-3 ورش بدل واحدة — السيناريوهات |
+| 📥 [PDFs الورش](pdfs/) | العميل عاوز "تـ بعتلي تفاصيل" — ابعتله PDF رسمي |
+| 🎙️ [Sales Voice Guide](team/voice-guide.md) | تـ كتب رسالة — لازم تـ راجع التون قبل ما تـ بعت |
+| 🚀 [ابدأ من هنا](start/) | جديد في الـ team — 30 day roadmap |
 
 ---
 

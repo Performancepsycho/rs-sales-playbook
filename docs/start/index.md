@@ -51,8 +51,8 @@ hide:
     **يوم 1-2: ملفات السياق**
 
     - [ ] [الـ Home page](../) — افهم البنية الكاملة
-    - [ ] [`_RS_SALES_CONTEXT.md`](../../_RS_SALES_CONTEXT.md) — السياق الكامل للسيلز
-    - [ ] [`../rs-hero/_RS_CONTEXT.md`](../../../rs-hero/_RS_CONTEXT.md) — هوية RS الكاملة
+    - [ ] [🎙️ Sales Voice Guide](../team/voice-guide.md) — كيف تـ كتب وتـ تكلم بـ اسم RS Sales
+    - [ ] **اطلب من Team Lead:** `_RS_SALES_CONTEXT.md` + `rs-hero/_RS_CONTEXT.md` (للسياق الداخلي الكامل)
 
     **يوم 3-4: الورش (overview)**
 
@@ -287,7 +287,7 @@ hide:
     - متى تعرض Odoo
     - الأهم: تفهم الـ pain الـ شائع لكل segment
 
-    **Resource:** [`../rs-hero/06_KNOWLEDGE/RS_Knowledge_Base.md`](../../../rs-hero/06_KNOWLEDGE/RS_Knowledge_Base.md) — قاعدة معرفة المحاسبة.
+    **Resource:** اطلب من Team Lead الـ `RS_Knowledge_Base.md` — قاعدة معرفة المحاسبة (في فولدر `rs-hero/06_KNOWLEDGE/`).
 
 ---
 

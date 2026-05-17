@@ -5,7 +5,7 @@ hide:
 
 # 📕 ورشة خبير الضرائب
 
-> **"من الخوف لـ الثقة في موسم الفحص الضريبي."**
+> **"لو حصل فحص ضريبي بكرة على شركتك، تـ قف قدام الفاحص واثق من شغلك بـ كل ملف وكل إقرار — مش تـ قعد في بيتك الليلة وأنت بـ تـ عد الغرامات اللي مـ مكن تـ دفعها."**
 
 <div class="ws-nav-grid">
 
@@ -15,13 +15,13 @@ hide:
   <div class="ws-nav-card-sub">12 محاضرة · أ/ أحمد علي</div>
 </a>
 
-<a class="ws-nav-card" href="#schedules">
+<a class="ws-nav-card" href="../../pricing/#schedules">
   <div class="ws-nav-card-icon">📅</div>
   <div class="ws-nav-card-title">المواعيد المتاحة</div>
   <div class="ws-nav-card-sub">Online + Offline</div>
 </a>
 
-<a class="ws-nav-card" href="#pricing">
+<a class="ws-nav-card" href="../../pricing/">
   <div class="ws-nav-card-icon">💰</div>
   <div class="ws-nav-card-title">الأسعار + التقسيط</div>
   <div class="ws-nav-card-sub">5250ج · Multi 5000ج</div>
@@ -51,16 +51,18 @@ hide:
 | **إجمالي الساعات** | 36 ساعة تدريبية |
 | **الجمهور** | محاسبين 1-7 سنين · يبغوا تخصص |
 | **النوع** | Offline + Online |
+| **السعر** | 5250ج (Multi 5000ج) |
+| **🎯 الـ Outcome الحقيقي** | لو حصل فحص بكرة، أنت اللي بـ تـ حمي ميزانية الشركة — مش السبب في غراماتها |
 
 </div>
 
 ??? success "✅ الـ Outcomes الأساسية"
 
-    🔹 ✅ **كل أنواع الضرايب:** الدخل + VAT + المرتبات + الخصم والإضافة + الدمغة + الجداول
-    🔹 ✅ **الفاتورة الإلكترونية** — ضوابط 2026
-    🔹 ✅ **الإقرارات الضريبية** (شهرية + سنوية)
-    🔹 ✅ **تجهيز الشركة للفحص** — الملفات + الردود
-    🔹 ✅ **تخطيط ضريبي شرعي** — تقليل العبء قانونياً
+    🔹 ✅ تـ حسب وتـ قدم إقرار VAT شهري وإقرار دخل سنوي صح، من غير مـ تـ بعت لـ زمايل تـ سألهم
+    🔹 ✅ تـ شغل الفاتورة الإلكترونية بـ ضوابط 2026 وتـ ربطها بـ نظام الشركة
+    🔹 ✅ تـ جهز ملف الفحص قبل ما الفاحص يـ طلبه، عشان تـ دخل الجلسة في موقع defensive
+    🔹 ✅ تـ رد على أي سؤال للفاحص بـ مرجع قانوني — مش بـ "والله مش متأكد"
+    🔹 ✅ تـ خطط ضريبياً تـ وفر للشركة 15-30% من العبء بـ طرق قانونية 100%
 
 ??? info "📚 المحاور"
 
@@ -78,89 +80,6 @@ hide:
 
 ---
 
-<a id="schedules"></a>
-
-<div class="ws-section-header"><span class="ws-section-header-icon">📅</span> المواعيد المتاحة</div>
-
-<div class="schedule-table">
-
-<div class="schedule-row">
-  <div class="schedule-date">10 مايو</div>
-  <div>
-    <div class="schedule-info-title">المجموعة الأقرب — Online</div>
-    <div class="schedule-info-meta">الأحد + الأربعاء · 6م-9م · Zoom تفاعلي · 12 × 3س</div>
-  </div>
-  <span class="schedule-badge online">Online · Zoom</span>
-</div>
-
-<div class="schedule-row">
-  <div class="schedule-date">4 يونيو</div>
-  <div>
-    <div class="schedule-info-title">المجموعة Offline — القاهرة</div>
-    <div class="schedule-info-meta">الاثنين + الخميس · 6م-9م · نقابة التجاريين</div>
-  </div>
-  <span class="schedule-badge offline">Offline · القاهرة</span>
-</div>
-
-</div>
-
----
-
-<a id="pricing"></a>
-
-<div class="ws-section-header"><span class="ws-section-header-icon">💰</span> الأسعار + التقسيط</div>
-
-<div class="price-compare-grid">
-
-<div class="price-compare-card">
-  <div class="price-compare-label">السعر العادي</div>
-  <div class="price-compare-value">7500ج</div>
-  <div class="price-compare-note">مرجع فقط</div>
-</div>
-
-<div class="price-compare-card featured">
-  <div class="price-compare-label">بعد الخصم</div>
-  <div class="price-compare-value">5250ج</div>
-  <div class="price-compare-note">توفير 2250ج · -30%</div>
-</div>
-
-<div class="price-compare-card">
-  <div class="price-compare-label">Multi-booking</div>
-  <div class="price-compare-value">5000ج</div>
-  <div class="price-compare-note">لو 2+ ورش أو 2+ زمايل</div>
-</div>
-
-<div class="price-compare-card unavailable">
-  <div class="price-compare-label">المسجل</div>
-  <div class="price-compare-value">غير متاح</div>
-  <div class="price-compare-note">Live فقط</div>
-</div>
-
-</div>
-
-!!! info "نفس السعر للـ Online والـ Offline"
-
-**جدية الحجز:** 2625ج (50%) + الباقي 2625ج في أول محاضرة بدون فوايد.
-
-??? tip "🎁 Bundles مقترحة"
-
-    🔹 **Tax Specialist:** الضرايب + Excel = **7000ج**
-    🔹 **Career Booster:** الضرايب + المالي = **8250ج** (Multi)
-    🔹 **Owner's Stack:** الضرايب + إعداد القوائم + Excel = **9000ج**
-
-??? info "💳 طرق الدفع"
-
-    ```
-    🟢 انستا باي: 100057017249 (CIB)
-    🟢 فودافون كاش: 01002180432
-    🟢 تحويل بنكي: CIB - حساب 100057017249
-    🟢 رابط Stripe: https://buy.stripe.com/00geWvdkedzn09O3ce
-    🟢 في المقر: 29أ امتداد رمسيس، نقابة التجاريين، الدور 8
-    🟢 فيزا تقسيط: كل البنوك المصرية
-    ```
-
----
-
 <a id="angles"></a>
 
 <div class="ws-section-header"><span class="ws-section-header-icon">🎯</span> اختار الـ Angle المناسب</div>
@@ -169,122 +88,37 @@ hide:
 
 <a class="angle-card" href="angle-1-fearing-audit/">
   <span class="angle-card-num">1</span>
-  <span class="angle-card-title">خايف من الفحص</span>
-  <span class="angle-card-meta">محاسب شركة · فحص قادم · مش متأكد من شغله</span>
-  <span class="angle-card-pain">"عندنا فحص ضريبي، أنا مش متأكد إن شغلي صح، خايف على شغلي"</span>
+  <span class="angle-card-title">محاسب جالها إخطار فحص الأسبوع ده</span>
+  <span class="angle-card-meta">محاسب شركة · فحص قادم خلال شهر · بـ يـ تـ فرج في ملفات قديمة وهو خايف</span>
+  <span class="angle-card-pain">"وصلني إخطار فحص الأسبوع ده. مـ بـ نمش الليلة. أنا مـ متأكدش من إقرارات السنتين اللي فاتوا. لو طلعت غرامة، صاحب الشركة هـ يـ خصمها مني — أو يـ طردني"</span>
 </a>
 
 <a class="angle-card" href="angle-2-specialization/">
   <span class="angle-card-num">2</span>
-  <span class="angle-card-title">يبغى تخصص</span>
-  <span class="angle-card-meta">محاسب 2-5 سنين · عاوز skill يميزه</span>
-  <span class="angle-card-pain">"أي محاسب بيعمل قيود، قليل اللي بيعرف ضرايب صح."</span>
+  <span class="angle-card-title">محاسب شغّال بـ يـ دور على edge</span>
+  <span class="angle-card-meta">محاسب 2-5 سنين · شايف إن الضرايب tier أعلى · مرتب أكبر</span>
+  <span class="angle-card-pain">"كل محاسب في السوق بـ يـ كتب قيود — يعني أنا zero edge. شفت إعلان لـ خبير ضرايب بـ 18K، وأنا بـ 6K. الفرق هو الـ specialty، مش الشطارة"</span>
 </a>
 
 <a class="angle-card" href="angle-3-owner-fines/">
   <span class="angle-card-num">3</span>
-  <span class="angle-card-title">صاحب شركة مع غرامات</span>
-  <span class="angle-card-meta">دفع غرامات قبل كده · عاوز يتجنبها</span>
-  <span class="angle-card-pain">"دفعت 50K غرامة السنة اللي فاتت."</span>
+  <span class="angle-card-title">صاحب شركة دفع غرامات السنة اللي فاتت</span>
+  <span class="angle-card-meta">صاحب شركة · دفع 50K-200K غرامات · مـ بـ يـ ثقش في محاسبه</span>
+  <span class="angle-card-pain">"دفعت 80 ألف غرامة السنة اللي فاتت. محاسبي قاللي 'الحكومة' — أنا مـ صدقتوش. عاوز أفهم الموضوع بـ نفسي عشان مـ حدش يـ تـ بطّط عليّ تاني"</span>
 </a>
 
 </div>
 
 ---
 
-## 🛡️ اعتراضات خاصة بورشة الضرايب
-
-??? warning "\"الضرايب بتتغير كل سنة — محتوى الورشة هيتقدم\""
-
-    **R:**
-    > 🔹 **الـ fundamentals مش بتتغير** — الإقرارات + الفحص + التركيب = foundation
-    > 🔹 **التغييرات يومية بنعرفها** — المحاضر شغّال في الفحص، بيضيف آخر updates
-    > 🔹 **WhatsApp group بعد الورشة** — في contact مع المحاضر لـ 6 شهور للأسئلة العملية
-
-??? warning "\"أنا محاسب موظف، الشركة بتتعامل مع ضرايب — هل ينفعني؟\""
-
-    **R:**
-    > **الموظف اللي عنده knowledge ضرايب = first promotion.**
-    >
-    > 90% من المحاسبين بيكرهوا الضرايب. لو انت اللي بتفهمها، رئيسك هيعتمد عليك في الإقرارات + الفاحص + التخطيط الضريبي.
-    >
-    > **شفت ده يحدث مع 20+ متدرب 2024.**
-
-??? warning "\"السعر 5250ج كتير\""
-
-    **R:**
-    > **الـ ROI الواقعي:**
-    >
-    > 🔹 **freelance: 200-500ج/ساعة استشارات**
-    > 🔹 **مرتب محاسب ضرايب: 12-20K** (vs 7-10K المحاسب العادي)
-    > 🔹 **غرامة واحدة بتكلف 50K-200K** — لو منعتها، الشركة كسبت
-    >
-    > بترجع تكلفتها في **شهر واحد + رفع مرتبك 3000ج** · **استشارة واحدة** · **منع غرامة واحدة**.
-    >
-    > Multi-booking: **5000ج** لو حجزت مع زميل.
-
-??? warning "\"المحاضر بيشتغل في الفحص — مش هيديني tricks ضد الشركات؟\""
-
-    **R:**
-    > العكس. **بيشوف الفحص من الجانبين:**
-    >
-    > 🔹 **الفاحص:** يعرف الـ red flags اللي بيبحثوا عنها
-    > 🔹 **المحاسب:** يعرف ازاي تجهّز قبل ما الفاحص ييجي
-    >
-    > هدف الورشة: **شفافية = فحص بدون مشاكل** (مش tricks).
-
-??? warning "\"عندي فحص الأسبوع الجاي — هل تنفعني دلوقتي؟\""
-
-    **R:**
-    > الورشة 12 محاضرة على أسابيع — مش هتنقذك من فحص الأسبوع الجاي.
-    >
-    > **اقتراح:**
-    >
-    > 1. **مكالمة استشارية فردية** مع المحاضر قبل الفحص
-    > 2. **تسجل للورشة** للمستقبل
-
-??? warning "\"12 محاضرة كتير\""
-
-    **R:**
-    > **السبب:** الضرايب فيها 5+ أنواع. كل واحدة محتاجة وقت.
-    >
-    > 🔹 **مرتين في الأسبوع** = **6 أسابيع بس** (~شهر ونص)
-    > 🔹 **بعد الشغل (6م-9م)**
-    > 🔹 **Recording متاح**
-
-??? warning "\"Online بينفع نفس الـ Offline؟\""
-
-    **R:** نعم — case studies + ملفات Excel + إقرارات نموذجية كلها بتتشارك على الـ screen. الفرق الوحيد: networking في الـ Offline.
-
----
-
-## 📝 ملاحظات سريعة للسيلز
-
-??? note "🎯 الـ Hooks الـ 3 الأقوى"
-
-    1. **"من الخوف لـ الثقة في موسم الفحص"** — للمحاسب الشغّال
-    2. **"المحاضر شغّال في الفحص — inside view"** — Trust
-    3. **"كل ضرايب مصر + الفاتورة الإلكترونية + الفحص"** — Comprehensive
-
-??? danger "❌ ممنوع نهائياً"
-
-    🔹 ❌ "بنعلمك ازاي تهرب من الضرايب" — غير شرعي
-    🔹 ❌ "هتشتغل freelance على طول"
-    🔹 ❌ "كل تحديث ضريبي 100%"
-    🔹 ❌ "كورس"
-
-??? success "✅ المسموح"
-
-    🔹 ✅ Multi-booking 5000ج
-    🔹 ✅ **استشارة فردية مع المحاضر** لـ urgent cases
-    🔹 ✅ Bundle: الضرايب + الإكسيل = **freelance consultant ready**
-    🔹 ✅ خطة 50/50
-
----
-
 ## 🔗 روابط سريعة
 
-- [🧭 Decision Helper](../../helper/)
-- [🛡️ Objections Library](../../objections/)
-- [💰 Pricing Matrix](../../pricing/)
-- [🤝 Multi-booking + Bundles](../../multi-booking/)
+📅 **المواعيد الكاملة + بدائل الـ Online/Offline →** [💰 Pricing & Schedules](../../pricing/#schedules)
+
+💰 **التسعير الكامل + الـ Multi-booking discounts →** [💰 Pricing](../../pricing/)
+
+🛡️ **شفت objection معين؟** → [Objections Library](../../objections/)
+
+🧭 **مش متأكد انهي angle؟** → [Decision Helper](../../helper/)
+
+🤝 **عاوز bundle مع ورشة تانية؟** → [Multi-booking + Bundles](../../multi-booking/)

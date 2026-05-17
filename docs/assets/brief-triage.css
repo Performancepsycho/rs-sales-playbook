@@ -481,4 +481,207 @@ details.bt-next p {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .bt-template-vars-row {
+    flex-direction: column;
+  }
+
+  .bt-angle-rec-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ============================================================
+   Phase 4 Enhancements: Angle Rec + Objection Auto-detect
+   + Probability Badge + Template Variables Editor
+   ============================================================ */
+
+/* Probability badge (in header next to stage badge) */
+.bt-prob-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  background: #ede7f6;
+  color: #4527a0;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: help;
+  border: 1px solid #d1c4e9;
+}
+
+/* Smart Angle Recommendation card */
+.bt-angle-rec {
+  background: #fff9c4;
+  border-right: 4px solid #fbc02d;
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  margin: 0.8rem 0;
+  font-size: 0.95rem;
+}
+
+.bt-angle-rec.bt-conf-high {
+  background: #c8e6c9;
+  border-right-color: #2e7d32;
+}
+
+.bt-angle-rec.bt-conf-medium {
+  background: #fff3e0;
+  border-right-color: #ef6c00;
+}
+
+.bt-angle-rec.bt-conf-low {
+  background: #fff9c4;
+  border-right-color: #fbc02d;
+}
+
+.bt-angle-rec.bt-conf-none {
+  background: #f5f5f5;
+  border-right-color: #9e9e9e;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+}
+
+.bt-angle-rec-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.bt-angle-conf {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+  background: rgba(255,255,255,0.6);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+}
+
+.bt-angle-link {
+  display: block;
+  color: var(--rs-primary-deep, #3f51b5);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.4rem 0;
+}
+
+.bt-angle-link:hover {
+  text-decoration: underline;
+}
+
+/* Objection Auto-detect chips */
+.bt-objections {
+  margin: 0.9rem 0;
+  padding: 0.85rem 1rem;
+  background: #ffebee;
+  border-right: 4px solid #c62828;
+  border-radius: 8px;
+}
+
+.bt-objections > strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #b71c1c;
+}
+
+.bt-objection-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.bt-objection-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.7rem;
+  background: white;
+  color: var(--md-default-fg-color);
+  border: 1px solid #ef9a9a;
+  border-radius: 18px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+.bt-objection-chip:hover {
+  background: #c62828;
+  color: white;
+  border-color: #c62828;
+}
+
+.bt-obj-score {
+  background: rgba(0,0,0,0.08);
+  padding: 0.05rem 0.4rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.bt-objection-chip:hover .bt-obj-score {
+  background: rgba(255,255,255,0.25);
+}
+
+.bt-objection-hint {
+  margin: 0.55rem 0 0;
+  font-size: 0.85rem;
+  color: #5d1010;
+  font-style: italic;
+}
+
+/* Template Variables Editor */
+.bt-template-vars {
+  margin: 0.8rem 0 1rem;
+  padding: 0.8rem 1rem;
+  background: #e3f2fd;
+  border-right: 4px solid #1976d2;
+  border-radius: 8px;
+}
+
+.bt-template-vars-title {
+  font-weight: 700;
+  color: #0d47a1;
+  margin-bottom: 0.6rem;
+  font-size: 0.92rem;
+}
+
+.bt-template-vars-row {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.bt-template-vars-row label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color);
+}
+
+.bt-template-vars-row label span {
+  font-weight: 600;
+}
+
+.bt-template-vars-row input {
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #90caf9;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.92rem;
+  direction: rtl;
+  background: white;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.bt-template-vars-row input:focus {
+  outline: none;
+  border-color: #1976d2;
+  box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.15);
 }

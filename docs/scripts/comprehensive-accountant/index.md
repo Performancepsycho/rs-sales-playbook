@@ -5,7 +5,7 @@ hide:
 
 # 📗 ورشة المحاسب الشامل
 
-> **"محاسب منفّذ → محاسب فاهم وقادر يدير أي نظام محاسبي."**
+> **"بـ تـ نقلك من 'محاسب بـ يـ نفذ شغل' لـ 'رئيس قسم بـ يـ مسك ملف الشركة كله' — إقفال شهري كامل + تسويات جردية + مذكرة بنكية بـ إيدك على شركة فعلية."**
 
 <div class="ws-nav-grid">
 
@@ -15,13 +15,13 @@ hide:
   <div class="ws-nav-card-sub">8 محاضرات × 4س · Live + Udemy</div>
 </a>
 
-<a class="ws-nav-card" href="#schedules">
+<a class="ws-nav-card" href="../../pricing/#schedules">
   <div class="ws-nav-card-icon">📅</div>
   <div class="ws-nav-card-title">المواعيد المتاحة</div>
   <div class="ws-nav-card-sub">الإسكندرية + القاهرة + Udemy</div>
 </a>
 
-<a class="ws-nav-card" href="#pricing">
+<a class="ws-nav-card" href="../../pricing/">
   <div class="ws-nav-card-icon">💰</div>
   <div class="ws-nav-card-title">الأسعار + التقسيط</div>
   <div class="ws-nav-card-sub">Live 5800ج · Udemy 2500ج</div>
@@ -50,16 +50,18 @@ hide:
 | **مدة المحاضرة** | 4 ساعات (Live) · 1.3 ساعة (Udemy) |
 | **إجمالي الساعات** | 32 ساعة Live · 6.5 ساعة Udemy |
 | **الجمهور** | Junior 1-3 سنين · يبغى رئيس حسابات |
-| **النوع** | Offline (القاهرة + الإسكندرية استثنائياً) + Udemy مسجلة |
+| **النوع** | Offline (القاهرة + مكان حضور استثنائي في الإسكندرية) + Udemy مسجلة |
+| **السعر** | Live 5800ج · Udemy 2500ج |
+| **🎯 الـ Outcome الحقيقي** | تـ شيل ملف شركة كاملة بـ نفسك — من البيانات الخام لـ القوائم النهائية، ومـ بـ تـ سألش حد |
 
 </div>
 
 ??? success "✅ الـ 4 Outcomes الأساسية"
 
-    1. ✅ **تشتغل في أي نوع شركة** — صناعية + تجارية + خدمية
-    2. ✅ **تمسك كل الحسابات باحترافية** — مش حساب واحد
-    3. ✅ **تعمل التسويات + الإقفالات + القوائم** — الجردية + الشهرية + السنوية
-    4. ✅ **تدير فريق عمل بكفاءة** — توزع شغل + تتابع تنفيذ
+    1. ✅ تـ مسك ملف شركة صناعية أو تجارية أو خدمية، مـ بـ تـ تخصصش في نوع واحد
+    2. ✅ تـ قفل الشهر بـ نفسك — تسويات جردية + مذكرة تسوية بنكية + معالجة المخزون
+    3. ✅ تـ سجل القروض من أول يوم لـ آخر قسط، وتـ عالج الفوايد صح
+    4. ✅ تـ وزع شغل على junior وتـ راجعه — يعني تـ بقى رئيس قسم بدل ما تـ كون منفّذ
 
 ??? info "📚 المحاور التفصيلية (من الـ Flyer)"
 
@@ -90,21 +92,12 @@ hide:
     | **النوع** | نسخة مختصرة مسجلة |
     | **عدد الساعات** | 6.5 ساعات |
     | **عدد المحاضرات** | 5 محاضرات |
-    | **السعر على Udemy** | 3100ج |
-    | **سعرنا** | <span class="price-new">2500ج</span> (توفير 600ج) |
+    | **سعرنا** | 2500ج (vs 3100ج على Udemy) |
     | **Lifetime access** | ✅ مدى الحياة |
 
-    **متى تعرضها:**
+    **متى تعرضها:** عميل في محافظة بعيدة · مفيش وقت لـ 32 ساعة Live · "5800ج كتير".
 
-    🔹 العميل في محافظة بعيدة + مش هينفع Live
-    🔹 مفيش وقت لـ 32 ساعة Live
-    🔹 عميل قال "السعر 5800ج كتير"
-
-    **❌ ممنوع تخفي:**
-
-    🔹 ❌ مفيش متابعة مع المحاضر
-    🔹 ❌ مفيش تقسيط — دفع كامل
-    🔹 ❌ مفيش Q&A live
+    **❌ ممنوع تخفي:** مفيش متابعة · مفيش تقسيط · مفيش Q&A live.
 
     **Link:** https://www.udemy.com/course/morayan1/
 
@@ -112,103 +105,11 @@ hide:
 
     **محاسب قانوني + خبير ضرائب** — بيراجع شركات وبيشوف الأخطاء العملية.
 
----
-
-<a id="schedules"></a>
-
-<div class="ws-section-header"><span class="ws-section-header-icon">📅</span> المواعيد المتاحة</div>
-
-<div class="schedule-table">
-
-<div class="schedule-row">
-  <div class="schedule-date">6 يونيو</div>
-  <div>
-    <div class="schedule-info-title">⭐ مكان حضور استثنائي — الإسكندرية</div>
-    <div class="schedule-info-meta">السبت + الاثنين + الأربعاء · 6م-10م · نقابة المهندسين، الشاطبي</div>
-  </div>
-  <span class="schedule-badge offline">Offline · الإسكندرية</span>
-</div>
-
-<div class="schedule-row">
-  <div class="schedule-date">4 يوليو</div>
-  <div>
-    <div class="schedule-info-title">القاهرة — نقابة التجاريين</div>
-    <div class="schedule-info-meta">السبت + الاثنين + الأربعاء · 6م-10م · 32 ساعة Live</div>
-  </div>
-  <span class="schedule-badge offline">Offline · القاهرة</span>
-</div>
-
-<div class="schedule-row">
-  <div class="schedule-date">دائم</div>
-  <div>
-    <div class="schedule-info-title">النسخة Udemy (مسجلة)</div>
-    <div class="schedule-info-meta">5 محاضرات · 6.5 ساعة · Lifetime access · بدون متابعة</div>
-  </div>
-  <span class="schedule-badge online">Online · مسجلة</span>
-</div>
-
-</div>
-
 !!! danger "⚠️ الإسكندرية — قواعد لا تنقض"
-    **العنوان الرسمي الوحيد:** نقابة المهندسين بالإسكندرية، 36 شارع بورسعيد، الشاطبي.
-    [📍 خريطة](https://maps.app.goo.gl/JKzoY21fGjVkqNfv8)
+    العنوان الرسمي الوحيد: نقابة المهندسين بالإسكندرية، 36 شارع بورسعيد، الشاطبي.
 
     🔹 ❌ **ممنوع** وصفها بـ "فرع" — استخدم "مكان حضور استثنائي"
-    🔹 ❌ **ممنوع** ذكر مناطق غير "الشاطبي"
     🔹 ✅ "ورشة لمرة واحدة فقط في الإسكندرية"
-
----
-
-<a id="pricing"></a>
-
-<div class="ws-section-header"><span class="ws-section-header-icon">💰</span> الأسعار + التقسيط</div>
-
-<div class="price-compare-grid">
-
-<div class="price-compare-card">
-  <div class="price-compare-label">Live - السعر العادي</div>
-  <div class="price-compare-value">7500ج</div>
-  <div class="price-compare-note">مرجع فقط</div>
-</div>
-
-<div class="price-compare-card featured">
-  <div class="price-compare-label">Live - بعد الخصم</div>
-  <div class="price-compare-value">5800ج</div>
-  <div class="price-compare-note">توفير 1700ج · -23%</div>
-</div>
-
-<div class="price-compare-card">
-  <div class="price-compare-label">Udemy المسجلة</div>
-  <div class="price-compare-value">2500ج</div>
-  <div class="price-compare-note">Lifetime · بدون متابعة</div>
-</div>
-
-<div class="price-compare-card unavailable">
-  <div class="price-compare-label">Multi-booking</div>
-  <div class="price-compare-value">غير متاح</div>
-  <div class="price-compare-note">5800 هو السعر النهائي</div>
-</div>
-
-</div>
-
-**جدية الحجز:** 2900ج (50%) + الباقي 2900ج في أول محاضرة بدون فوايد.
-
-??? tip "🎁 Bundles مقترحة"
-
-    🔹 **Junior → Senior:** الشامل + التحليل = **9800ج** (Multi)
-    🔹 **Career Booster:** الشامل + Excel = **7800ج** (Multi)
-    🔹 **Owner's Stack:** الشامل + الضرايب = **11050ج**
-
-??? info "💳 طرق الدفع"
-
-    ```
-    🟢 انستا باي: 100057017249 (CIB)
-    🟢 فودافون كاش: 01002180432
-    🟢 تحويل بنكي: CIB - حساب 100057017249
-    🟢 رابط Stripe: https://buy.stripe.com/00geWvdkedzn09O3ce
-    🟢 في المقر: 29أ امتداد رمسيس، نقابة التجاريين، الدور 8
-    🟢 فيزا تقسيط: كل البنوك المصرية
-    ```
 
 ---
 
@@ -220,107 +121,37 @@ hide:
 
 <a class="angle-card" href="angle-1-stuck-junior/">
   <span class="angle-card-num">1</span>
-  <span class="angle-card-title">Junior ثابت في مكانه</span>
-  <span class="angle-card-meta">شغّال 1-3 سنين · بيعمل نفس الشغل · مش بيتعلم</span>
-  <span class="angle-card-pain">"بكتب نفس القيود كل شهر — مش بيزيد عليّ معرفة، مش بيزيد مرتب"</span>
+  <span class="angle-card-title">Junior بقاله 3 سنين في نفس المكان</span>
+  <span class="angle-card-meta">شغّال 1-3 سنين · بـ يـ كرر نفس الشهر 12 مرة · مرتبه ثابت</span>
+  <span class="angle-card-pain">"بقالي 3 سنين في الشركة. مرتبي زاد 800ج. بـ كتب نفس القيود كل شهر، فاكر إن دي خبرة — لقيت إن معايا خبرة شهر واحد متكرر 36 مرة"</span>
 </a>
 
 <a class="angle-card" href="angle-2-aspiring-chief/">
   <span class="angle-card-num">2</span>
-  <span class="angle-card-title">طموح رئيس حسابات</span>
-  <span class="angle-card-meta">junior بـ سنتين خبرة · يبغى ترقية</span>
-  <span class="angle-card-pain">"رئيس حسابات بيعمل التسويات والقوائم وأنا واقف."</span>
+  <span class="angle-card-title">طموح يـ بقى رئيس قسم</span>
+  <span class="angle-card-meta">Junior سنتين · شايف رئيسه بـ يـ عمل اللي هو مـ يـ عرفش يـ عمله</span>
+  <span class="angle-card-pain">"رئيس الحسابات بـ يـ قفل الشهر في يومين، بـ يـ عمل تسويات جردية، بـ يـ تكلم مع المراجع. أنا بـ سجل فواتير. الفرق بينا 3 سنين، بس الفرق في الشغل كأنه 30 سنة"</span>
 </a>
 
 <a class="angle-card" href="angle-3-business-owner/">
   <span class="angle-card-num">3</span>
-  <span class="angle-card-title">صاحب شركة</span>
-  <span class="angle-card-meta">عاوز يفهم نظام شركته · مش معتمد على محاسبه</span>
-  <span class="angle-card-pain">"محاسبي بيكلمني بـ مصطلحات وأنا مش فاهم."</span>
+  <span class="angle-card-title">صاحب شركة مـ بـ يـ فهمش محاسبه</span>
+  <span class="angle-card-meta">صاحب شركة · فلوسه في إيد محاسب · هو مش متابع</span>
+  <span class="angle-card-pain">"محاسبي بـ يـ كلمني عن 'تسويات' و'إقفال'، أنا بـ هز رأسي وبـ قول 'تمام'. الشركة بتاعتي، فلوسي، وأنا تابع لـ موظف عندي عشان مـ بـ فهمش اللي بـ يـ عمله"</span>
 </a>
 
 </div>
 
 ---
 
-## 🛡️ اعتراضات خاصة بورشة المحاسب الشامل
-
-??? warning "\"إيه الفرق بينها والمحاسب المالي؟ ليه السعر ضعف؟\""
-
-    **R:**
-    > | الجانب | 📘 المالي (3250ج) | 📗 الشامل (5800ج) |
-    > |--------|--------|---------|
-    > | **المدى** | المنفّذ | المنفّذ + **رئيس الحسابات** |
-    > | **المدة** | 8 × 3س = 24س | 8 × **4س = 32س** |
-    > | **التسويات الجردية** | basic | **عميقة + معيار المخزون 2** |
-    > | **القروض** | overview | **معالجة كاملة** |
-    > | **التسوية البنكية** | لا | **نعم** |
-    > | **الجمهور** | Fresh | Junior → Senior |
-
-??? warning "\"5800ج كتير\""
-
-    **R:**
-    > **3 خيارات:**
-    >
-    > 🔹 **خطة 50/50:** 2900ج جدية + 2900ج في أول محاضرة بدون فوايد
-    > 🔹 **Udemy المسجلة 2500ج:** نفس المحاضر، Lifetime، بس مختصر + بدون متابعة
-    > 🔹 **Bundle Multi-booking:** لو ضفت ورشة تانية، الإجمالي ينزل
-
-??? warning "\"أنا في الإسكندرية — هل في فرع؟\""
-
-    **R:**
-    > RS مفيش فروع — المقر القاهرة فقط.
-    >
-    > بس **ورشة لمرة واحدة فقط في الإسكندرية** تبدأ 6 يونيو في نقابة المهندسين بالشاطبي. ده **مكان حضور استثنائي** — مش فرع.
-    >
-    > لو فاتك، الـ Live في القاهرة 4 يوليو، أو Udemy مسجلة دائماً.
-
-??? warning "\"32 ساعة كتير\""
-
-    **R:**
-    > 🔹 **3 أيام في الأسبوع** — 12 ساعة/أسبوع، يعني **3 أسابيع بس**
-    > 🔹 **بعد الشغل (6م-10م)** — ما بيضارش جدولك
-    > 🔹 **Recording متاح** — لو فاتك يوم
-    >
-    > بديل: **Udemy 6.5 ساعة** كـ بداية، ولو الـ Live ناسب لاحقاً، تكمل.
-
-??? warning "\"المحاضر بيشرح عربي ولا إنجليزي؟\""
-
-    **R:** **عربية كاملة**. المصطلحات الفنية (debit, credit, balance sheet) بيشرحها بـ العربي + يذكر الـ term الإنجليزي. مناسبة لـ اللي إنجليزيه ضعيف.
-
-??? warning "\"الشامل = المالي + رئيس حسابات. ليه ما أخدش الاتنين منفصلين؟\""
-
-    **R:** **مفيش ورشة 'رئيس حسابات' منفصلة** — الـ Senior knowledge بيتبنى على foundation قوي. الفصل بيكسر الـ flow + الـ value بينخفض.
-
----
-
-## 📝 ملاحظات سريعة للسيلز
-
-??? note "🎯 الـ Hooks الـ 3 الأقوى"
-
-    1. **"محاسب منفّذ → محاسب يدير"** — Hook الـ Flyer الرسمي
-    2. **"الورشة الوحيدة بـ معيار المخزون 2 عملي"** — Differentiation
-    3. **"أ/ محمد ريان محاسب قانوني"** — Trust
-
-??? danger "❌ ممنوع نهائياً"
-
-    🔹 ❌ "فرع الإسكندرية" — قول "مكان حضور استثنائي"
-    🔹 ❌ Multi-booking discount على الشامل Live
-    🔹 ❌ تبيع الـ Udemy لـ junior جاد — Live أنسب
-    🔹 ❌ "كورس"
-
-??? success "✅ المسموح"
-
-    🔹 ✅ Udemy 2500ج لـ owners + budget constraint
-    🔹 ✅ خطة دفع 50/50
-    🔹 ✅ Bundle: الشامل + التحليل = junior→senior track
-    🔹 ✅ "32 ساعة" كـ premium signal
-
----
-
 ## 🔗 روابط سريعة
 
-- [🧭 Decision Helper](../../helper/)
-- [🛡️ Objections Library](../../objections/)
-- [💰 Pricing Matrix](../../pricing/)
-- [🤝 Multi-booking + Bundles](../../multi-booking/)
+📅 **المواعيد الكاملة + بدائل الـ Online/Offline →** [💰 Pricing & Schedules](../../pricing/#schedules)
+
+💰 **التسعير الكامل + الـ Multi-booking discounts →** [💰 Pricing](../../pricing/)
+
+🛡️ **شفت objection معين؟** → [Objections Library](../../objections/)
+
+🧭 **مش متأكد انهي angle؟** → [Decision Helper](../../helper/)
+
+🤝 **عاوز bundle مع ورشة تانية؟** → [Multi-booking + Bundles](../../multi-booking/)

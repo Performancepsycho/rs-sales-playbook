@@ -5,7 +5,7 @@ hide:
 
 # 📔 ورشة التحليل المالي
 
-> **"من محاسب يعمل قوائم → لـ محلل يقدّم قرارات للإدارة."**
+> **"المحاسب بـ يـ طلّع القائمة، المحلل بـ يـ قرأها. الورشة بـ تـ نقلك من واحد بـ يـ سجل أرقام → لـ واحد بـ يـ دخل اجتماع الإدارة بـ insight وقرار."**
 
 <div class="ws-nav-grid">
 
@@ -15,13 +15,13 @@ hide:
   <div class="ws-nav-card-sub">7 محاضرات · أ/ أحمد عاشور</div>
 </a>
 
-<a class="ws-nav-card" href="#schedules">
+<a class="ws-nav-card" href="../../pricing/#schedules">
   <div class="ws-nav-card-icon">📅</div>
   <div class="ws-nav-card-title">المواعيد المتاحة</div>
   <div class="ws-nav-card-sub">مجموعة Offline · 13 مايو</div>
 </a>
 
-<a class="ws-nav-card" href="#pricing">
+<a class="ws-nav-card" href="../../pricing/">
   <div class="ws-nav-card-icon">💰</div>
   <div class="ws-nav-card-title">الأسعار + التقسيط</div>
   <div class="ws-nav-card-sub">5000ج · Multi 4000ج ⚡</div>
@@ -51,18 +51,19 @@ hide:
 | **إجمالي الساعات** | 21 ساعة تدريبية |
 | **الجمهور** | Senior · رؤساء حسابات · CFO جدد · أصحاب شركات |
 | **النوع** | Offline |
+| **السعر** | 5000ج (Multi 4000ج — أكبر discount) |
+| **🎯 الـ Outcome الحقيقي** | تـ دخل اجتماع الـ board وتـ قول "السبب وراء انخفاض الـ ROE هو..." — مش "هـ أرجع لـ التقرير وأرد عليك" |
 
 </div>
 
 ??? success "✅ الـ Outcomes الأساسية"
 
-    🔹 ✅ **تقرأ القوائم المالية** بـ عمق
-    🔹 ✅ **النسب المالية** (40+ ratio) — Liquidity + Profitability + Solvency + Activity
-    🔹 ✅ **Trend Analysis** — مقارنة عبر السنوات
-    🔹 ✅ **DuPont Analysis** — تفكيك الـ ROE
-    🔹 ✅ **Cash Flow Analysis** — هل بتكسب فلوس فعلياً؟
-    🔹 ✅ **التقارير الإدارية** — Executive Summary بـ insights
-    🔹 ✅ **اتخاذ القرارات:** Buy/Sell/Hold · Approve/Reject · Invest/Divest
+    🔹 ✅ تـ قرأ قائمة مركز مالي وتـ طلع منها 5 insights في 15 دقيقة، مش ساعة
+    🔹 ✅ تـ حسب 40+ نسبة مالية (Liquidity + Profitability + Solvency + Activity) وتـ عرف امتى كل واحدة بـ تـ فيد
+    🔹 ✅ تـ فكّك الـ ROE بـ DuPont وتـ قول للمدير ليه نزل من 18% لـ 12%
+    🔹 ✅ تـ كتب Executive Summary صفحة واحدة بـ insights ودلالات — مش 30 صفحة أرقام
+    🔹 ✅ تـ راجع Cash Flow وتـ كتشف لو الشركة بـ تـ كسب على الورق وبـ تـ نزف cash في الواقع
+    🔹 ✅ تـ خد قرار Buy/Sell/Hold أو Approve/Reject لـ قرض بـ framework، مش بـ gut feeling
 
 ??? info "📚 المحاور"
 
@@ -83,84 +84,6 @@ hide:
 
 ---
 
-<a id="schedules"></a>
-
-<div class="ws-section-header"><span class="ws-section-header-icon">📅</span> المواعيد المتاحة</div>
-
-<div class="schedule-table">
-
-<div class="schedule-row">
-  <div class="schedule-date">13 مايو</div>
-  <div>
-    <div class="schedule-info-title">المجموعة الأقرب — Offline</div>
-    <div class="schedule-info-meta">الأحد + الأربعاء · 6:30م-9:30م · نقابة التجاريين · 7 × 3س</div>
-  </div>
-  <span class="schedule-badge offline">Offline · القاهرة</span>
-</div>
-
-</div>
-
-!!! info "ملاحظة"
-    مجموعة واحدة بس متاحة دلوقتي. لو الـ Senior سأل عن Online، أكد إن group online هيتفتح قريباً.
-
----
-
-<a id="pricing"></a>
-
-<div class="ws-section-header"><span class="ws-section-header-icon">💰</span> الأسعار + التقسيط</div>
-
-<div class="price-compare-grid">
-
-<div class="price-compare-card">
-  <div class="price-compare-label">السعر العادي</div>
-  <div class="price-compare-value">6500ج</div>
-  <div class="price-compare-note">مرجع فقط</div>
-</div>
-
-<div class="price-compare-card">
-  <div class="price-compare-label">بعد الخصم</div>
-  <div class="price-compare-value">5000ج</div>
-  <div class="price-compare-note">توفير 1500ج · -23%</div>
-</div>
-
-<div class="price-compare-card featured">
-  <div class="price-compare-label">⚡ Multi-booking</div>
-  <div class="price-compare-value">4000ج</div>
-  <div class="price-compare-note">توفير 1000ج إضافي · أكبر discount</div>
-</div>
-
-<div class="price-compare-card unavailable">
-  <div class="price-compare-label">المسجل</div>
-  <div class="price-compare-value">غير متاح</div>
-  <div class="price-compare-note">Live فقط</div>
-</div>
-
-</div>
-
-!!! tip "Multi-booking discount استثنائي"
-    التحليل بتنزل من **5000 → 4000ج** في الـ multi-booking. **1000ج توفير في ورشة واحدة** — أكبر فرق في الـ playbook!
-
-**جدية الحجز:** 2500ج (50%) + الباقي 2500ج في أول محاضرة بدون فوايد.
-
-??? tip "🎁 Bundles مقترحة"
-
-    🔹 **Junior → Senior:** القوائم + التحليل = **6000ج** (Multi)
-    🔹 **CFO Ready:** التحليل + CFO + Excel = **12000ج**
-    🔹 **Senior Path:** التحليل + التكاليف = **7200ج**
-
-??? info "💳 طرق الدفع"
-
-    ```
-    🟢 انستا باي: 100057017249 (CIB)
-    🟢 فودافون كاش: 01002180432
-    🟢 تحويل بنكي: CIB - حساب 100057017249
-    🟢 رابط Stripe: https://buy.stripe.com/00geWvdkedzn09O3ce
-    🟢 في المقر: 29أ امتداد رمسيس، نقابة التجاريين، الدور 8
-    🟢 فيزا تقسيط: كل البنوك المصرية
-    ```
-
----
-
 <a id="angles"></a>
 
 <div class="ws-section-header"><span class="ws-section-header-icon">🎯</span> اختار الـ Angle المناسب</div>
@@ -169,118 +92,37 @@ hide:
 
 <a class="angle-card" href="angle-1-senior-pressured/">
   <span class="angle-card-num">1</span>
-  <span class="angle-card-title">Senior مضغوط بـ تقارير</span>
-  <span class="angle-card-meta">محاسب 3-7 سنين · المدير بيطلب analysis</span>
-  <span class="angle-card-pain">"مديري بيقولي 'ايه السبب وراء الأرقام؟' وأنا بهز كتافي."</span>
+  <span class="angle-card-title">Senior المدير بـ يـ طلب منه analysis مـ بـ يـ عرفهوش</span>
+  <span class="angle-card-meta">محاسب 3-7 سنين · بـ يـ طلّع قوائم · المدير بـ يـ سأل "ليه؟" وهو ساكت</span>
+  <span class="angle-card-pain">"اجتماع امبارح، المدير بـ ص في قائمة الدخل وقال 'ايه السبب في انخفاض الـ margin 4%؟' — أنا قلت 'هـ راجع وأرجع لحضرتك'. خرجت من الأوضة محرج، شايف زمايلي بـ يـ تـ بسموا"</span>
 </a>
 
 <a class="angle-card" href="angle-2-analyst-growing/">
   <span class="angle-card-num">2</span>
-  <span class="angle-card-title">محلل junior بينمو</span>
-  <span class="angle-card-meta">محلل في شركة استثمار/بنك · يبغى ترقية</span>
-  <span class="angle-card-pain">"بعمل reports بـ Excel templates، مش فاهم اللي ورا الأرقام."</span>
+  <span class="angle-card-title">محلل في بنك بـ يـ ملا templates</span>
+  <span class="angle-card-meta">محلل في شركة استثمار/بنك · بـ يـ نسخ ويـ لصق في Excel · مش فاهم اللي ورا الأرقام</span>
+  <span class="angle-card-pain">"شغلي كل يوم: أنسخ بيانات من قوائم لـ template جاهز، النسب بـ تـ طلع لوحدها. لما مديري سألني 'ليه الـ Current Ratio عالي للشركة دي؟' مـ كنش معايا رد. أنا data entry، مش محلل"</span>
 </a>
 
 <a class="angle-card" href="angle-3-investor-owner/">
   <span class="angle-card-num">3</span>
-  <span class="angle-card-title">مستثمر / صاحب شركة</span>
-  <span class="angle-card-meta">بيستثمر في شركات / بيراقب شركته</span>
-  <span class="angle-card-pain">"باخد قرارات استثمار بـ الـ gut feeling. عاوز framework."</span>
+  <span class="angle-card-title">مستثمر بـ يـ خد قرارات بـ إحساس</span>
+  <span class="angle-card-meta">بـ يـ ستثمر في شركات أو بـ يـ راقب شركته · مـ عندوش framework</span>
+  <span class="angle-card-pain">"دخلت في صفقة السنة اللي فاتت بـ 500 ألف لأن الشركة 'حلوة' وصاحبها 'كويس'. النهاردة فلوسي معلقة. لازم يـ كون عندي طريقة أحلل بيها قبل ما أوقّع شيك تاني"</span>
 </a>
 
 </div>
 
 ---
 
-## 🛡️ اعتراضات خاصة بورشة التحليل المالي
-
-??? warning "\"أنا محاسب — مش محلل. ليه أتعلم تحليل؟\""
-
-    **R:**
-    > **الفرق بين محاسب يترقّى ومحاسب يضل في مكانه:**
-    >
-    > 🔹 **بدون تحليل:** بيكتب القوائم · "ايه السبب؟" → بيهز كتافه · مرتب 7-10K
-    > 🔹 **بـ تحليل:** بيكتب القوائم + executive summary · "ايه السبب؟" → بيشرح بـ data · مرتب 15-25K
-    >
-    > الفرق = **سؤال واحد بتقدر تجاوب عليه**.
-
-??? warning "\"أنا فريش — الورشة بدري عليّ؟\""
-
-    **R:** **بـ صراحة، نعم.** التحليل محتاج foundation (فهم القوائم + شغل بـ خبرة).
-
-    **توصية:** ابدأ بـ **المالي (3250ج)** أو **إعداد القوائم (2500ج)**. لما تشتغل سنة-سنتين، ارجع للتحليل.
-
-??? warning "\"بستخدم Power BI / Tableau — مش محتاج تحليل يدوي\""
-
-    **R:**
-    > Power BI/Tableau **أدوات** — مش بدائل عن understanding.
-    >
-    > 🔹 Power BI بيظهر Current Ratio = 2.5. **هل ده كويس؟** يتوقف على الـ industry
-    > 🔹 Tableau بيظهر Net Profit Margin هبط 5%. **السبب؟** يتوقف على breakdown
-    >
-    > الورشة بتديك الـ **logic ورا الـ tools**.
-
-??? warning "\"5000 single · 4000 Multi — Pricing مش consistent\""
-
-    **R:**
-    > **الـ logic:**
-    >
-    > 🔹 **5000 single** للعميل اللي بياخد ورشة واحدة فقط
-    > 🔹 **4000 Multi** لـ اللي بياخد 2+ — RS بتكسب long-term
-    >
-    > **توفير 1000ج لكل ورشة:**
-    >
-    > 🔹 التحليل + إعداد القوائم = **6000ج** (وفرت 1500)
-    > 🔹 التحليل + CFO = **10000ج** (وفرت 1000)
-    > 🔹 التحليل + التكاليف = **7200ج** (وفرت 1300)
-
-??? warning "\"المحاضر بيعلم بـ شركات أمريكية ولا مصرية؟\""
-
-    **R:** **شركات مصرية حقيقية فقط.**
-
-    🔹 شركات مدرجة في بورصة مصر (تقارير سنوية حقيقية)
-    🔹 شركات SME مصرية (مع تعديل الأسماء)
-    🔹 حالات أ/ أحمد بيراجعها مع investors فعلياً
-
-??? warning "\"بعد الورشة، أقدر أعمل CFA؟\""
-
-    **R:**
-    > **CFA exam = prep course منفصل + 300-1000 ساعة دراسة + 3 levels على 2-4 سنين.**
-    >
-    > الورشة دي **مش CFA prep** — هي foundation للـ analysis + skills للسوق المصري.
-    >
-    > 🔹 لو السوق المصري + ترقية → الورشة كافية
-    > 🔹 لو CFA + investment banking دولي → CFA prep منفصل + الورشة كـ مكمّل
-
----
-
-## 📝 ملاحظات سريعة للسيلز
-
-??? note "🎯 الـ Hooks الـ 3 الأقوى"
-
-    1. **"من محاسب → لـ محلل بيقدّم قرارات"** — Career framing
-    2. **"شركات مصرية حقيقية، مش examples أمريكية"** — Local
-    3. **"Multi-booking = 1000ج توفير"** — Pricing pitch قوي
-
-??? danger "❌ ممنوع نهائياً"
-
-    🔹 ❌ تبيع لـ fresh — الورشة محتاجة foundation
-    🔹 ❌ "هتبقى CFA-certified" — مش صح
-    🔹 ❌ "Power BI بدلاً من Excel manual" — الـ 2 تكاملوا
-    🔹 ❌ "كورس"
-
-??? success "✅ المسموح"
-
-    🔹 ✅ Multi-booking **1000ج توفير** — pitch قوي
-    🔹 ✅ Bundle: القوائم + التحليل = junior → senior
-    🔹 ✅ Bundle: التحليل + CFO + Excel = **CFO Ready**
-    🔹 ✅ التركيز على **محاسب → محلل** narrative
-
----
-
 ## 🔗 روابط سريعة
 
-- [🧭 Decision Helper](../../helper/)
-- [🛡️ Objections Library](../../objections/)
-- [💰 Pricing Matrix](../../pricing/)
-- [🤝 Multi-booking + Bundles](../../multi-booking/)
+📅 **المواعيد الكاملة + بدائل الـ Online/Offline →** [💰 Pricing & Schedules](../../pricing/#schedules)
+
+💰 **التسعير الكامل + الـ Multi-booking discounts →** [💰 Pricing](../../pricing/)
+
+🛡️ **شفت objection معين؟** → [Objections Library](../../objections/)
+
+🧭 **مش متأكد انهي angle؟** → [Decision Helper](../../helper/)
+
+🤝 **عاوز bundle مع ورشة تانية؟** → [Multi-booking + Bundles](../../multi-booking/)

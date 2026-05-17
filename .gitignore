@@ -30,3 +30,7 @@ desktop.ini
 .env.local
 *.local
 secrets.json
+
+# Playwright MCP browser snapshots
+.playwright-mcp/
+site_test/
