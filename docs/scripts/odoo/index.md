@@ -7,91 +7,31 @@ hide:
 
 > **"تـ خرج من الورشة قادر تـ نفذ Odoo implementation كاملة لـ شركة من الصفر — مش بس تـ ستخدمه كـ user. ده اللي بـ يـ خلي الشركة تـ دفعلك 15K بدل 6K."**
 
-<div class="ws-nav-grid">
-
-<a class="ws-nav-card" href="#details">
-  <div class="ws-nav-card-icon">📋</div>
-  <div class="ws-nav-card-title">تفاصيل الورشة</div>
-  <div class="ws-nav-card-sub">8 محاضرات · أ/ إسلام سعيد</div>
-</a>
-
-<a class="ws-nav-card" href="../../pricing/#schedules">
-  <div class="ws-nav-card-icon">📅</div>
-  <div class="ws-nav-card-title">المواعيد المتاحة</div>
-  <div class="ws-nav-card-sub">Offline + Online · لاب توب لازم</div>
-</a>
-
-<a class="ws-nav-card" href="../../pricing/">
-  <div class="ws-nav-card-icon">💰</div>
-  <div class="ws-nav-card-title">الأسعار + التقسيط</div>
-  <div class="ws-nav-card-sub">3000ج · خصم 50%</div>
-</a>
-
-<a class="ws-nav-card" href="#angles">
-  <div class="ws-nav-card-icon">🎯</div>
-  <div class="ws-nav-card-title">اختار الـ Angle</div>
-  <div class="ws-nav-card-sub">3 angles · Junior / Senior / Owner</div>
-</a>
-
-</div>
-
 ---
 
-<a id="details"></a>
+<div class="quick-pitch" markdown>
 
-<div class="ws-section-header"><span class="ws-section-header-icon">📋</span> تفاصيل الورشة</div>
-
-<div class="info-card">
-
-| البند | التفاصيل |
-|-------|----------|
-| **المحاضر** | أ/ إسلام سعيد (Odoo specialist + ERP consultant) |
-| **عدد المحاضرات** | 8 محاضرات |
-| **مدة المحاضرة** | 3 ساعات |
-| **إجمالي الساعات** | 24 ساعة تدريبية |
-| **الجمهور** | محاسبين · أصحاب شركات · IT/tech-savvy |
-| **النوع** | Offline + Online (Zoom تفاعلي) |
-| **السعر** | 3000ج (خصم 50%) |
-| **🎯 الـ Outcome الحقيقي** | تـ دخل أي شركة بـ تـ فكر تـ نقل لـ Odoo، وتـ قول "أنا اللي هـ نفذلكم الـ implementation" — مش "بـ عرف أشتغل عليه" |
+| 💰 السعر | 📅 الشكل | 👨‍🏫 المحاضر | 🎯 لـ مين |
+|---------|----------|------------|-----------|
+| **3000ج** · 50/50 تقسيط | 8 × 3س · **Offline + Online (Zoom)** · لاب توب لازم | أ/ إسلام سعيد · Odoo specialist + ERP consultant | محاسبين · أصحاب شركات · IT/tech-savvy |
 
 </div>
+
+🎯 **الـ Hook الواحد:** "السوق المصري كله بـ يـ تـ حول لـ ERP — اللي يـ عرف Odoo دلوقتي بـ يـ قبض 15K، اللي مـ بـ يـ عرفش بـ يـ فضل على 6K."
+
+[📅 المواعيد](../../pricing/#schedules){ .md-button } [💰 الأسعار](../../pricing/){ .md-button } [📥 PDF](../../pdfs/){ .md-button }
 
 !!! danger "⚠️ شرط أساسي"
-    **يشترط تواجد اللاب الخاص بالمتدرب** — مفيش طريقة تتعلم Odoo بدون شغل عملي عليه.
+    **يـ شترط لاب توب شخصي مع المتدرب** — الورشة hands-on على Odoo فعلي، مفيش طريقة تـ تعلم ERP من غير تـ نفّذ بـ إيدك.
 
-??? success "✅ الـ Outcomes الأساسية"
-
-    🔹 ✅ تـ سطب Odoo Community لـ شركة جديدة في 30 دقيقة، مـ بـ تـ سألش Google
-    🔹 ✅ تـ بني شجرة حسابات مصرية كاملة وتـ ضبط الـ Localization الـ EGY
-    🔹 ✅ تـ دور دورة مبيعات كاملة (Quote → Invoice → Payment) من غير مـ تـ كسر النظام
-    🔹 ✅ تـ ربط الفاتورة الإلكترونية بـ Odoo، وتـ بعت فواتير للمصلحة من جوّاه
-    🔹 ✅ تـ طلّع التقارير المالية والـ dashboards اللي الإدارة بـ تـ طلبها في ثواني
-    🔹 ✅ تـ معالج المخزون والأصول الثابتة على النظام، من غير excel جنب
-
-??? info "📚 المحاور"
-
-    🔹 تنصيب Odoo Community + الـ modules المهمة
-    🔹 ضبط الـ Localization المصري (EGY)
-    🔹 إنشاء الشركة + شجرة الحسابات
-    🔹 دورة المبيعات (Sales Order → Invoice → Payment)
-    🔹 دورة المشتريات (PO → Bill → Payment)
-    🔹 دورة المخزون + الجرد
-    🔹 الأصول الثابتة + الإهلاك
-    🔹 التقارير المالية + التحليلية
-    🔹 التكامل مع الفاتورة الإلكترونية
-
-??? note "👨‍🏫 المحاضر — أ/ إسلام سعيد"
-
-    **Odoo specialist + ERP consultant** — بينفّذ implementations فعلية لشركات.
-
-    🔹 "بيسطّب Odoo لـ شركات حقيقية — مش بيشرح من book"
-    🔹 "بيدّيك الـ common mistakes اللي بيشوفها في implementations فعلية"
+    🔹 **مجموعة Offline:** حضور شخصي في المركز + لاب
+    🔹 **مجموعة Online:** Zoom + screen sharing فعّال + لاب — مفيش حضور من موبايل
 
 ---
 
-<a id="angles"></a>
+## 🎯 اختار الـ Angle — حسب مين العميل قدامك
 
-<div class="ws-section-header"><span class="ws-section-header-icon">🎯</span> اختار الـ Angle المناسب</div>
+> الـ angle بـ تـ ختاره من **profile العميل** (وضعه في الشركة، شاف ERP فين، الـ pain) — مش من الورشة. اقرأ الـ brief الأول.
 
 <div class="angle-grid">
 
@@ -99,35 +39,82 @@ hide:
   <span class="angle-card-num">1</span>
   <span class="angle-card-title">محاسب الشركة قررت تـ نقل لـ Odoo</span>
   <span class="angle-card-meta">محاسب شغّال · الإدارة قررت Odoo · شركة الـ implementation هـ تـ جي الشهر الجاي</span>
-  <span class="angle-card-pain">"الإدارة وقّعت عقد Odoo. شركة تانية هـ تـ يجي تـ نفذ، وأنا هـ أعمل ايه؟ لو ظهرت إني مش فاهم، هـ يـ جيبوا حد تاني مكاني. عندي شهرين أبقى ready"</span>
+  <span class="angle-card-pain">"الإدارة وقّعت عقد Odoo. شركة تانية هـ تـ يجي تـ نفذ، وأنا هـ أعمل ايه؟ لو ظهرت إني مش فاهم، هـ يـ جيبوا حد تاني مكاني. عندي شهرين أبقى ready."</span>
 </a>
 
 <a class="angle-card" href="angle-2-erp-market/">
   <span class="angle-card-num">2</span>
   <span class="angle-card-title">محاسب شايف الـ ERP بـ يـ دفع double</span>
   <span class="angle-card-meta">محاسب 2+ سنين · شاف وظائف Odoo specialist بـ 15-25K · هو بـ 7K</span>
-  <span class="angle-card-pain">"شفت وظيفة Odoo accountant على LinkedIn بـ 18 ألف. أنا بـ 7. الـ skills نفسها، الفرق هو ERP بس. مـ ينفعش أفضل شغّال على Excel وحدي والسوق بـ يـ روح لـ ERP"</span>
+  <span class="angle-card-pain">"شفت وظيفة Odoo accountant على LinkedIn بـ 18 ألف. أنا بـ 7. الـ skills نفسها، الفرق هو ERP بس. مـ ينفعش أفضل شغّال على Excel وحدي والسوق بـ يـ روح لـ ERP."</span>
 </a>
 
 <a class="angle-card" href="angle-3-owner/">
   <span class="angle-card-num">3</span>
   <span class="angle-card-title">صاحب شركة اتـ نصب عليه في implementation</span>
   <span class="angle-card-meta">صاحب شركة · جرّب يـ نقل لـ Odoo قبل كده · النتيجة كانت فوضى</span>
-  <span class="angle-card-pain">"دفعت 100 ألف لـ مستشار يـ نقّل شركتي لـ Odoo. النظام كله غلط بعد 6 شهور. مش هـ دفع لـ حد تاني — هـ أتعلم أنا نفسي وأعرف الشركة بتاعتي بـ تـ شتغل إزاي"</span>
+  <span class="angle-card-pain">"دفعت 100 ألف لـ مستشار يـ نقّل شركتي لـ Odoo. النظام كله غلط بعد 6 شهور. مش هـ دفع لـ حد تاني — هـ أتعلم أنا نفسي وأعرف الشركة بتاعتي بـ تـ شتغل إزاي."</span>
 </a>
 
 </div>
 
 ---
 
-## 🔗 روابط سريعة
+## 📂 Reference — افتح لما العميل يـ سأل
 
-📅 **المواعيد الكاملة + بدائل الـ Online/Offline →** [💰 Pricing & Schedules](../../pricing/#schedules)
+??? info "📚 المحاور الكاملة (8 محاضرات × 3 ساعات)"
 
-💰 **التسعير الكامل + الـ Multi-booking discounts →** [💰 Pricing](../../pricing/)
+    **محاضرة 1:** تنصيب Odoo Community + الـ modules المهمة للمحاسبة
+    **محاضرة 2:** ضبط الـ Localization المصري (EGY) + إنشاء الشركة
+    **محاضرة 3:** بناء شجرة الحسابات المصرية الكاملة
+    **محاضرة 4:** دورة المبيعات (Sales Order → Quote → Invoice → Payment)
+    **محاضرة 5:** دورة المشتريات (PO → Bill → Payment) + الموردين
+    **محاضرة 6:** دورة المخزون + الجرد + التسويات
+    **محاضرة 7:** الأصول الثابتة + الإهلاك + إدارتها على النظام
+    **محاضرة 8:** التقارير المالية والتحليلية + التكامل مع الفاتورة الإلكترونية
 
-🛡️ **شفت objection معين؟** → [Objections Library](../../objections/)
+??? success "✅ الـ Outcomes — السيلز يـ ستخدمهم في الـ pitch"
 
-🧭 **مش متأكد انهي angle؟** → [Decision Helper](../../helper/)
+    🔹 يـ سطب Odoo Community لـ شركة جديدة في 30 دقيقة من غير ما يـ سأل Google
+    🔹 يـ بني شجرة حسابات مصرية كاملة ويـ ضبط الـ Localization الـ EGY
+    🔹 يـ دور دورة مبيعات كاملة (Quote → Invoice → Payment) من غير ما يـ كسر النظام
+    🔹 يـ ربط الفاتورة الإلكترونية بـ Odoo ويـ بعت فواتير للمصلحة من جوّاه
+    🔹 يـ طلّع التقارير المالية والـ dashboards اللي الإدارة بـ تـ طلبها في ثواني
+    🔹 يـ معالج المخزون والأصول الثابتة على النظام، من غير Excel جنب
+    🔹 يـ دخل سوق وظائف الـ ERP اللي بـ يـ دفع double (15-25K بدل 6-8K)
 
-🤝 **عاوز bundle مع ورشة تانية؟** → [Multi-booking + Bundles](../../multi-booking/)
+??? note "👨‍🏫 عن المحاضر — أ/ إسلام سعيد"
+
+    **Odoo specialist + ERP consultant** — بـ ينفّذ implementations فعلية لـ شركات في السوق المصري، مش بـ يـ شرح من book.
+
+    **استخدم مع العميل:**
+
+    🔹 "بـ يـ سطّب Odoo لـ شركات حقيقية — أنت بـ تـ تعلم من حد بـ يـ شتغل في الـ field"
+    🔹 "بـ يـ ديك الـ common mistakes اللي بـ يـ شوفها في implementations فعلية — اللي مفيش كتاب بـ يـ قولهالك"
+    🔹 "بـ يـ ربطك بـ السوق — مين بـ يـ دور على Odoo specialist، وإيه الـ skills اللي بـ تـ فرق"
+
+??? warning "⚠️ مخاوف شائعة من العميل + الرد"
+
+    **"هل Odoo الـ free ولا اللي بـ فلوس؟"**
+    > الورشة على **Odoo Community (free + open-source)** — وده عن قصد. لأن أغلب الشركات الصغيرة والمتوسطة في مصر بـ تـ بدأ بـ Community، وبعدها تـ نقل لـ Enterprise. لو فهمت Community، Enterprise بـ تـ بقى add-on سهل. عكس لو بدأت Enterprise، Community هـ يـ بان لك معقد.
+
+    **"أنا مش بـ ستخدم Odoo في شغلي حالياً"**
+    > بالظبط — ده الـ point. السوق المصري كله بـ يـ تـ حول لـ ERP السنتين اللي جايين. اللي يـ تـ علّمه دلوقتي بـ يـ بقى الـ go-to لما الشركة تـ قرر تـ نقل. اللي يـ ستنى لـ ما الشركة تـ قرر، بـ يـ لاقي حد تاني خد مكانه.
+
+    **"ليه Odoo مش SAP؟"**
+    > SAP لـ الشركات الكبيرة جداً (200+ موظف، عقود مليون+). Odoo هو الـ ERP اللي بـ تـ ستخدمه 70% من شركات SME في مصر — وده السوق اللي فيه وظائف فعلية متاحة. SAP وظائفه أقل بكتير وبـ تـ طلب 5+ سنين خبرة. Odoo بـ تـ دخل بـ سنتين.
+
+    **"هل بـ تـ ديني database للشغل عليه؟"**
+    > آه — كل متدرب بـ يـ سطّب Odoo بـ نفسه على لاب توبه في أول محاضرة، وبـ يـ شتغل عليه طول الورشة. بـ تـ خرج بـ شركة كاملة محاكاة لـ شركة حقيقية (شجرة حسابات، عملاء، موردين، فواتير) — تـ قدر تـ ستخدمها كـ portfolio في الـ interviews.
+
+    **"مفيش لاب توب — ينفع موبايل؟"**
+    > لأ، أسف. Odoo نظام كامل، مفيش طريقة تـ تعلمه من موبايل. لو مش متاح لاب، نـ أجّلك لـ مجموعة جاية لما تـ قدر تـ جيب — أحسن من إنك تـ حضر وما تـ ستفيدش.
+
+---
+
+## 🔗 الخطوة الجاية
+
+- 🛡️ العميل قال "غالي" أو "هـ فكر"؟ → [Objections Library](../../objections/)
+- 🧭 مش متأكد من الـ angle؟ → [Decision Helper](../../helper/)
+- 🤝 ينفع bundle مع ورشة تانية (Odoo + المحاسب الشامل = combo قوي)؟ → [Multi-booking](../../multi-booking/)
+- 📥 العميل عاوز "تـ بعتلي تفاصيل"؟ → [PDF الورشة](../../pdfs/)

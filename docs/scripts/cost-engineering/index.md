@@ -7,83 +7,30 @@ hide:
 
 > **"تـ خرج تـ قدر تـ قول لـ صاحب المصنع: 'المنتج ده بـ يـ خسرنا 12 جنيه في القطعة' بـ رقم وداتا، مش بـ إحساس — وتـ حدد نقطة التعادل ونقطة الإيقاف وقرار صناعة/شراء بـ confidence."**
 
-<div class="ws-nav-grid">
+---
 
-<a class="ws-nav-card" href="#details">
-  <div class="ws-nav-card-icon">📋</div>
-  <div class="ws-nav-card-title">تفاصيل الورشة</div>
-  <div class="ws-nav-card-sub">5-8 محاضرات · أ/ أحمد عاشور</div>
-</a>
+<div class="quick-pitch" markdown>
 
-<a class="ws-nav-card" href="../../pricing/#schedules">
-  <div class="ws-nav-card-icon">📅</div>
-  <div class="ws-nav-card-title">المواعيد المتاحة</div>
-  <div class="ws-nav-card-sub">Online 5 · Offline 8</div>
-</a>
-
-<a class="ws-nav-card" href="../../pricing/">
-  <div class="ws-nav-card-icon">💰</div>
-  <div class="ws-nav-card-title">الأسعار + التقسيط</div>
-  <div class="ws-nav-card-sub">3500ج · Multi 3200ج</div>
-</a>
-
-<a class="ws-nav-card" href="#angles">
-  <div class="ws-nav-card-icon">🎯</div>
-  <div class="ws-nav-card-title">اختار الـ Angle</div>
-  <div class="ws-nav-card-sub">3 angles · مصنع / تخصص / Owner</div>
-</a>
+| 💰 السعر | 📅 الشكل | 👨‍🏫 المحاضر | 🎯 لـ مين |
+|---------|----------|------------|-----------|
+| **3500ج** · 50/50 تقسيط · Multi 3200ج | 5 (Online) / 8 (Offline) × 3س | أ/ أحمد عاشور · Cost Engineer + CFO consultant | محاسبين مصانع · مهندسين · أصحاب نشاط إنتاجي |
 
 </div>
 
----
+🎯 **الـ Hook الواحد:** "تـ بقى الـ 'محاسب اللي بـ يـ ساعد صاحب المصنع يـ خد قرارات' — مش اللي بـ يـ سجل العمليات وبس."
 
-<a id="details"></a>
+[📅 المواعيد](../../pricing/#schedules){ .md-button } [💰 الأسعار](../../pricing/){ .md-button } [📥 PDF](../../pdfs/){ .md-button }
 
-<div class="ws-section-header"><span class="ws-section-header-icon">📋</span> تفاصيل الورشة</div>
-
-<div class="info-card">
-
-| البند | التفاصيل |
-|-------|----------|
-| **المحاضر** | أ/ أحمد عاشور (Cost Engineer + CFO consultant) |
-| **عدد المحاضرات** | 5-8 محاضرات (حسب المجموعة) |
-| **مدة المحاضرة** | 3 ساعات |
-| **الجمهور** | محاسبين مصانع · مهندسين · أصحاب نشاط إنتاجي |
-| **النوع** | Offline + Online (Zoom تفاعلي) |
-| **السعر** | 3500ج (Multi 3200ج) |
-| **🎯 الـ Outcome الحقيقي** | تـ بقى الـ "محاسب اللي بـ يـ ساعد صاحب المصنع يـ خد قرارات" — مش "اللي بـ يـ سجل العمليات وبس" |
-
-</div>
-
-??? success "✅ الـ Outcomes الأساسية"
-
-    🔹 ✅ تـ حسب تكلفة المنتج الحقيقية (Direct + Indirect + Allocation) في ساعة، مش يومين
-    🔹 ✅ تـ طلّع نقطة التعادل لـ أي منتج، وتـ قول للمصنع بـ يـ بتدي يـ كسب من القطعة رقم كام
-    🔹 ✅ تـ خد قرار "نـ صنّع ولا نـ شتري؟" بـ تحليل أرقام، مش بـ كلام كبار
-    🔹 ✅ تـ شغل Standard Costing وتـ حلل الانحرافات شهرياً — تـ كتشف الـ leakages قبل ما تـ كبر
-    🔹 ✅ تـ سعّر منتج جديد بـ معايير علمية، عشان مـ يـ طلعش مـ تـ سعر بـ خسارة
-    🔹 ✅ تـ بني موازنة سنوية للتكاليف بـ scenarios متعددة
-
-??? info "📚 المحاور"
-
-    🔹 مفاهيم التكاليف (Fixed + Variable + Direct + Indirect)
-    🔹 نظم التكاليف (Job Order / Process Costing)
-    🔹 معايير المحاسبة المصرية المرتبطة بـ التكاليف
-    🔹 Cost-Volume-Profit Analysis (CVP)
-    🔹 Break-Even Analysis
-    🔹 **case studies حقيقية** من مصانع وشركات
-
-??? note "👨‍🏫 المحاضر — أ/ أحمد عاشور"
-
-    **Cost Engineer + CFO consultant** — بيستشار مصانع في تسعير المنتجات يومياً.
-
-    🔹 "بيدّيك الـ frameworks اللي بيستخدمها مع الـ CFO clients"
+!!! info "🔀 نسختين متاحتين — نفس السعر، depth مختلف"
+    **Online 5 محاضرات (15 ساعة):** focused على الـ frameworks الأساسية + case studies — مناسب لـ اللي عنده background وعاوز يـ كثّف.
+    **Offline 8 محاضرات (24 ساعة):** نفس المحتوى + workshop عملي مطوّل على ملفات مصانع حقيقية + Standard Costing تفصيلي — مناسب لـ اللي بادي من الصفر أو عاوز يـ تـ مرّس أكتر.
+    **نفس المحاضر، نفس الـ outcomes الأساسية، نفس الـ 3500ج.**
 
 ---
 
-<a id="angles"></a>
+## 🎯 اختار الـ Angle — حسب مين العميل قدامك
 
-<div class="ws-section-header"><span class="ws-section-header-icon">🎯</span> اختار الـ Angle المناسب</div>
+> الـ angle بـ تـ ختاره من **profile العميل** (طبيعة شغله، الـ pain) — مش من الورشة. اقرأ الـ brief الأول.
 
 <div class="angle-grid">
 
@@ -112,14 +59,69 @@ hide:
 
 ---
 
-## 🔗 روابط سريعة
+## 📂 Reference — افتح لما العميل يـ سأل
 
-📅 **المواعيد الكاملة + بدائل الـ Online/Offline →** [💰 Pricing & Schedules](../../pricing/#schedules)
+??? info "📚 المحاور الكاملة (Online 5 / Offline 8)"
 
-💰 **التسعير الكامل + الـ Multi-booking discounts →** [💰 Pricing](../../pricing/)
+    **النسخة الـ Online (5 محاضرات × 3 ساعات = 15 ساعة):**
 
-🛡️ **شفت objection معين؟** → [Objections Library](../../objections/)
+    🔹 **محاضرة 1:** مفاهيم التكاليف (Fixed + Variable + Direct + Indirect) + نظم التكاليف (Job Order / Process)
+    🔹 **محاضرة 2:** تحميل التكاليف غير المباشرة (Allocation) + معايير المحاسبة المصرية المرتبطة
+    🔹 **محاضرة 3:** Cost-Volume-Profit Analysis (CVP) + Break-Even Analysis
+    🔹 **محاضرة 4:** قرارات إدارية (Make-or-Buy / Special Order / Drop product) + Standard Costing مبسّط
+    🔹 **محاضرة 5:** تسعير المنتج الجديد + case studies من مصانع حقيقية
 
-🧭 **مش متأكد انهي angle؟** → [Decision Helper](../../helper/)
+    ---
 
-🤝 **عاوز bundle مع ورشة تانية؟** → [Multi-booking + Bundles](../../multi-booking/)
+    **النسخة الـ Offline (8 محاضرات × 3 ساعات = 24 ساعة):**
+
+    🔹 **محاضرة 1-2:** مفاهيم التكاليف تفصيلي + نظم التكاليف (Job Order / Process / Hybrid) مع تطبيق
+    🔹 **محاضرة 3:** Allocation methods (Direct / Step-down / Reciprocal) + ABC Costing
+    🔹 **محاضرة 4:** CVP + Break-Even + Margin of Safety + Operating Leverage
+    🔹 **محاضرة 5:** Standard Costing الكامل + تحليل الانحرافات (Variance Analysis)
+    🔹 **محاضرة 6:** قرارات إدارية بـ تطبيق على cases مطوّلة
+    🔹 **محاضرة 7:** الموازنة السنوية للتكاليف + scenarios متعددة
+    🔹 **محاضرة 8:** workshop يوم كامل على ملف مصنع حقيقي + final project
+
+??? success "✅ الـ Outcomes — السيلز يـ ستخدمهم في الـ pitch"
+
+    🔹 يـ حسب تكلفة المنتج الحقيقية (Direct + Indirect + Allocation) في ساعة، مش يومين
+    🔹 يـ طلّع نقطة التعادل لـ أي منتج، ويـ قول للمصنع "بـ يـ بدي يـ كسب من القطعة رقم كام"
+    🔹 يـ خد قرار "نـ صنّع ولا نـ شتري؟" بـ تحليل أرقام، مش بـ كلام كبار
+    🔹 يـ شغّل Standard Costing ويـ حلل الانحرافات شهرياً — يـ كتشف الـ leakages قبل ما تـ كبر
+    🔹 يـ سعّر منتج جديد بـ معايير علمية، عشان مـ يـ طلعش مـ تـ سعر بـ خسارة
+    🔹 يـ بني موازنة سنوية للتكاليف بـ scenarios متعددة
+    🔹 يـ حدد متى يـ وقف خط إنتاج (Shutdown point) بـ رقم، مش بـ إحساس
+
+??? note "👨‍🏫 عن المحاضر — أ/ أحمد عاشور"
+
+    **Cost Engineer + CFO consultant** — بـ يـ ستشار مصانع في تسعير المنتجات يومياً.
+
+    **استخدم مع العميل:**
+
+    🔹 "بـ يـ ديك الـ frameworks اللي بـ يـ ستخدمها مع الـ CFO clients بـ تـ وعه"
+    🔹 "نفس المحاضر بـ يـ دّي ورش الـ CFO وTax expert والـ Financial Analysis — يعني عنده الـ big picture كاملة"
+    🔹 "كل case study من مصنع حقيقي اشتغل عليه — مش example من كتاب"
+
+??? warning "⚠️ مخاوف شائعة + الرد"
+
+    **"أنا مش بـ شتغل في مصنع — هل ده ينفعني؟"**
+    > سؤال مهم. هندسة التكاليف مش بس للمصانع — أي نشاط فيه إنتاج أو خدمة محتاج cost analysis. المقاولات (تكلفة المشروع)، المطاعم (تكلفة الطبق)، الـ workshops، حتى شركات الخدمات لما تـ سعّر ساعة عمل. الـ frameworks واحدة، الـ application بـ يـ تـ غير.
+
+    **"5 vs 8 محاضرات — أنهي أحسن لي؟"**
+    > لو عندك background في المحاسبة وعاوز تـ كثّف، الـ 5 (Online) كفاية. لو بادي من الصفر أو عاوز workshop عملي مطوّل على ملف مصنع حقيقي + Standard Costing تفصيلي، الـ 8 (Offline) أحسن. **نفس المحاضر، نفس السعر، نفس الـ outcomes الأساسية** — الـ Offline بـ يـ ديك depth ومـ مارسة أكتر.
+
+    **"هل أحتاج Excel متقدم قبلها؟"**
+    > Excel أساسي كفاية (Sum, IF, VLOOKUP بسيط). الورشة مش Excel workshop — هي frameworks محاسبية. لو حاسس إن الـ Excel ضعيف عندك، ينفع تـ خد ورشة الإكسيل كـ add-on بـ خصم الـ Multi-booking (3200ج بدل 3500ج لـ كل ورشة).
+
+    **"محاسبة التكاليف وهندسة التكاليف — إيه الفرق؟"**
+    > محاسبة التكاليف بـ تـ سجّل (entries + reports). هندسة التكاليف بـ تـ حلل وتـ خد قرار (تسعير، break-even، make-or-buy، انحرافات). الورشة دي بـ تـ نقلك من "اللي بـ يـ سجل" لـ "اللي بـ يـ ساعد الإدارة تـ قرر" — وده الـ tier اللي بـ يـ خلّيك مطلوب في السوق.
+
+---
+
+## 🔗 الخطوة الجاية
+
+- 🛡️ العميل قال "غالي" أو "هـ فكر"؟ → [Objections Library](../../objections/)
+- 🧭 مش متأكد من الـ angle؟ → [Decision Helper](../../helper/)
+- 🤝 ينفع bundle مع ورشة تانية (CFO / Financial Analysis = نفس المحاضر)؟ → [Multi-booking](../../multi-booking/)
+- 📥 العميل عاوز "تـ بعتلي تفاصيل"؟ → [PDF الورشة](../../pdfs/)

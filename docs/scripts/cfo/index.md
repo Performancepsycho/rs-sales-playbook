@@ -7,94 +7,32 @@ hide:
 
 > **"تـ بقى CFO فعلاً، مش رئيس حسابات لابس بـ دلة كبيرة. Financial Modeling + Capital Budgeting + M&A + لغة الـ Boardroom — اللي بـ يـ خلي صاحب الشركة يـ ستشيرك في قرار 10 مليون، مش يـ بعتلك تـ راجع ميزان."**
 
-<div class="ws-nav-grid">
+---
 
-<a class="ws-nav-card" href="#details">
-  <div class="ws-nav-card-icon">📋</div>
-  <div class="ws-nav-card-title">تفاصيل الورشة</div>
-  <div class="ws-nav-card-sub">10 محاضرات · أ/ أحمد عاشور</div>
-</a>
+<div class="quick-pitch" markdown>
 
-<a class="ws-nav-card" href="../../pricing/#schedules">
-  <div class="ws-nav-card-icon">📅</div>
-  <div class="ws-nav-card-title">المواعيد المتاحة</div>
-  <div class="ws-nav-card-sub">Online فقط · 4 يونيو</div>
-</a>
-
-<a class="ws-nav-card" href="../../pricing/">
-  <div class="ws-nav-card-icon">💰</div>
-  <div class="ws-nav-card-title">الأسعار + التقسيط</div>
-  <div class="ws-nav-card-sub">6000ج · خصم 50%</div>
-</a>
-
-<a class="ws-nav-card" href="#angles">
-  <div class="ws-nav-card-icon">🎯</div>
-  <div class="ws-nav-card-title">اختار الـ Angle</div>
-  <div class="ws-nav-card-sub">3 angles · رئيس / CFO / Owner</div>
-</a>
+| 💰 السعر | 📅 الشكل | 👨‍🏫 المحاضر | 🎯 لـ مين |
+|---------|----------|------------|-----------|
+| **6000ج** · 50/50 تقسيط | 10 × 3س · **Online فقط (Zoom)** | أ/ أحمد عاشور · CFO consultant + Strategy advisor | رؤساء حسابات · CFOs جدد · صاحب شركة كبيرة |
 
 </div>
 
----
+🎯 **الـ Hook الواحد:** "تـ تكلم لغة الـ Boardroom — مش لغة الـ data entry. صاحب الشركة يـ ستشيرك قبل قرار التوسع، مش يـ بعتلك تـ راجع تـ سويات."
 
-<a id="details"></a>
+[📅 المواعيد](../../pricing/#schedules){ .md-button } [💰 الأسعار](../../pricing/){ .md-button } [📥 PDF](../../pdfs/){ .md-button }
 
-<div class="ws-section-header"><span class="ws-section-header-icon">📋</span> تفاصيل الورشة</div>
+!!! warning "⚠️ Online-only — مفيش Offline"
+    **الـ CFO Online فقط (Zoom تفاعلي)** — مش Offline، مش Hybrid، مفيش استثناءات.
 
-<div class="info-card">
+    **السبب:** الـ Senior management (رؤساء حسابات + CFOs + أصحاب شركات) جدولهم مش بـ يـ سمح بـ Offline ثابت 10 محاضرات. الـ Online هو اللي بـ يـ خلّيهم يـ كمّلوا.
 
-| البند | التفاصيل |
-|-------|----------|
-| **المحاضر** | أ/ أحمد عاشور (CFO consultant + Strategy advisor) |
-| **عدد المحاضرات** | 10 محاضرات |
-| **مدة المحاضرة** | 3 ساعات |
-| **إجمالي الساعات** | 30 ساعة تدريبية |
-| **الجمهور** | رؤساء حسابات · CFOs جدد · صاحب شركة كبيرة |
-| **النوع** | **Online فقط** (Zoom تفاعلي) |
-| **السعر** | 6000ج (خصم 50%) |
-| **🎯 الـ Outcome الحقيقي** | تـ تكلم لغة الـ Boardroom — مش لغة الـ data entry. صاحب الشركة بـ يـ ستشيرك قبل قرار التوسع، مش بـ يـ بعتلك تـ راجع تـ سويات |
-
-</div>
-
-!!! warning "ملاحظة مهمة"
-    🔹 الـ CFO **Online-only** — لو العميل سأل عن Offline، **لأ مش متاح**
-    🔹 السبب: الـ Senior management جدوله مش بيسمح بـ Offline
-    🔹 لو لازم Offline، اقترح **التحليل المالي** كـ alternative (~40% من محتوى CFO)
-
-??? success "✅ الـ Outcomes الأساسية"
-
-    🔹 ✅ تـ بني Financial Model بـ 3 scenarios (Base/Best/Worst) في 30 دقيقة، مش 3 أيام
-    🔹 ✅ تـ خد قرار Capital Budgeting بـ NPV + IRR + Payback لـ مشروع 5 مليون، وتـ دافع عنه قدام الـ board
-    🔹 ✅ تـ دير Working Capital وتـ قلل الـ Cash Conversion Cycle من 90 يوم لـ 45 يوم
-    🔹 ✅ تـ قيّم شركة بـ 3 methodologies (DCF + Multiples + Asset) قبل أي صفقة M&A
-    🔹 ✅ تـ تكلم مع المستثمرين والبنوك بـ لغتهم — مش بـ لغة محاسب
-    🔹 ✅ تـ بني استراتيجية مالية 3-5 سنين، وتـ ربطها بـ KPIs قابلة للقياس
-    🔹 ✅ تـ قدم Executive presentation للـ board في 10 دقايق، مش 60
-
-??? info "📚 المحاور"
-
-    🔹 دور الـ CFO في الـ executive team
-    🔹 Financial Modeling في Excel (Advanced)
-    🔹 Capital Budgeting Decisions
-    🔹 Working Capital Management
-    🔹 Treasury Management + FX Risk
-    🔹 Business Valuation methodologies
-    🔹 Mergers & Acquisitions
-    🔹 Strategic Planning + KPIs
-    🔹 Board + Investor Communication
-    🔹 **case studies + IPO scenarios**
-
-??? note "👨‍🏫 المحاضر — أ/ أحمد عاشور"
-
-    **CFO consultant + Strategy advisor** — بيستشار رؤساء حسابات + CFOs فعلياً.
-
-    🔹 "بيدّيك الـ frameworks اللي بيستخدمها مع clients بـ مرتبات 50K+"
+    **لو العميل لازم Offline:** اقترح **التحليل المالي** كـ alternative — بـ يـ غطي ~40% من محتوى CFO (Financial Modeling + Valuation basics) ومتاح Offline.
 
 ---
 
-<a id="angles"></a>
+## 🎯 اختار الـ Angle — حسب مين العميل قدامك
 
-<div class="ws-section-header"><span class="ws-section-header-icon">🎯</span> اختار الـ Angle المناسب</div>
+> الـ angle بـ تـ ختاره من **profile العميل** (منصبه، طموحه، الـ pain) — مش من الورشة. اقرأ الـ brief الأول.
 
 <div class="angle-grid">
 
@@ -123,14 +61,63 @@ hide:
 
 ---
 
-## 🔗 روابط سريعة
+## 📂 Reference — افتح لما العميل يـ سأل
 
-📅 **المواعيد الكاملة + بدائل الـ Online/Offline →** [💰 Pricing & Schedules](../../pricing/#schedules)
+??? info "📚 المحاور الكاملة (10 محاضرات × 3 ساعات)"
 
-💰 **التسعير الكامل + الـ Multi-booking discounts →** [💰 Pricing](../../pricing/)
+    **محاضرة 1:** دور الـ CFO في الـ executive team — الفرق بين رئيس حسابات وCFO
+    **محاضرة 2:** Financial Modeling في Excel (Advanced) — 3 scenarios
+    **محاضرة 3:** Capital Budgeting Decisions — NPV + IRR + Payback
+    **محاضرة 4:** Working Capital Management — Cash Conversion Cycle
+    **محاضرة 5:** Treasury Management + FX Risk
+    **محاضرة 6:** Business Valuation methodologies — DCF + Multiples + Asset
+    **محاضرة 7:** Mergers & Acquisitions — Deal structuring + Due Diligence
+    **محاضرة 8:** Strategic Planning + KPIs — استراتيجية 3-5 سنين
+    **محاضرة 9:** Board + Investor Communication — Executive presentations
+    **محاضرة 10:** Case studies + IPO scenarios + Final project
 
-🛡️ **شفت objection معين؟** → [Objections Library](../../objections/)
+??? success "✅ الـ Outcomes — السيلز يـ ستخدمهم في الـ pitch"
 
-🧭 **مش متأكد انهي angle؟** → [Decision Helper](../../helper/)
+    🔹 يـ بني Financial Model بـ 3 scenarios (Base/Best/Worst) في 30 دقيقة، مش 3 أيام
+    🔹 يـ خد قرار Capital Budgeting بـ NPV + IRR + Payback لـ مشروع 5 مليون، وي دافع عنه قدام الـ board
+    🔹 يـ دير Working Capital وي قلل الـ Cash Conversion Cycle من 90 يوم لـ 45 يوم
+    🔹 يـ قيّم شركة بـ 3 methodologies (DCF + Multiples + Asset) قبل أي صفقة M&A
+    🔹 يـ تكلم مع المستثمرين والبنوك بـ لغتهم — مش بـ لغة محاسب
+    🔹 يـ بني استراتيجية مالية 3-5 سنين، وي ربطها بـ KPIs قابلة للقياس
+    🔹 يـ قدم Executive presentation للـ board في 10 دقايق، مش 60
 
-🤝 **عاوز bundle مع ورشة تانية؟** → [Multi-booking + Bundles](../../multi-booking/)
+??? note "👨‍🏫 عن المحاضر — أ/ أحمد عاشور"
+
+    **CFO consultant + Strategy advisor** — بـ يـ ستشار رؤساء حسابات + CFOs فعلياً، مش أكاديمي.
+
+    **استخدم مع العميل:**
+
+    🔹 "بـ يـ ديك الـ frameworks اللي بـ يـ ستخدمها مع clients بـ مرتبات 50K+ شهرياً"
+    🔹 "كل case study من شركة حقيقية شغل عليها — مش من كتاب أكاديمي"
+    🔹 "بـ يـ علّمك تـ فكر CFO، مش بس تـ عرف مصطلحات CFO"
+
+??? warning "⚠️ مخاوف شائعة من العميل + الرد"
+
+    **"أنا مش CFO — هل ده مناسب لي؟"**
+    > الورشة لـ 3 ناس بـ الظبط: (1) رئيس حسابات عاوز يـ بقى CFO، (2) CFO اتـ رقّى جديد ومحتاج يـ تـ ثبّت، (3) صاحب شركة عاوز يـ فهم CFO بـ يـ عمل ايه فعلاً. لو أنت من الـ 3 دول، الورشة لك. لو مبتدئ في المحاسبة، لأ — ابدأ بـ التحليل المالي الأول.
+
+    **"ليه Online فقط؟ أنا بـ فضّل Offline"**
+    > الجمهور هنا Senior management — رؤساء حسابات + CFOs + أصحاب شركات. جدولهم مش بـ يـ سمح بـ Offline ثابت 10 محاضرات. الـ Online هو اللي بـ يـ خلّيهم يـ كمّلوا. لو لازم Offline، التحليل المالي بـ يـ غطي ~40% من المحتوى ومتاح Offline.
+
+    **"10 محاضرات كتير — مفيش نسخة أقصر؟"**
+    > الـ CFO مش skill واحد — ده 7 skills (Modeling + Budgeting + Treasury + Valuation + M&A + Strategy + Communication). كل واحدة محتاجة محاضرة على الأقل. الـ 30 ساعة دي بـ تـ ستبدل MBA كامل (سنتين + 200K). نخصرها أكتر = نـ بقى زي الكورسات الـ online اللي مش بـ تـ ديك حاجة.
+
+    **"هل تـ ضمن لي أبقى CFO بعدها؟"**
+    > **لأ — مفيش حد يـ قدر يـ ضمنلك ترقية، ده قرار صاحب شركتك.** اللي نـ ضمنه: تـ خرج من الورشة بـ frameworks + شغل عملي + لغة CFO. بـ تـ بقى **مؤهّل** للمنصب. الـ angle 1 (رئيس حسابات بقاله 5 سنين) خريجين كتير منه اتـ رقّوا في 6 شهور، بس مش بـ ضمانة — بـ شغلهم بعد الورشة.
+
+    **"ايه الفرق بينها وبين MBA؟"**
+    > MBA = سنتين + 200K+ + 60% نظري (Marketing + HR + Operations + Strategy). الـ CFO ورشة = 30 ساعة + 6000ج + 100% Finance executive. لو هدفك CFO/Finance leadership، الورشة دي focused 10x. لو هدفك general management، خد MBA.
+
+---
+
+## 🔗 الخطوة الجاية
+
+- 🛡️ العميل قال "غالي" أو "هـ فكر"؟ → [Objections Library](../../objections/)
+- 🧭 مش متأكد من الـ angle؟ → [Decision Helper](../../helper/)
+- 🤝 ينفع bundle مع ورشة تانية؟ → [Multi-booking](../../multi-booking/)
+- 📥 العميل عاوز "تـ بعتلي تفاصيل"؟ → [PDF الورشة](../../pdfs/)

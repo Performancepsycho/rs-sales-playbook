@@ -7,86 +7,25 @@ hide:
 
 > **"المحاسب بـ يـ طلّع القائمة، المحلل بـ يـ قرأها. الورشة بـ تـ نقلك من واحد بـ يـ سجل أرقام → لـ واحد بـ يـ دخل اجتماع الإدارة بـ insight وقرار."**
 
-<div class="ws-nav-grid">
+---
 
-<a class="ws-nav-card" href="#details">
-  <div class="ws-nav-card-icon">📋</div>
-  <div class="ws-nav-card-title">تفاصيل الورشة</div>
-  <div class="ws-nav-card-sub">7 محاضرات · أ/ أحمد عاشور</div>
-</a>
+<div class="quick-pitch" markdown>
 
-<a class="ws-nav-card" href="../../pricing/#schedules">
-  <div class="ws-nav-card-icon">📅</div>
-  <div class="ws-nav-card-title">المواعيد المتاحة</div>
-  <div class="ws-nav-card-sub">مجموعة Offline · 13 مايو</div>
-</a>
-
-<a class="ws-nav-card" href="../../pricing/">
-  <div class="ws-nav-card-icon">💰</div>
-  <div class="ws-nav-card-title">الأسعار + التقسيط</div>
-  <div class="ws-nav-card-sub">5000ج · Multi 4000ج ⚡</div>
-</a>
-
-<a class="ws-nav-card" href="#angles">
-  <div class="ws-nav-card-icon">🎯</div>
-  <div class="ws-nav-card-title">اختار الـ Angle</div>
-  <div class="ws-nav-card-sub">Senior / Analyst / Owner</div>
-</a>
+| 💰 السعر | 📅 الشكل | 👨‍🏫 المحاضر | 🎯 لـ مين |
+|---------|----------|------------|-----------|
+| **5000ج** · Multi 4000ج · 50/50 تقسيط | 7 × 3س · **Offline** · 21 ساعة | أ/ أحمد عاشور · CFO consultant | Senior · رؤساء حسابات · CFO جدد · أصحاب شركات |
 
 </div>
 
----
+🎯 **الـ Hook الواحد:** "تـ دخل اجتماع الـ board وتـ قول 'السبب وراء انخفاض الـ ROE هو...' — مش 'هـ أرجع لـ التقرير وأرد عليك'."
 
-<a id="details"></a>
-
-<div class="ws-section-header"><span class="ws-section-header-icon">📋</span> تفاصيل الورشة</div>
-
-<div class="info-card">
-
-| البند | التفاصيل |
-|-------|----------|
-| **المحاضر** | أ/ أحمد عاشور (CFO consultant) |
-| **عدد المحاضرات** | 7 محاضرات |
-| **مدة المحاضرة** | 3 ساعات |
-| **إجمالي الساعات** | 21 ساعة تدريبية |
-| **الجمهور** | Senior · رؤساء حسابات · CFO جدد · أصحاب شركات |
-| **النوع** | Offline |
-| **السعر** | 5000ج (Multi 4000ج — أكبر discount) |
-| **🎯 الـ Outcome الحقيقي** | تـ دخل اجتماع الـ board وتـ قول "السبب وراء انخفاض الـ ROE هو..." — مش "هـ أرجع لـ التقرير وأرد عليك" |
-
-</div>
-
-??? success "✅ الـ Outcomes الأساسية"
-
-    🔹 ✅ تـ قرأ قائمة مركز مالي وتـ طلع منها 5 insights في 15 دقيقة، مش ساعة
-    🔹 ✅ تـ حسب 40+ نسبة مالية (Liquidity + Profitability + Solvency + Activity) وتـ عرف امتى كل واحدة بـ تـ فيد
-    🔹 ✅ تـ فكّك الـ ROE بـ DuPont وتـ قول للمدير ليه نزل من 18% لـ 12%
-    🔹 ✅ تـ كتب Executive Summary صفحة واحدة بـ insights ودلالات — مش 30 صفحة أرقام
-    🔹 ✅ تـ راجع Cash Flow وتـ كتشف لو الشركة بـ تـ كسب على الورق وبـ تـ نزف cash في الواقع
-    🔹 ✅ تـ خد قرار Buy/Sell/Hold أو Approve/Reject لـ قرض بـ framework، مش بـ gut feeling
-
-??? info "📚 المحاور"
-
-    🔹 مدخل التحليل المالي + الـ stakeholders
-    🔹 تحليل القوائم (Income + Balance + Cash Flow)
-    🔹 النسب المالية (40+ ratio)
-    🔹 Working Capital Analysis
-    🔹 Investment Decision (NPV + IRR + Payback)
-    🔹 Credit Analysis
-    🔹 **case studies من بورصة مصر + SMEs**
-
-??? note "👨‍🏫 المحاضر — أ/ أحمد عاشور"
-
-    **CFO consultant** — بيراجع تقارير لـ investors و banks فعلياً.
-
-    🔹 "بيتحلّل شركات لـ investors فعلياً"
-    🔹 "بيدّيك الـ frameworks اللي بيستخدمها مع الـ CFO clients"
+[📅 المواعيد](../../pricing/#schedules){ .md-button } [💰 الأسعار](../../pricing/){ .md-button } [📥 PDF](../../pdfs/){ .md-button }
 
 ---
 
-<a id="angles"></a>
+## 🎯 اختار الـ Angle — حسب مين العميل قدامك
 
-<div class="ws-section-header"><span class="ws-section-header-icon">🎯</span> اختار الـ Angle المناسب</div>
+> الـ angle بـ تـ ختاره من **profile العميل** (سنه، تجربته، الـ pain) — مش من الورشة. اقرأ الـ brief الأول.
 
 <div class="angle-grid">
 
@@ -115,14 +54,63 @@ hide:
 
 ---
 
-## 🔗 روابط سريعة
+## 📂 Reference — افتح لما العميل يـ سأل
 
-📅 **المواعيد الكاملة + بدائل الـ Online/Offline →** [💰 Pricing & Schedules](../../pricing/#schedules)
+??? info "📚 المحاور الكاملة (7 محاضرات × 3 ساعات)"
 
-💰 **التسعير الكامل + الـ Multi-booking discounts →** [💰 Pricing](../../pricing/)
+    **محاضرة 1:** مدخل التحليل المالي + الـ stakeholders (مين بـ يـ قرأ التحليل وليه)
+    **محاضرة 2:** تحليل القوائم — Income Statement + Balance Sheet + Cash Flow
+    **محاضرة 3:** النسب المالية (40+ ratio) — Liquidity + Profitability + Solvency + Activity
+    **محاضرة 4:** Working Capital Analysis + DuPont decomposition
+    **محاضرة 5:** Investment Decision — NPV + IRR + Payback Period
+    **محاضرة 6:** Credit Analysis — تقييم الشركة من زاوية البنك والمستثمر
+    **محاضرة 7:** Case studies من بورصة مصر + SMEs + Executive Summary writing
 
-🛡️ **شفت objection معين؟** → [Objections Library](../../objections/)
+??? success "✅ الـ Outcomes — السيلز يـ ستخدمهم في الـ pitch"
 
-🧭 **مش متأكد انهي angle؟** → [Decision Helper](../../helper/)
+    🔹 يـ قرأ قائمة مركز مالي وي طلع منها 5 insights في 15 دقيقة، مش ساعة
+    🔹 يـ حسب 40+ نسبة مالية (Liquidity + Profitability + Solvency + Activity) وي عرف امتى كل واحدة بـ تـ فيد
+    🔹 يـ فكّك الـ ROE بـ DuPont وي قول للمدير ليه نزل من 18% لـ 12%
+    🔹 يـ كتب Executive Summary صفحة واحدة بـ insights ودلالات — مش 30 صفحة أرقام
+    🔹 يـ راجع Cash Flow وي كتشف لو الشركة بـ تـ كسب على الورق وبـ تـ نزف cash في الواقع
+    🔹 يـ خد قرار Buy/Sell/Hold أو Approve/Reject لـ قرض بـ framework، مش بـ gut feeling
+    🔹 يـ دخل اجتماع الإدارة بـ insight وقرار، مش بـ تقرير أرقام صامت
 
-🤝 **عاوز bundle مع ورشة تانية؟** → [Multi-booking + Bundles](../../multi-booking/)
+??? note "👨‍🏫 عن المحاضر — أ/ أحمد عاشور"
+
+    **CFO consultant** — بـ يـ راجع تقارير لـ investors و banks فعلياً. بـ يـ دّي 3 ورش في RS: **CFO + Cost Engineering + التحليل المالي**.
+
+    **الفرق بين الـ 3:**
+
+    🔹 **التحليل المالي** = القراءة + التفسير + القرار (للـ analyst والـ senior والـ investor) — ده اللي قدامنا
+    🔹 **CFO** = الإدارة المالية الكاملة (تخطيط + cash + قرارات استراتيجية على مستوى الشركة)
+    🔹 **Cost Engineering** = تحليل التكاليف داخل المصنع/العملية
+
+    **استخدم مع العميل:**
+
+    🔹 "بـ يـ حلل شركات لـ investors فعلياً — مش case studies من كتاب"
+    🔹 "بـ يـ دّيك الـ frameworks اللي بـ يـ ستخدمها مع الـ CFO clients بتوعه"
+    🔹 "case studies حقيقية من بورصة مصر + SMEs مصرية — مش أمثلة من Harvard"
+
+??? warning "⚠️ مخاوف شائعة من العميل + الرد"
+
+    **"ايه الفرق بين التحليل المالي والـ CFO؟"**
+    > سؤال مهم. **التحليل المالي** = إنت بـ تـ قرأ القوائم وتـ طلع منها قرار (Buy/Sell، Approve/Reject، السبب ورا انخفاض الـ margin). **CFO** = إنت بـ تـ دير الشركة مالياً (cash planning، budgeting، قرارات استراتيجية). لو إنت senior accountant أو محلل أو مستثمر → التحليل المالي. لو إنت رئيس حسابات داخل على CFO role → CFO. كتير بـ يـ خدوا الـ 2 (Multi 4000ج لكل ورشة).
+
+    **"هل ده يـ ساعدني أكتر لو راح أعمل MBA؟"**
+    > 100%. الـ Financial Analysis module في الـ MBA هي اللي بـ يـ سقّط أكتر طلاب. لو دخلت الـ MBA وإنت فاهم DuPont + NPV + IRR + Credit Analysis، بـ تـ بقى متقدم على زمايلك بـ سنة كاملة. والمحاضر بـ يـ دّيك نفس الـ frameworks اللي بـ يـ تـ درّس في الـ MBA — بس بـ أمثلة مصرية.
+
+    **"أنا مش بـ شتغل في investment — هل ينفعني؟"**
+    > آه، بـ شكل أساسي. لو إنت senior accountant، مديرك هـ يـ سألك "ليه الأرقام دي؟" — لازم تـ رد. لو إنت بـ تـ طلب قرض للشركة، البنك هـ يـ حلل قوائمك — لازم تـ فهم هو شايف ايه. لو صاحب شركة، لازم تـ عرف شركتك بـ تـ كسب فعلاً ولا بـ تـ نزف cash. التحليل المالي مش للـ investors بس — هو لـ أي حد بـ يـ تـ خد قرار بـ فلوس.
+
+    **"هل بـ يـ غطي القراءة الذكية للقوائم؟"**
+    > ده **محور كامل** (محاضرة 2) + بـ نـ طبّقه في كل المحاضرات اللي بعدها. مش هـ تـ خرج تـ عرف النسب بس — هـ تـ خرج تـ قرأ الـ Income Statement وي طلع منها 5 insights في 15 دقيقة، وتـ راجع الـ Cash Flow وتـ كتشف الشركة بـ تـ كسب على الورق وبـ تـ نزف cash في الواقع. ده الفرق بين محاسب ومحلل.
+
+---
+
+## 🔗 الخطوة الجاية
+
+- 🛡️ العميل قال "غالي" أو "هـ فكر"؟ → [Objections Library](../../objections/)
+- 🧭 مش متأكد من الـ angle؟ → [Decision Helper](../../helper/)
+- 🤝 ينفع bundle مع ورشة تانية (CFO + Cost = combo قوي)؟ → [Multi-booking](../../multi-booking/)
+- 📥 العميل عاوز "تـ بعتلي تفاصيل"؟ → [PDF الورشة](../../pdfs/)

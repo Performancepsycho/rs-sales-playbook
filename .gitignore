@@ -34,3 +34,8 @@ secrets.json
 # Playwright MCP browser snapshots
 .playwright-mcp/
 site_test/
+
+# Local screenshots + logs
+*.png
+mkdocs.log
+mkdocs-err.log

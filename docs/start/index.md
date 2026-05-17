@@ -45,7 +45,7 @@ hide:
 
 === "🗓️ الأسبوع 1: الـ Foundation"
 
-    <div class="info-card">
+    <div class="info-card" markdown>
     <div class="info-card-header"><span class="info-card-icon">📚</span> القراءة المطلوبة (4-6 ساعات)</div>
 
     **يوم 1-2: ملفات السياق**
@@ -89,7 +89,7 @@ hide:
 
 === "🗓️ الأسبوع 2: المراقبة + Role-Play"
 
-    <div class="info-card">
+    <div class="info-card" markdown>
     <div class="info-card-header"><span class="info-card-icon">👀</span> Shadowing + Role-Play</div>
 
     **يوم 1-3: Shadowing**
@@ -123,7 +123,7 @@ hide:
 
 === "🗓️ الأسبوع 3: المكالمات الأولى (مع إشراف)"
 
-    <div class="info-card">
+    <div class="info-card" markdown>
     <div class="info-card-header"><span class="info-card-icon">📞</span> الـ Live Calls — مع coaching</div>
 
     **يوم 1-3: مكالمات Hot Stages (Stages 1-3)**
@@ -152,7 +152,7 @@ hide:
 
 === "🗓️ الأسبوع 4: الـ Cold + الـ Independence"
 
-    <div class="info-card">
+    <div class="info-card" markdown>
     <div class="info-card-header"><span class="info-card-icon">🚀</span> Full Operation</div>
 
     **يوم 1-4: Cold Stages (6-7)**
