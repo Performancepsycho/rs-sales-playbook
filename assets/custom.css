@@ -1507,6 +1507,138 @@ a.schedule-row:hover {
 }
 
 /* ============================================================
+   Quick Pitch — 30-second info card on workshop indexes
+   ============================================================ */
+.quick-pitch {
+  margin: 1.5rem 0 1rem;
+}
+
+.quick-pitch table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: linear-gradient(135deg, var(--rs-primary) 0%, var(--rs-primary-soft) 100%);
+  border-radius: var(--rs-radius-md);
+  overflow: hidden;
+  box-shadow: var(--rs-shadow-md);
+  margin: 0 !important;
+}
+
+.quick-pitch table thead {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.quick-pitch table thead th {
+  color: #fff !important;
+  font-weight: 700 !important;
+  padding: 0.85rem 1rem !important;
+  text-align: center !important;
+  font-size: 0.88rem !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.quick-pitch table tbody td {
+  background: rgba(255, 255, 255, 0.95) !important;
+  color: var(--rs-text) !important;
+  padding: 1.1rem 1rem !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  border: none !important;
+  border-right: 1px solid var(--rs-border) !important;
+  font-size: 0.92rem !important;
+  font-weight: 500 !important;
+  line-height: 1.55 !important;
+}
+
+.quick-pitch table tbody td:first-child { border-right: none !important; }
+
+[data-md-color-scheme="slate"] .quick-pitch table tbody td {
+  background: rgba(34, 37, 44, 0.95) !important;
+  color: var(--rs-text) !important;
+  border-right-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.quick-pitch table tbody td strong {
+  color: var(--rs-primary-deep);
+  font-size: 1.05rem;
+}
+
+[data-md-color-scheme="slate"] .quick-pitch table tbody td strong {
+  color: var(--rs-primary-soft);
+}
+
+/* ============================================================
+   Angle Hero — top card on angle pages (audience / pain / hook)
+   ============================================================ */
+.angle-hero {
+  margin: 1rem 0 1.75rem;
+}
+
+.angle-hero table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--rs-border);
+  border-radius: var(--rs-radius-md);
+  overflow: hidden;
+  margin: 0 !important;
+  box-shadow: var(--rs-shadow-sm);
+}
+
+.angle-hero table thead {
+  background: var(--rs-surface-soft);
+}
+
+.angle-hero table thead th {
+  padding: 0.75rem 1rem !important;
+  font-weight: 700 !important;
+  text-align: right !important;
+  font-size: 0.88rem !important;
+  color: var(--rs-text) !important;
+  border: none !important;
+  border-bottom: 2px solid var(--rs-border) !important;
+}
+
+.angle-hero table tbody td {
+  background: var(--rs-surface) !important;
+  padding: 1rem 1.15rem !important;
+  vertical-align: top !important;
+  border: none !important;
+  border-right: 1px solid var(--rs-border) !important;
+  font-size: 0.92rem !important;
+  line-height: 1.75 !important;
+  color: var(--rs-text-soft) !important;
+}
+
+.angle-hero table tbody td:first-child { border-right: none !important; }
+
+.angle-hero table tbody td:nth-child(2) {
+  font-style: italic;
+  color: var(--rs-hot);
+  font-weight: 500;
+}
+
+.angle-hero table tbody td:last-child {
+  color: var(--rs-text);
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .angle-hero table tbody td:nth-child(2) {
+  color: #ff8a80;
+}
+
+/* ============================================================
+   Md-button compact for quick action row
+   ============================================================ */
+.md-typeset .md-button {
+  padding: 0.35rem 0.95rem;
+  margin: 0.2rem 0.25rem 0.2rem 0;
+  font-size: 0.85rem;
+  border-radius: var(--rs-radius-sm);
+}
+
+/* ============================================================
    Mobile — responsive at 768px and 420px
    ============================================================ */
 @media (max-width: 768px) {
@@ -1561,4 +1693,31 @@ a.schedule-row:hover {
 @media (max-width: 420px) {
   .workshop-grid { grid-template-columns: 1fr; }
   .hero-banner { grid-template-columns: repeat(2, 1fr); padding: 1.1rem 0.85rem; }
+}
+
+/* Quick Pitch + Angle Hero — mobile: stack as 2-col then collapse */
+@media (max-width: 900px) {
+  .quick-pitch table thead,
+  .angle-hero table thead { display: none; }
+
+  .quick-pitch table,
+  .quick-pitch table tbody,
+  .quick-pitch table tr,
+  .angle-hero table,
+  .angle-hero table tbody,
+  .angle-hero table tr { display: block; }
+
+  .quick-pitch table tbody td,
+  .angle-hero table tbody td {
+    display: block !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--rs-border) !important;
+    text-align: right !important;
+    padding: 0.9rem 1rem !important;
+  }
+
+  .quick-pitch table tbody td:last-child,
+  .angle-hero table tbody td:last-child {
+    border-bottom: none !important;
+  }
 }
