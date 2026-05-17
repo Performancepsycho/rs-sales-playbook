@@ -106,6 +106,34 @@
     });
 
     article.dataset.stageNavInjected = '1';
+
+    // 4. Hash handler — if URL has #stage-N, auto-open + scroll
+    handleStageHash(stageDetails, article);
+  }
+
+  function handleStageHash(stageDetails, article) {
+    function processHash() {
+      const hash = (window.location.hash || '').replace(/^#/, '');
+      const m = hash.match(/^stage-(\d+)$/);
+      if (!m) return;
+      const targetIdx = parseInt(m[1], 10) - 1;
+      const target = stageDetails[targetIdx];
+      if (!target) return;
+      // Close others, open target
+      stageDetails.forEach(other => { if (other !== target) other.open = false; });
+      target.open = true;
+      setTimeout(() => {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
+      // Highlight the matching stage-nav button
+      article.querySelectorAll('.stage-nav-btn').forEach(b => b.classList.remove('active'));
+      const btn = article.querySelector(`.stage-nav-btn[data-stage="${targetIdx + 1}"]`);
+      if (btn) btn.classList.add('active');
+    }
+    // Run once on load
+    processHash();
+    // Listen for hash changes within the same page
+    window.addEventListener('hashchange', processHash);
   }
 
   // ============================================
