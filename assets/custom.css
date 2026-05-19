@@ -1721,3 +1721,373 @@ a.schedule-row:hover {
     border-bottom: none !important;
   }
 }
+
+/* ============================================================
+   Home — Simplified Layout (Workshops + Schedule + Pricing)
+   ============================================================ */
+
+/* CTA bar at top of home */
+.home-cta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.home-cta-bar a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 1.05rem;
+  border-radius: 99px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.home-cta-primary {
+  background: var(--rs-gradient-primary);
+  color: white !important;
+  box-shadow: var(--rs-shadow-sm);
+}
+
+.home-cta-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--rs-shadow-md);
+}
+
+.home-cta-secondary {
+  background: var(--rs-surface);
+  color: var(--rs-text) !important;
+  border: 1px solid var(--rs-border);
+}
+
+.home-cta-secondary:hover {
+  border-color: var(--rs-primary-soft);
+  transform: translateY(-1px);
+}
+
+[data-md-color-scheme="slate"] .home-cta-secondary {
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--rs-text) !important;
+}
+
+/* Workshops grid */
+.workshops-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.9rem;
+  margin: 1.25rem 0;
+}
+
+.workshop-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.1rem 0.9rem 1.2rem;
+  background: var(--rs-surface);
+  border: 1px solid var(--rs-border);
+  border-radius: var(--rs-radius-md);
+  text-decoration: none !important;
+  color: var(--rs-text) !important;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.workshop-card:hover {
+  border-color: var(--rs-primary-soft);
+  transform: translateY(-3px);
+  box-shadow: var(--rs-shadow-md);
+}
+
+.workshop-emoji {
+  font-size: 2.1rem;
+  margin-bottom: 0.45rem;
+}
+
+.workshop-name {
+  font-weight: 800;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+  color: var(--rs-text);
+}
+
+.workshop-instructor {
+  font-size: 0.82rem;
+  color: var(--rs-text-soft);
+  margin-bottom: 0.2rem;
+}
+
+.workshop-meta {
+  font-size: 0.78rem;
+  color: var(--rs-text-soft);
+  margin-bottom: 0.65rem;
+}
+
+.workshop-price {
+  background: var(--rs-gradient-primary);
+  color: white;
+  padding: 0.3rem 0.85rem;
+  border-radius: 99px;
+  font-weight: 800;
+  font-size: 0.88rem;
+}
+
+[data-md-color-scheme="slate"] .workshop-card {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Schedule — proper table format */
+.md-typeset table.rs-schedule-table,
+table.rs-schedule-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.25rem 0;
+  font-size: 0.88rem;
+  background: var(--rs-surface);
+  border: 1px solid var(--rs-border);
+  border-radius: var(--rs-radius-md);
+  overflow: hidden;
+  box-shadow: var(--rs-shadow-sm);
+}
+
+.md-typeset table.rs-schedule-table thead th,
+table.rs-schedule-table thead th {
+  background: var(--rs-surface-soft);
+  color: var(--rs-text);
+  font-weight: 800;
+  padding: 0.75rem 0.85rem;
+  text-align: right;
+  border-bottom: 1px solid var(--rs-border);
+  white-space: nowrap;
+  font-size: 0.83rem;
+}
+
+.md-typeset table.rs-schedule-table tbody td,
+table.rs-schedule-table tbody td {
+  padding: 0.75rem 0.85rem;
+  border-bottom: 1px solid var(--rs-border);
+  vertical-align: middle;
+}
+
+.md-typeset table.rs-schedule-table tbody tr:last-child td,
+table.rs-schedule-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.md-typeset table.rs-schedule-table tbody tr:hover td,
+table.rs-schedule-table tbody tr:hover td {
+  background: var(--rs-surface-soft);
+}
+
+.md-typeset table.rs-schedule-table .ct-date,
+table.rs-schedule-table .ct-date {
+  font-weight: 800;
+  color: var(--rs-primary-deep);
+  white-space: nowrap;
+}
+
+.ct-badge {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  border-radius: 99px;
+  font-weight: 700;
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+.ct-badge.offline {
+  background: var(--rs-success-soft);
+  color: #1b5e20;
+}
+
+.ct-badge.online {
+  background: var(--rs-cold-soft);
+  color: #0d47a1;
+}
+
+[data-md-color-scheme="slate"] table.rs-schedule-table {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+[data-md-color-scheme="slate"] table.rs-schedule-table thead th {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+[data-md-color-scheme="slate"] table.rs-schedule-table tbody tr:hover td {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+[data-md-color-scheme="slate"] .ct-badge.offline {
+  background: rgba(102, 187, 106, 0.18);
+  color: #a5d6a7;
+}
+
+[data-md-color-scheme="slate"] .ct-badge.online {
+  background: rgba(66, 165, 245, 0.18);
+  color: #90caf9;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table.rs-schedule-table .ct-date {
+  color: #a5b3f0;
+}
+
+/* Multi-booking cell in schedule table */
+.ct-multi {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border-radius: 99px;
+  background: var(--rs-warm-soft);
+  color: #b8550c;
+  font-weight: 800;
+  font-size: 0.83rem;
+  white-space: nowrap;
+}
+
+.ct-multi.ct-multi-same {
+  background: var(--rs-surface-soft);
+  color: var(--rs-text-soft);
+  font-weight: 700;
+}
+
+.ct-multi.ct-multi-none {
+  background: transparent;
+  color: var(--rs-text-soft);
+  font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .ct-multi {
+  background: rgba(255, 152, 0, 0.18);
+  color: #ffcc80;
+}
+
+[data-md-color-scheme="slate"] .ct-multi.ct-multi-same {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--rs-text-soft);
+}
+
+/* Filter bar */
+.schedule-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+  padding: 0.65rem;
+  background: var(--rs-surface-soft);
+  border: 1px solid var(--rs-border);
+  border-radius: var(--rs-radius-md);
+}
+
+.sf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.55rem 1rem;
+  border-radius: 99px;
+  border: 1px solid var(--rs-border);
+  background: var(--rs-surface);
+  color: var(--rs-text);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.86rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.sf-btn:hover {
+  border-color: var(--rs-primary-soft);
+  transform: translateY(-1px);
+}
+
+.sf-btn.is-active {
+  background: var(--rs-gradient-primary);
+  color: white;
+  border-color: transparent;
+  box-shadow: var(--rs-shadow-sm);
+}
+
+.sf-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.4rem;
+  height: 1.4rem;
+  padding: 0 0.4rem;
+  border-radius: 99px;
+  background: rgba(0, 0, 0, 0.08);
+  color: inherit;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.sf-btn.is-active .sf-count {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.sf-empty {
+  margin: 1rem 0;
+  padding: 1rem;
+  text-align: center;
+  background: var(--rs-surface-soft);
+  border: 1px dashed var(--rs-border);
+  border-radius: var(--rs-radius-md);
+  color: var(--rs-text-soft);
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .schedule-filter-bar {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+[data-md-color-scheme="slate"] .sf-btn {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+[data-md-color-scheme="slate"] .sf-count {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Schedule table — mobile: stack cards */
+@media (max-width: 900px) {
+  .md-typeset table.rs-schedule-table thead,
+  table.rs-schedule-table thead { display: none; }
+
+  .md-typeset table.rs-schedule-table,
+  .md-typeset table.rs-schedule-table tbody,
+  .md-typeset table.rs-schedule-table tr,
+  table.rs-schedule-table,
+  table.rs-schedule-table tbody,
+  table.rs-schedule-table tr { display: block; }
+
+  .md-typeset table.rs-schedule-table tbody tr,
+  table.rs-schedule-table tbody tr {
+    margin-bottom: 0.85rem;
+    border: 1px solid var(--rs-border);
+    border-radius: var(--rs-radius-md);
+    padding: 0.65rem 0.85rem;
+    background: var(--rs-surface);
+  }
+
+  .md-typeset table.rs-schedule-table tbody td,
+  table.rs-schedule-table tbody td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.35rem 0;
+    border-bottom: 1px dashed var(--rs-border);
+    font-size: 0.85rem;
+  }
+
+  .md-typeset table.rs-schedule-table tbody td:last-child,
+  table.rs-schedule-table tbody td:last-child { border-bottom: none; }
+
+  .md-typeset table.rs-schedule-table tbody td::before,
+  table.rs-schedule-table tbody td::before {
+    content: attr(data-label);
+    font-weight: 700;
+    color: var(--rs-text-soft);
+    font-size: 0.78rem;
+  }
+}
+
