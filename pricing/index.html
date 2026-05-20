@@ -1358,7 +1358,7 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📅 المجموعات النشطة (مبدئياً)
+        📅 المجموعات النشطة
       
     </span>
   </a>
@@ -1769,109 +1769,27 @@
 <h1 id="_1">💰 الأسعار + الباقات الكاملة<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <blockquote>
 <p><strong>مرجع السيلز للأسعار والمواعيد.</strong> كل الورش، كل المجموعات، كل العروض.
-آخر تحديث: 2026-05-19 — مأخوذ من <code>pricing_rows.json</code></p>
+آخر تحديث: 2026-05-19 — مصدر البيانات: <code>data/workshops.yml</code></p>
 </blockquote>
 <hr />
 <h2 id="_2">📊 الأسعار الكاملة<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>الورشة</th>
-<th>المحاضر</th>
-<th>محاضرات</th>
-<th>السعر قبل</th>
-<th>السعر بعد</th>
-<th>Multi</th>
-<th>PDF</th>
-</tr>
-</thead>
+<table class="pricing-table">
+<thead><tr><th>الورشة</th><th>المحاضر</th><th>محاضرات</th><th>السعر قبل</th><th>السعر بعد</th><th>Multi-booking</th><th>PDF</th></tr></thead>
 <tbody>
-<tr>
-<td>📘 <strong>المحاسب المالي</strong></td>
-<td>محمد علاء</td>
-<td>8 × 3س</td>
-<td><span class="price-old">4600ج</span></td>
-<td><span class="price-new">3250ج</span></td>
-<td><span class="price-multi">3000ج</span></td>
-<td><a download="download" href="../assets/pdfs/financial-accountant.pdf">📥</a></td>
-</tr>
-<tr>
-<td>📊 <strong>إعداد القوائم المالية</strong></td>
-<td>محمد علاء</td>
-<td>5 × 3س</td>
-<td><span class="price-old">4000ج</span></td>
-<td><span class="price-new">2500ج</span></td>
-<td><span class="price-multi">2000ج</span></td>
-<td><a download="download" href="../assets/pdfs/financial-statements.pdf">📥</a></td>
-</tr>
-<tr>
-<td>📗 <strong>المحاسب الشامل</strong></td>
-<td>محمد ريان</td>
-<td>8 × 4س</td>
-<td><span class="price-old">7500ج</span></td>
-<td><span class="price-new">5800ج</span></td>
-<td>—</td>
-<td><a download="download" href="../assets/pdfs/comprehensive-accountant.pdf">📥</a></td>
-</tr>
-<tr>
-<td>📗 <strong>المحاسب الشامل (Udemy)</strong></td>
-<td>محمد ريان</td>
-<td>5 × 1.3س</td>
-<td><span class="price-old">3100ج</span></td>
-<td><span class="price-new">2500ج</span></td>
-<td>—</td>
-<td><a download="download" href="../assets/pdfs/comprehensive-accountant.pdf">📥</a></td>
-</tr>
-<tr>
-<td>📕 <strong>خبير الضرائب</strong></td>
-<td>أحمد علي</td>
-<td>12 × 3س</td>
-<td><span class="price-old">7500ج</span></td>
-<td><span class="price-new">5250ج</span></td>
-<td><span class="price-multi">5000ج</span></td>
-<td><a download="download" href="../assets/pdfs/tax-expert.pdf">📥</a></td>
-</tr>
-<tr>
-<td>📙 <strong>Odoo Accounting</strong></td>
-<td>إسلام سعيد</td>
-<td>8 × 3س</td>
-<td><span class="price-old">6000ج</span></td>
-<td><span class="price-new">3000ج</span></td>
-<td><span class="price-multi">3000ج</span></td>
-<td><a download="download" href="../assets/pdfs/odoo.pdf">📥</a></td>
-</tr>
-<tr>
-<td>📓 <strong>هندسة التكاليف</strong></td>
-<td>أحمد عاشور</td>
-<td>5-8 × 3س</td>
-<td><span class="price-old">6000ج</span></td>
-<td><span class="price-new">3500ج</span></td>
-<td><span class="price-multi">3200ج</span></td>
-<td><a download="download" href="../assets/pdfs/cost-engineering.pdf">📥</a></td>
-</tr>
-<tr>
-<td>📔 <strong>التحليل المالي</strong></td>
-<td>أحمد عاشور</td>
-<td>7 × 3س</td>
-<td><span class="price-old">6500ج</span></td>
-<td><span class="price-new">5000ج</span></td>
-<td><span class="price-multi">4000ج</span></td>
-<td><a download="download" href="../assets/pdfs/financial-analysis.pdf">📥</a></td>
-</tr>
-<tr>
-<td>📒 <strong>المدير المالي CFO</strong></td>
-<td>أحمد عاشور</td>
-<td>10 × 3س</td>
-<td><span class="price-old">12000ج</span></td>
-<td><span class="price-new">6000ج</span></td>
-<td><span class="price-multi">6000ج</span></td>
-<td><a download="download" href="../assets/pdfs/cfo.pdf">📥</a></td>
-</tr>
-</tbody>
-</table>
-<p>{ .pricing-table }</p>
+<tr><td data-label="الورشة">📘 <strong>المحاسب المالي</strong></td><td data-label="المحاضر">محمد علاء</td><td data-label="محاضرات">8 × 3س</td><td data-label="السعر قبل"><span class="price-old">4600ج</span></td><td data-label="السعر بعد"><span class="price-new">3250ج</span></td><td data-label="Multi-booking"><span class="price-multi">3000ج</span></td><td data-label="PDF"><a href="../assets/pdfs/financial-accountant.pdf" download>📥</a></td></tr>
+<tr><td data-label="الورشة">📊 <strong>إعداد القوائم المالية</strong></td><td data-label="المحاضر">محمد علاء</td><td data-label="محاضرات">5 × 3س</td><td data-label="السعر قبل"><span class="price-old">4000ج</span></td><td data-label="السعر بعد"><span class="price-new">2500ج</span></td><td data-label="Multi-booking"><span class="price-multi">2000ج</span></td><td data-label="PDF"><a href="../assets/pdfs/financial-statements.pdf" download>📥</a></td></tr>
+<tr><td data-label="الورشة">📗 <strong>المحاسب الشامل</strong></td><td data-label="المحاضر">محمد ريان</td><td data-label="محاضرات">8 × 4س</td><td data-label="السعر قبل"><span class="price-old">7500ج</span></td><td data-label="السعر بعد"><span class="price-new">5800ج</span></td><td data-label="Multi-booking">—</td><td data-label="PDF"><a href="../assets/pdfs/comprehensive-accountant.pdf" download>📥</a></td></tr>
+<tr><td data-label="الورشة">📗 <strong>المحاسب الشامل (Udemy)</strong></td><td data-label="المحاضر">محمد ريان</td><td data-label="محاضرات">5 × 1.3س</td><td data-label="السعر قبل"><span class="price-old">3100ج</span></td><td data-label="السعر بعد"><span class="price-new">2500ج</span></td><td data-label="Multi-booking">—</td><td data-label="PDF"><a href="../assets/pdfs/comprehensive-accountant.pdf" download>📥</a></td></tr>
+<tr><td data-label="الورشة">📕 <strong>خبير الضرائب</strong></td><td data-label="المحاضر">أحمد علي</td><td data-label="محاضرات">12 × 3س</td><td data-label="السعر قبل"><span class="price-old">7500ج</span></td><td data-label="السعر بعد"><span class="price-new">5250ج</span></td><td data-label="Multi-booking"><span class="price-multi">5000ج</span></td><td data-label="PDF"><a href="../assets/pdfs/tax-expert.pdf" download>📥</a></td></tr>
+<tr><td data-label="الورشة">📙 <strong>Odoo Accounting</strong></td><td data-label="المحاضر">إسلام سعيد</td><td data-label="محاضرات">8 × 3س</td><td data-label="السعر قبل"><span class="price-old">6000ج</span></td><td data-label="السعر بعد"><span class="price-new">3000ج</span></td><td data-label="Multi-booking"><span class="price-multi">3000ج</span></td><td data-label="PDF"><a href="../assets/pdfs/odoo.pdf" download>📥</a></td></tr>
+<tr><td data-label="الورشة">📓 <strong>هندسة التكاليف</strong></td><td data-label="المحاضر">أحمد عاشور</td><td data-label="محاضرات">5-8 × 3س</td><td data-label="السعر قبل"><span class="price-old">6000ج</span></td><td data-label="السعر بعد"><span class="price-new">3500ج</span></td><td data-label="Multi-booking"><span class="price-multi">3200ج</span></td><td data-label="PDF"><a href="../assets/pdfs/cost-engineering.pdf" download>📥</a></td></tr>
+<tr><td data-label="الورشة">📔 <strong>التحليل المالي</strong></td><td data-label="المحاضر">أحمد عاشور</td><td data-label="محاضرات">7 × 3س</td><td data-label="السعر قبل"><span class="price-old">6500ج</span></td><td data-label="السعر بعد"><span class="price-new">5000ج</span></td><td data-label="Multi-booking"><span class="price-multi">4000ج</span></td><td data-label="PDF"><a href="../assets/pdfs/financial-analysis.pdf" download>📥</a></td></tr>
+<tr><td data-label="الورشة">📒 <strong>المدير المالي CFO</strong></td><td data-label="المحاضر">أحمد عاشور</td><td data-label="محاضرات">10 × 3س</td><td data-label="السعر قبل"><span class="price-old">12000ج</span></td><td data-label="السعر بعد"><span class="price-new">6000ج</span></td><td data-label="Multi-booking"><span class="price-multi">6000ج</span></td><td data-label="PDF"><a href="../assets/pdfs/cfo.pdf" download>📥</a></td></tr>
+<tr><td data-label="الورشة">🟢 <strong>ورشة الإكسيل</strong></td><td data-label="المحاضر">مصطفى القصاص</td><td data-label="محاضرات">4 × 3س</td><td data-label="السعر قبل"><span class="price-old">4000ج</span></td><td data-label="السعر بعد"><span class="price-new">2000ج</span></td><td data-label="Multi-booking"><span class="price-multi">bundle</span></td><td data-label="PDF">—</td></tr>
+</tbody></table>
+
 <blockquote>
-<p>💡 <strong>زر 📥</strong> ينزّل ملف الـ PDF الرسمي للورشة. ابعت اللينك للعميل لو يبا تفاصيل كاملة قبل القرار.</p>
+<p>💡 <strong>زر 📥</strong> ينزّل ملف الـ PDF الرسمي للورشة. ابعت اللينك للعميل لو عايز تفاصيل كاملة قبل القرار.</p>
 </blockquote>
 <hr />
 <h2 id="multi-booking">🎯 خصومات الـ Multi-Booking<a class="headerlink" href="#multi-booking" title="Permanent link">&para;</a></h2>
@@ -1972,90 +1890,81 @@
 </div>
 </div>
 <hr />
-<h2 id="_3">📅 المجموعات النشطة (مبدئياً)<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h2 id="_3">📅 المجموعات النشطة<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <blockquote>
-<p><strong>ملاحظة:</strong> المواعيد بتتغير. راجع Odoo قبل ما تعد العميل بموعد.</p>
+<p><strong>ملاحظة:</strong> المواعيد بتتغير. راجع Odoo قبل ما تعد العميل بموعد. (كل الجداول دي بتتولد من <code>data/workshops.yml</code> — مصدر واحد.)</p>
 </blockquote>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:6"><input checked="checked" id="-المحاسب-المالي" name="__tabbed_2" type="radio" /><input id="-المحاسب-الشامل" name="__tabbed_2" type="radio" /><input id="-خبير-الضرائب" name="__tabbed_2" type="radio" /><input id="-odoo" name="__tabbed_2" type="radio" /><input id="-هندسة-التكاليف" name="__tabbed_2" type="radio" /><input id="-المدير-المالي-cfo" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="-المحاسب-المالي">📘 المحاسب المالي</label><label for="-المحاسب-الشامل">📗 المحاسب الشامل</label><label for="-خبير-الضرائب">📕 خبير الضرائب</label><label for="-odoo">📙 Odoo</label><label for="-هندسة-التكاليف">📓 هندسة التكاليف</label><label for="-المدير-المالي-cfo">📒 المدير المالي CFO</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>المجموعة</th>
-<th>التاريخ</th>
-<th>المواعيد</th>
-<th>المحاضر</th>
-<th>النوع</th>
-</tr>
-</thead>
+<details class="ws-acc" open>
+<summary>📘 <strong>المحاسب المالي</strong> <span class="ws-acc-count">3 مجموعة</span></summary>
+<table class="rs-schedule-table ws-schedule">
+<thead><tr><th>التاريخ</th><th>الأيام</th><th>الوقت</th><th>المحاضرات</th><th>النوع</th><th>السعر</th><th>Multi</th></tr></thead>
 <tbody>
-<tr>
-<td>1</td>
-<td>12-6-2026</td>
-<td>الجمعة، 2م-5م</td>
-<td>محمد علاء</td>
-<td>Offline · القاهرة</td>
-</tr>
-<tr>
-<td>2</td>
-<td>19-6-2026</td>
-<td>الجمعة، 5م-8م</td>
-<td>محمد علاء</td>
-<td>Online</td>
-</tr>
-<tr>
-<td>3</td>
-<td>28-6-2026</td>
-<td>الأحد + الأربعاء، 6م-9م</td>
-<td>محمد علاء</td>
-<td>Offline · القاهرة</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>المجموعة</th>
-<th>التاريخ</th>
-<th>المواعيد</th>
-<th>المحاضر</th>
-<th>النوع</th>
-</tr>
-</thead>
+<tr data-type="offline"><td data-label="التاريخ" class="ct-date">12 يونيو</td><td data-label="الأيام">الجمعة</td><td data-label="الوقت">2م-5م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge offline">حضوري · القاهرة</span></td><td data-label="السعر"><strong>3250ج</strong></td><td data-label="Multi"><span class="ct-multi">3000ج</span></td></tr>
+<tr data-type="online"><td data-label="التاريخ" class="ct-date">19 يونيو</td><td data-label="الأيام">الجمعة</td><td data-label="الوقت">5م-8م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge online">أونلاين</span></td><td data-label="السعر"><strong>3250ج</strong></td><td data-label="Multi"><span class="ct-multi">3000ج</span></td></tr>
+<tr data-type="offline"><td data-label="التاريخ" class="ct-date">28 يونيو</td><td data-label="الأيام">الأحد + الأربعاء</td><td data-label="الوقت">6م-9م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge offline">حضوري · القاهرة</span></td><td data-label="السعر"><strong>3250ج</strong></td><td data-label="Multi"><span class="ct-multi">3000ج</span></td></tr>
+</tbody></table>
+</details>
+<details class="ws-acc">
+<summary>📊 <strong>إعداد القوائم المالية</strong> <span class="ws-acc-count">مفيش مجموعة نشطة</span></summary>
+<div class="ws-nogroup">⚠️ <strong>مفيش مجموعة نشطة دلوقتي</strong> — المجموعة القادمة بتفتح بشكل دوري. راجع Odoo، أو اقترح Bundle مع المحاسب المالي.</div>
+</details>
+<details class="ws-acc" open>
+<summary>📗 <strong>المحاسب الشامل</strong> <span class="ws-acc-count">4 مجموعة</span></summary>
+<table class="rs-schedule-table ws-schedule">
+<thead><tr><th>التاريخ</th><th>الأيام</th><th>الوقت</th><th>المحاضرات</th><th>النوع</th><th>السعر</th></tr></thead>
 <tbody>
-<tr>
-<td>1</td>
-<td>6-6-2026</td>
-<td>السبت + الاثنين + الأربعاء، 6م-10م</td>
-<td>محمد ريان</td>
-<td><strong>Offline في الإسكندرية</strong> ⭐</td>
-</tr>
-<tr>
-<td>2</td>
-<td>4-7-2026</td>
-<td>السبت + الاثنين + الأربعاء، 6م-10م</td>
-<td>محمد ريان</td>
-<td>Offline · القاهرة</td>
-</tr>
-<tr>
-<td>3</td>
-<td>26-7-2026</td>
-<td>الأحد + الاثنين + الأربعاء + الخميس، 6م-10م</td>
-<td>محمد ريان</td>
-<td>Online</td>
-</tr>
-<tr>
-<td>Udemy</td>
-<td>متاح دلوقتي</td>
-<td>مسجلة (مدى الحياة)</td>
-<td>محمد ريان</td>
-<td>Online · مسجّلة</td>
-</tr>
-</tbody>
-</table>
+<tr data-type="offline"><td data-label="التاريخ" class="ct-date">6 يونيو ⭐</td><td data-label="الأيام">السبت + الاثنين + الأربعاء</td><td data-label="الوقت">6م-10م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge offline">حضوري · الإسكندرية</span></td><td data-label="السعر"><strong>5800ج</strong></td></tr>
+<tr data-type="offline"><td data-label="التاريخ" class="ct-date">4 يوليو</td><td data-label="الأيام">السبت + الاثنين + الأربعاء</td><td data-label="الوقت">6م-10م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge offline">حضوري · القاهرة</span></td><td data-label="السعر"><strong>5800ج</strong></td></tr>
+<tr data-type="online"><td data-label="التاريخ" class="ct-date">26 يوليو</td><td data-label="الأيام">الأحد + الاثنين + الأربعاء + الخميس</td><td data-label="الوقت">6م-10م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge online">أونلاين</span></td><td data-label="السعر"><strong>5800ج</strong></td></tr>
+<tr data-type="online"><td data-label="التاريخ" class="ct-date">دائم</td><td data-label="الأيام">—</td><td data-label="الوقت">—</td><td data-label="المحاضرات">5</td><td data-label="النوع"><span class="ct-badge online">أونلاين · مسجّلة (Udemy)</span></td><td data-label="السعر"><strong>2500ج</strong></td></tr>
+</tbody></table>
+</details>
+<details class="ws-acc" open>
+<summary>📕 <strong>خبير الضرائب</strong> <span class="ws-acc-count">2 مجموعة</span></summary>
+<table class="rs-schedule-table ws-schedule">
+<thead><tr><th>التاريخ</th><th>الأيام</th><th>الوقت</th><th>المحاضرات</th><th>النوع</th><th>السعر</th><th>Multi</th></tr></thead>
+<tbody>
+<tr data-type="offline"><td data-label="التاريخ" class="ct-date">4 يونيو</td><td data-label="الأيام">الاثنين + الخميس</td><td data-label="الوقت">6م-9م</td><td data-label="المحاضرات">12</td><td data-label="النوع"><span class="ct-badge offline">حضوري · القاهرة</span></td><td data-label="السعر"><strong>5250ج</strong></td><td data-label="Multi"><span class="ct-multi">5000ج</span></td></tr>
+<tr data-type="online"><td data-label="التاريخ" class="ct-date">15 يوليو</td><td data-label="الأيام">الأحد + الأربعاء</td><td data-label="الوقت">6م-9م</td><td data-label="المحاضرات">12</td><td data-label="النوع"><span class="ct-badge online">أونلاين</span></td><td data-label="السعر"><strong>5250ج</strong></td><td data-label="Multi"><span class="ct-multi">5000ج</span></td></tr>
+</tbody></table>
+</details>
+<details class="ws-acc" open>
+<summary>📙 <strong>Odoo Accounting</strong> <span class="ws-acc-count">4 مجموعة</span></summary>
+<table class="rs-schedule-table ws-schedule">
+<thead><tr><th>التاريخ</th><th>الأيام</th><th>الوقت</th><th>المحاضرات</th><th>النوع</th><th>السعر</th><th>Multi</th></tr></thead>
+<tbody>
+<tr data-type="online"><td data-label="التاريخ" class="ct-date">8 يونيو</td><td data-label="الأيام">الاثنين + الخميس</td><td data-label="الوقت">6م-9م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge online">أونلاين · Zoom</span></td><td data-label="السعر"><strong>3000ج</strong></td><td data-label="Multi"><span class="ct-multi ct-multi-same">3000ج</span></td></tr>
+<tr data-type="offline"><td data-label="التاريخ" class="ct-date">13 يونيو</td><td data-label="الأيام">السبت + الثلاثاء</td><td data-label="الوقت">6م-9م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge offline">حضوري · القاهرة</span></td><td data-label="السعر"><strong>3000ج</strong></td><td data-label="Multi"><span class="ct-multi ct-multi-same">3000ج</span></td></tr>
+<tr data-type="offline"><td data-label="التاريخ" class="ct-date">21 يونيو</td><td data-label="الأيام">الأحد + الأربعاء</td><td data-label="الوقت">6م-9م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge offline">حضوري · القاهرة</span></td><td data-label="السعر"><strong>3000ج</strong></td><td data-label="Multi"><span class="ct-multi ct-multi-same">3000ج</span></td></tr>
+<tr data-type="online"><td data-label="التاريخ" class="ct-date">13 يوليو</td><td data-label="الأيام">الاثنين + الخميس</td><td data-label="الوقت">6م-9م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge online">أونلاين · Zoom</span></td><td data-label="السعر"><strong>3000ج</strong></td><td data-label="Multi"><span class="ct-multi ct-multi-same">3000ج</span></td></tr>
+</tbody></table>
+</details>
+<details class="ws-acc" open>
+<summary>📓 <strong>هندسة التكاليف</strong> <span class="ws-acc-count">1 مجموعة</span></summary>
+<table class="rs-schedule-table ws-schedule">
+<thead><tr><th>التاريخ</th><th>الأيام</th><th>الوقت</th><th>المحاضرات</th><th>النوع</th><th>السعر</th><th>Multi</th></tr></thead>
+<tbody>
+<tr data-type="offline"><td data-label="التاريخ" class="ct-date">7 يونيو</td><td data-label="الأيام">الأحد + الأربعاء</td><td data-label="الوقت">6:30م-9:30م</td><td data-label="المحاضرات">8</td><td data-label="النوع"><span class="ct-badge offline">حضوري · القاهرة</span></td><td data-label="السعر"><strong>3500ج</strong></td><td data-label="Multi"><span class="ct-multi">3200ج</span></td></tr>
+</tbody></table>
+<div class="ws-note">💡 دلوقتي Offline القاهرة بس. مجموعة Online بتفتح بشكل دوري — راجع Odoo.</div>
+</details>
+<details class="ws-acc">
+<summary>📔 <strong>التحليل المالي</strong> <span class="ws-acc-count">مفيش مجموعة نشطة</span></summary>
+<div class="ws-nogroup">⚠️ <strong>مفيش مجموعة نشطة دلوقتي</strong> — المجموعة القادمة بتفتح بشكل دوري. راجع Odoo، أو اقترح CFO (Online متاح 4 يونيو).</div>
+</details>
+<details class="ws-acc" open>
+<summary>📒 <strong>المدير المالي CFO</strong> <span class="ws-acc-count">1 مجموعة</span></summary>
+<table class="rs-schedule-table ws-schedule">
+<thead><tr><th>التاريخ</th><th>الأيام</th><th>الوقت</th><th>المحاضرات</th><th>النوع</th><th>السعر</th><th>Multi</th></tr></thead>
+<tbody>
+<tr data-type="online"><td data-label="التاريخ" class="ct-date">4 يونيو</td><td data-label="الأيام">الاثنين + الخميس</td><td data-label="الوقت">6:30م-9:30م</td><td data-label="المحاضرات">10</td><td data-label="النوع"><span class="ct-badge online">أونلاين · Zoom</span></td><td data-label="السعر"><strong>6000ج</strong></td><td data-label="Multi"><span class="ct-multi ct-multi-same">6000ج</span></td></tr>
+</tbody></table>
+</details>
+<details class="ws-acc">
+<summary>🟢 <strong>ورشة الإكسيل</strong> <span class="ws-acc-count">مفيش مجموعة نشطة</span></summary>
+<div class="ws-nogroup">⚠️ <strong>مفيش مجموعة نشطة دلوقتي</strong> — بتفتح غالباً كـ bundle مع ورشة تانية. شوف Multi-booking + Bundles.</div>
+</details>
+
 <div class="admonition warning">
 <p class="admonition-title">ملاحظة الإسكندرية</p>
 <ul>
@@ -2063,133 +1972,6 @@
 <li>https://maps.app.goo.gl/JKzoY21fGjVkqNfv8</li>
 <li><strong>ممنوع وصفها بـ "فرع"</strong> — استخدم "مكان الحضور" أو "قاعة الورشة" أو "المعاد الاستثنائي"</li>
 <li>ممنوع ذكر مناطق غير "الشاطبي" (مش سموحة، مش الكورنيش، مش نادي الأطباء)</li>
-</ul>
-</div>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>المجموعة</th>
-<th>التاريخ</th>
-<th>المواعيد</th>
-<th>المحاضر</th>
-<th>النوع</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>4-6-2026</td>
-<td>الاثنين + الخميس، 6م-9م</td>
-<td>أحمد علي</td>
-<td>Offline · القاهرة</td>
-</tr>
-<tr>
-<td>2</td>
-<td>15-7-2026</td>
-<td>الأحد + الأربعاء، 6م-9م</td>
-<td>أحمد علي</td>
-<td>Online</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>المجموعة</th>
-<th>التاريخ</th>
-<th>المواعيد</th>
-<th>المحاضر</th>
-<th>النوع</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>8-6-2026</td>
-<td>الاثنين + الخميس، 6م-9م</td>
-<td>إسلام سعيد</td>
-<td>Online (Zoom)</td>
-</tr>
-<tr>
-<td>2</td>
-<td>13-6-2026</td>
-<td>السبت + الثلاثاء، 6م-9م</td>
-<td>إسلام سعيد</td>
-<td><strong>Offline · القاهرة (لازم لابتوب)</strong></td>
-</tr>
-<tr>
-<td>3</td>
-<td>21-6-2026</td>
-<td>الأحد + الأربعاء، 6م-9م</td>
-<td>إسلام سعيد</td>
-<td><strong>Offline · القاهرة (لازم لابتوب)</strong></td>
-</tr>
-<tr>
-<td>4</td>
-<td>13-7-2026</td>
-<td>الاثنين + الخميس، 6م-9م</td>
-<td>إسلام سعيد</td>
-<td>Online (Zoom)</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>المجموعة</th>
-<th>التاريخ</th>
-<th>المواعيد</th>
-<th>المحاضر</th>
-<th>النوع</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>7-6-2026</td>
-<td>الأحد + الأربعاء، 6:30م-9:30م</td>
-<td>أحمد عاشور</td>
-<td>Offline · القاهرة — 8 محاضرات</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>المجموعة</th>
-<th>التاريخ</th>
-<th>المواعيد</th>
-<th>المحاضر</th>
-<th>النوع</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>4-6-2026</td>
-<td>الاثنين + الخميس، 6:30م-9:30م</td>
-<td>أحمد عاشور</td>
-<td>Online (Zoom)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="admonition info">
-<p class="admonition-title">ورش بدون مجموعة نشطة حالياً (مايو 2026)</p>
-<ul>
-<li>📊 <strong>إعداد القوائم المالية</strong> — مجموعة جديدة قيد التحديد. راجع Odoo قبل ما تعد العميل بموعد.</li>
-<li>📔 <strong>التحليل المالي</strong> — مجموعة جديدة قيد التحديد.</li>
-<li>🟢 <strong>ورشة الإكسيل</strong> — متاحة كـ bundle مع ورش تانية. راجع Multi-booking.</li>
 </ul>
 </div>
 <hr />
